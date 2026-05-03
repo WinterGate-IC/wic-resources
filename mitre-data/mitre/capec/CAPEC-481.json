@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-481",
+  "name": "Contradictory Destinations in Traffic Routing Schemes",
+  "description": "Adversaries can provide contradictory destinations when sending messages. Traffic is routed in networks using the domain names in various headers available at different levels of the OSI model. In a Content Delivery Network (CDN) multiple domains might be available, and if there are contradictory do",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

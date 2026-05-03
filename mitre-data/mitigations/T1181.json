@@ -1,0 +1,6 @@
+{
+  "id": "T1181",
+  "name": "Extra Window Memory Injection Mitigation",
+  "description": "This type of attack technique cannot be easily mitigated with preventive controls since it is based on the abuse of operating system design features. For example, mitigating specific API calls will likely have unintended side effects, such as preventing legitimate software (i.e., security products) from operating properly. Efforts should be focused on preventing adversary tools from running earlie",
+  "techniques": []
+}

@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-296",
+  "name": "ICMP Information Request",
+  "description": "An adversary sends an ICMP Information Request to a host to determine if it will respond to this deprecated mechanism. ICMP Information Requests are a deprecated message type. Information Requests were originally used for diskless machines to automatically obtain their network configuration, but thi",
+  "severity": "Low",
+  "likelihood": "Unknown"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "S1085",
+  "name": "Sardonic",
+  "type": "malware",
+  "description": "[Sardonic](https://attack.mitre.org/software/S1085) is a backdoor written in C and C++ that is known to be used by [FIN8](https://attack.mitre.org/groups/G0061), as early as August 2021 to target a financial institution in the United States. [Sardonic](https://attack.mitre.org/software/S1085) has a plugin system that can load specially made DLLs and execute their functions.(Citation: Bitdefender S",
+  "techniques": []
+}

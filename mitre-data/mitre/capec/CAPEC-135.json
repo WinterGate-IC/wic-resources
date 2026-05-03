@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-135",
+  "name": "Format String Injection",
+  "description": "An adversary includes formatting characters in a string input field on the target application. Most applications assume that users will provide static text and may respond unpredictably to the presence of formatting character. For example, in certain functions of the C programming languages such as ",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "S0402",
+  "name": "OSX/Shlayer",
+  "type": "malware",
+  "description": "[OSX/Shlayer](https://attack.mitre.org/software/S0402) is a Trojan designed to install adware on macOS that was first discovered in 2018.(Citation: Carbon Black Shlayer Feb 2019)(Citation: Intego Shlayer Feb 2018)",
+  "techniques": []
+}

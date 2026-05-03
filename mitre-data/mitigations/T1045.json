@@ -1,0 +1,6 @@
+{
+  "id": "T1045",
+  "name": "Software Packing Mitigation",
+  "description": "Ensure updated virus definitions. Create custom signatures for observed malware. Employ heuristic-based malware detection.\n\nIdentify and prevent execution of potentially malicious software that may have been packed by using whitelisting (Citation: Beechey 2010) tools like AppLocker (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 20",
+  "techniques": []
+}

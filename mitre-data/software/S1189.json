@@ -1,0 +1,7 @@
+{
+  "id": "S1189",
+  "name": "Neo-reGeorg",
+  "type": "malware",
+  "description": "[Neo-reGeorg](https://attack.mitre.org/software/S1189) is an open-source web shell designed as a restructuring of [reGeorg](https://attack.mitre.org/software/S1187) with improved usability, security, and fixes for exising [reGeorg](https://attack.mitre.org/software/S1187) bugs.(Citation: GitHub Neo-reGeorg 2019)",
+  "techniques": []
+}

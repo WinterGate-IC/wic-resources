@@ -1,0 +1,7 @@
+{
+  "id": "S1179",
+  "name": "Exbyte",
+  "type": "malware",
+  "description": "[Exbyte](https://attack.mitre.org/software/S1179) is an exfiltration tool written in Go that is uniquely associated with [BlackByte](https://attack.mitre.org/groups/G1043) operations. Observed since 2022, [Exbyte](https://attack.mitre.org/software/S1179) transfers collected files to online file sharing and hosting services.(Citation: Symantec BlackByte 2022)",
+  "techniques": []
+}

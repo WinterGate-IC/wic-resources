@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-39",
+  "name": "Manipulating Opaque Client-based Data Tokens",
+  "description": "In circumstances where an application holds important data client-side in tokens (cookies, URLs, data files, and so forth) that data can be manipulated. If client or server-side application components reinterpret that data as authentication tokens or data (such as store item pricing or wallet inform",
+  "severity": "Medium",
+  "likelihood": "Unknown"
+}

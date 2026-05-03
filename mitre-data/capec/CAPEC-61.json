@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-61",
+  "name": "Session Fixation",
+  "description": "The attacker induces a client to establish a session with the target software using a session identifier provided by the attacker. Once the user successfully authenticates to the target software, the attacker uses the (now privileged) session identifier in their own transactions. This attack leverag",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

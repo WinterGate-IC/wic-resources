@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-205",
+  "name": "DEPRECATED: Lifting credential(s)/key material embedded in client distributions (thick or thin)",
+  "description": "This attack pattern has been deprecated as it is a duplicate of CAPEC-37 : Retrieve Embedded Sensitive Data. Please refer to this other pattern going forward.",
+  "severity": "Unknown",
+  "likelihood": "Unknown"
+}

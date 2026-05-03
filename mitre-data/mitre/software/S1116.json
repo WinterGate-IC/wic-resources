@@ -1,0 +1,7 @@
+{
+  "id": "S1116",
+  "name": "WARPWIRE",
+  "type": "malware",
+  "description": "[WARPWIRE](https://attack.mitre.org/software/S1116) is a Javascript credential stealer that targets plaintext passwords and usernames for exfiltration that was used during [Cutting Edge](https://attack.mitre.org/campaigns/C0029) to target Ivanti Connect Secure VPNs.(Citation: Mandiant Cutting Edge January 2024)(Citation: Mandiant Cutting Edge Part 2 January 2024)",
+  "techniques": []
+}

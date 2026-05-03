@@ -1,0 +1,7 @@
+{
+  "id": "S0343",
+  "name": "Exaramel for Windows",
+  "type": "malware",
+  "description": "[Exaramel for Windows](https://attack.mitre.org/software/S0343) is a backdoor used for targeting Windows systems. The Linux version is tracked separately under [Exaramel for Linux](https://attack.mitre.org/software/S0401).(Citation: ESET TeleBots Oct 2018)",
+  "techniques": []
+}

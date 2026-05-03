@@ -1,0 +1,6 @@
+{
+  "id": "T1215",
+  "name": "Kernel Modules and Extensions Mitigation",
+  "description": "Common tools for detecting Linux rootkits include: rkhunter (Citation: SourceForge rkhunter), chrootkit (Citation: Chkrootkit Main), although rootkits may be designed to evade certain detection tools.\n\nLKMs and Kernel extensions require root level permissions to be installed. Limit access to the root account and prevent users from loading kernel modules and extensions through proper privilege sepa",
+  "techniques": []
+}

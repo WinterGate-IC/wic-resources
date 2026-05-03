@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-611",
+  "name": "BitSquatting",
+  "description": "An adversary registers a domain name one bit different than a trusted domain. A BitSquatting attack leverages random errors in memory to direct Internet traffic to adversary-controlled destinations. BitSquatting requires no exploitation or complicated reverse engineering, and is operating system and",
+  "severity": "Medium",
+  "likelihood": "Unknown"
+}

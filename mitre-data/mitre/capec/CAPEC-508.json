@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-508",
+  "name": "Shoulder Surfing",
+  "description": "In a shoulder surfing attack, an adversary observes an unaware individual's keystrokes, screen content, or conversations with the goal of obtaining sensitive information. One motive for this attack is to obtain sensitive information about the target for financial, personal, political, or other gains",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

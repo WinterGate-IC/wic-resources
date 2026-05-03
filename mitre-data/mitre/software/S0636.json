@@ -1,0 +1,7 @@
+{
+  "id": "S0636",
+  "name": "VaporRage",
+  "type": "malware",
+  "description": "[VaporRage](https://attack.mitre.org/software/S0636) is a shellcode downloader that has been used by [APT29](https://attack.mitre.org/groups/G0016) since at least 2021.(Citation: MSTIC Nobelium Toolset May 2021)",
+  "techniques": []
+}

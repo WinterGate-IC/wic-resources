@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-19",
+  "name": "Embedding Scripts within Scripts",
+  "description": "An adversary leverages the capability to execute their own script by embedding it within other scripts that the target software is likely to execute due to programs' vulnerabilities that are brought on by allowing remote hosts to execute scripts.",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

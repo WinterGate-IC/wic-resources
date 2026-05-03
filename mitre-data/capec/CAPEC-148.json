@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-148",
+  "name": "Content Spoofing",
+  "description": "An adversary modifies content to make it contain something other than what the original content producer intended while keeping the apparent source of the content unchanged. The term content spoofing is most often used to describe modification of web pages hosted by a target to display the adversary",
+  "severity": "Medium",
+  "likelihood": "Unknown"
+}

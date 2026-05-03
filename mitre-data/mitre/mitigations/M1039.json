@@ -1,0 +1,6 @@
+{
+  "id": "M1039",
+  "name": "Environment Variable Permissions",
+  "description": "Restrict the modification of environment variables to authorized users and processes by enforcing strict permissions and policies. This ensures the integrity of environment variables, preventing adversaries from abusing or altering them for malicious purposes. This mitigation can be implemented through the following measures:\n\nRestrict Write Access:\n\n- Use Case: Set file system-level permissions t",
+  "techniques": []
+}

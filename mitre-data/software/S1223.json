@@ -1,0 +1,7 @@
+{
+  "id": "S1223",
+  "name": "THINCRUST",
+  "type": "malware",
+  "description": "[THINCRUST](https://attack.mitre.org/software/S1223) is a Python-based backdoor tool that has been used by [UNC3886](https://attack.mitre.org/groups/G1048) since at least 2023.(Citation: Mandiant Fortinet Zero Day)",
+  "techniques": []
+}

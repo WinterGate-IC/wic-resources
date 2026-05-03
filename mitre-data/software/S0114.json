@@ -1,0 +1,7 @@
+{
+  "id": "S0114",
+  "name": "BOOTRASH",
+  "type": "malware",
+  "description": "[BOOTRASH](https://attack.mitre.org/software/S0114) is a [Bootkit](https://attack.mitre.org/techniques/T1542/003) that targets Windows operating systems. It has been used by threat actors that target the financial sector.(Citation: Mandiant M Trends 2016)(Citation: FireEye Bootkits)(Citation: FireEye BOOTRASH SANS)",
+  "techniques": []
+}

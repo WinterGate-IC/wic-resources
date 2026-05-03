@@ -1,0 +1,6 @@
+{
+  "id": "M1057",
+  "name": "Data Loss Prevention",
+  "description": "Data Loss Prevention (DLP) involves implementing strategies and technologies to identify, categorize, monitor, and control the movement of sensitive data within an organization. This includes protecting data formats indicative of Personally Identifiable Information (PII), intellectual property, or financial data from unauthorized access, transmission, or exfiltration. DLP solutions integrate with ",
+  "techniques": []
+}

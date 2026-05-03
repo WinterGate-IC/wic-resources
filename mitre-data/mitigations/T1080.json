@@ -1,0 +1,6 @@
+{
+  "id": "T1080",
+  "name": "Taint Shared Content Mitigation",
+  "description": "Protect shared folders by minimizing users who have write access. Use utilities that detect or mitigate common features used in exploitation, such as the Microsoft Enhanced Mitigation Experience Toolkit (EMET).\n\nReduce potential lateral movement risk by using web-based document management and collaboration services that do not use network file and directory sharing.\n\nIdentify potentially malicious",
+  "techniques": []
+}

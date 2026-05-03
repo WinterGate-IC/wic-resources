@@ -1,0 +1,7 @@
+{
+  "id": "S1122",
+  "name": "Mispadu",
+  "type": "malware",
+  "description": "[Mispadu](https://attack.mitre.org/software/S1122) is a banking trojan written in Delphi that was first observed in 2019 and uses a Malware-as-a-Service (MaaS) business model.(Citation: ESET Security Mispadu Facebook Ads 2019)(Citation: SCILabs Malteiro 2021) This malware is operated, managed, and sold by the [Malteiro](https://attack.mitre.org/groups/G1026) cybercriminal group.(Citation: SCILabs ",
+  "techniques": []
+}

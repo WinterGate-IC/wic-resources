@@ -1,0 +1,7 @@
+{
+  "id": "S1206",
+  "name": "JumbledPath",
+  "type": "malware",
+  "description": "[JumbledPath](https://attack.mitre.org/software/S1206) is a custom-built utility written in GO that has been used by [Salt Typhoon](https://attack.mitre.org/groups/G1045) since at least 2024 for packet capture on remote Cisco devices. [JumbledPath](https://attack.mitre.org/software/S1206) is compiled as an ELF binary using x86-64 architecture which makes it potentially useable across Linux operati",
+  "techniques": []
+}

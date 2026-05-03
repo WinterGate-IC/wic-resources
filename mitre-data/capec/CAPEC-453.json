@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-453",
+  "name": "DEPRECATED: Malicious Logic Insertion via Counterfeit Hardware",
+  "description": "This attack pattern has been deprecated as it is a duplicate of CAPEC-452 : Malicious Logic Insertion into Product Hardware. Please refer to this other pattern going forward.",
+  "severity": "Unknown",
+  "likelihood": "Unknown"
+}

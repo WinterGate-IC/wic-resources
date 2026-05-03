@@ -1,0 +1,7 @@
+{
+  "id": "S1144",
+  "name": "FRP",
+  "type": "tool",
+  "description": "[FRP](https://attack.mitre.org/software/S1144), which stands for Fast Reverse Proxy, is an openly available tool that is capable of exposing a server located behind a firewall or Network Address Translation (NAT) to the Internet. [FRP](https://attack.mitre.org/software/S1144) can support multiple protocols including TCP, UDP, and HTTP(S) and has been abused by threat actors to proxy command and co",
+  "techniques": []
+}

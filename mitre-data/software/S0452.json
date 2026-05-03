@@ -1,0 +1,7 @@
+{
+  "id": "S0452",
+  "name": "USBferry",
+  "type": "malware",
+  "description": "[USBferry](https://attack.mitre.org/software/S0452) is an information stealing malware and has been used by [Tropic Trooper](https://attack.mitre.org/groups/G0081) in targeted attacks against Taiwanese and Philippine air-gapped military environments. [USBferry](https://attack.mitre.org/software/S0452) shares an overlapping codebase with [YAHOYAH](https://attack.mitre.org/software/S0388), though it",
+  "techniques": []
+}

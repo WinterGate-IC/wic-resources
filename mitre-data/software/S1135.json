@@ -1,0 +1,7 @@
+{
+  "id": "S1135",
+  "name": "MultiLayer Wiper",
+  "type": "malware",
+  "description": "[MultiLayer Wiper](https://attack.mitre.org/software/S1135) is wiper malware written in .NET associated with [Agrius](https://attack.mitre.org/groups/G1030) operations. Observed samples of [MultiLayer Wiper](https://attack.mitre.org/software/S1135) have an anomalous, future compilation date suggesting possible metadata manipulation.(Citation: Unit42 Agrius 2023)",
+  "techniques": []
+}

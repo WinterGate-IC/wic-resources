@@ -1,0 +1,7 @@
+{
+  "id": "S0264",
+  "name": "OopsIE",
+  "type": "malware",
+  "description": "[OopsIE](https://attack.mitre.org/software/S0264) is a Trojan used by [OilRig](https://attack.mitre.org/groups/G0049) to remotely execute commands as well as upload/download files to/from victims. (Citation: Unit 42 OopsIE! Feb 2018)",
+  "techniques": []
+}

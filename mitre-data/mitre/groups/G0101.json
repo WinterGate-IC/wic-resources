@@ -1,0 +1,7 @@
+{
+  "id": "G0101",
+  "name": "Frankenstein",
+  "description": "[Frankenstein](https://attack.mitre.org/groups/G0101) is a campaign carried out between January and April 2019 by unknown threat actors. The campaign name comes from the actors' ability to piece together several unrelated components.(Citation: Talos Frankenstein June 2019)  ",
+  "techniques": [],
+  "software": []
+}

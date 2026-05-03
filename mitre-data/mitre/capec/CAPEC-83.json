@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-83",
+  "name": "XPath Injection",
+  "description": "An attacker can craft special user-controllable input consisting of XPath expressions to inject the XML database and bypass authentication or glean information that they normally would not be able to. XPath Injection enables an attacker to talk directly to the XML database, thus bypassing the applic",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

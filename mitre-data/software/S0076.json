@@ -1,0 +1,7 @@
+{
+  "id": "S0076",
+  "name": "FakeM",
+  "type": "malware",
+  "description": "[FakeM](https://attack.mitre.org/software/S0076) is a shellcode-based Windows backdoor that has been used by [Scarlet Mimic](https://attack.mitre.org/groups/G0029). (Citation: Scarlet Mimic Jan 2016)",
+  "techniques": []
+}

@@ -1,0 +1,6 @@
+{
+  "id": "M1037",
+  "name": "Filter Network Traffic",
+  "description": "Employ network appliances and endpoint software to filter ingress, egress, and lateral network traffic. This includes protocol-based filtering, enforcing firewall rules, and blocking or restricting traffic based on predefined conditions to limit adversary movement and data exfiltration. This mitigation can be implemented through the following measures:\n\nIngress Traffic Filtering:\n\n- Use Case: Conf",
+  "techniques": []
+}

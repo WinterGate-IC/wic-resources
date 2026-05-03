@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-294",
+  "name": "ICMP Address Mask Request",
+  "description": "An adversary sends an ICMP Type 17 Address Mask Request to gather information about a target's networking configuration. ICMP Address Mask Requests are defined by RFC-950, \"Internet Standard Subnetting Procedure.\" An Address Mask Request is an ICMP type 17 message that triggers a remote system to re",
+  "severity": "Low",
+  "likelihood": "Unknown"
+}

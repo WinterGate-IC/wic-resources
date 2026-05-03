@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-486",
+  "name": "UDP Flood",
+  "description": "An adversary may execute a flooding attack using the UDP protocol with the intent to deny legitimate users access to a service by consuming the available network bandwidth. Additionally, firewalls often open a port for each UDP connection destined for a service with an open UDP port, meaning the fir",
+  "severity": "Unknown",
+  "likelihood": "Unknown"
+}

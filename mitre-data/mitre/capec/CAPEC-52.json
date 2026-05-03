@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-52",
+  "name": "Embedding NULL Bytes",
+  "description": "An adversary embeds one or more null bytes in input to the target software. This attack relies on the usage of a null-valued byte as a string terminator in many environments. The goal is for certain components of the target software to stop processing the input when it encounters the null byte(s).",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

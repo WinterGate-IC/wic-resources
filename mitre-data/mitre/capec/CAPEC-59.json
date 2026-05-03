@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-59",
+  "name": "Session Credential Falsification through Prediction",
+  "description": "This attack targets predictable session ID in order to gain privileges. The attacker can predict the session ID used during a transaction to perform spoofing and session hijacking.",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

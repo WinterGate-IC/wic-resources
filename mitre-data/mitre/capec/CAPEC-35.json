@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-35",
+  "name": "Leverage Executable Code in Non-Executable Files",
+  "description": "An attack of this type exploits a system's trust in configuration and resource files. When the executable loads the resource (such as an image file or configuration file) the attacker has modified the file to either execute malicious code directly or manipulate the target process (e.g. application s",
+  "severity": "Very High",
+  "likelihood": "Unknown"
+}

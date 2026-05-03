@@ -1,0 +1,7 @@
+{
+  "id": "S0699",
+  "name": "Mythic",
+  "type": "tool",
+  "description": "[Mythic](https://attack.mitre.org/software/S0699) is an open source, cross-platform post-exploitation/command and control platform. [Mythic](https://attack.mitre.org/software/S0699) is designed to \"plug-n-play\" with various agents and communication channels.(Citation: Mythic Github)(Citation: Mythic SpecterOps)(Citation: Mythc Documentation) Deployed [Mythic](https://attack.mitre.org/software/S069",
+  "techniques": []
+}

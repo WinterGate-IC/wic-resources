@@ -1,0 +1,6 @@
+{
+  "id": "M1043",
+  "name": "Credential Access Protection",
+  "description": "Credential Access Protection focuses on implementing measures to prevent adversaries from obtaining credentials, such as passwords, hashes, tokens, or keys, that could be used for unauthorized access. This involves restricting access to credential storage mechanisms, hardening configurations to block credential dumping methods, and using monitoring tools to detect suspicious credential-related act",
+  "techniques": []
+}

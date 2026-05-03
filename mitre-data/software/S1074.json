@@ -1,0 +1,7 @@
+{
+  "id": "S1074",
+  "name": "ANDROMEDA",
+  "type": "malware",
+  "description": "[ANDROMEDA](https://attack.mitre.org/software/S1074) is commodity malware that was widespread in the early 2010's and continues to be observed in infections across a wide variety of industries. During the 2022 [C0026](https://attack.mitre.org/campaigns/C0026) campaign, threat actors re-registered expired [ANDROMEDA](https://attack.mitre.org/software/S1074) C2 domains to spread malware to select ta",
+  "techniques": []
+}

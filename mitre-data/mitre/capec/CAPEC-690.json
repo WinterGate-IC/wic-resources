@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-690",
+  "name": "Metadata Spoofing",
+  "description": "\n            <xhtml:p>An adversary alters the metadata of a resource (e.g., file, directory, repository, etc.) to present a malicious resource as legitimate/credible.</xhtml:p>\n         ",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

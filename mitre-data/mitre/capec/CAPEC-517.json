@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-517",
+  "name": "Documentation Alteration to Circumvent Dial-down",
+  "description": "An attacker with access to a manufacturer's documentation, which include descriptions of advanced technology and/or specific components' criticality, alters the documents to circumvent dial-down functionality requirements. This alteration would change the interpretation of implementation and manufac",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

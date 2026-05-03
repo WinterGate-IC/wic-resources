@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-510",
+  "name": "SaaS User Request Forgery",
+  "description": "An adversary, through a previously installed malicious application, performs malicious actions against a third-party Software as a Service (SaaS) application (also known as a cloud based application) by leveraging the persistent and implicit trust placed on a trusted user's session. This attack is e",
+  "severity": "Medium",
+  "likelihood": "Unknown"
+}

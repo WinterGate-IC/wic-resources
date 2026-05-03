@@ -1,0 +1,7 @@
+{
+  "id": "S0647",
+  "name": "Turian",
+  "type": "malware",
+  "description": "[Turian](https://attack.mitre.org/software/S0647) is a backdoor that has been used by [BackdoorDiplomacy](https://attack.mitre.org/groups/G0135) to target Ministries of Foreign Affairs, telecommunication companies, and charities in Africa, Europe, the Middle East, and Asia. First reported in 2021, [Turian](https://attack.mitre.org/software/S0647) is likely related to Quarian, an older backdoor tha",
+  "techniques": []
+}

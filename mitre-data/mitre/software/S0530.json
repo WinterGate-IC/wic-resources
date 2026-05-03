@@ -1,0 +1,7 @@
+{
+  "id": "S0530",
+  "name": "Melcoz",
+  "type": "malware",
+  "description": "[Melcoz](https://attack.mitre.org/software/S0530) is a banking trojan family built from the open source tool Remote Access PC. [Melcoz](https://attack.mitre.org/software/S0530) was first observed in attacks in Brazil and since 2018 has spread to Chile, Mexico, Spain, and Portugal.(Citation: Securelist Brazilian Banking Malware July 2020)",
+  "techniques": []
+}

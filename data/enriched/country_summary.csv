@@ -1,0 +1,45 @@
+country_name,ip_count,total_attacks
+China,1347,69804
+"United States",947,43619
+Russia,807,54990
+Brazil,158,5500
+"United Kingdom",118,4242
+BR,33,416
+Iran,24,4924
+Germany,20,3061
+AR,14,501
+France,12,131
+IN,11,652
+NL,11,2217
+CO,10,126
+"North Korea",7,955
+SG,7,91
+ET,5,572
+VE,5,60
+CA,4,51
+CL,4,51
+LT,4,52
+MX,4,78
+TN,4,48
+UG,4,52
+EG,3,36
+PE,3,39
+"Private Network",3,38
+BO,2,26
+KE,2,28
+MA,2,24
+MU,2,24
+NG,2,28
+PA,2,25
+ZW,2,24
+AO,1,16
+BF,1,12
+BW,1,16
+DZ,1,224
+FI,1,12
+HK,1,13
+MV,1,12
+PY,1,12
+RW,1,85
+TZ,1,16
+ZM,1,16

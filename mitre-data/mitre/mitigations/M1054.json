@@ -1,0 +1,6 @@
+{
+  "id": "M1054",
+  "name": "Software Configuration",
+  "description": "Software configuration refers to making security-focused adjustments to the settings of applications, middleware, databases, or other software to mitigate potential threats. These changes help reduce the attack surface, enforce best practices, and protect sensitive data. This mitigation can be implemented through the following measures:\n\nConduct a Security Review of Application Settings:\n\n- Review",
+  "techniques": []
+}

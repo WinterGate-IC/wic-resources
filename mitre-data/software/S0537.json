@@ -1,0 +1,7 @@
+{
+  "id": "S0537",
+  "name": "HyperStack",
+  "type": "malware",
+  "description": "[HyperStack](https://attack.mitre.org/software/S0537) is a RPC-based backdoor used by [Turla](https://attack.mitre.org/groups/G0010) since at least 2018. [HyperStack](https://attack.mitre.org/software/S0537) has similarities to other backdoors used by [Turla](https://attack.mitre.org/groups/G0010) including [Carbon](https://attack.mitre.org/software/S0335).(Citation: Accenture HyperStack October 2",
+  "techniques": []
+}

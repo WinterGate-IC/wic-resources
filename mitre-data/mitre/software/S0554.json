@@ -1,0 +1,7 @@
+{
+  "id": "S0554",
+  "name": "Egregor",
+  "type": "malware",
+  "description": "[Egregor](https://attack.mitre.org/software/S0554) is a Ransomware-as-a-Service (RaaS) tool that was first observed in September 2020. Researchers have noted code similarities between [Egregor](https://attack.mitre.org/software/S0554) and Sekhmet ransomware, as well as [Maze](https://attack.mitre.org/software/S0449) ransomware.(Citation: NHS Digital Egregor Nov 2020)(Citation: Cyble Egregor Oct 20",
+  "techniques": []
+}

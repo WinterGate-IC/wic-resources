@@ -1,0 +1,7 @@
+{
+  "id": "S1012",
+  "name": "PowerLess",
+  "type": "malware",
+  "description": "[PowerLess](https://attack.mitre.org/software/S1012) is a PowerShell-based modular backdoor that has been used by [Magic Hound](https://attack.mitre.org/groups/G0059) since at least 2022.(Citation: Cybereason PowerLess February 2022)",
+  "techniques": []
+}

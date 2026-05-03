@@ -1,0 +1,1613 @@
+{
+  "total": 268,
+  "mitigations": [
+    {
+      "id": "T1174",
+      "name": "Password Filter DLL Mitigation",
+      "description": "Ensure only valid password filters are registered. Filter DLLs must be present in Windows installation directory (<code>C:\\Windows\\System32\\</code> by default) of a domain controller and/or local computer with a corresponding entry in <code>HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\Lsa\\Notification Packages</code>. (Citation: Microsoft Install Password Filter n.d)",
+      "techniques": []
+    },
+    {
+      "id": "T1151",
+      "name": "Space after Filename Mitigation",
+      "description": "Prevent files from having a trailing space after the extension.",
+      "techniques": []
+    },
+    {
+      "id": "T1148",
+      "name": "HISTCONTROL Mitigation",
+      "description": "Prevent users from changing the <code>HISTCONTROL</code> environment variable (Citation: Securing bash history). Also, make sure that the <code>HISTCONTROL</code> environment variable is set to \u201cignoredup\u201d instead of \u201cignoreboth\u201d or \u201cignorespace\u201d.",
+      "techniques": []
+    },
+    {
+      "id": "T1081",
+      "name": "Credentials in Files Mitigation",
+      "description": "Establish an organizational policy that prohibits password storage in files. Ensure that developers and system administrators are aware of the risk associated with having plaintext passwords in software configuration files that may be left on endpoint systems or servers. Preemptively search for files containing passwords and remove when found. Restrict file shares to specific directories with acce",
+      "techniques": []
+    },
+    {
+      "id": "T1212",
+      "name": "Exploitation for Credential Access Mitigation",
+      "description": "Update software regularly by employing patch management for internal enterprise endpoints and servers. Develop a robust cyber threat intelligence capability to determine what types and levels of threat may use software exploits and 0-days against a particular organization. Make it difficult for adversaries to advance their operation through exploitation of undiscovered or unpatched vulnerabilities",
+      "techniques": []
+    },
+    {
+      "id": "T1012",
+      "name": "Query Registry Mitigation",
+      "description": "Identify unnecessary system utilities or potentially malicious software that may be used to acquire information within the Registry, and audit and/or block them by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker ",
+      "techniques": []
+    },
+    {
+      "id": "T1162",
+      "name": "Login Item Mitigation",
+      "description": "Restrict users from being able to create their own login items. Additionally, holding the shift key during login prevents apps from opening automatically (Citation: Re-Open windows on Mac).",
+      "techniques": []
+    },
+    {
+      "id": "T1166",
+      "name": "Setuid and Setgid Mitigation",
+      "description": "Applications with known vulnerabilities or known shell escapes should not have the setuid or setgid bits set to reduce potential damage if an application is compromised. Additionally, the number of programs with setuid or setgid bits set should be minimized across a system.",
+      "techniques": []
+    },
+    {
+      "id": "T1223",
+      "name": "Compiled HTML File Mitigation",
+      "description": "Consider blocking download/transfer and execution of potentially uncommon file types known to be used in adversary campaigns, such as CHM files. (Citation: PaloAlto Preventing Opportunistic Attacks Apr 2016) Also consider using application whitelisting to prevent execution of hh.exe if it is not required for a given system or network to prevent potential misuse by adversaries.",
+      "techniques": []
+    },
+    {
+      "id": "T1488",
+      "name": "Data Destruction Mitigation",
+      "description": "Consider implementing IT disaster recovery plans that contain procedures for taking regular data backups that can be used to restore organizational data.(Citation: Ready.gov IT DRP) Ensure backups are stored off system and is protected from common methods adversaries may use to gain access and destroy the backups to prevent recovery.\n\nIdentify potentially malicious software and audit and/or block ",
+      "techniques": []
+    },
+    {
+      "id": "T1084",
+      "name": "Windows Management Instrumentation Event Subscription Mitigation",
+      "description": "Disabling WMI services may cause system instability and should be evaluated to assess the impact to a network. By default, only administrators are allowed to connect remotely using WMI; restrict other users that are allowed to connect, or disallow all users from connecting remotely to WMI. Prevent credential overlap across systems of administrator and privileged accounts. (Citation: FireEye WMI 20",
+      "techniques": []
+    },
+    {
+      "id": "T1044",
+      "name": "File System Permissions Weakness Mitigation",
+      "description": "Use auditing tools capable of detecting file system permissions abuse opportunities on systems within an enterprise and correct them. Limit privileges of user accounts and groups so that only authorized administrators can interact with service changes and service binary target path locations. Toolkits like the PowerSploit framework contain PowerUp modules that can be used to explore systems for se",
+      "techniques": []
+    },
+    {
+      "id": "T1103",
+      "name": "AppInit DLLs Mitigation",
+      "description": "Upgrade to Windows 8 or later and enable secure boot.\n\nIdentify and block potentially malicious software that may be executed through AppInit DLLs by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) that are capable of auditing and/or blocking unknown DLLs.",
+      "techniques": []
+    },
+    {
+      "id": "T1159",
+      "name": "Launch Agent Mitigation",
+      "description": "Restrict user's abilities to create Launch Agents with group policy.",
+      "techniques": []
+    },
+    {
+      "id": "M1031",
+      "name": "Network Intrusion Prevention",
+      "description": "Use intrusion detection signatures to block traffic at network boundaries.",
+      "techniques": []
+    },
+    {
+      "id": "T1117",
+      "name": "Regsvr32 Mitigation",
+      "description": "Microsoft's Enhanced Mitigation Experience Toolkit (EMET) Attack Surface Reduction (ASR) feature can be used to block regsvr32.exe from being used to bypass whitelisting. (Citation: Secure Host Baseline EMET)",
+      "techniques": []
+    },
+    {
+      "id": "T1147",
+      "name": "Hidden Users Mitigation",
+      "description": "If the computer is domain joined, then group policy can help restrict the ability to create or hide users. Similarly, preventing the modification of the <code>/Library/Preferences/com.apple.loginwindow</code> <code>Hide500Users</code> value will force all users to be visible.",
+      "techniques": []
+    },
+    {
+      "id": "T1213",
+      "name": "Data from Information Repositories Mitigation",
+      "description": "To mitigate adversary access to information repositories for collection:\n\n* Develop and publish policies that define acceptable information to be stored\n* Appropriate implementation of access control mechanisms that include both authentication and appropriate authorization\n* Enforce the principle of least-privilege\n* Periodic privilege review of accounts\n* Mitigate access to [Valid Accounts](https",
+      "techniques": []
+    },
+    {
+      "id": "T1210",
+      "name": "Exploitation of Remote Services Mitigation",
+      "description": "Segment networks and systems appropriately to reduce access to critical systems and services to controlled methods. Minimize available services to only those that are necessary. Regularly scan the internal network for available services to identify new and potentially vulnerable services. Minimize permissions and access for service accounts to limit impact of exploitation.\n\nUpdate software regular",
+      "techniques": []
+    },
+    {
+      "id": "M1016",
+      "name": "Vulnerability Scanning",
+      "description": "Vulnerability scanning involves the automated or manual assessment of systems, applications, and networks to identify misconfigurations, unpatched software, or other security weaknesses. The process helps prioritize remediation efforts by classifying vulnerabilities based on risk and impact, reducing the likelihood of exploitation by adversaries. This mitigation can be implemented through the foll",
+      "techniques": []
+    },
+    {
+      "id": "T1482",
+      "name": "Domain Trust Discovery Mitigation",
+      "description": "Map the trusts within existing domains/forests and keep trust relationships to a minimum. Employ network segmentation for sensitive domains.(Citation: Harmj0y Domain Trusts)",
+      "techniques": []
+    },
+    {
+      "id": "T1072",
+      "name": "Third-party Software Mitigation",
+      "description": "Evaluate the security of third-party software that could be used in the enterprise environment. Ensure that access to management systems for third-party systems is limited, monitored, and secure. Have a strict approval policy for use of third-party systems.\n\nGrant access to Third-party systems only to a limited number of authorized administrators. Ensure proper system and access isolation for crit",
+      "techniques": []
+    },
+    {
+      "id": "T1009",
+      "name": "Binary Padding Mitigation",
+      "description": "Identify potentially malicious software that may be executed from a padded or otherwise obfuscated binary, and audit and/or block it by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)",
+      "techniques": []
+    },
+    {
+      "id": "T1123",
+      "name": "Audio Capture Mitigation",
+      "description": "Mitigating this technique specifically may be difficult as it requires fine-grained API control. Efforts should be focused on preventing unwanted or unknown code from executing on a system.\n\nIdentify and block potentially malicious software that may be used to record audio by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS Ap",
+      "techniques": []
+    },
+    {
+      "id": "T1033",
+      "name": "System Owner/User Discovery Mitigation",
+      "description": "Identify unnecessary system utilities or potentially malicious software that may be used to acquire information about system users, and audit and/or block them by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker v",
+      "techniques": []
+    },
+    {
+      "id": "T1120",
+      "name": "Peripheral Device Discovery Mitigation",
+      "description": "Identify unnecessary system utilities or potentially malicious software that may be used to acquire information about peripheral devices, and audit and/or block them by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applo",
+      "techniques": []
+    },
+    {
+      "id": "T1115",
+      "name": "Clipboard Data Mitigation",
+      "description": "Instead of blocking software based on clipboard capture behavior, identify potentially malicious software that may contain this functionality, and audit and/or block it by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Ap",
+      "techniques": []
+    },
+    {
+      "id": "T1144",
+      "name": "Gatekeeper Bypass Mitigation",
+      "description": "Other tools should be used to supplement Gatekeeper's functionality. Additionally, system settings can prevent applications from running that haven't been downloaded through the Apple Store which can help mitigate some of these issues.",
+      "techniques": []
+    },
+    {
+      "id": "T1029",
+      "name": "Scheduled Transfer Mitigation",
+      "description": "Network intrusion detection and prevention systems that use network signatures to identify traffic for specific adversary command and control infrastructure and malware can be used to mitigate activity at the network level. Signatures are often for unique indicators within protocols and may be based on the specific obfuscation technique used by a particular adversary or tool, and will likely be di",
+      "techniques": []
+    },
+    {
+      "id": "T1217",
+      "name": "Browser Bookmark Discovery Mitigation",
+      "description": "File system activity is a common part of an operating system, so it is unlikely that mitigation would be appropriate for this technique. For example, mitigating accesses to browser bookmark files will likely have unintended side effects such as preventing legitimate software from operating properly. Efforts should be focused on preventing adversary tools from running earlier in the chain of activi",
+      "techniques": []
+    },
+    {
+      "id": "T1013",
+      "name": "Port Monitors Mitigation",
+      "description": "Identify and block potentially malicious software that may persist in this manner by using whitelisting (Citation: Beechey 2010) tools capable of monitoring DLL loads by processes running under SYSTEM permissions.",
+      "techniques": []
+    },
+    {
+      "id": "M1035",
+      "name": "Limit Access to Resource Over Network",
+      "description": "Restrict access to network resources, such as file shares, remote systems, and services, to only those users, accounts, or systems with a legitimate business requirement. This can include employing technologies like network concentrators, RDP gateways, and zero-trust network access (ZTNA) models, alongside hardening services and protocols. This mitigation can be implemented through the following m",
+      "techniques": []
+    },
+    {
+      "id": "T1155",
+      "name": "AppleScript Mitigation",
+      "description": "Require that all AppleScript be signed by a trusted developer ID before being executed - this will prevent random AppleScript code from executing  (Citation: applescript signing). This subjects AppleScript code to the same scrutiny as other .app files passing through Gatekeeper.",
+      "techniques": []
+    },
+    {
+      "id": "T1202",
+      "name": "Indirect Command Execution Mitigation",
+      "description": "Identify or block potentially malicious software that may contain abusive functionality by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP). These mechanisms can also be used to disable and/or limit user a",
+      "techniques": []
+    },
+    {
+      "id": "T1135",
+      "name": "Network Share Discovery Mitigation",
+      "description": "Identify unnecessary system utilities or potentially malicious software that may be used to acquire network share information, and audit and/or block them by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP",
+      "techniques": []
+    },
+    {
+      "id": "M1029",
+      "name": "Remote Data Storage",
+      "description": "Remote Data Storage focuses on moving critical data, such as security logs and sensitive files, to secure, off-host locations to minimize unauthorized access, tampering, or destruction by adversaries. By leveraging remote storage solutions, organizations enhance the protection of forensic evidence, sensitive information, and monitoring data. This mitigation can be implemented through the following",
+      "techniques": []
+    },
+    {
+      "id": "M1037",
+      "name": "Filter Network Traffic",
+      "description": "Employ network appliances and endpoint software to filter ingress, egress, and lateral network traffic. This includes protocol-based filtering, enforcing firewall rules, and blocking or restricting traffic based on predefined conditions to limit adversary movement and data exfiltration. This mitigation can be implemented through the following measures:\n\nIngress Traffic Filtering:\n\n- Use Case: Conf",
+      "techniques": []
+    },
+    {
+      "id": "M1021",
+      "name": "Restrict Web-Based Content",
+      "description": "Restricting web-based content involves enforcing policies and technologies that limit access to potentially malicious websites, unsafe downloads, and unauthorized browser behaviors. This can include URL filtering, download restrictions, script blocking, and extension control to protect against exploitation, phishing, and malware delivery. This mitigation can be implemented through the following me",
+      "techniques": []
+    },
+    {
+      "id": "T1130",
+      "name": "Install Root Certificate Mitigation",
+      "description": "HTTP Public Key Pinning (HPKP) is one method to mitigate potential man-in-the-middle situations where and adversary uses a mis-issued or fraudulent certificate to intercept encrypted communications by enforcing use of an expected certificate. (Citation: Wikipedia HPKP)\n\nWindows Group Policy can be used to manage root certificates and the <code>Flags</code> value of <code>HKLM\\SOFTWARE\\Policies\\Mic",
+      "techniques": []
+    },
+    {
+      "id": "M1033",
+      "name": "Limit Software Installation",
+      "description": "Prevent users or groups from installing unauthorized or unapproved software to reduce the risk of introducing malicious or vulnerable applications. This can be achieved through allowlists, software restriction policies, endpoint management tools, and least privilege access principles. This mitigation can be implemented through the following measures:\n\nApplication Whitelisting\n\n- Implement Microsof",
+      "techniques": []
+    },
+    {
+      "id": "T1169",
+      "name": "Sudo Mitigation",
+      "description": "The sudoers file should be strictly edited such that passwords are always required and that users can\u2019t spawn risky processes as users with higher privilege. By requiring a password, even if an adversary can get terminal access, they must know the password to run anything in the sudoers file.",
+      "techniques": []
+    },
+    {
+      "id": "T1079",
+      "name": "Multilayer Encryption Mitigation",
+      "description": "Network intrusion detection and prevention systems that use network signatures to identify traffic for specific adversary malware can be used to mitigate activity at the network level. Use of encryption protocols may make typical network-based C2 detection more difficult due to a reduced ability to signature the traffic. Prior knowledge of adversary C2 infrastructure may be useful for domain and I",
+      "techniques": []
+    },
+    {
+      "id": "T1493",
+      "name": "Transmitted Data Manipulation Mitigation",
+      "description": "Identify critical business and system processes that may be targeted by adversaries and work to secure communications related to those processes against tampering. Encrypt all important data flows to reduce the impact of tailored modifications on data in transit.",
+      "techniques": []
+    },
+    {
+      "id": "T1020",
+      "name": "Automated Exfiltration Mitigation",
+      "description": "Identify unnecessary system utilities, scripts, or potentially malicious software that may be used to transfer data outside of a network, and audit and/or block them by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applo",
+      "techniques": []
+    },
+    {
+      "id": "T1010",
+      "name": "Application Window Discovery Mitigation",
+      "description": "Identify unnecessary system utilities or potentially malicious software that may be used to acquire information, and audit and/or block them by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)",
+      "techniques": []
+    },
+    {
+      "id": "M1013",
+      "name": "Application Developer Guidance",
+      "description": "Application Developer Guidance focuses on providing developers with the knowledge, tools, and best practices needed to write secure code, reduce vulnerabilities, and implement secure design principles. By integrating security throughout the software development lifecycle (SDLC), this mitigation aims to prevent the introduction of exploitable weaknesses in applications, systems, and APIs. This miti",
+      "techniques": []
+    },
+    {
+      "id": "T1019",
+      "name": "System Firmware Mitigation",
+      "description": "Prevent adversary access to privileged accounts or access necessary to perform this technique. Check the integrity of the existing BIOS or EFI to determine if it is vulnerable to modification. Patch the BIOS and EFI as necessary. Use Trusted Platform Module technology. (Citation: TCG Trusted Platform Module)",
+      "techniques": []
+    },
+    {
+      "id": "T1002",
+      "name": "Data Compressed Mitigation",
+      "description": "Identify unnecessary system utilities, third-party tools, or potentially malicious software that may be used to compress files, and audit and/or block them by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SR",
+      "techniques": []
+    },
+    {
+      "id": "M1034",
+      "name": "Limit Hardware Installation",
+      "description": "Prevent unauthorized users or groups from installing or using hardware, such as external drives, peripheral devices, or unapproved internal hardware components, by enforcing hardware usage policies and technical controls. This includes disabling USB ports, restricting driver installation, and implementing endpoint security tools to monitor and block unapproved devices. This mitigation can be imple",
+      "techniques": []
+    },
+    {
+      "id": "M1017",
+      "name": "User Training",
+      "description": "User Training involves educating employees and contractors on recognizing, reporting, and preventing cyber threats that rely on human interaction, such as phishing, social engineering, and other manipulative techniques. Comprehensive training programs create a human firewall by empowering users to be an active component of the organization's cybersecurity defenses. This mitigation can be implement",
+      "techniques": []
+    },
+    {
+      "id": "T1022",
+      "name": "Data Encrypted Mitigation",
+      "description": "Identify unnecessary system utilities, third-party tools, or potentially malicious software that may be used to encrypt files, and audit and/or block them by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP",
+      "techniques": []
+    },
+    {
+      "id": "T1083",
+      "name": "File and Directory Discovery Mitigation",
+      "description": "File system activity is a common part of an operating system, so it is unlikely that mitigation would be appropriate for this technique. It may still be beneficial to identify and block unnecessary system utilities or potentially malicious software by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Rest",
+      "techniques": []
+    },
+    {
+      "id": "M1052",
+      "name": "User Account Control",
+      "description": "User Account Control (UAC) is a security feature in Microsoft Windows that prevents unauthorized changes to the operating system. UAC prompts users to confirm or provide administrator credentials when an action requires elevated privileges. Proper configuration of UAC reduces the risk of privilege escalation attacks. This mitigation can be implemented through the following measures:\n\nEnable UAC Gl",
+      "techniques": []
+    },
+    {
+      "id": "T1062",
+      "name": "Hypervisor Mitigation",
+      "description": "Prevent adversary access to privileged accounts necessary to install a hypervisor.",
+      "techniques": []
+    },
+    {
+      "id": "T1150",
+      "name": "Plist Modification Mitigation",
+      "description": "Prevent plist files from being modified by users by making them read-only.",
+      "techniques": []
+    },
+    {
+      "id": "M1028",
+      "name": "Operating System Configuration",
+      "description": "Operating System Configuration involves adjusting system settings and hardening the default configurations of an operating system (OS) to mitigate adversary exploitation and prevent abuse of system functionality. Proper OS configurations address security vulnerabilities, limit attack surfaces, and ensure robust defense against a wide range of techniques. This mitigation can be implemented through ",
+      "techniques": []
+    },
+    {
+      "id": "T1077",
+      "name": "Windows Admin Shares Mitigation",
+      "description": "Do not reuse local administrator account passwords across systems. Ensure password complexity and uniqueness such that the passwords cannot be cracked or guessed. Deny remote use of local admin credentials to log into systems. Do not allow domain user accounts to be in the local Administrators group multiple systems.\n\nIdentify unnecessary system utilities or potentially malicious software that may",
+      "techniques": []
+    },
+    {
+      "id": "T1004",
+      "name": "Winlogon Helper DLL Mitigation",
+      "description": "Limit the privileges of user accounts so that only authorized administrators can perform Winlogon helper changes.\n\nIdentify and block potentially malicious software that may be executed through the Winlogon helper process by using whitelisting (Citation: Beechey 2010) tools like AppLocker (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) that are capable of auditing and/or blocking ",
+      "techniques": []
+    },
+    {
+      "id": "T1494",
+      "name": "Runtime Data Manipulation Mitigation",
+      "description": "Identify critical business and system processes that may be targeted by adversaries and work to secure those systems against tampering. Prevent critical business and system processes from being replaced, overwritten, or reconfigured to load potentially malicious code. Identify potentially malicious software and audit and/or block it by using whitelisting(Citation: Beechey 2010) tools, like AppLock",
+      "techniques": []
+    },
+    {
+      "id": "T1183",
+      "name": "Image File Execution Options Injection Mitigation",
+      "description": "This type of attack technique cannot be easily mitigated with preventive controls since it is based on the abuse of operating system design features. For example, mitigating all IFEO will likely have unintended side effects, such as preventing legitimate software (i.e., security products) from operating properly. (Citation: Microsoft IFEOorMalware July 2015) Efforts should be focused on preventing",
+      "techniques": []
+    },
+    {
+      "id": "T1186",
+      "name": "Process Doppelg\u00e4nging Mitigation",
+      "description": "This type of attack technique cannot be easily mitigated with preventive controls or patched since it is based on the abuse of operating system design features. For example, mitigating specific API calls will likely have unintended side effects, such as preventing legitimate process-loading mechanisms from operating properly. Efforts should be focused on preventing adversary tools from running ear",
+      "techniques": []
+    },
+    {
+      "id": "T1107",
+      "name": "File Deletion Mitigation",
+      "description": "Identify unnecessary system utilities, third-party tools, or potentially malicious software that may be used to delete files, and audit and/or block them by using whitelisting (Citation: Beechey 2010) tools like AppLocker (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)",
+      "techniques": []
+    },
+    {
+      "id": "T1211",
+      "name": "Exploitation for Defense Evasion Mitigation",
+      "description": "Update software regularly by employing patch management for internal enterprise endpoints and servers. Develop a robust cyber threat intelligence capability to determine what types and levels of threat may use software exploits and 0-days against a particular organization. Make it difficult for adversaries to advance their operation through exploitation of undiscovered or unpatched vulnerabilities",
+      "techniques": []
+    },
+    {
+      "id": "T1114",
+      "name": "Email Collection Mitigation",
+      "description": "Use of encryption provides an added layer of security to sensitive information sent over email. Encryption using public key cryptography requires the adversary to obtain the private certificate along with an encryption key to decrypt messages.\n\nUse of two-factor authentication for public-facing webmail servers is also a recommended best practice to minimize the usefulness of user names and passwor",
+      "techniques": []
+    },
+    {
+      "id": "T1089",
+      "name": "Disabling Security Tools Mitigation",
+      "description": "Ensure proper process, registry, and file permissions are in place to prevent adversaries from disabling or interfering with security services.",
+      "techniques": []
+    },
+    {
+      "id": "T1025",
+      "name": "Data from Removable Media Mitigation",
+      "description": "Identify unnecessary system utilities or potentially malicious software that may be used to collect data from removable media, and audit and/or block them by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP",
+      "techniques": []
+    },
+    {
+      "id": "T1095",
+      "name": "Standard Non-Application Layer Protocol Mitigation",
+      "description": "Properly configure firewalls and proxies to limit outgoing traffic to only necessary ports and through proper network gateway systems. Also ensure hosts are only provisioned to communicate over authorized interfaces.\n\nNetwork intrusion detection and prevention systems that use network signatures to identify traffic for specific adversary malware can be used to mitigate activity at the network leve",
+      "techniques": []
+    },
+    {
+      "id": "T1196",
+      "name": "Control Panel Items Mitigation",
+      "description": "This type of attack technique cannot be easily mitigated with preventive controls since it is based on the abuse of operating system design features. For example, mitigating specific Windows API calls and/or execution of particular file extensions will likely have unintended side effects, such as preventing legitimate software (i.e., drivers and configuration tools) from operating properly. Effort",
+      "techniques": []
+    },
+    {
+      "id": "T1097",
+      "name": "Pass the Ticket Mitigation",
+      "description": "Monitor domains for unusual credential logons. Limit credential overlap across systems to prevent the damage of credential compromise. Ensure that local administrator accounts have complex, unique passwords. Do not allow a user to be a local administrator for multiple systems. Limit domain admin account permissions to domain controllers and limited servers. Delegate other admin functions to separa",
+      "techniques": []
+    },
+    {
+      "id": "T1483",
+      "name": "Domain Generation Algorithms Mitigation",
+      "description": "This technique may be difficult to mitigate since the domains can be registered just before they are used, and disposed shortly after. Malware researchers can reverse-engineer malware variants that use DGAs and determine future domains that the malware will attempt to contact, but this is a time and resource intensive effort.(Citation: Cybereason Dissecting DGAs)(Citation: Cisco Umbrella DGA Brute",
+      "techniques": []
+    },
+    {
+      "id": "T1146",
+      "name": "Clear Command History Mitigation",
+      "description": "Preventing users from deleting or writing to certain files can stop adversaries from maliciously altering their <code>~/.bash_history</code> files. Additionally, making these environment variables readonly can make sure that the history is preserved   (Citation: Securing bash history).",
+      "techniques": []
+    },
+    {
+      "id": "T1028",
+      "name": "Windows Remote Management Mitigation",
+      "description": "Disable the WinRM service. If the service is necessary, lock down critical enclaves with separate WinRM infrastructure, accounts, and permissions. Follow WinRM best practices on configuration of authentication methods and use of host firewalls to restrict WinRM access to allow communication only to/from specific devices. (Citation: NSA Spotting)",
+      "techniques": []
+    },
+    {
+      "id": "M1053",
+      "name": "Data Backup",
+      "description": "Data Backup involves taking and securely storing backups of data from end-user systems and critical servers. It ensures that data remains available in the event of system compromise, ransomware attacks, or other disruptions. Backup processes should include hardening backup systems, implementing secure storage solutions, and keeping backups isolated from the corporate network to prevent compromise ",
+      "techniques": []
+    },
+    {
+      "id": "T1160",
+      "name": "Launch Daemon Mitigation",
+      "description": "Limit privileges of user accounts and remediate Privilege Escalation vectors so only authorized administrators can create new Launch Daemons.",
+      "techniques": []
+    },
+    {
+      "id": "T1489",
+      "name": "Service Stop Mitigation",
+      "description": "Ensure proper process, registry, and file permissions are in place to inhibit adversaries from disabling or interfering with critical services. Limit privileges of user accounts and groups so that only authorized administrators can interact with service changes and service configurations. Harden systems used to serve critical network, business, and communications functions. Operate intrusion detec",
+      "techniques": []
+    },
+    {
+      "id": "T1184",
+      "name": "SSH Hijacking Mitigation",
+      "description": "Ensure SSH key pairs have strong passwords and refrain from using key-store technologies such as ssh-agent unless they are properly protected. Ensure that all private keys are stored securely in locations where only the legitimate owner has access to with strong passwords and are rotated frequently. Ensure proper file permissions are set and harden system to prevent root privilege escalation oppor",
+      "techniques": []
+    },
+    {
+      "id": "T1486",
+      "name": "Data Encrypted for Impact Mitigation",
+      "description": "Consider implementing IT disaster recovery plans that contain procedures for regularly taking and testing data backups that can be used to restore organizational data.(Citation: Ready.gov IT DRP)\n\nIn some cases, the means to decrypt files affected by a ransomware campaign is released to the public. Research trusted sources for public releases of decryptor tools/keys to reverse the effects of ranso",
+      "techniques": []
+    },
+    {
+      "id": "T1074",
+      "name": "Data Staged Mitigation",
+      "description": "Identify system utilities, remote access or third-party tools, users or potentially malicious software that may be used to store compressed or encrypted data in a publicly writeable directory, central location, or commonly used staging directories (e.g. recycle bin) that is indicative of non-standard behavior, and audit and/or block them by using file integrity monitoring tools where appropriate. ",
+      "techniques": []
+    },
+    {
+      "id": "T1051",
+      "name": "Shared Webroot Mitigation",
+      "description": "Networks that allow for open development and testing of Web content and allow users to set up their own Web servers on the enterprise network may be particularly vulnerable if the systems and Web servers are not properly secured to limit privileged account use, unauthenticated network share access, and network/system isolation.\n\nEnsure proper permissions on directories that are accessible through ",
+      "techniques": []
+    },
+    {
+      "id": "T1215",
+      "name": "Kernel Modules and Extensions Mitigation",
+      "description": "Common tools for detecting Linux rootkits include: rkhunter (Citation: SourceForge rkhunter), chrootkit (Citation: Chkrootkit Main), although rootkits may be designed to evade certain detection tools.\n\nLKMs and Kernel extensions require root level permissions to be installed. Limit access to the root account and prevent users from loading kernel modules and extensions through proper privilege sepa",
+      "techniques": []
+    },
+    {
+      "id": "T1214",
+      "name": "Credentials in Registry Mitigation",
+      "description": "Do not store credentials within the Registry. Proactively search for credentials within Registry keys and attempt to remediate the risk. If necessary software must store credentials, then ensure those accounts have limited permissions so they cannot be abused if obtained by an adversary.",
+      "techniques": []
+    },
+    {
+      "id": "T1036",
+      "name": "Masquerading Mitigation",
+      "description": "When creating security rules, avoid exclusions based on file name or file path. Require signed binaries. Use file system access controls to protect folders such as C:\\Windows\\System32. Use tools that restrict program execution via whitelisting by attributes other than file name.\n\nIdentify potentially malicious software that may look like a legitimate program based on name and location, and audit a",
+      "techniques": []
+    },
+    {
+      "id": "T1102",
+      "name": "Web Service Mitigation",
+      "description": "Firewalls and Web proxies can be used to enforce external network communication policy. It may be difficult for an organization to block particular services because so many of them are commonly used during the course of business.\n\nNetwork intrusion detection and prevention systems that use network signatures to identify traffic for specific adversary malware can be used to mitigate activity at the",
+      "techniques": []
+    },
+    {
+      "id": "T1496",
+      "name": "Resource Hijacking Mitigation",
+      "description": "Identify potentially malicious software and audit and/or block it by using whitelisting(Citation: Beechey 2010) tools, like AppLocker,(Citation: Windows Commands JPCERT)(Citation: NSA MS AppLocker) or Software Restriction Policies(Citation: Corio 2008) where appropriate.(Citation: TechNet Applocker vs SRP)",
+      "techniques": []
+    },
+    {
+      "id": "T1040",
+      "name": "Network Sniffing Mitigation",
+      "description": "Ensure that all wireless traffic is encrypted appropriately. Use Kerberos, SSL, and multifactor authentication wherever possible. Monitor switches and network for span port usage, ARP/DNS poisoning, and router reconfiguration.\n\nIdentify and block potentially malicious software that may be used to sniff or analyze network traffic by using whitelisting (Citation: Beechey 2010) tools, like AppLocker,",
+      "techniques": []
+    },
+    {
+      "id": "M1038",
+      "name": "Execution Prevention",
+      "description": "Prevent the execution of unauthorized or malicious code on systems by implementing application control, script blocking, and other execution prevention mechanisms. This ensures that only trusted and authorized code is executed, reducing the risk of malware and unauthorized actions. This mitigation can be implemented through the following measures:\n\nApplication Control:\n\n- Use Case: Use tools like ",
+      "techniques": []
+    },
+    {
+      "id": "T1201",
+      "name": "Password Policy Discovery Mitigation",
+      "description": "Mitigating discovery of password policies is not advised since the information is required to be known by systems and users of a network. Ensure password policies are such that they mitigate brute force attacks yet will not give an adversary an information advantage because the policies are too light. Active Directory is a common way to set and enforce password policies throughout an enterprise ne",
+      "techniques": []
+    },
+    {
+      "id": "M1043",
+      "name": "Credential Access Protection",
+      "description": "Credential Access Protection focuses on implementing measures to prevent adversaries from obtaining credentials, such as passwords, hashes, tokens, or keys, that could be used for unauthorized access. This involves restricting access to credential storage mechanisms, hardening configurations to block credential dumping methods, and using monitoring tools to detect suspicious credential-related act",
+      "techniques": []
+    },
+    {
+      "id": "T1110",
+      "name": "Brute Force Mitigation",
+      "description": "Set account lockout policies after a certain number of failed login attempts to prevent passwords from being guessed. \nToo strict a policy can create a denial of service condition and render environments un-usable, with all accounts being locked-out permanently. Use multifactor authentication. Follow best practices for mitigating access to [Valid Accounts](https://attack.mitre.org/techniques/T1078",
+      "techniques": []
+    },
+    {
+      "id": "T1066",
+      "name": "Indicator Removal from Tools Mitigation",
+      "description": "Mitigation is difficult in instances like this because the adversary may have access to the system through another channel and can learn what techniques or tools are blocked by resident defenses. Exercising best practices with configuration and security as well as ensuring that proper process is followed during investigation of potential compromise is essential to detecting a larger intrusion thro",
+      "techniques": []
+    },
+    {
+      "id": "T1156",
+      "name": ".bash_profile and .bashrc Mitigation",
+      "description": "Making these files immutable and only changeable by certain administrators will limit the ability for adversaries to easily create user level persistence.",
+      "techniques": []
+    },
+    {
+      "id": "T1216",
+      "name": "Signed Script Proxy Execution Mitigation",
+      "description": "Certain signed scripts that can be used to execute other programs may not be necessary within a given environment. Use application whitelisting configured to block execution of these scripts if they are not required for a given system or network to prevent potential misuse by adversaries.",
+      "techniques": []
+    },
+    {
+      "id": "T1104",
+      "name": "Multi-Stage Channels Mitigation",
+      "description": "Command and control infrastructure used in a multi-stage channel may be blocked if known ahead of time. If unique signatures are present in the C2 traffic, they could also be used as the basis of identifying and blocking the channel. (Citation: University of Birmingham C2)",
+      "techniques": []
+    },
+    {
+      "id": "T1008",
+      "name": "Fallback Channels Mitigation",
+      "description": "Network intrusion detection and prevention systems that use network signatures to identify traffic for specific adversary malware can be used to mitigate activity at the network level. Signatures are often for unique indicators within protocols and may be based on the specific protocol used by a particular adversary or tool, and will likely be different across various malware families and versions",
+      "techniques": []
+    },
+    {
+      "id": "T1113",
+      "name": "Screen Capture Mitigation",
+      "description": "Blocking software based on screen capture functionality may be difficult, and there may be legitimate software that performs those actions. Instead, identify potentially malicious software that may have functionality to acquire screen captures, and audit and/or block it by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLo",
+      "techniques": []
+    },
+    {
+      "id": "T1153",
+      "name": "Source Mitigation",
+      "description": "Due to potential legitimate uses of source commands, it's may be difficult to mitigate use of this technique.",
+      "techniques": []
+    },
+    {
+      "id": "T1076",
+      "name": "Remote Desktop Protocol Mitigation",
+      "description": "Disable the RDP service if it is unnecessary, remove unnecessary accounts and groups from Remote Desktop Users groups, and enable firewall rules to block RDP traffic between network security zones. Audit the Remote Desktop Users group membership regularly. Remove the local Administrators group from the list of groups allowed to log in through RDP. Limit remote user permissions if remote access is ",
+      "techniques": []
+    },
+    {
+      "id": "T1171",
+      "name": "LLMNR/NBT-NS Poisoning Mitigation",
+      "description": "Disable LLMNR and NetBIOS in local computer security settings or by group policy if they are not needed within an environment. (Citation: ADSecurity Windows Secure Baseline)\n\nUse host-based security software to block LLMNR/NetBIOS traffic. Enabling SMB Signing can stop NTLMv2 relay attacks.(Citation: byt3bl33d3r NTLM Relaying)(Citation: Secure Ideas SMB Relay)(Citation: Microsoft SMB Packet Signin",
+      "techniques": []
+    },
+    {
+      "id": "T1204",
+      "name": "User Execution Mitigation",
+      "description": "Use user training as a way to bring awareness to common phishing and spearphishing techniques and how to raise suspicion for potentially malicious events. Application whitelisting may be able to prevent the running of executables masquerading as other files.\n\nIf a link is being visited by a user, block unknown or unused files in transit by default that should not be downloaded or by policy from su",
+      "techniques": []
+    },
+    {
+      "id": "T1200",
+      "name": "Hardware Additions Mitigation",
+      "description": "Establish network access control policies, such as using device certificates and the 802.1x standard. (Citation: Wikipedia 802.1x) Restrict use of DHCP to registered devices to prevent unregistered devices from communicating with trusted systems. \n\nBlock unknown devices and accessories by endpoint security configuration and monitoring agent.",
+      "techniques": []
+    },
+    {
+      "id": "T1142",
+      "name": "Keychain Mitigation",
+      "description": "The password for the user's login keychain can be changed from the user's login password. This increases the complexity for an adversary because they need to know an additional password.",
+      "techniques": []
+    },
+    {
+      "id": "T1064",
+      "name": "Scripting Mitigation",
+      "description": "Turn off unused features or restrict access to scripting engines such as VBScript or scriptable administration frameworks such as PowerShell.\n\nConfigure Office security settings enable Protected View, to execute within a sandbox environment, and to block macros through Group Policy. (Citation: Microsoft Block Office Macros) Other types of virtualization and application microsegmentation may also m",
+      "techniques": []
+    },
+    {
+      "id": "M1045",
+      "name": "Code Signing",
+      "description": "Code Signing is a security process that ensures the authenticity and integrity of software by digitally signing executables, scripts, and other code artifacts. It prevents untrusted or malicious code from executing by verifying the digital signatures against trusted sources. Code signing protects against tampering, impersonation, and distribution of unauthorized or malicious software, forming a cr",
+      "techniques": []
+    },
+    {
+      "id": "T1099",
+      "name": "Timestomp Mitigation",
+      "description": "Mitigation of timestomping specifically is likely difficult. Efforts should be focused on preventing potentially malicious software from running. Identify and block potentially malicious software that may contain functionality to perform timestomping by using whitelisting (Citation: Beechey 2010) tools like AppLocker (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Rest",
+      "techniques": []
+    },
+    {
+      "id": "T1087",
+      "name": "Account Discovery Mitigation",
+      "description": "Prevent administrator accounts from being enumerated when an application is elevating through UAC since it can lead to the disclosure of account names. The Registry key is located <code>HKLM\\ SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\CredUI\\EnumerateAdministrators</code>. It can be disabled through GPO: Computer Configuration > [Policies] > Administrative Templates > Windows Components > ",
+      "techniques": []
+    },
+    {
+      "id": "T1491",
+      "name": "Defacement Mitigation",
+      "description": "Implementing best practices for websites such as defending against [Exploit Public-Facing Application](https://attack.mitre.org/techniques/T1190) (Citation: OWASP Top 10 2017). Consider implementing IT disaster recovery plans that contain procedures for taking regular data backups that can be used to restore organizational data. (Ready.gov IT DRP) Ensure backups are stored off system and is protec",
+      "techniques": []
+    },
+    {
+      "id": "M1039",
+      "name": "Environment Variable Permissions",
+      "description": "Restrict the modification of environment variables to authorized users and processes by enforcing strict permissions and policies. This ensures the integrity of environment variables, preventing adversaries from abusing or altering them for malicious purposes. This mitigation can be implemented through the following measures:\n\nRestrict Write Access:\n\n- Use Case: Set file system-level permissions t",
+      "techniques": []
+    },
+    {
+      "id": "T1164",
+      "name": "Re-opened Applications Mitigation",
+      "description": "Holding the Shift key while logging in prevents apps from opening automatically (Citation: Re-Open windows on Mac). This feature can be disabled entirely with the following terminal command: <code>defaults write -g ApplePersistence -bool no</code>.",
+      "techniques": []
+    },
+    {
+      "id": "T1128",
+      "name": "Netsh Helper DLL Mitigation",
+      "description": "Identify and block potentially malicious software that may persist in this manner by using whitelisting (Citation: Beechey 2010) tools capable of monitoring DLL loads by Windows utilities like AppLocker. (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker)",
+      "techniques": []
+    },
+    {
+      "id": "T1172",
+      "name": "Domain Fronting Mitigation",
+      "description": "If it is possible to inspect HTTPS traffic, the captures can be analyzed for connections that appear to be Domain Fronting.\n\nIn order to use domain fronting, attackers will likely need to deploy additional tools to compromised systems. (Citation: FireEye APT29 Domain Fronting With TOR March 2017) (Citation: Mandiant No Easy Breach) It may be possible to detect or prevent the installation of these ",
+      "techniques": []
+    },
+    {
+      "id": "M1057",
+      "name": "Data Loss Prevention",
+      "description": "Data Loss Prevention (DLP) involves implementing strategies and technologies to identify, categorize, monitor, and control the movement of sensitive data within an organization. This includes protecting data formats indicative of Personally Identifiable Information (PII), intellectual property, or financial data from unauthorized access, transmission, or exfiltration. DLP solutions integrate with ",
+      "techniques": []
+    },
+    {
+      "id": "T1498",
+      "name": "Network Denial of Service Mitigation",
+      "description": "When flood volumes exceed the capacity of the network connection being targeted, it is typically necessary to intercept the incoming traffic upstream to filter out the attack traffic from the legitimate traffic. Such defenses can be provided by the hosting Internet Service Provider (ISP) or by a 3rd party such as a Content Delivery Network (CDN) or providers specializing in DoS mitigations.(Citati",
+      "techniques": []
+    },
+    {
+      "id": "T1190",
+      "name": "Exploit Public-Facing Application Mitigation",
+      "description": "Application isolation and least privilege help lesson the impact of an exploit. Application isolation will limit what other processes and system features the exploited target can access, and least privilege for service accounts will limit what permissions the exploited process gets on the rest of the system. Web Application Firewalls may be used to limit exposure of applications.\n\nSegment external",
+      "techniques": []
+    },
+    {
+      "id": "T1109",
+      "name": "Component Firmware Mitigation",
+      "description": "Prevent adversary access to privileged accounts or access necessary to perform this technique.\n\nConsider removing and replacing system components suspected of being compromised.",
+      "techniques": []
+    },
+    {
+      "id": "T1016",
+      "name": "System Network Configuration Discovery Mitigation",
+      "description": "Identify unnecessary system utilities or potentially malicious software that may be used to acquire information about a system's network configuration, and audit and/or block them by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation:",
+      "techniques": []
+    },
+    {
+      "id": "T1070",
+      "name": "Indicator Removal on Host Mitigation",
+      "description": "Automatically forward events to a log server or data repository to prevent conditions in which the adversary can locate and manipulate data on the local system. When possible, minimize time delay on event reporting to avoid prolonged storage on the local system. Protect generated event files that are stored locally with proper permissions and authentication and limit opportunities for adversaries ",
+      "techniques": []
+    },
+    {
+      "id": "T1149",
+      "name": "LC_MAIN Hijacking Mitigation",
+      "description": "Enforce valid digital signatures for signed code on all applications and only trust applications with signatures from trusted parties.",
+      "techniques": []
+    },
+    {
+      "id": "T1187",
+      "name": "Forced Authentication Mitigation",
+      "description": "Block SMB  traffic from exiting an enterprise network with egress filtering or by blocking TCP ports 139, 445 and UDP port 137. Filter or block WebDAV protocol traffic from exiting the network. If access to external resources over SMB and WebDAV is necessary, then traffic should be tightly limited with whitelisting. (Citation: US-CERT SMB Security) (Citation: US-CERT APT Energy Oct 2017)\n\nFor inte",
+      "techniques": []
+    },
+    {
+      "id": "T1495",
+      "name": "Firmware Corruption Mitigation",
+      "description": "Prevent adversary access to privileged accounts or access necessary to perform this technique. Check the integrity of the existing BIOS and device firmware to determine if it is vulnerable to modification. Patch the BIOS and other firmware as necessary to prevent successful use of known vulnerabilities. ",
+      "techniques": []
+    },
+    {
+      "id": "M1025",
+      "name": "Privileged Process Integrity",
+      "description": "Privileged Process Integrity focuses on defending highly privileged processes (e.g., system services, antivirus, or authentication processes) from tampering, injection, or compromise by adversaries. These processes often interact with critical components, making them prime targets for techniques like code injection, privilege escalation, and process manipulation. This mitigation can be implemented",
+      "techniques": []
+    },
+    {
+      "id": "T1188",
+      "name": "Multi-hop Proxy Mitigation",
+      "description": "Traffic to known anonymity networks and C2 infrastructure can be blocked through the use of network black and white lists. It should be noted that this kind of blocking may be circumvented by other techniques like [Domain Fronting](https://attack.mitre.org/techniques/T1172).",
+      "techniques": []
+    },
+    {
+      "id": "T1220",
+      "name": "XSL Script Processing Mitigation",
+      "description": "[Windows Management Instrumentation](https://attack.mitre.org/techniques/T1047) and/or msxsl.exe may or may not be used within a given environment. Disabling WMI may cause system instability and should be evaluated to assess the impact to a network. If msxsl.exe is unnecessary, then block its execution to prevent abuse by adversaries.",
+      "techniques": []
+    },
+    {
+      "id": "T1161",
+      "name": "LC_LOAD_DYLIB Addition Mitigation",
+      "description": "Enforce that all binaries be signed by the correct Apple Developer IDs, and whitelist applications via known hashes. Binaries can also be baselined for what dynamic libraries they require, and if an app requires a new dynamic library that wasn\u2019t included as part of an update, it should be investigated.",
+      "techniques": []
+    },
+    {
+      "id": "M1055",
+      "name": "Do Not Mitigate",
+      "description": "The Do Not Mitigate category highlights scenarios where attempting to mitigate a specific technique may inadvertently increase the organization's security risk or operational instability. This could happen due to the complexity of the system, the integration of critical processes, or the potential for introducing new vulnerabilities. Instead of direct mitigation, these situations may call for alte",
+      "techniques": []
+    },
+    {
+      "id": "M1056",
+      "name": "Pre-compromise",
+      "description": "Pre-compromise mitigations involve proactive measures and defenses implemented to prevent adversaries from successfully identifying and exploiting weaknesses during the Reconnaissance and Resource Development phases of an attack. These activities focus on reducing an organization's attack surface, identify adversarial preparation efforts, and increase the difficulty for attackers to conduct succes",
+      "techniques": []
+    },
+    {
+      "id": "T1199",
+      "name": "Trusted Relationship Mitigation",
+      "description": "Network segmentation can be used to isolate infrastructure components that do not require broad network access. Properly manage accounts and permissions used by parties in trusted relationships to minimize potential abuse by the party and if the party is compromised by an adversary. Vet the security policies and procedures of organizations that are contracted for work that require privileged acces",
+      "techniques": []
+    },
+    {
+      "id": "T1073",
+      "name": "DLL Side-Loading Mitigation",
+      "description": "Update software regularly. Install software in write-protected locations. Use the program sxstrace.exe that is included with Windows along with manual inspection to check manifest files for side-loading vulnerabilities in software.",
+      "techniques": []
+    },
+    {
+      "id": "T1189",
+      "name": "Drive-by Compromise Mitigation",
+      "description": "Drive-by compromise relies on there being a vulnerable piece of software on the client end systems. Use modern browsers with security features turned on. Ensure all browsers and plugins kept updated can help prevent the exploit phase of this technique.\n\nFor malicious code served up through ads, adblockers can help prevent that code from executing in the first place. Script blocking extensions can ",
+      "techniques": []
+    },
+    {
+      "id": "T1177",
+      "name": "LSASS Driver Mitigation",
+      "description": "On Windows 8.1 and Server 2012 R2, enable LSA Protection by setting the Registry key <code>HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\Lsa\\RunAsPPL</code> to <code>dword:00000001</code>. (Citation: Microsoft LSA Protection Mar 2014) LSA Protection ensures that LSA plug-ins and drivers are only loaded if they are digitally signed with a Microsoft signature and adhere to the Microsoft Securi",
+      "techniques": []
+    },
+    {
+      "id": "T1179",
+      "name": "Hooking Mitigation",
+      "description": "This type of attack technique cannot be easily mitigated with preventive controls since it is based on the abuse of operating system design features. For example, mitigating all hooking will likely have unintended side effects, such as preventing legitimate software (i.e., security products) from operating properly. Efforts should be focused on preventing adversary tools from running earlier in th",
+      "techniques": []
+    },
+    {
+      "id": "M1020",
+      "name": "SSL/TLS Inspection",
+      "description": "SSL/TLS inspection involves decrypting encrypted network traffic to examine its content for signs of malicious activity. This capability is crucial for detecting threats that use encryption to evade detection, such as phishing, malware, or data exfiltration. After inspection, the traffic is re-encrypted and forwarded to its destination. This mitigation can be implemented through the following meas",
+      "techniques": []
+    },
+    {
+      "id": "T1043",
+      "name": "Commonly Used Port Mitigation",
+      "description": "Network intrusion detection and prevention systems that use network signatures to identify traffic for specific adversary malware can be used to mitigate activity at the network level. Signatures are often for unique indicators within protocols and may be based on the specific protocol used by a particular adversary or tool, and will likely be different across various malware families and versions",
+      "techniques": []
+    },
+    {
+      "id": "T1093",
+      "name": "Process Hollowing Mitigation",
+      "description": "This type of attack technique cannot be easily mitigated with preventive controls since it is based on the abuse of operating system design features. For example, mitigating specific API calls will likely have unintended side effects, such as preventing legitimate software (i.e., security products) from operating properly. Efforts should be focused on preventing adversary tools from running earlie",
+      "techniques": []
+    },
+    {
+      "id": "M1046",
+      "name": "Boot Integrity",
+      "description": "Boot Integrity ensures that a system starts securely by verifying the integrity of its boot process, operating system, and associated components. This mitigation focuses on leveraging secure boot mechanisms, hardware-rooted trust, and runtime integrity checks to prevent tampering during the boot sequence. It is designed to thwart adversaries attempting to modify system firmware, bootloaders, or cr",
+      "techniques": []
+    },
+    {
+      "id": "T1005",
+      "name": "Data from Local System Mitigation",
+      "description": "Identify unnecessary system utilities or potentially malicious software that may be used to collect data from the local system, and audit and/or block them by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SR",
+      "techniques": []
+    },
+    {
+      "id": "T1154",
+      "name": "Trap Mitigation",
+      "description": "Due to potential legitimate uses of trap commands, it's may be difficult to mitigate use of this technique.",
+      "techniques": []
+    },
+    {
+      "id": "M1060",
+      "name": "Out-of-Band Communications Channel",
+      "description": "Establish secure out-of-band communication channels to ensure the continuity of critical communications during security incidents, data integrity attacks, or in-network communication failures. Out-of-band communication refers to using an alternative, separate communication path that is not dependent on the potentially compromised primary network infrastructure. This method can include secure messa",
+      "techniques": []
+    },
+    {
+      "id": "T1173",
+      "name": "Dynamic Data Exchange Mitigation",
+      "description": "Registry keys specific to Microsoft Office feature control security can be set to disable automatic DDE/OLE execution. (Citation: Microsoft DDE Advisory Nov 2017) (Citation: BleepingComputer DDE Disabled in Word Dec 2017) (Citation: GitHub Disable DDEAUTO Oct 2017) Microsoft also created, and enabled by default, Registry keys to completely disable DDE execution in Word and Excel. (Citation: Micros",
+      "techniques": []
+    },
+    {
+      "id": "T1499",
+      "name": "Endpoint Denial of Service Mitigation",
+      "description": "Leverage services provided by Content Delivery Networks (CDN) or providers specializing in DoS mitigations to filter traffic upstream from services.(Citation: CERT-EU DDoS March 2017) Filter boundary traffic by blocking source addresses sourcing the attack, blocking ports that are being targeted, or blocking protocols being used for transport. To defend against SYN floods, enable SYN Cookies.",
+      "techniques": []
+    },
+    {
+      "id": "T1124",
+      "name": "System Time Discovery Mitigation",
+      "description": "Benign software uses legitimate processes to gather system time. Efforts should be focused on preventing unwanted or unknown code from executing on a system. Some common tools, such as net.exe, may be blocked by policy to prevent common ways of acquiring remote system time.\n\nIdentify unnecessary system utilities or potentially malicious software that may be used to acquire system time information,",
+      "techniques": []
+    },
+    {
+      "id": "T1116",
+      "name": "Code Signing Mitigation",
+      "description": "Process whitelisting and trusted publishers to verify authenticity of software can help prevent signed malicious or untrusted code from executing on a system. (Citation: NSA MS AppLocker) (Citation: TechNet Trusted Publishers) (Citation: Securelist Digital Certificates)",
+      "techniques": []
+    },
+    {
+      "id": "T1501",
+      "name": "Systemd Service Mitigation",
+      "description": "The creation and modification of systemd service unit files is generally reserved for administrators such as the Linux root user and other users with superuser privileges. Limit user access to system utilities such as systemctl to only users who have a legitimate need. Restrict read/write access to systemd unit files to only select privileged users who have a legitimate need to manage system servi",
+      "techniques": []
+    },
+    {
+      "id": "T1158",
+      "name": "Hidden Files and Directories Mitigation",
+      "description": "Mitigation of this technique may be difficult and unadvised due to the the legitimate use of hidden files and directories.",
+      "techniques": []
+    },
+    {
+      "id": "M1030",
+      "name": "Network Segmentation",
+      "description": "Network segmentation involves dividing a network into smaller, isolated segments to control and limit the flow of traffic between devices, systems, and applications. By segmenting networks, organizations can reduce the attack surface, restrict lateral movement by adversaries, and protect critical assets from compromise.\n\nEffective network segmentation leverages a combination of physical boundaries",
+      "techniques": []
+    },
+    {
+      "id": "M1019",
+      "name": "Threat Intelligence Program",
+      "description": "A Threat Intelligence Program enables organizations to proactively identify, analyze, and act on cyber threats by leveraging internal and external data sources. The program supports decision-making processes, prioritizes defenses, and improves incident response by delivering actionable intelligence tailored to the organization's risk profile and operational environment. This mitigation can be impl",
+      "techniques": []
+    },
+    {
+      "id": "T1141",
+      "name": "Input Prompt Mitigation",
+      "description": "This technique exploits users' tendencies to always supply credentials when prompted, which makes it very difficult to mitigate. Use user training as a way to bring awareness and raise suspicion for potentially malicious events (ex: Office documents prompting for credentials).",
+      "techniques": []
+    },
+    {
+      "id": "T1060",
+      "name": "Registry Run Keys / Startup Folder Mitigation",
+      "description": "Identify and block potentially malicious software that may be executed through run key or startup folder persistence using whitelisting (Citation: Beechey 2010) tools like AppLocker (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)",
+      "techniques": []
+    },
+    {
+      "id": "T1119",
+      "name": "Automated Collection Mitigation",
+      "description": "Encryption and off-system storage of sensitive information may be one way to mitigate collection of files, but may not stop an adversary from acquiring the information if an intrusion persists over a long period of time and the adversary is able to discover and access the data through other means. A keylogger installed on a system may be able to intercept passwords through [Input Capture](https://",
+      "techniques": []
+    },
+    {
+      "id": "T1085",
+      "name": "Rundll32 Mitigation",
+      "description": "Microsoft's Enhanced Mitigation Experience Toolkit (EMET) Attack Surface Reduction (ASR) feature can be used to block methods of using rundll32.exe to bypass whitelisting. (Citation: Secure Host Baseline EMET)",
+      "techniques": []
+    },
+    {
+      "id": "T1193",
+      "name": "Spearphishing Attachment Mitigation",
+      "description": "Network intrusion prevention systems and systems designed to scan and remove malicious email attachments can be used to block activity. Solutions can be signature and behavior based, but adversaries may construct attachments in a way to avoid these systems.\n\nBlock unknown or unused attachments by default that should not be transmitted over email as a best practice to prevent some vectors, such as ",
+      "techniques": []
+    },
+    {
+      "id": "T1006",
+      "name": "File System Logical Offsets Mitigation",
+      "description": "Identify potentially malicious software that may be used to access logical drives in this manner, and audit and/or block it by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)",
+      "techniques": []
+    },
+    {
+      "id": "M1027",
+      "name": "Password Policies",
+      "description": "Set and enforce secure password policies for accounts to reduce the likelihood of unauthorized access. Strong password policies include enforcing password complexity, requiring regular password changes, and preventing password reuse. This mitigation can be implemented through the following measures:\n\nWindows Systems:\n\n- Use Group Policy Management Console (GPMC) to configure:\n    - Minimum passwor",
+      "techniques": []
+    },
+    {
+      "id": "M1040",
+      "name": "Behavior Prevention on Endpoint",
+      "description": "Behavior Prevention on Endpoint refers to the use of technologies and strategies to detect and block potentially malicious activities by analyzing the behavior of processes, files, API calls, and other endpoint events. Rather than relying solely on known signatures, this approach leverages heuristics, machine learning, and real-time monitoring to identify anomalous patterns indicative of an attack",
+      "techniques": []
+    },
+    {
+      "id": "T1175",
+      "name": "Distributed Component Object Model Mitigation",
+      "description": "Modify Registry settings (directly or using Dcomcnfg.exe) in <code>HKEY_LOCAL_MACHINE\\SOFTWARE\\Classes\\AppID\\{AppID_GUID}</code> associated with the process-wide security of individual COM applications. (Citation: Microsoft Process Wide Com Keys)\n\nModify Registry settings (directly or using Dcomcnfg.exe) in <code>HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Ole</code> associated with system-wide security",
+      "techniques": []
+    },
+    {
+      "id": "T1191",
+      "name": "CMSTP Mitigation",
+      "description": "CMSTP.exe may not be necessary within a given environment (unless using it for VPN connection installation). Consider using application whitelisting configured to block execution of CMSTP.exe if it is not required for a given system or network to prevent potential misuse by adversaries. (Citation: MSitPros CMSTP Aug 2017)",
+      "techniques": []
+    },
+    {
+      "id": "T1041",
+      "name": "Exfiltration Over Command and Control Channel Mitigation",
+      "description": "Mitigations for command and control apply. Network intrusion detection and prevention systems that use network signatures to identify traffic for specific adversary malware can be used to mitigate activity at the network level. Signatures are often for unique indicators within protocols and may be based on the specific obfuscation technique used by a particular adversary or tool, and will likely b",
+      "techniques": []
+    },
+    {
+      "id": "T1068",
+      "name": "Exploitation for Privilege Escalation Mitigation",
+      "description": "Update software regularly by employing patch management for internal enterprise endpoints and servers. Develop a robust cyber threat intelligence capability to determine what types and levels of threat may use software exploits and 0-days against a particular organization. Make it difficult for adversaries to advance their operation through exploitation of undiscovered or unpatched vulnerabilities",
+      "techniques": []
+    },
+    {
+      "id": "T1058",
+      "name": "Service Registry Permissions Weakness Mitigation",
+      "description": "Ensure proper permissions are set for Registry hives to prevent users from modifying keys for system components that may lead to privilege escalation.\n\nIdentify and block potentially malicious software that may be executed through service abuse by using whitelisting (Citation: Beechey 2010) tools like AppLocker (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) that are capable of au",
+      "techniques": []
+    },
+    {
+      "id": "M1018",
+      "name": "User Account Management",
+      "description": "User Account Management involves implementing and enforcing policies for the lifecycle of user accounts, including creation, modification, and deactivation. Proper account management reduces the attack surface by limiting unauthorized access, managing account privileges, and ensuring accounts are used according to organizational policies. This mitigation can be implemented through the following me",
+      "techniques": []
+    },
+    {
+      "id": "T1131",
+      "name": "Authentication Package Mitigation",
+      "description": "Windows 8.1, Windows Server 2012 R2, and later versions, may make LSA run as a Protected Process Light (PPL) by setting the Registry key <code>HKLM\\SYSTEM\\CurrentControlSet\\Control\\Lsa\\RunAsPPL</code>, which requires all DLLs loaded by LSA to be signed by Microsoft. (Citation: Graeber 2014) (Citation: Microsoft Configure LSA)",
+      "techniques": []
+    },
+    {
+      "id": "T1165",
+      "name": "Startup Items Mitigation",
+      "description": "Since StartupItems are deprecated, preventing all users from writing to the <code>/Library/StartupItems</code> directory would prevent any startup items from getting registered. Similarly, appropriate permissions should be applied such that only specific users can edit the startup items so that they can\u2019t be leveraged for privilege escalation.",
+      "techniques": []
+    },
+    {
+      "id": "T1126",
+      "name": "Network Share Connection Removal Mitigation",
+      "description": "Follow best practices for mitigation of activity related to establishing [Windows Admin Shares](https://attack.mitre.org/techniques/T1077). \n\nIdentify unnecessary system utilities or potentially malicious software that may be used to leverage network shares, and audit and/or block them by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citati",
+      "techniques": []
+    },
+    {
+      "id": "T1185",
+      "name": "Man in the Browser Mitigation",
+      "description": "Since browser pivoting requires a high integrity process to launch from, restricting user permissions and addressing Privilege Escalation and [Bypass User Account Control](https://attack.mitre.org/techniques/T1088) opportunities can limit the exposure to this technique. \n\nClose all browser sessions regularly and when they are no longer needed.",
+      "techniques": []
+    },
+    {
+      "id": "T1182",
+      "name": "AppCert DLLs Mitigation",
+      "description": "Identify and block potentially malicious software that may be executed through AppCert DLLs by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) that are capable of auditing and/or blocking unknown DLLs.",
+      "techniques": []
+    },
+    {
+      "id": "T1014",
+      "name": "Rootkit Mitigation",
+      "description": "Identify potentially malicious software that may contain rootkit functionality, and audit and/or block it by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)",
+      "techniques": []
+    },
+    {
+      "id": "T1067",
+      "name": "Bootkit Mitigation",
+      "description": "Ensure proper permissions are in place to help prevent adversary access to privileged accounts necessary to perform this action. Use Trusted Platform Module technology and a secure or trusted boot process to prevent system integrity from being compromised. (Citation: TCG Trusted Platform Module) (Citation: TechNet Secure Boot Process)",
+      "techniques": []
+    },
+    {
+      "id": "T1038",
+      "name": "DLL Search Order Hijacking Mitigation",
+      "description": "Disallow loading of remote DLLs. (Citation: Microsoft DLL Preloading) This is included by default in Windows Server 2012+ and is available by patch for XP+ and Server 2003+. (Citation: Microsoft DLL Search) Path Algorithm\n\nEnable Safe DLL Search Mode to force search for system DLLs in directories with greater restrictions (e.g. <code>%SYSTEMROOT%</code>)to be used before local directory DLLs (e.g.",
+      "techniques": []
+    },
+    {
+      "id": "T1195",
+      "name": "Supply Chain Compromise Mitigation",
+      "description": "Apply supply chain risk management (SCRM) practices and procedures (Citation: MITRE SE Guide 2014), such as supply chain analysis and appropriate risk management, throughout the life-cycle of a system.\n\nLeverage established software development lifecycle (SDLC) practices (Citation: NIST Supply Chain 2012): \n\n* Uniquely Identify Supply Chain Elements, Processes, and Actors\n* Limit Access and Exposu",
+      "techniques": []
+    },
+    {
+      "id": "M1022",
+      "name": "Restrict File and Directory Permissions",
+      "description": "Restricting file and directory permissions involves setting access controls at the file system level to limit which users, groups, or processes can read, write, or execute files. By configuring permissions appropriately, organizations can reduce the attack surface for adversaries seeking to access sensitive data, plant malicious code, or tamper with system files.\n\nEnforce Least Privilege Permissio",
+      "techniques": []
+    },
+    {
+      "id": "T1136",
+      "name": "Create Account Mitigation",
+      "description": "Use and enforce multifactor authentication. Follow guidelines to prevent or limit adversary access to [Valid Accounts](https://attack.mitre.org/techniques/T1078) that may be used to create privileged accounts within an environment.\n\nAdversaries that create local accounts on systems may have limited access within a network if access levels are properly locked down. These accounts may only be needed",
+      "techniques": []
+    },
+    {
+      "id": "T1018",
+      "name": "Remote System Discovery Mitigation",
+      "description": "Identify unnecessary system utilities or potentially malicious software that may be used to acquire information on remotely available systems, and audit and/or block them by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet ",
+      "techniques": []
+    },
+    {
+      "id": "T1037",
+      "name": "Logon Scripts Mitigation",
+      "description": "Restrict write access to logon scripts to specific administrators. Prevent access to administrator accounts by mitigating Credential Access techniques and limiting account access and permissions of [Valid Accounts](https://attack.mitre.org/techniques/T1078).\n\nIdentify and block potentially malicious software that may be executed through logon script modification by using whitelisting (Citation: Be",
+      "techniques": []
+    },
+    {
+      "id": "M1026",
+      "name": "Privileged Account Management",
+      "description": "Privileged Account Management focuses on implementing policies, controls, and tools to securely manage privileged accounts (e.g., SYSTEM, root, or administrative accounts). This includes restricting access, limiting the scope of permissions, monitoring privileged account usage, and ensuring accountability through logging and auditing.This mitigation can be implemented through the following measure",
+      "techniques": []
+    },
+    {
+      "id": "T1180",
+      "name": "Screensaver Mitigation",
+      "description": "Block .scr files from being executed from non-standard locations. Set Group Policy to force users to have a dedicated screensaver where local changes should not override the settings to prevent changes. Use Group Policy to disable screensavers if they are unnecessary. (Citation: TechNet Screensaver GP)",
+      "techniques": []
+    },
+    {
+      "id": "T1101",
+      "name": "Security Support Provider Mitigation",
+      "description": "Windows 8.1, Windows Server 2012 R2, and later versions may make LSA run as a Protected Process Light (PPL) by setting the Registry key <code>HKLM\\SYSTEM\\CurrentControlSet\\Control\\Lsa\\RunAsPPL</code>, which requires all SSP DLLs to be signed by Microsoft. (Citation: Graeber 2014) (Citation: Microsoft Configure LSA)",
+      "techniques": []
+    },
+    {
+      "id": "T1065",
+      "name": "Uncommonly Used Port Mitigation",
+      "description": "Properly configure firewalls and proxies to limit outgoing traffic to only necessary ports. \n\nNetwork intrusion detection and prevention systems that use network signatures to identify traffic for specific adversary malware can be used to mitigate activity at the network level. Signatures are often for unique indicators within protocols and may be based on the specific protocol used by a particula",
+      "techniques": []
+    },
+    {
+      "id": "T1023",
+      "name": "Shortcut Modification Mitigation",
+      "description": "Limit permissions for who can create symbolic links in Windows to appropriate groups such as Administrators and necessary groups for virtualization. This can be done through GPO: Computer Configuration > [Policies] > Windows Settings > Security Settings > Local Policies > User Rights Assignment: Create symbolic links. (Citation: UCF STIG Symbolic Links)\n\nIdentify and block unknown, potentially mal",
+      "techniques": []
+    },
+    {
+      "id": "T1209",
+      "name": "Time Providers Mitigation",
+      "description": "Identify and block potentially malicious software that may be executed as a time provider by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) that are capable of auditing and/or blocking unknown DLLs.\n\nConsider using Group Policy to configure and block subsequent modifications to W32Time parameters. (Citation: Micro",
+      "techniques": []
+    },
+    {
+      "id": "M1024",
+      "name": "Restrict Registry Permissions",
+      "description": "Restricting registry permissions involves configuring access control settings for sensitive registry keys and hives to ensure that only authorized users or processes can make modifications. By limiting access, organizations can prevent unauthorized changes that adversaries might use for persistence, privilege escalation, or defense evasion. This mitigation can be implemented through the following ",
+      "techniques": []
+    },
+    {
+      "id": "T1208",
+      "name": "Kerberoasting Mitigation",
+      "description": "Ensure strong password length (ideally 25+ characters) and complexity for service accounts and that these passwords periodically expire. (Citation: AdSecurity Cracking Kerberos Dec 2015) Also consider using Group Managed Service Accounts or another third party product such as password vaulting. (Citation: AdSecurity Cracking Kerberos Dec 2015)\n\nLimit service accounts to minimal required privileges",
+      "techniques": []
+    },
+    {
+      "id": "T1024",
+      "name": "Custom Cryptographic Protocol Mitigation",
+      "description": "Network intrusion detection and prevention systems that use network signatures to identify traffic for specific adversary malware can be used to mitigate activity at the network level. Since the custom protocol used may not adhere to typical protocol standards, there may be opportunities to signature the traffic on a network level for detection. Signatures are often for unique indicators within pr",
+      "techniques": []
+    },
+    {
+      "id": "M1049",
+      "name": "Antivirus/Antimalware",
+      "description": "Antivirus/Antimalware solutions utilize signatures, heuristics, and behavioral analysis to detect, block, and remediate malicious software, including viruses, trojans, ransomware, and spyware. These solutions continuously monitor endpoints and systems for known malicious patterns and suspicious behaviors that indicate compromise. Antivirus/Antimalware software should be deployed across all devices",
+      "techniques": []
+    },
+    {
+      "id": "T1032",
+      "name": "Standard Cryptographic Protocol Mitigation",
+      "description": "Network intrusion detection and prevention systems that use network signatures to identify traffic for specific adversary malware can be used to mitigate activity at the network level. Use of encryption protocols may make typical network-based C2 detection more difficult due to a reduced ability to signature the traffic. Prior knowledge of adversary C2 infrastructure may be useful for domain and I",
+      "techniques": []
+    },
+    {
+      "id": "T1121",
+      "name": "Regsvcs/Regasm Mitigation",
+      "description": "Regsvcs and Regasm may not be necessary within a given environment. Block execution of Regsvcs.exe and Regasm.exe if they are not required for a given system or network to prevent potential misuse by adversaries.",
+      "techniques": []
+    },
+    {
+      "id": "T1011",
+      "name": "Exfiltration Over Other Network Medium Mitigation",
+      "description": "Ensure host-based sensors maintain visibility into usage of all network adapters and prevent the creation of new ones where possible. (Citation: Microsoft GPO Bluetooth FEB 2009) (Citation: TechRepublic Wireless GPO FEB 2009)",
+      "techniques": []
+    },
+    {
+      "id": "T1061",
+      "name": "Graphical User Interface Mitigation",
+      "description": "Prevent adversaries from gaining access to credentials through Credential Access that can be used to log into remote desktop sessions on systems.\n\nIdentify unnecessary system utilities, third-party tools, or potentially malicious software that may be used to log into remote interactive sessions, and audit and/or block them by using whitelisting (Citation: Beechey 2010) tools, like AppLocker (Citat",
+      "techniques": []
+    },
+    {
+      "id": "T1096",
+      "name": "NTFS File Attributes Mitigation",
+      "description": "It may be difficult or inadvisable to block access to EA and ADSs. (Citation: Microsoft ADS Mar 2014) (Citation: Symantec ADS May 2009) Efforts should be focused on preventing potentially malicious software from running. Identify and block potentially malicious software that may contain functionality to hide information in EA and ADSs by using whitelisting (Citation: Beechey 2010) tools like AppLo",
+      "techniques": []
+    },
+    {
+      "id": "T1139",
+      "name": "Bash History Mitigation",
+      "description": "There are multiple methods of preventing a user's command history from being flushed to their .bash_history file, including use of the following commands:\n<code>set +o history</code> and <code>set -o history</code> to start logging again;\n<code>unset HISTFILE</code> being added to a user's .bash_rc file; and\n<code>ln -s /dev/null ~/.bash_history</code> to write commands to <code>/dev/null</code>in",
+      "techniques": []
+    },
+    {
+      "id": "T1192",
+      "name": "Spearphishing Link Mitigation",
+      "description": "Because this technique involves user interaction on the endpoint, it's difficult to fully mitigate. However, there are potential mitigations. Users can be trained to identify social engineering techniques and spearphishing emails with malicious links. Determine if certain websites that can be used for spearphishing are necessary for business operations and consider blocking access if activity cann",
+      "techniques": []
+    },
+    {
+      "id": "T1500",
+      "name": "Compile After Delivery Mitigation",
+      "description": "This type of technique cannot be easily mitigated with preventive controls or patched since it is based on the abuse of operating system design features. For example, blocking all file compilation may have unintended side effects, such as preventing legitimate OS frameworks and code development mechanisms from operating properly. Consider removing compilers if not needed, otherwise efforts should ",
+      "techniques": []
+    },
+    {
+      "id": "T1003",
+      "name": "Credential Dumping Mitigation",
+      "description": "### Windows\nMonitor/harden access to LSASS and SAM table with tools that allow process whitelisting. Limit credential overlap across systems to prevent lateral movement opportunities using [Valid Accounts](https://attack.mitre.org/techniques/T1078) if passwords and hashes are obtained. Ensure that local administrator accounts have complex, unique passwords across all systems on the network. Do not",
+      "techniques": []
+    },
+    {
+      "id": "T1219",
+      "name": "Remote Access Tools Mitigation",
+      "description": "Properly configure firewalls, application firewalls, and proxies to limit outgoing traffic to sites and services used by remote access tools.\n\nNetwork intrusion detection and prevention systems that use network signatures may be able to prevent traffic to these services as well.\n\nUse application whitelisting to mitigate use of and installation of unapproved software.",
+      "techniques": []
+    },
+    {
+      "id": "M1032",
+      "name": "Multi-factor Authentication",
+      "description": "Multi-Factor Authentication (MFA) enhances security by requiring users to provide at least two forms of verification to prove their identity before granting access. These factors typically include:\n\n- *Something you know*: Passwords, PINs.\n- *Something you have*: Physical tokens, smartphone authenticator apps.\n- *Something you are*: Biometric data such as fingerprints, facial recognition, or retin",
+      "techniques": []
+    },
+    {
+      "id": "T1176",
+      "name": "Browser Extensions Mitigation",
+      "description": "Only install browser extensions from trusted sources that can be verified. Ensure extensions that are installed are the intended ones as many malicious extensions will masquerade as legitimate ones.\n\nBrowser extensions for some browsers can be controlled through Group Policy. Set a browser extension white or black list as appropriate for your security policy. (Citation: Technospot Chrome Extension",
+      "techniques": []
+    },
+    {
+      "id": "M1054",
+      "name": "Software Configuration",
+      "description": "Software configuration refers to making security-focused adjustments to the settings of applications, middleware, databases, or other software to mitigate potential threats. These changes help reduce the attack surface, enforce best practices, and protect sensitive data. This mitigation can be implemented through the following measures:\n\nConduct a Security Review of Application Settings:\n\n- Review",
+      "techniques": []
+    },
+    {
+      "id": "T1207",
+      "name": "DCShadow Mitigation",
+      "description": "This type of attack technique cannot be easily mitigated with preventive controls since it is based on the abuse of AD design features. For example, mitigating specific AD API calls will likely have unintended side effects, such as preventing DC replication from operating properly. Efforts should be focused on preventing adversary tools from running earlier in the chain of activity and on identifi",
+      "techniques": []
+    },
+    {
+      "id": "T1050",
+      "name": "New Service Mitigation",
+      "description": "Limit privileges of user accounts and remediate Privilege Escalation vectors so only  authorized administrators can create new services.\n\nIdentify and block unnecessary system utilities or potentially malicious software that may be used to create services by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Softwa",
+      "techniques": []
+    },
+    {
+      "id": "T1092",
+      "name": "Communication Through Removable Media Mitigation",
+      "description": "Disable Autorun if it is unnecessary. (Citation: Microsoft Disable Autorun) Disallow or restrict removable media at an organizational policy level if they are not required for business operations. (Citation: TechNet Removable Media Control)",
+      "techniques": []
+    },
+    {
+      "id": "T1178",
+      "name": "SID-History Injection Mitigation",
+      "description": "Clean up SID-History attributes after legitimate account migration is complete.\n\nConsider applying SID Filtering to interforest trusts, such as forest trusts and external trusts, to exclude SID-History from requests to access domain resources. SID Filtering ensures that any authentication requests over a trust only contain SIDs of security principals from the trusted domain (i.e. preventing the tr",
+      "techniques": []
+    },
+    {
+      "id": "M1048",
+      "name": "Application Isolation and Sandboxing",
+      "description": "Application Isolation and Sandboxing refers to the technique of restricting the execution of code to a controlled and isolated environment (e.g., a virtual environment, container, or sandbox). This method prevents potentially malicious code from affecting the rest of the system or network by limiting access to sensitive resources and critical operations. The goal is to contain threats and minimize",
+      "techniques": []
+    },
+    {
+      "id": "T1030",
+      "name": "Data Transfer Size Limits Mitigation",
+      "description": "Network intrusion detection and prevention systems that use network signatures to identify traffic for specific adversary command and control infrastructure and malware can be used to mitigate activity at the network level. Signatures are often for unique indicators within protocols and may be based on the specific obfuscation technique used by a particular adversary or tool, and will likely be di",
+      "techniques": []
+    },
+    {
+      "id": "T1490",
+      "name": "Inhibit System Recovery Mitigation",
+      "description": "Consider technical controls to prevent the disabling of services or deletion of files involved in system recovery. \n\nConsider implementing IT disaster recovery plans that contain procedures for taking regular data backups that can be used to restore organizational data.(Citation: Ready.gov IT DRP) Ensure backups are stored off system and is protected from common methods adversaries may use to gain",
+      "techniques": []
+    },
+    {
+      "id": "T1100",
+      "name": "Web Shell Mitigation",
+      "description": "Ensure that externally facing Web servers are patched regularly to prevent adversary access through [Exploitation for Privilege Escalation](https://attack.mitre.org/techniques/T1068) to gain remote code access or through file inclusion weaknesses that may allow adversaries to upload files or scripts that are automatically served as Web pages. \n\nAudit account and group permissions to ensure that ac",
+      "techniques": []
+    },
+    {
+      "id": "T1075",
+      "name": "Pass the Hash Mitigation",
+      "description": "Monitor systems and domain logs for unusual credential logon activity. Prevent access to [Valid Accounts](https://attack.mitre.org/techniques/T1078). Apply patch KB2871997 to Windows 7 and higher systems to limit the default access of accounts in the local administrator group. \n\nEnable pass the hash mitigations to apply UAC restrictions to local accounts on network logon. The associated Registry k",
+      "techniques": []
+    },
+    {
+      "id": "T1063",
+      "name": "Security Software Discovery Mitigation",
+      "description": "Identify unnecessary system utilities or potentially malicious software that may be used to acquire information about local security software, and audit and/or block them by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet ",
+      "techniques": []
+    },
+    {
+      "id": "T1088",
+      "name": "Bypass User Account Control Mitigation",
+      "description": "Remove users from the local administrator group on systems. Although UAC bypass techniques exist, it is still prudent to use the highest enforcement level for UAC when possible and mitigate bypass opportunities that exist with techniques such as [DLL Search Order Hijacking](https://attack.mitre.org/techniques/T1038). \n\nCheck for common UAC bypass weaknesses on Windows systems to be aware of the ri",
+      "techniques": []
+    },
+    {
+      "id": "T1015",
+      "name": "Accessibility Features Mitigation",
+      "description": "To use this technique remotely, an adversary must use it in conjunction with RDP. Ensure that Network Level Authentication is enabled to force the remote desktop session to authenticate before the session is created and the login screen displayed. It is enabled by default on Windows Vista and later. (Citation: TechNet RDP NLA)\n\nIf possible, use a Remote Desktop Gateway to manage connections and se",
+      "techniques": []
+    },
+    {
+      "id": "T1049",
+      "name": "System Network Connections Discovery Mitigation",
+      "description": "Identify unnecessary system utilities or potentially malicious software that may be used to acquire information about network connections, and audit and/or block them by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Appl",
+      "techniques": []
+    },
+    {
+      "id": "T1163",
+      "name": "Rc.common Mitigation",
+      "description": "Limit privileges of user accounts so only authorized users can edit the rc.common file.",
+      "techniques": []
+    },
+    {
+      "id": "T1168",
+      "name": "Local Job Scheduling Mitigation",
+      "description": "Limit privileges of user accounts and remediate Privilege Escalation vectors so only authorized users can create scheduled jobs. Identify and block unnecessary system utilities or potentially malicious software that may be used to schedule jobs using whitelisting tools.",
+      "techniques": []
+    },
+    {
+      "id": "T1480",
+      "name": "Environmental Keying Mitigation",
+      "description": "This technique likely should not be mitigated with preventative controls because it may protect unintended targets from being compromised. If targeted, efforts should be focused on preventing adversary tools from running earlier in the chain of activity and on identifying subsequent malicious behavior if compromised.",
+      "techniques": []
+    },
+    {
+      "id": "T1134",
+      "name": "Access Token Manipulation Mitigation",
+      "description": "Access tokens are an integral part of the security system within Windows and cannot be turned off. However, an attacker must already have administrator level access on the local system to make full use of this technique; be sure to restrict users and accounts to the least privileges they require to do their job.\n\nAny user can also spoof access tokens if they have legitimate credentials. Follow mit",
+      "techniques": []
+    },
+    {
+      "id": "T1082",
+      "name": "System Information Discovery Mitigation",
+      "description": "Identify unnecessary system utilities or potentially malicious software that may be used to acquire information about the operating system and underlying hardware, and audit and/or block them by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate",
+      "techniques": []
+    },
+    {
+      "id": "T1221",
+      "name": "Template Injection Mitigation",
+      "description": "Consider disabling Microsoft Office macros/active content to prevent the execution of malicious payloads in documents (Citation: Microsoft Disable Macros), though this setting may not mitigate the [Forced Authentication](https://attack.mitre.org/techniques/T1187) use for this technique.\n\nBecause this technique involves user interaction on the endpoint, it's difficult to fully mitigate. However, th",
+      "techniques": []
+    },
+    {
+      "id": "T1194",
+      "name": "Spearphishing via Service Mitigation",
+      "description": "Determine if certain social media sites, personal webmail services, or other service that can be used for spearphishing is necessary for business operations and consider blocking access if activity cannot be monitored well or if it poses a significant risk.\n\nBecause this technique involves use of legitimate services and user interaction on the endpoint, it's difficult to fully mitigate. However, t",
+      "techniques": []
+    },
+    {
+      "id": "T1017",
+      "name": "Application Deployment Software Mitigation",
+      "description": "Grant access to application deployment systems only to a limited number of authorized administrators. Ensure proper system and access isolation for critical network systems through use of firewalls, account privilege separation, group policy, and multifactor authentication. Verify that account credentials that may be used to access deployment systems are unique and not used throughout the enterpri",
+      "techniques": []
+    },
+    {
+      "id": "T1045",
+      "name": "Software Packing Mitigation",
+      "description": "Ensure updated virus definitions. Create custom signatures for observed malware. Employ heuristic-based malware detection.\n\nIdentify and prevent execution of potentially malicious software that may have been packed by using whitelisting (Citation: Beechey 2010) tools like AppLocker (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 20",
+      "techniques": []
+    },
+    {
+      "id": "T1197",
+      "name": "BITS Jobs Mitigation",
+      "description": "This type of attack technique cannot be easily mitigated with preventive controls since it is based on the abuse of operating system design features. For example, disabling all BITS functionality will likely have unintended side effects, such as preventing legitimate software patching and updating. Efforts should be focused on preventing adversary tools from running earlier in the chain of activit",
+      "techniques": []
+    },
+    {
+      "id": "T1181",
+      "name": "Extra Window Memory Injection Mitigation",
+      "description": "This type of attack technique cannot be easily mitigated with preventive controls since it is based on the abuse of operating system design features. For example, mitigating specific API calls will likely have unintended side effects, such as preventing legitimate software (i.e., security products) from operating properly. Efforts should be focused on preventing adversary tools from running earlie",
+      "techniques": []
+    },
+    {
+      "id": "M1047",
+      "name": "Audit",
+      "description": "Auditing is the process of recording activity and systematically reviewing and analyzing the activity and system configurations. The primary purpose of auditing is to detect anomalies and identify potential threats or weaknesses in the environment. Proper auditing configurations can also help to meet compliance requirements. The process of auditing encompasses regular analysis of user behaviors an",
+      "techniques": []
+    },
+    {
+      "id": "T1105",
+      "name": "Remote File Copy Mitigation",
+      "description": "Network intrusion detection and prevention systems that use network signatures to identify traffic for specific adversary malware or unusual data transfer over known tools and protocols like FTP can be used to mitigate activity at the network level. Signatures are often for unique indicators within protocols and may be based on the specific obfuscation technique used by a particular adversary or t",
+      "techniques": []
+    },
+    {
+      "id": "T1138",
+      "name": "Application Shimming Mitigation",
+      "description": "There currently aren't a lot of ways to mitigate application shimming. Disabling the Shim Engine isn't recommended because Windows depends on shimming for interoperability and software may become unstable or not work. Microsoft released an optional patch update - KB3045645 - that will remove the \"auto-elevate\" flag within the sdbinst.exe. This will prevent use of application shimming to bypass UAC",
+      "techniques": []
+    },
+    {
+      "id": "T1129",
+      "name": "Execution through Module Load Mitigation",
+      "description": "Directly mitigating module loads and API calls related to module loads will likely have unintended side effects, such as preventing legitimate software from operating properly. Efforts should be focused on preventing adversary tools from running earlier in the chain of activity and on identifying and correlated subsequent behavior to determine if it is the result of malicious activity.",
+      "techniques": []
+    },
+    {
+      "id": "T1140",
+      "name": "Deobfuscate/Decode Files or Information Mitigation",
+      "description": "Identify unnecessary system utilities or potentially malicious software that may be used to deobfuscate or decode files or information, and audit and/or block them by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applock",
+      "techniques": []
+    },
+    {
+      "id": "T1086",
+      "name": "PowerShell Mitigation",
+      "description": "It may be possible to remove PowerShell from systems when not needed, but a review should be performed to assess the impact to an environment, since it could be in use for many legitimate purposes and administrative functions. When PowerShell is necessary, restrict PowerShell execution policy to administrators and to only execute signed scripts. Be aware that there are methods of bypassing the Pow",
+      "techniques": []
+    },
+    {
+      "id": "T1001",
+      "name": "Data Obfuscation Mitigation",
+      "description": "Network intrusion detection and prevention systems that use network signatures to identify traffic for specific adversary malware can be used to mitigate activity at the network level. Signatures are often for unique indicators within protocols and may be based on the specific obfuscation technique used by a particular adversary or tool, and will likely be different across various malware families",
+      "techniques": []
+    },
+    {
+      "id": "T1046",
+      "name": "Network Service Scanning Mitigation",
+      "description": "Use network intrusion detection/prevention systems to detect and prevent remote service scans. Ensure that unnecessary ports and services are closed and proper network segmentation is followed to protect critical servers and devices.\n\nIdentify unnecessary system utilities or potentially malicious software that may be used to acquire information about services running on remote systems, and audit a",
+      "techniques": []
+    },
+    {
+      "id": "M1050",
+      "name": "Exploit Protection",
+      "description": "Deploy capabilities that detect, block, and mitigate conditions indicative of software exploits. These capabilities aim to prevent exploitation by addressing vulnerabilities, monitoring anomalous behaviors, and applying exploit-mitigation techniques to harden systems and software.\n\nOperating System Exploit Protections:\n\n- Use Case: Enable built-in exploit protection features provided by modern ope",
+      "techniques": []
+    },
+    {
+      "id": "T1170",
+      "name": "Mshta Mitigation",
+      "description": "Mshta.exe may not be necessary within a given environment since its functionality is tied to older versions of Internet Explorer that have reached end of life. Use application whitelisting configured to block execution of mshta.exe if it is not required for a given system or network to prevent potential misuse by adversaries.",
+      "techniques": []
+    },
+    {
+      "id": "T1078",
+      "name": "Valid Accounts Mitigation",
+      "description": "Take measures to detect or prevent techniques such as [OS Credential Dumping](https://attack.mitre.org/techniques/T1003) or installation of keyloggers to acquire credentials through [Input Capture](https://attack.mitre.org/techniques/T1056). Limit credential overlap across systems to prevent access if account credentials are obtained. Ensure that local administrator accounts have complex, unique p",
+      "techniques": []
+    },
+    {
+      "id": "T1133",
+      "name": "External Remote Services Mitigation",
+      "description": "Limit access to remote services through centrally managed concentrators such as VPNs and other managed remote access systems. Deny direct remote access to internal systems through the use of network proxies, gateways, and firewalls. Disable or block remotely available services such as [Windows Remote Management](https://attack.mitre.org/techniques/T1028). Use strong two-factor or multi-factor auth",
+      "techniques": []
+    },
+    {
+      "id": "T1035",
+      "name": "Service Execution Mitigation",
+      "description": "Ensure that permissions disallow services that run at a higher permissions level from being created or interacted with by a user with a lower permission level. Also ensure that high permission level service binaries cannot be replaced or modified by users with a lower permission level.\n\nIdentify unnecessary system utilities or potentially malicious software that may be used to interact with Window",
+      "techniques": []
+    },
+    {
+      "id": "T1042",
+      "name": "Change Default File Association Mitigation",
+      "description": "Direct mitigation of this technique is not recommended since it is a legitimate function that can be performed by users for software preferences. Follow Microsoft's best practices for file associations. (Citation: MSDN File Associations)\n\nIdentify and block potentially malicious software that may be executed by this technique using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Cita",
+      "techniques": []
+    },
+    {
+      "id": "T1007",
+      "name": "System Service Discovery Mitigation",
+      "description": "Identify unnecessary system utilities or potentially malicious software that may be used to acquire information about services, and audit and/or block them by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SR",
+      "techniques": []
+    },
+    {
+      "id": "T1039",
+      "name": "Data from Network Shared Drive Mitigation",
+      "description": "Identify unnecessary system utilities or potentially malicious software that may be used to collect data from a network share, and audit and/or block them by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP",
+      "techniques": []
+    },
+    {
+      "id": "T1125",
+      "name": "Video Capture Mitigation",
+      "description": "Mitigating this technique specifically may be difficult as it requires fine-grained API control. Efforts should be focused on preventing unwanted or unknown code from executing on a system.\n\nIdentify and block potentially malicious software that may be used to capture video and images by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citatio",
+      "techniques": []
+    },
+    {
+      "id": "T1026",
+      "name": "Multiband Communication Mitigation",
+      "description": "Network intrusion detection and prevention systems that use network signatures to identify traffic for specific adversary malware can be used to mitigate activity at the network level. Signatures are often for unique indicators within protocols and may be based on the specific protocol used by a particular adversary or tool, and will likely be different across various malware families and versions",
+      "techniques": []
+    },
+    {
+      "id": "T1206",
+      "name": "Sudo Caching Mitigation",
+      "description": "Setting the <code>timestamp_timeout</code> to 0 will require the user to input their password every time <code>sudo</code> is executed. Similarly, ensuring that the <code>tty_tickets</code> setting is enabled will prevent this leakage across tty sessions.",
+      "techniques": []
+    },
+    {
+      "id": "T1157",
+      "name": "Dylib Hijacking Mitigation",
+      "description": "Prevent users from being able to write files to the search paths for applications, both in the folders where applications are run from and the standard dylib folders. If users can't write to these directories, then they can't intercept the search path.",
+      "techniques": []
+    },
+    {
+      "id": "T1069",
+      "name": "Permission Groups Discovery Mitigation",
+      "description": "Identify unnecessary system utilities or potentially malicious software that may be used to acquire information about groups and permissions, and audit and/or block them by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet A",
+      "techniques": []
+    },
+    {
+      "id": "T1034",
+      "name": "Path Interception Mitigation",
+      "description": "Eliminate path interception weaknesses in program configuration files, scripts, the PATH environment variable, services, and in shortcuts by surrounding PATH variables with quotation marks when functions allow for them (Citation: Microsoft CreateProcess). Be aware of the search order Windows uses for executing or loading binaries and use fully qualified paths wherever appropriate (Citation: MSDN D",
+      "techniques": []
+    },
+    {
+      "id": "T1152",
+      "name": "Launchctl Mitigation",
+      "description": "Prevent users from installing their own launch agents or launch daemons and instead require them to be pushed out by group policy.",
+      "techniques": []
+    },
+    {
+      "id": "M1015",
+      "name": "Active Directory Configuration",
+      "description": "Implement robust Active Directory (AD) configurations using group policies to secure user accounts, control access, and minimize the attack surface. AD configurations enable centralized control over account settings, logon policies, and permissions, reducing the risk of unauthorized access and lateral movement within the network. This mitigation can be implemented through the following measures:\n\n",
+      "techniques": []
+    },
+    {
+      "id": "T1052",
+      "name": "Exfiltration Over Physical Medium Mitigation",
+      "description": "Disable Autorun if it is unnecessary. (Citation: Microsoft Disable Autorun) Disallow or restrict removable media at an organizational policy level if they are not required for business operations. (Citation: TechNet Removable Media Control)",
+      "techniques": []
+    },
+    {
+      "id": "M1051",
+      "name": "Update Software",
+      "description": "Software updates ensure systems are protected against known vulnerabilities by applying patches and upgrades provided by vendors. Regular updates reduce the attack surface and prevent adversaries from exploiting known security gaps. This includes patching operating systems, applications, drivers, and firmware. This mitigation can be implemented through the following measures:\n\nRegular Operating Sy",
+      "techniques": []
+    },
+    {
+      "id": "M1044",
+      "name": "Restrict Library Loading",
+      "description": "Restricting library loading involves implementing security controls to ensure that only trusted and verified libraries (DLLs, shared objects, etc.) are loaded into processes. Adversaries often abuse Dynamic-Link Library (DLL) Injection, DLL Search Order Hijacking, or LD_PRELOAD mechanisms to execute malicious code by forcing the operating system to load untrusted libraries. This mitigation can be ",
+      "techniques": []
+    },
+    {
+      "id": "T1111",
+      "name": "Two-Factor Authentication Interception Mitigation",
+      "description": "Remove smart cards when not in use. Protect devices and services used to transmit and receive out-of-band codes.\n\nIdentify and block potentially malicious software that may be used to intercept 2FA credentials on a system by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation:",
+      "techniques": []
+    },
+    {
+      "id": "T1492",
+      "name": "Stored Data Manipulation Mitigation",
+      "description": "Identify critical business and system processes that may be targeted by adversaries and work to secure the data related to those processes against tampering. Ensure least privilege principles are applied to important information resources to reduce exposure to data manipulation risk. Consider encrypting important information to reduce an adversaries ability to perform tailor data modifications. Wh",
+      "techniques": []
+    },
+    {
+      "id": "M1042",
+      "name": "Disable or Remove Feature or Program",
+      "description": "Disable or remove unnecessary and potentially vulnerable software, features, or services to reduce the attack surface and prevent abuse by adversaries. This involves identifying software or features that are no longer needed or that could be exploited and ensuring they are either removed or properly disabled. This mitigation can be implemented through the following measures: \n\nRemove Legacy Softwa",
+      "techniques": []
+    },
+    {
+      "id": "T1118",
+      "name": "InstallUtil Mitigation",
+      "description": "InstallUtil may not be necessary within a given environment. Use application whitelisting configured to block execution of InstallUtil.exe if it is not required for a given system or network to prevent potential misuse by adversaries.",
+      "techniques": []
+    },
+    {
+      "id": "T1054",
+      "name": "Indicator Blocking Mitigation",
+      "description": "Ensure event tracers/forwarders (Citation: Microsoft ETW May 2018), firewall policies, and other associated mechanisms are secured with appropriate permissions and access controls. Consider automatically relaunching forwarding mechanisms at recurring intervals (ex: temporal, on-logon, etc.) as well as applying appropriate change management to firewall rules and other related system configurations.",
+      "techniques": []
+    },
+    {
+      "id": "T1112",
+      "name": "Modify Registry Mitigation",
+      "description": "Misconfiguration of permissions in the Registry may lead to opportunities for an adversary to execute code, like through [Service Registry Permissions Weakness](https://attack.mitre.org/techniques/T1058). Ensure proper permissions are set for Registry hives to prevent users from modifying keys for system components that may lead to privilege escalation.\n\nIdentify and block unnecessary system utili",
+      "techniques": []
+    },
+    {
+      "id": "T1198",
+      "name": "SIP and Trust Provider Hijacking Mitigation",
+      "description": "Ensure proper permissions are set for Registry hives to prevent users from modifying keys related to SIP and trust provider components. Also ensure that these values contain their full path to prevent [DLL Search Order Hijacking](https://attack.mitre.org/techniques/T1038). (Citation: SpectorOps Subverting Trust Sept 2017)\n\nConsider removing unnecessary and/or stale SIPs. (Citation: SpectorOps Subv",
+      "techniques": []
+    },
+    {
+      "id": "T1091",
+      "name": "Replication Through Removable Media Mitigation",
+      "description": "Disable Autorun if it is unnecessary. (Citation: Microsoft Disable Autorun) Disallow or restrict removable media at an organizational policy level if it is not required for business operations. (Citation: TechNet Removable Media Control)\n\nIdentify potentially malicious software that may be used to infect removable media or may result from tainted removable media, and audit and/or block it by using",
+      "techniques": []
+    },
+    {
+      "id": "T1080",
+      "name": "Taint Shared Content Mitigation",
+      "description": "Protect shared folders by minimizing users who have write access. Use utilities that detect or mitigate common features used in exploitation, such as the Microsoft Enhanced Mitigation Experience Toolkit (EMET).\n\nReduce potential lateral movement risk by using web-based document management and collaboration services that do not use network file and directory sharing.\n\nIdentify potentially malicious",
+      "techniques": []
+    },
+    {
+      "id": "T1145",
+      "name": "Private Keys Mitigation",
+      "description": "Use strong passphrases for private keys to make cracking difficult. When possible, store keys on separate cryptographic hardware instead of on the local system. Ensure only authorized keys are allowed access to critical resources and audit access lists regularly. Ensure permissions are properly set on folders containing sensitive private keys to prevent unintended access. Use separate infrastructu",
+      "techniques": []
+    },
+    {
+      "id": "T1053",
+      "name": "Scheduled Task Mitigation",
+      "description": "Limit privileges of user accounts and remediate Privilege Escalation vectors so only authorized administrators can create scheduled tasks on remote systems. Toolkits like the PowerSploit framework contain PowerUp modules that can be used to explore systems for permission weaknesses in scheduled tasks that could be used to escalate privileges. (Citation: Powersploit)\n\nConfigure settings for schedul",
+      "techniques": []
+    },
+    {
+      "id": "T1203",
+      "name": "Exploitation for Client Execution Mitigation",
+      "description": "Browser sandboxes can be used to mitigate some of the impact of exploitation, but sandbox escapes may still exist. (Citation: Windows Blogs Microsoft Edge Sandbox) (Citation: Ars Technica Pwn2Own 2017 VM Escape)\n\nOther types of virtualization and application microsegmentation may also mitigate the impact of client-side exploitation. The risks of additional exploits and weaknesses in implementation",
+      "techniques": []
+    },
+    {
+      "id": "T1094",
+      "name": "Custom Command and Control Protocol Mitigation",
+      "description": "Properly configure firewalls and proxies to limit outgoing traffic to only necessary ports and through proper network gateway systems. Also ensure hosts are only provisioned to communicate over authorized interfaces.\n\nNetwork intrusion detection and prevention systems that use network signatures to identify traffic for specific adversary malware can be used to mitigate activity at the network leve",
+      "techniques": []
+    },
+    {
+      "id": "T1057",
+      "name": "Process Discovery Mitigation",
+      "description": "Identify unnecessary system utilities or potentially malicious software that may be used to acquire information about processes, and audit and/or block them by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs S",
+      "techniques": []
+    },
+    {
+      "id": "T1205",
+      "name": "Port Knocking Mitigation",
+      "description": "Mitigation of some variants of this technique could be achieved through the use of stateful firewalls, depending upon how it is implemented.",
+      "techniques": []
+    },
+    {
+      "id": "T1108",
+      "name": "Redundant Access Mitigation",
+      "description": "Identify and block potentially malicious software that may be used as a remote access tool, and audit and/or block it by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate. (Citation: TechNet Applocker vs SRP)\n\nNetwork intrusion detection and pr",
+      "techniques": []
+    },
+    {
+      "id": "M1036",
+      "name": "Account Use Policies",
+      "description": "Account Use Policies help mitigate unauthorized access by configuring and enforcing rules that govern how and when accounts can be used. These policies include enforcing account lockout mechanisms, restricting login times, and setting inactivity timeouts. Proper configuration of these policies reduces the risk of brute-force attacks, credential theft, and unauthorized access by limiting the opport",
+      "techniques": []
+    },
+    {
+      "id": "T1143",
+      "name": "Hidden Window Mitigation",
+      "description": "Whitelist programs that are allowed to have this plist tag. All other programs should be considered suspicious.",
+      "techniques": []
+    },
+    {
+      "id": "T1132",
+      "name": "Data Encoding Mitigation",
+      "description": "Network intrusion detection and prevention systems that use network signatures to identify traffic for specific adversary malware can be used to mitigate activity at the network level. Signatures are often for unique indicators within protocols and may be based on the specific obfuscation technique used by a particular adversary or tool, and will likely be different across various malware families",
+      "techniques": []
+    },
+    {
+      "id": "T1031",
+      "name": "Modify Existing Service Mitigation",
+      "description": "Use auditing tools capable of detecting privilege and service abuse opportunities on systems within an enterprise and correct them. Limit privileges of user accounts and groups so that only authorized administrators can interact with service changes and service configurations. Toolkits like the PowerSploit framework contain the PowerUp modules that can be used to explore systems for Privilege Esca",
+      "techniques": []
+    },
+    {
+      "id": "M1041",
+      "name": "Encrypt Sensitive Information",
+      "description": "Protect sensitive information at rest, in transit, and during processing by using strong encryption algorithms. Encryption ensures the confidentiality and integrity of data, preventing unauthorized access or tampering. This mitigation can be implemented through the following measures:\n\nEncrypt Data at Rest:\n\n- Use Case: Use full-disk encryption or file-level encryption to secure sensitive data sto",
+      "techniques": []
+    },
+    {
+      "id": "T1122",
+      "name": "Component Object Model Hijacking Mitigation",
+      "description": "Direct mitigation of this technique may not be recommended for a particular environment since COM objects are a legitimate part of the operating system and installed software. Blocking COM object changes may have unforeseen side effects to legitimate functionality.\n\nInstead, identify and block potentially malicious software that may execute, or be executed by, this technique using whitelisting (Ci",
+      "techniques": []
+    }
+  ]
+}

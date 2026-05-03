@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-610",
+  "name": "Cellular Data Injection",
+  "description": "Adversaries inject data into mobile technology traffic (data flows or signaling data) to disrupt communications or conduct additional surveillance operations.",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

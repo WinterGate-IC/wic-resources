@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-227",
+  "name": "Sustained Client Engagement",
+  "description": "An adversary attempts to deny legitimate users access to a resource by continually engaging a specific resource in an attempt to keep the resource tied up as long as possible. The adversary's primary goal is not to crash or flood the target, which would alert defenders; rather it is to repeatedly pe",
+  "severity": "Unknown",
+  "likelihood": "Unknown"
+}

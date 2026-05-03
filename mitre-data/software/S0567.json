@@ -1,0 +1,7 @@
+{
+  "id": "S0567",
+  "name": "Dtrack",
+  "type": "malware",
+  "description": "[Dtrack](https://attack.mitre.org/software/S0567) is spyware that was discovered in 2019 and has been used against Indian financial institutions, research facilities, and the Kudankulam Nuclear Power Plant. [Dtrack](https://attack.mitre.org/software/S0567) shares similarities with the DarkSeoul campaign, which was attributed to [Lazarus Group](https://attack.mitre.org/groups/G0032). (Citation: Kas",
+  "techniques": []
+}

@@ -1,0 +1,7 @@
+{
+  "id": "S0185",
+  "name": "SEASHARPEE",
+  "type": "malware",
+  "description": "[SEASHARPEE](https://attack.mitre.org/software/S0185) is a Web shell that has been used by [OilRig](https://attack.mitre.org/groups/G0049). (Citation: FireEye APT34 Webinar Dec 2017)",
+  "techniques": []
+}

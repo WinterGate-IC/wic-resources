@@ -1,0 +1,6 @@
+{
+  "id": "T1089",
+  "name": "Disabling Security Tools Mitigation",
+  "description": "Ensure proper process, registry, and file permissions are in place to prevent adversaries from disabling or interfering with security services.",
+  "techniques": []
+}

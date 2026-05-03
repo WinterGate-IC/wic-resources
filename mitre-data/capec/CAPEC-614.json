@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-614",
+  "name": "Rooting SIM Cards",
+  "description": "SIM cards are the de facto trust anchor of mobile devices worldwide. The cards protect the mobile identity of subscribers, associate devices with phone numbers, and increasingly store payment credentials, for example in NFC-enabled phones with mobile wallets. This attack leverages over-the-air (OTA)",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

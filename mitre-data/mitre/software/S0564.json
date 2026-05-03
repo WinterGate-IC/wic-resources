@@ -1,0 +1,7 @@
+{
+  "id": "S0564",
+  "name": "BlackMould",
+  "type": "malware",
+  "description": "[BlackMould](https://attack.mitre.org/software/S0564) is a web shell based on [China Chopper](https://attack.mitre.org/software/S0020) for servers running Microsoft IIS. First reported in December 2019, it has been used in malicious campaigns by [GALLIUM](https://attack.mitre.org/groups/G0093) against telecommunication providers.(Citation: Microsoft GALLIUM December 2019)",
+  "techniques": []
+}

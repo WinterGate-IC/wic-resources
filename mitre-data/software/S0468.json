@@ -1,0 +1,7 @@
+{
+  "id": "S0468",
+  "name": "Skidmap",
+  "type": "malware",
+  "description": "[Skidmap](https://attack.mitre.org/software/S0468) is a kernel-mode rootkit used for cryptocurrency mining.(Citation: Trend Micro Skidmap)",
+  "techniques": []
+}

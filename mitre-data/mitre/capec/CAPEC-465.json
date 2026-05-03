@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-465",
+  "name": "Transparent Proxy Abuse",
+  "description": "A transparent proxy serves as an intermediate between the client and the internet at large. It intercepts all requests originating from the client and forwards them to the correct location. The proxy also intercepts all responses to the client and forwards these to the client. All of this is done in",
+  "severity": "Medium",
+  "likelihood": "Unknown"
+}

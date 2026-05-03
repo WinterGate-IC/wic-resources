@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-221",
+  "name": "Data Serialization External Entities Blowup",
+  "description": "This attack takes advantage of the entity replacement property of certain data serialization languages (e.g., XML, YAML, etc.) where the value of the replacement is a URI. A well-crafted file could have the entity refer to a URI that consumes a large amount of resources to create a denial of service",
+  "severity": "Unknown",
+  "likelihood": "Unknown"
+}

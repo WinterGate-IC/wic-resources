@@ -1,0 +1,5 @@
+T1202: 79424 observations
+T1110: 49783 observations
+T1190: 36529 observations
+T1133: 41 observations
+T1046: 40 observations

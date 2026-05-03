@@ -1,0 +1,7 @@
+{
+  "id": "S0159",
+  "name": "SNUGRIDE",
+  "type": "malware",
+  "description": "[SNUGRIDE](https://attack.mitre.org/software/S0159) is a backdoor that has been used by [menuPass](https://attack.mitre.org/groups/G0045) as first stage malware. (Citation: FireEye APT10 April 2017)",
+  "techniques": []
+}

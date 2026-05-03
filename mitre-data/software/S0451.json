@@ -1,0 +1,7 @@
+{
+  "id": "S0451",
+  "name": "LoudMiner",
+  "type": "malware",
+  "description": "[LoudMiner](https://attack.mitre.org/software/S0451) is a cryptocurrency miner which uses virtualization software to siphon system resources. The miner has been bundled with pirated copies of Virtual Studio Technology (VST) for Windows and macOS.(Citation: ESET LoudMiner June 2019)",
+  "techniques": []
+}

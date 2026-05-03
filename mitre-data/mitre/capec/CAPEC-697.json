@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-697",
+  "name": "DHCP Spoofing",
+  "description": "\n            <xhtml:p>An adversary masquerades as a legitimate Dynamic Host Configuration Protocol (DHCP) server by spoofing DHCP traffic, with the goal of redirecting network traffic or denying service to DHCP.</xhtml:p>\n         ",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

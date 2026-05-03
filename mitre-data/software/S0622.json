@@ -1,0 +1,7 @@
+{
+  "id": "S0622",
+  "name": "AppleSeed",
+  "type": "malware",
+  "description": "[AppleSeed](https://attack.mitre.org/software/S0622) is a backdoor that has been used by [Kimsuky](https://attack.mitre.org/groups/G0094) to target South Korean government, academic, and commercial  targets since at least 2021.(Citation: Malwarebytes Kimsuky June 2021)",
+  "techniques": []
+}

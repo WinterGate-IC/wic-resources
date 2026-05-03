@@ -1,0 +1,7 @@
+{
+  "id": "S0182",
+  "name": "FinFisher",
+  "type": "malware",
+  "description": "[FinFisher](https://attack.mitre.org/software/S0182) is a government-grade commercial surveillance spyware reportedly sold exclusively to government agencies for use in targeted and lawful criminal investigations. It is heavily obfuscated and uses multiple anti-analysis techniques. It has other variants including [Wingbird](https://attack.mitre.org/software/S0176). (Citation: FinFisher Citation) (",
+  "techniques": []
+}

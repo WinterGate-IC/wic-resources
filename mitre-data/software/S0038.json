@@ -1,0 +1,7 @@
+{
+  "id": "S0038",
+  "name": "Duqu",
+  "type": "malware",
+  "description": "[Duqu](https://attack.mitre.org/software/S0038) is a malware platform that uses a modular approach to extend functionality after deployment within a target network. (Citation: Symantec W32.Duqu)",
+  "techniques": []
+}

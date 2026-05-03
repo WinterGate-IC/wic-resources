@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-387",
+  "name": "Navigation Remapping To Propagate Malicious Content",
+  "description": "An adversary manipulates either egress or ingress data from a client within an application framework in order to change the content of messages and thereby circumvent the expected application logic.",
+  "severity": "Medium",
+  "likelihood": "Unknown"
+}

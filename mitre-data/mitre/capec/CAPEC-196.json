@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-196",
+  "name": "Session Credential Falsification through Forging",
+  "description": "An attacker creates a false but functional session credential in order to gain or usurp access to a service. Session credentials allow users to identify themselves to a service after an initial authentication without needing to resend the authentication information (usually a username and password) ",
+  "severity": "Medium",
+  "likelihood": "Unknown"
+}

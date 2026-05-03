@@ -1,0 +1,7 @@
+{
+  "id": "S1240",
+  "name": "RedLine Stealer",
+  "type": "malware",
+  "description": "[RedLine Stealer](https://attack.mitre.org/software/S1240) is an information-stealer malware variant first identified in 2020.(Citation: ESET RedLine Stealer November 2024)(Citation: Proofpoint RedLine Stealer March 2020)(Citation: Splunk RedLine Stealer June 2023)  [RedLine Stealer](https://attack.mitre.org/software/S1240) is a Malware as a Service (MaaS) and was reportedly sold as either a one-t",
+  "techniques": []
+}

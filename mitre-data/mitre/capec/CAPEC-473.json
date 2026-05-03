@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-473",
+  "name": "Signature Spoof",
+  "description": "An attacker generates a message or datablock that causes the recipient to believe that the message or datablock was generated and cryptographically signed by an authoritative or reputable source, misleading a victim or victim operating system into performing malicious actions.",
+  "severity": "Unknown",
+  "likelihood": "Unknown"
+}

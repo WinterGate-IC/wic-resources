@@ -1,0 +1,7 @@
+{
+  "id": "S0228",
+  "name": "NanHaiShu",
+  "type": "malware",
+  "description": "[NanHaiShu](https://attack.mitre.org/software/S0228) is a remote access tool and JScript backdoor used by [Leviathan](https://attack.mitre.org/groups/G0065). [NanHaiShu](https://attack.mitre.org/software/S0228) has been used to target government and private-sector organizations that have relations to the South China Sea dispute. (Citation: Proofpoint Leviathan Oct 2017) (Citation: fsecure NanHaiSh",
+  "techniques": []
+}

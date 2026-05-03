@@ -1,0 +1,7 @@
+{
+  "id": "S0639",
+  "name": "Seth-Locker",
+  "type": "malware",
+  "description": "[Seth-Locker](https://attack.mitre.org/software/S0639) is a ransomware with some remote control capabilities that has been in use since at least 2021.\n(Citation: Trend Micro Ransomware February 2021)",
+  "techniques": []
+}

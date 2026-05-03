@@ -1,0 +1,6 @@
+{
+  "id": "T1159",
+  "name": "Launch Agent Mitigation",
+  "description": "Restrict user's abilities to create Launch Agents with group policy.",
+  "techniques": []
+}

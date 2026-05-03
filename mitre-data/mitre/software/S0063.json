@@ -1,0 +1,7 @@
+{
+  "id": "S0063",
+  "name": "SHOTPUT",
+  "type": "malware",
+  "description": "[SHOTPUT](https://attack.mitre.org/software/S0063) is a custom backdoor used by [APT3](https://attack.mitre.org/groups/G0022). (Citation: FireEye Clandestine Wolf)",
+  "techniques": []
+}

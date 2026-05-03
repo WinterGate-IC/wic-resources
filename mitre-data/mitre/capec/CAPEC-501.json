@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-501",
+  "name": "Android Activity Hijack",
+  "description": "An adversary intercepts an implicit intent sent to launch a Android-based trusted activity and instead launches a counterfeit activity in its place. The malicious activity is then used to mimic the trusted activity's user interface and prompt the target to enter sensitive data as if they were intera",
+  "severity": "Medium",
+  "likelihood": "Unknown"
+}

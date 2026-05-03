@@ -1,0 +1,7 @@
+{
+  "id": "S0496",
+  "name": "REvil",
+  "type": "malware",
+  "description": "[REvil](https://attack.mitre.org/software/S0496) is a ransomware family that has been linked to the [GOLD SOUTHFIELD](https://attack.mitre.org/groups/G0115) group and operated as ransomware-as-a-service (RaaS) since at least April 2019. [REvil](https://attack.mitre.org/software/S0496), which as been used against organizations in the manufacturing, transportation, and electric sectors, is highly co",
+  "techniques": []
+}

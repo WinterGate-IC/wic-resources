@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-195",
+  "name": "Principal Spoof",
+  "description": "A Principal Spoof is a form of Identity Spoofing where an adversary pretends to be some other person in an interaction. This is often accomplished by crafting a message (either written, verbal, or visual) that appears to come from a person other than the adversary. Phishing and Pharming attacks ofte",
+  "severity": "Medium",
+  "likelihood": "Unknown"
+}

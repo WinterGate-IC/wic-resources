@@ -1,0 +1,7 @@
+{
+  "id": "S0080",
+  "name": "Mivast",
+  "type": "malware",
+  "description": "[Mivast](https://attack.mitre.org/software/S0080) is a backdoor that has been used by [Deep Panda](https://attack.mitre.org/groups/G0009). It was reportedly used in the Anthem breach. (Citation: Symantec Black Vine)",
+  "techniques": []
+}

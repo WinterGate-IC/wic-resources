@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-384",
+  "name": "Application API Message Manipulation via Man-in-the-Middle",
+  "description": "An attacker manipulates either egress or ingress data from a client within an application framework in order to change the content of messages. Performing this attack can allow the attacker to gain unauthorized privileges within the application, or conduct attacks such as phishing, deceptive strateg",
+  "severity": "Low",
+  "likelihood": "Unknown"
+}

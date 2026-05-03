@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-560",
+  "name": "Use of Known Domain Credentials",
+  "description": "\n            <xhtml:p>An adversary guesses or obtains (i.e. steals or purchases) legitimate credentials (e.g. userID/password) to achieve authentication and to perform authorized actions under the guise of an authenticated user or service.</xhtml:p>\n         ",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

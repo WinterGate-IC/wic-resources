@@ -1,0 +1,7 @@
+{
+  "id": "S0361",
+  "name": "Expand",
+  "type": "tool",
+  "description": "[Expand](https://attack.mitre.org/software/S0361) is a Windows utility used to expand one or more compressed CAB files.(Citation: Microsoft Expand Utility) It has been used by [BBSRAT](https://attack.mitre.org/software/S0127) to decompress a CAB file into executable content.(Citation: Palo Alto Networks BBSRAT)",
+  "techniques": []
+}

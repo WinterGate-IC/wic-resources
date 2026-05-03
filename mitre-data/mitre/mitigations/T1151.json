@@ -1,0 +1,6 @@
+{
+  "id": "T1151",
+  "name": "Space after Filename Mitigation",
+  "description": "Prevent files from having a trailing space after the extension.",
+  "techniques": []
+}

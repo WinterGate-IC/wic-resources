@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-464",
+  "name": "Evercookie",
+  "description": "An attacker creates a very persistent cookie that stays present even after the user thinks it has been removed. The cookie is stored on the victim's machine in over ten places. When the victim clears the cookie cache via traditional means inside the browser, that operation removes the cookie from ce",
+  "severity": "Medium",
+  "likelihood": "Unknown"
+}

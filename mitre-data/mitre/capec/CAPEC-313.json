@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-313",
+  "name": "Passive OS Fingerprinting",
+  "description": "An adversary engages in activity to detect the version or type of OS software in a an environment by passively monitoring communication between devices, nodes, or applications. Passive techniques for operating system detection send no actual probes to a target, but monitor network or client-server c",
+  "severity": "Low",
+  "likelihood": "Unknown"
+}

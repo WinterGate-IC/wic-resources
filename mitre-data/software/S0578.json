@@ -1,0 +1,7 @@
+{
+  "id": "S0578",
+  "name": "SUPERNOVA",
+  "type": "malware",
+  "description": "[SUPERNOVA](https://attack.mitre.org/software/S0578) is an in-memory web shell written in .NET C#. It was discovered in November 2020 during the investigation of [APT29](https://attack.mitre.org/groups/G0016)'s SolarWinds cyber operation but determined to be unrelated. Subsequent analysis suggests [SUPERNOVA](https://attack.mitre.org/software/S0578) may have been used by the China-based threat gro",
+  "techniques": []
+}

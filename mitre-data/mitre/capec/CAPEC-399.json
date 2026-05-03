@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-399",
+  "name": "Cloning RFID Cards or Chips",
+  "description": "An attacker analyzes data returned by an RFID chip and uses this information to duplicate a RFID signal that responds identically to the target chip. In some cases RFID chips are used for building access control, employee identification, or as markers on products being delivered along a supply chain",
+  "severity": "Unknown",
+  "likelihood": "Unknown"
+}

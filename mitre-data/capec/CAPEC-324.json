@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-324",
+  "name": "TCP (ISN) Sequence Predictability Probe",
+  "description": "This type of operating system probe attempts to determine an estimate for how predictable the sequence number generation algorithm is for a remote host. Statistical techniques, such as standard deviation, can be used to determine how predictable the sequence number generation is for a system. This r",
+  "severity": "Low",
+  "likelihood": "Unknown"
+}

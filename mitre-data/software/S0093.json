@@ -1,0 +1,7 @@
+{
+  "id": "S0093",
+  "name": "Backdoor.Oldrea",
+  "type": "malware",
+  "description": "[Backdoor.Oldrea](https://attack.mitre.org/software/S0093) is a modular backdoor that used by [Dragonfly](https://attack.mitre.org/groups/G0035) against energy companies since at least 2013. [Backdoor.Oldrea](https://attack.mitre.org/software/S0093) was distributed via supply chain compromise, and included specialized modules to enumerate and map ICS-specific systems, processes, and protocols.(Cit",
+  "techniques": []
+}

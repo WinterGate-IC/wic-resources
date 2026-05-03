@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-518",
+  "name": "Documentation Alteration to Produce Under-performing Systems",
+  "description": "An attacker with access to a manufacturer's documentation alters the descriptions of system capabilities with the intent of causing errors in derived system requirements, impacting the overall effectiveness and capability of the system, allowing an attacker to take advantage of the introduced system",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

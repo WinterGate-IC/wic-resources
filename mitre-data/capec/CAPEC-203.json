@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-203",
+  "name": "Manipulate Registry Information",
+  "description": "An adversary exploits a weakness in authorization in order to modify content within a registry (e.g., Windows Registry, Mac plist, application registry). Editing registry information can permit the adversary to hide configuration information or remove indicators of compromise to cover up activity. M",
+  "severity": "Medium",
+  "likelihood": "Unknown"
+}

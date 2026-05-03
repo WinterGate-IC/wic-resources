@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-237",
+  "name": "Escaping a Sandbox by Calling Code in Another Language",
+  "description": "The attacker may submit malicious code of another language to obtain access to privileges that were not intentionally exposed by the sandbox, thus escaping the sandbox. For instance, Java code cannot perform unsafe operations, such as modifying arbitrary memory locations, due to restrictions placed ",
+  "severity": "Very High",
+  "likelihood": "Unknown"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-548",
+  "name": "Contaminate Resource",
+  "description": "An adversary contaminates organizational information systems (including devices and networks) by causing them to handle information of a classification/sensitivity for which they have not been authorized. When this happens, the contaminated information system, device, or network must be brought offl",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

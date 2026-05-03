@@ -1,0 +1,6 @@
+{
+  "id": "T1486",
+  "name": "Data Encrypted for Impact Mitigation",
+  "description": "Consider implementing IT disaster recovery plans that contain procedures for regularly taking and testing data backups that can be used to restore organizational data.(Citation: Ready.gov IT DRP)\n\nIn some cases, the means to decrypt files affected by a ransomware campaign is released to the public. Research trusted sources for public releases of decryptor tools/keys to reverse the effects of ranso",
+  "techniques": []
+}

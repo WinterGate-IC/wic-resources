@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-402",
+  "name": "Bypassing ATA Password Security",
+  "description": "An adversary exploits a weakness in ATA security on a drive to gain access to the information the drive contains without supplying the proper credentials. ATA Security is often employed to protect hard disk information from unauthorized access. The mechanism requires the user to type in a password b",
+  "severity": "Unknown",
+  "likelihood": "Unknown"
+}

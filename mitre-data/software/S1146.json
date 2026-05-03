@@ -1,0 +1,7 @@
+{
+  "id": "S1146",
+  "name": "MgBot",
+  "type": "malware",
+  "description": "[MgBot](https://attack.mitre.org/software/S1146) is a modular malware framework exclusively associated with [Daggerfly](https://attack.mitre.org/groups/G1034) operations since at least 2012. [MgBot](https://attack.mitre.org/software/S1146) was developed in C++ and features a module design with multiple available plugins that have been under active development through 2024.(Citation: Szappanos MgBo",
+  "techniques": []
+}

@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-212",
+  "name": "Functionality Misuse",
+  "description": "An adversary leverages a legitimate capability of an application in such a way as to achieve a negative technical impact. The system functionality is not altered or modified but used in a way that was not intended. This is often accomplished through the overuse of a specific functionality or by leve",
+  "severity": "Medium",
+  "likelihood": "Unknown"
+}

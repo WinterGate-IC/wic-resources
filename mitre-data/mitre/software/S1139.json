@@ -1,0 +1,7 @@
+{
+  "id": "S1139",
+  "name": "INC Ransomware",
+  "type": "malware",
+  "description": "[INC Ransomware](https://attack.mitre.org/software/S1139) is a ransomware strain that has been used by the [INC Ransom](https://attack.mitre.org/groups/G1032) group since at least 2023 against multiple industry sectors worldwide. [INC Ransomware](https://attack.mitre.org/software/S1139) can employ partial encryption combined with multi-threading to speed encryption.(Citation: SentinelOne INC Ranso",
+  "techniques": []
+}

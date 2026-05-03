@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-93",
+  "name": "Log Injection-Tampering-Forging",
+  "description": "This attack targets the log files of the target host. The attacker injects, manipulates or forges malicious log entries in the log file, allowing them to mislead a log audit, cover traces of attack, or perform other malicious actions. The target host is not properly controlling log access. As a resu",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "S1204",
+  "name": "cd00r",
+  "type": "malware",
+  "description": "[cd00r](https://attack.mitre.org/software/S1204) is an open-source backdoor for UNIX and UNIX-variant operating systems that was orginally released in 2000. [cd00r](https://attack.mitre.org/software/S1204) source code is primarily based on a packet-capturing program as it utilizes a sniffer to listen for specific sequences of network traffic or \"secret knock\" before executing the attacker's code.(",
+  "techniques": []
+}

@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-589",
+  "name": "DNS Blocking",
+  "description": "An adversary intercepts traffic and intentionally drops DNS requests based on content in the request. In this way, the adversary can deny the availability of specific services or content to the user even if the IP address is changed.",
+  "severity": "Unknown",
+  "likelihood": "Unknown"
+}

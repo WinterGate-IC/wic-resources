@@ -1,0 +1,7 @@
+{
+  "id": "S0178",
+  "name": "Truvasys",
+  "type": "malware",
+  "description": "[Truvasys](https://attack.mitre.org/software/S0178) is first-stage malware that has been used by [PROMETHIUM](https://attack.mitre.org/groups/G0056). It is a collection of modules written in the Delphi programming language. (Citation: Microsoft Win Defender Truvasys Sep 2017) (Citation: Microsoft NEODYMIUM Dec 2016) (Citation: Microsoft SIR Vol 21)",
+  "techniques": []
+}

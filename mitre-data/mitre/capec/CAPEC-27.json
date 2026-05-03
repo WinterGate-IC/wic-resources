@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-27",
+  "name": "Leveraging Race Conditions via Symbolic Links",
+  "description": "This attack leverages the use of symbolic links (Symlinks) in order to write to sensitive files. An attacker can create a Symlink link to a target file not otherwise accessible to them. When the privileged program tries to create a temporary file with the same name as the Symlink link, it will actua",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

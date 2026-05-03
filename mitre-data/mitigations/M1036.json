@@ -1,0 +1,6 @@
+{
+  "id": "M1036",
+  "name": "Account Use Policies",
+  "description": "Account Use Policies help mitigate unauthorized access by configuring and enforcing rules that govern how and when accounts can be used. These policies include enforcing account lockout mechanisms, restricting login times, and setting inactivity timeouts. Proper configuration of these policies reduces the risk of brute-force attacks, credential theft, and unauthorized access by limiting the opport",
+  "techniques": []
+}

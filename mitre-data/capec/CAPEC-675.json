@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-675",
+  "name": "Retrieve Data from Decommissioned Devices",
+  "description": "\n            <xhtml:p>An adversary obtains decommissioned, recycled, or discarded systems and devices that can include an organization\u2019s intellectual property, employee data, and other types of controlled information. Systems and devices that have reached the end of their lifecycles may be subject t",
+  "severity": "Medium",
+  "likelihood": "Unknown"
+}

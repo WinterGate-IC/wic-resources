@@ -1,0 +1,6 @@
+{
+  "id": "T1149",
+  "name": "LC_MAIN Hijacking Mitigation",
+  "description": "Enforce valid digital signatures for signed code on all applications and only trust applications with signatures from trusted parties.",
+  "techniques": []
+}

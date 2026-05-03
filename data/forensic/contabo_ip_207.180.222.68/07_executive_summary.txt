@@ -1,0 +1,29 @@
+======================================================================
+WINTERGATE INTELLIGENCE COLLECTIVE
+COMPLETE ABUSE REPORT - IP 207.180.222.68
+======================================================================
+
+ATTACKER INFRASTRUCTURE:
+- IP Address: 207.180.222.68
+- Hostname: vmi3235708.contaboserver.net
+- ISP: Contabo GmbH (AS51167)
+- Location: Germany / France
+
+ATTACK STATISTICS:
+- Total Attacks: 20,112+
+- Peak Rate: 300+ attempts per minute
+- Duration: April 19, 2026 - Present
+- Successful Breaches: 0
+
+LEGAL VIOLATIONS:
+- Contabo Terms of Service
+- Computer Fraud and Abuse Act (18 U.S.C. Section 1030)
+- EU Directive 2013/40/EU
+- German Criminal Code Section 202a
+
+REQUESTED ACTION:
+- Immediate investigation and termination of service
+- Preservation of logs for law enforcement
+- Response within 24 hours
+
+======================================================================

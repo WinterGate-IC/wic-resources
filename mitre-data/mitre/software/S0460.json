@@ -1,0 +1,7 @@
+{
+  "id": "S0460",
+  "name": "Get2",
+  "type": "malware",
+  "description": "[Get2](https://attack.mitre.org/software/S0460) is a downloader written in C++ that has been used by [TA505](https://attack.mitre.org/groups/G0092) to deliver [FlawedGrace](https://attack.mitre.org/software/S0383), [FlawedAmmyy](https://attack.mitre.org/software/S0381), Snatch and [SDBbot](https://attack.mitre.org/software/S0461).(Citation: Proofpoint TA505 October 2019)",
+  "techniques": []
+}

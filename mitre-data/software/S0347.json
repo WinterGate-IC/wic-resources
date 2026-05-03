@@ -1,0 +1,7 @@
+{
+  "id": "S0347",
+  "name": "AuditCred",
+  "type": "malware",
+  "description": "[AuditCred](https://attack.mitre.org/software/S0347) is a malicious DLL that has been used by [Lazarus Group](https://attack.mitre.org/groups/G0032) during their 2018 attacks.(Citation: TrendMicro Lazarus Nov 2018)",
+  "techniques": []
+}

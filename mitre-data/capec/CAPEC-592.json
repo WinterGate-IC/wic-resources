@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-592",
+  "name": "Stored XSS",
+  "description": "An adversary utilizes a form of Cross-site Scripting (XSS) where a malicious script is persistently \"stored\" within the data storage of a vulnerable web application as valid input.",
+  "severity": "Very High",
+  "likelihood": "Unknown"
+}

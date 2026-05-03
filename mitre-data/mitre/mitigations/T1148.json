@@ -1,0 +1,6 @@
+{
+  "id": "T1148",
+  "name": "HISTCONTROL Mitigation",
+  "description": "Prevent users from changing the <code>HISTCONTROL</code> environment variable (Citation: Securing bash history). Also, make sure that the <code>HISTCONTROL</code> environment variable is set to \u201cignoredup\u201d instead of \u201cignoreboth\u201d or \u201cignorespace\u201d.",
+  "techniques": []
+}

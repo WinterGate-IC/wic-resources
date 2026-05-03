@@ -1,0 +1,6 @@
+{
+  "id": "M1015",
+  "name": "Active Directory Configuration",
+  "description": "Implement robust Active Directory (AD) configurations using group policies to secure user accounts, control access, and minimize the attack surface. AD configurations enable centralized control over account settings, logon policies, and permissions, reducing the risk of unauthorized access and lateral movement within the network. This mitigation can be implemented through the following measures:\n\n",
+  "techniques": []
+}

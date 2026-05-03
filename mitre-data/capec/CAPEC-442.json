@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-442",
+  "name": "Infected Software",
+  "description": "An adversary adds malicious logic, often in the form of a computer virus, to otherwise benign software. This logic is often hidden from the user of the software and works behind the scenes to achieve negative impacts. Many times, the malicious logic is inserted into empty space between legitimate co",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

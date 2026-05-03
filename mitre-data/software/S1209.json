@@ -1,0 +1,7 @@
+{
+  "id": "S1209",
+  "name": "Quick Assist",
+  "type": "tool",
+  "description": "[Quick Assist](https://attack.mitre.org/software/S1209) is a remote assistance tool primarily for Microsoft Windows, although a macOS version also exists. [Quick Assist](https://attack.mitre.org/software/S1209) allows for remote screen sharing and, with end user approval, remote control and command execution on the enabling device.(Citation: Microsoft Storm-1811 2024)(Citation: Microsoft Quick Ass",
+  "techniques": []
+}

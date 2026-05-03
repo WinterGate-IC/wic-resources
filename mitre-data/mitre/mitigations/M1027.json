@@ -1,0 +1,6 @@
+{
+  "id": "M1027",
+  "name": "Password Policies",
+  "description": "Set and enforce secure password policies for accounts to reduce the likelihood of unauthorized access. Strong password policies include enforcing password complexity, requiring regular password changes, and preventing password reuse. This mitigation can be implemented through the following measures:\n\nWindows Systems:\n\n- Use Group Policy Management Console (GPMC) to configure:\n    - Minimum passwor",
+  "techniques": []
+}

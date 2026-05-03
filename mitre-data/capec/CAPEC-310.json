@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-310",
+  "name": "Scanning for Vulnerable Software",
+  "description": "An attacker engages in scanning activity to find vulnerable software versions or types, such as operating system versions or network services. Vulnerable or exploitable network configurations, such as improperly firewalled systems, or misconfigured systems in the DMZ or external network, provide win",
+  "severity": "Low",
+  "likelihood": "Unknown"
+}

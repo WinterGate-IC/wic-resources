@@ -1,0 +1,7 @@
+{
+  "id": "S0215",
+  "name": "KARAE",
+  "type": "malware",
+  "description": "[KARAE](https://attack.mitre.org/software/S0215) is a backdoor typically used by [APT37](https://attack.mitre.org/groups/G0067) as first-stage malware. (Citation: FireEye APT37 Feb 2018)",
+  "techniques": []
+}

@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-504",
+  "name": "Task Impersonation",
+  "description": "An adversary, through a previously installed malicious application, impersonates an expected or routine task in an attempt to steal sensitive information or leverage a user's privileges.",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

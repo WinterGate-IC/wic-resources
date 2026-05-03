@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-127",
+  "name": "Directory Indexing",
+  "description": "An adversary crafts a request to a target that results in the target listing/indexing the content of a directory as output. One common method of triggering directory contents as output is to construct a request containing a path that terminates in a directory name rather than a file name since many ",
+  "severity": "Medium",
+  "likelihood": "Unknown"
+}

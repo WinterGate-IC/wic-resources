@@ -1,0 +1,7 @@
+{
+  "id": "S0107",
+  "name": "Cherry Picker",
+  "type": "malware",
+  "description": "[Cherry Picker](https://attack.mitre.org/software/S0107) is a point of sale (PoS) memory scraper. (Citation: Trustwave Cherry Picker)",
+  "techniques": []
+}

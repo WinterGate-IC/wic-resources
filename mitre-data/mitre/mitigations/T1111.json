@@ -1,0 +1,6 @@
+{
+  "id": "T1111",
+  "name": "Two-Factor Authentication Interception Mitigation",
+  "description": "Remove smart cards when not in use. Protect devices and services used to transmit and receive out-of-band codes.\n\nIdentify and block potentially malicious software that may be used to intercept 2FA credentials on a system by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation:",
+  "techniques": []
+}

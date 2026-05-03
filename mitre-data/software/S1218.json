@@ -1,0 +1,7 @@
+{
+  "id": "S1218",
+  "name": "VIRTUALPIE",
+  "type": "malware",
+  "description": "[VIRTUALPIE](https://attack.mitre.org/software/S1218) is a lightweight backdoor written in Python that spawns an IPv6 listener on a VMware ESXi server and features command line execution, file transfer,  and reverse shell capabilities. [VIRTUALPIE](https://attack.mitre.org/software/S1218) has been in use since at least 2022 including by [UNC3886](https://attack.mitre.org/groups/G1048) who installe",
+  "techniques": []
+}

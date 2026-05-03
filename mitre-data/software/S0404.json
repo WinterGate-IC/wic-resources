@@ -1,0 +1,7 @@
+{
+  "id": "S0404",
+  "name": "esentutl",
+  "type": "tool",
+  "description": "[esentutl](https://attack.mitre.org/software/S0404) is a command-line tool that provides database utilities for the Windows Extensible Storage Engine.(Citation: Microsoft Esentutl)",
+  "techniques": []
+}

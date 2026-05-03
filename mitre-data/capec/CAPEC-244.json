@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-244",
+  "name": "XSS Targeting URI Placeholders",
+  "description": "An attack of this type exploits the ability of most browsers to interpret \"data\", \"javascript\" or other URI schemes as client-side executable content placeholders. This attack consists of passing a malicious URI in an anchor tag HREF attribute or any other similar attributes in other HTML tags. Such",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

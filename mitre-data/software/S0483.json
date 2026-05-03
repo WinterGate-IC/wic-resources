@@ -1,0 +1,7 @@
+{
+  "id": "S0483",
+  "name": "IcedID",
+  "type": "malware",
+  "description": "[IcedID](https://attack.mitre.org/software/S0483) is a modular banking malware designed to steal financial information that has been observed in the wild since at least 2017.  [IcedID](https://attack.mitre.org/software/S0483)  has been downloaded by [Emotet](https://attack.mitre.org/software/S0367) in multiple campaigns.(Citation: IBM IcedID November 2017)(Citation: Juniper IcedID June 2020)",
+  "techniques": []
+}

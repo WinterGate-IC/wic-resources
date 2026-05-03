@@ -1,0 +1,7 @@
+{
+  "id": "S1037",
+  "name": "STARWHALE",
+  "type": "malware",
+  "description": "[STARWHALE](https://attack.mitre.org/software/S1037) is Windows Script File (WSF) backdoor that has been used by [MuddyWater](https://attack.mitre.org/groups/G0069), possibly since at least November 2021; there is also a [STARWHALE](https://attack.mitre.org/software/S1037) variant written in Golang with similar capabilities. Security researchers have also noted the use of [STARWHALE](https://attac",
+  "techniques": []
+}

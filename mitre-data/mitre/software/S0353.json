@@ -1,0 +1,7 @@
+{
+  "id": "S0353",
+  "name": "NOKKI",
+  "type": "malware",
+  "description": "[NOKKI](https://attack.mitre.org/software/S0353) is a modular remote access tool. The earliest observed attack using [NOKKI](https://attack.mitre.org/software/S0353) was in January 2018. [NOKKI](https://attack.mitre.org/software/S0353) has significant code overlap with the [KONNI](https://attack.mitre.org/software/S0356) malware family. There is some evidence potentially linking [NOKKI](https://at",
+  "techniques": []
+}

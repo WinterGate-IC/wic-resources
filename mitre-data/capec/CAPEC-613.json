@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-613",
+  "name": "WiFi SSID Tracking",
+  "description": "In this attack scenario, the attacker passively listens for WiFi management frame messages containing the Service Set Identifier (SSID) for the WiFi network. These messages are frequently transmitted by WiFi access points (e.g., the retransmission device) as well as by clients that are accessing the",
+  "severity": "Low",
+  "likelihood": "Unknown"
+}

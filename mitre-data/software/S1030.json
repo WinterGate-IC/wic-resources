@@ -1,0 +1,7 @@
+{
+  "id": "S1030",
+  "name": "Squirrelwaffle",
+  "type": "malware",
+  "description": "[Squirrelwaffle](https://attack.mitre.org/software/S1030) is a loader that was first seen in September 2021. It has been used in spam email campaigns to deliver additional malware such as [Cobalt Strike](https://attack.mitre.org/software/S0154) and the [QakBot](https://attack.mitre.org/software/S0650) banking trojan.(Citation: ZScaler Squirrelwaffle Sep 2021)(Citation: Netskope Squirrelwaffle Oct ",
+  "techniques": []
+}

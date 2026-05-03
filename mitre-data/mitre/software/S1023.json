@@ -1,0 +1,7 @@
+{
+  "id": "S1023",
+  "name": "CreepyDrive",
+  "type": "malware",
+  "description": "[CreepyDrive](https://attack.mitre.org/software/S1023) is a custom implant has been used by [POLONIUM](https://attack.mitre.org/groups/G1005) since at least early 2022 for C2 with and exfiltration to actor-controlled OneDrive accounts.(Citation: Microsoft POLONIUM June 2022)\n\n[POLONIUM](https://attack.mitre.org/groups/G1005) has used a similar implant called CreepyBox that relies on actor-controll",
+  "techniques": []
+}

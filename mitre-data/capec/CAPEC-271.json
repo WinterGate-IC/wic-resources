@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-271",
+  "name": "Schema Poisoning",
+  "description": "An adversary corrupts or modifies the content of a schema for the purpose of undermining the security of the target. Schemas provide the structure and content definitions for resources used by an application. By replacing or modifying a schema, the adversary can affect how the application handles or",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

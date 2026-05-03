@@ -1,0 +1,7 @@
+{
+  "id": "S0503",
+  "name": "FrameworkPOS",
+  "type": "malware",
+  "description": "[FrameworkPOS](https://attack.mitre.org/software/S0503) is a point of sale (POS) malware used by [FIN6](https://attack.mitre.org/groups/G0037) to steal payment card data from sytems that run physical POS devices.(Citation: SentinelOne FrameworkPOS September 2019)",
+  "techniques": []
+}

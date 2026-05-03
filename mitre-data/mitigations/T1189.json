@@ -1,0 +1,6 @@
+{
+  "id": "T1189",
+  "name": "Drive-by Compromise Mitigation",
+  "description": "Drive-by compromise relies on there being a vulnerable piece of software on the client end systems. Use modern browsers with security features turned on. Ensure all browsers and plugins kept updated can help prevent the exploit phase of this technique.\n\nFor malicious code served up through ads, adblockers can help prevent that code from executing in the first place. Script blocking extensions can ",
+  "techniques": []
+}

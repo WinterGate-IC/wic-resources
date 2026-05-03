@@ -1,0 +1,7 @@
+{
+  "id": "S0261",
+  "name": "Catchamas",
+  "type": "malware",
+  "description": "[Catchamas](https://attack.mitre.org/software/S0261) is a Windows Trojan that steals information from compromised systems. (Citation: Symantec Catchamas April 2018)",
+  "techniques": []
+}

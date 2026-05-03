@@ -1,0 +1,7 @@
+{
+  "id": "S0059",
+  "name": "WinMM",
+  "type": "malware",
+  "description": "[WinMM](https://attack.mitre.org/software/S0059) is a full-featured, simple backdoor used by [Naikon](https://attack.mitre.org/groups/G0019). (Citation: Baumgartner Naikon 2015)",
+  "techniques": []
+}

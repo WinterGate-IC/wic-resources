@@ -1,0 +1,7 @@
+{
+  "id": "S0683",
+  "name": "Peirates",
+  "type": "tool",
+  "description": "[Peirates](https://attack.mitre.org/software/S0683) is a post-exploitation Kubernetes exploitation framework with a focus on gathering service account tokens for lateral movement and privilege escalation. The tool is written in GoLang and publicly available on GitHub.(Citation: Peirates GitHub)",
+  "techniques": []
+}

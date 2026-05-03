@@ -1,0 +1,7 @@
+{
+  "id": "S0513",
+  "name": "LiteDuke",
+  "type": "malware",
+  "description": "[LiteDuke](https://attack.mitre.org/software/S0513) is a third stage backdoor that was used by [APT29](https://attack.mitre.org/groups/G0016), primarily in 2014-2015. [LiteDuke](https://attack.mitre.org/software/S0513) used the same dropper as [PolyglotDuke](https://attack.mitre.org/software/S0518), and was found on machines also compromised by [MiniDuke](https://attack.mitre.org/software/S0051).(",
+  "techniques": []
+}

@@ -1,0 +1,7 @@
+{
+  "id": "S1224",
+  "name": "CASTLETAP",
+  "type": "malware",
+  "description": "[CASTLETAP](https://attack.mitre.org/software/S1224) is an ICMP port knocking backdoor that has been installed on compromised FortiGate firewalls by [UNC3886](https://attack.mitre.org/groups/G1048).(Citation: Mandiant Fortinet Zero Day)",
+  "techniques": []
+}

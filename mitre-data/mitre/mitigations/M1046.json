@@ -1,0 +1,6 @@
+{
+  "id": "M1046",
+  "name": "Boot Integrity",
+  "description": "Boot Integrity ensures that a system starts securely by verifying the integrity of its boot process, operating system, and associated components. This mitigation focuses on leveraging secure boot mechanisms, hardware-rooted trust, and runtime integrity checks to prevent tampering during the boot sequence. It is designed to thwart adversaries attempting to modify system firmware, bootloaders, or cr",
+  "techniques": []
+}

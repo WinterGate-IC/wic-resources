@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-475",
+  "name": "Signature Spoofing by Improper Validation",
+  "description": "An adversary exploits a cryptographic weakness in the signature verification algorithm implementation to generate a valid signature without knowing the key.",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

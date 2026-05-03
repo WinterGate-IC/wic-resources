@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-594",
+  "name": "Traffic Injection",
+  "description": "An adversary injects traffic into the target's network connection. The adversary is therefore able to degrade or disrupt the connection, and potentially modify the content. This is not a flooding attack, as the adversary is not focusing on exhausting resources. Instead, the adversary is crafting a s",
+  "severity": "Unknown",
+  "likelihood": "Unknown"
+}

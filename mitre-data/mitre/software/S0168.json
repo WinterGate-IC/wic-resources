@@ -1,0 +1,7 @@
+{
+  "id": "S0168",
+  "name": "Gazer",
+  "type": "malware",
+  "description": "[Gazer](https://attack.mitre.org/software/S0168) is a backdoor used by [Turla](https://attack.mitre.org/groups/G0010) since at least 2016. (Citation: ESET Gazer Aug 2017)",
+  "techniques": []
+}

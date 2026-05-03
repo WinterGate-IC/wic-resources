@@ -1,0 +1,6 @@
+{
+  "id": "T1046",
+  "name": "Network Service Scanning Mitigation",
+  "description": "Use network intrusion detection/prevention systems to detect and prevent remote service scans. Ensure that unnecessary ports and services are closed and proper network segmentation is followed to protect critical servers and devices.\n\nIdentify unnecessary system utilities or potentially malicious software that may be used to acquire information about services running on remote systems, and audit a",
+  "techniques": []
+}

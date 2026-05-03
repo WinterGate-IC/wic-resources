@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-219",
+  "name": "XML Routing Detour Attacks",
+  "description": "An attacker subverts an intermediate system used to process XML content and forces the intermediate to modify and/or re-route the processing of the content. XML Routing Detour Attacks are Adversary in the Middle type attacks (CAPEC-94). The attacker compromises or inserts an intermediate system in t",
+  "severity": "Medium",
+  "likelihood": "Unknown"
+}

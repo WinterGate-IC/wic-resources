@@ -1,0 +1,7 @@
+{
+  "id": "S0229",
+  "name": "Orz",
+  "type": "malware",
+  "description": "[Orz](https://attack.mitre.org/software/S0229) is a custom JavaScript backdoor used by [Leviathan](https://attack.mitre.org/groups/G0065). It was observed being used in 2014 as well as in August 2017 when it was dropped by Microsoft Publisher files. (Citation: Proofpoint Leviathan Oct 2017) (Citation: FireEye Periscope March 2018)",
+  "techniques": []
+}

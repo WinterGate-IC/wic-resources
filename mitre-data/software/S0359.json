@@ -1,0 +1,7 @@
+{
+  "id": "S0359",
+  "name": "Nltest",
+  "type": "tool",
+  "description": "[Nltest](https://attack.mitre.org/software/S0359) is a Windows command-line utility used to list domain controllers and enumerate domain trusts.(Citation: Nltest Manual)",
+  "techniques": []
+}

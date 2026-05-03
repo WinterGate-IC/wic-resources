@@ -1,0 +1,11 @@
+Command Injection: 80970 attempts
+SSH Brute Force: 49773 attempts
+SQL Injection: 36457 attempts
+Port Scanner: 31681 attempts
+SSH Rapid Attack: 662 attempts
+Web Attack: 68 attempts
+API Abuse: 41 attempts
+Port Scan: 40 attempts
+UserAgent Anomaly: 10 attempts
+Path Traversal: 1 attempts
+Web Exploit Attempt: 1 attempts

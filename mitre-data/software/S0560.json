@@ -1,0 +1,7 @@
+{
+  "id": "S0560",
+  "name": "TEARDROP",
+  "type": "malware",
+  "description": "[TEARDROP](https://attack.mitre.org/software/S0560) is a memory-only dropper that was discovered on some victim machines during investigations related to the [SolarWinds Compromise](https://attack.mitre.org/campaigns/C0024). It was likely used by [APT29](https://attack.mitre.org/groups/G0016) since at least May 2020.(Citation: FireEye SUNBURST Backdoor December 2020)(Citation: Microsoft Deep Dive ",
+  "techniques": []
+}

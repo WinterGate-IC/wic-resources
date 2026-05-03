@@ -1,0 +1,6 @@
+{
+  "id": "T1095",
+  "name": "Standard Non-Application Layer Protocol Mitigation",
+  "description": "Properly configure firewalls and proxies to limit outgoing traffic to only necessary ports and through proper network gateway systems. Also ensure hosts are only provisioned to communicate over authorized interfaces.\n\nNetwork intrusion detection and prevention systems that use network signatures to identify traffic for specific adversary malware can be used to mitigate activity at the network leve",
+  "techniques": []
+}

@@ -1,0 +1,6 @@
+{
+  "id": "T1110",
+  "name": "Brute Force Mitigation",
+  "description": "Set account lockout policies after a certain number of failed login attempts to prevent passwords from being guessed. \nToo strict a policy can create a denial of service condition and render environments un-usable, with all accounts being locked-out permanently. Use multifactor authentication. Follow best practices for mitigating access to [Valid Accounts](https://attack.mitre.org/techniques/T1078",
+  "techniques": []
+}

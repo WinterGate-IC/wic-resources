@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-642",
+  "name": "Replace Binaries",
+  "description": "Adversaries know that certain binaries will be regularly executed as part of normal processing. If these binaries are not protected with the appropriate file system permissions, it could be possible to replace them with malware. This malware might be executed at higher system permission levels. A va",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

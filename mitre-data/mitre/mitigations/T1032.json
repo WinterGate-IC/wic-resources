@@ -1,0 +1,6 @@
+{
+  "id": "T1032",
+  "name": "Standard Cryptographic Protocol Mitigation",
+  "description": "Network intrusion detection and prevention systems that use network signatures to identify traffic for specific adversary malware can be used to mitigate activity at the network level. Use of encryption protocols may make typical network-based C2 detection more difficult due to a reduced ability to signature the traffic. Prior knowledge of adversary C2 infrastructure may be useful for domain and I",
+  "techniques": []
+}

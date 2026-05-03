@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-51",
+  "name": "Poison Web Service Registry",
+  "description": "SOA and Web Services often use a registry to perform look up, get schema information, and metadata about services. A poisoned registry can redirect (think phishing for servers) the service requester to a malicious service provider, provide incorrect information in schema or metadata, and delete info",
+  "severity": "Very High",
+  "likelihood": "Unknown"
+}

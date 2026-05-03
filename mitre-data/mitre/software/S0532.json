@@ -1,0 +1,7 @@
+{
+  "id": "S0532",
+  "name": "Lucifer",
+  "type": "malware",
+  "description": "[Lucifer](https://attack.mitre.org/software/S0532) is a crypto miner and DDoS hybrid malware that leverages well-known exploits to spread laterally on Windows platforms.(Citation: Unit 42 Lucifer June 2020)",
+  "techniques": []
+}

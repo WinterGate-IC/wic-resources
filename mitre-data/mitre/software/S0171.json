@@ -1,0 +1,7 @@
+{
+  "id": "S0171",
+  "name": "Felismus",
+  "type": "malware",
+  "description": "[Felismus](https://attack.mitre.org/software/S0171) is a modular backdoor that has been used by [Sowbug](https://attack.mitre.org/groups/G0054). (Citation: Symantec Sowbug Nov 2017) (Citation: Forcepoint Felismus Mar 2017)",
+  "techniques": []
+}

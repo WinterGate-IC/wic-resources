@@ -1,0 +1,6 @@
+{
+  "id": "T1013",
+  "name": "Port Monitors Mitigation",
+  "description": "Identify and block potentially malicious software that may persist in this manner by using whitelisting (Citation: Beechey 2010) tools capable of monitoring DLL loads by processes running under SYSTEM permissions.",
+  "techniques": []
+}

@@ -1,0 +1,7 @@
+{
+  "id": "S0058",
+  "name": "SslMM",
+  "type": "malware",
+  "description": "[SslMM](https://attack.mitre.org/software/S0058) is a full-featured backdoor used by [Naikon](https://attack.mitre.org/groups/G0019) that has multiple variants. (Citation: Baumgartner Naikon 2015)",
+  "techniques": []
+}

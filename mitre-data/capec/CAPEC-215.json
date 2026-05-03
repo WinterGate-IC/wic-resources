@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-215",
+  "name": "Fuzzing for application mapping",
+  "description": "An attacker sends random, malformed, or otherwise unexpected messages to a target application and observes the application's log or error messages returned. The attacker does not initially know how a target will respond to individual messages but by attempting a large number of message variants they",
+  "severity": "Low",
+  "likelihood": "Unknown"
+}

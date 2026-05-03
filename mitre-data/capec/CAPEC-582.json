@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-582",
+  "name": "Route Disabling",
+  "description": "An adversary disables the network route between two targets. The goal is to completely sever the communications channel between two entities. This is often the result of a major error or the use of an \"Internet kill switch\" by those in control of critical infrastructure. This attack pattern differs ",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

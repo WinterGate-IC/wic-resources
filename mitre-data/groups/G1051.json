@@ -1,0 +1,7 @@
+{
+  "id": "G1051",
+  "name": "Medusa Group",
+  "description": "[Medusa Group](https://attack.mitre.org/groups/G1051) has been active since at least 2021 and was initially operated as a closed ransomware group before evolving into a Ransomware-as-a-Service (RaaS) operation. Some reporting indicates that certain attacks may still be conducted directly by the ransomware\u2019s core developers. Public sources have also referred to the group as \u201cSpearwing\u201d or \u201cMedusa Actors.\u201d (Citation: CISA Medusa Group Medusa Ransomware March 2025) (Citation: Broadcom Medusa Ransom",
+  "techniques": [],
+  "software": []
+}

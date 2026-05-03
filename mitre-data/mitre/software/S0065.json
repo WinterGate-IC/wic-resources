@@ -1,0 +1,7 @@
+{
+  "id": "S0065",
+  "name": "4H RAT",
+  "type": "malware",
+  "description": "[4H RAT](https://attack.mitre.org/software/S0065) is malware that has been used by [Putter Panda](https://attack.mitre.org/groups/G0024) since at least 2007. (Citation: CrowdStrike Putter Panda)",
+  "techniques": []
+}

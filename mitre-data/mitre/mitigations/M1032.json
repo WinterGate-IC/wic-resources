@@ -1,0 +1,6 @@
+{
+  "id": "M1032",
+  "name": "Multi-factor Authentication",
+  "description": "Multi-Factor Authentication (MFA) enhances security by requiring users to provide at least two forms of verification to prove their identity before granting access. These factors typically include:\n\n- *Something you know*: Passwords, PINs.\n- *Something you have*: Physical tokens, smartphone authenticator apps.\n- *Something you are*: Biometric data such as fingerprints, facial recognition, or retin",
+  "techniques": []
+}

@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-84",
+  "name": "XQuery Injection",
+  "description": "This attack utilizes XQuery to probe and attack server systems; in a similar manner that SQL Injection allows an attacker to exploit SQL calls to RDBMS, XQuery Injection uses improperly validated data that is passed to XQuery commands to traverse and execute commands that the XQuery routines have ac",
+  "severity": "Very High",
+  "likelihood": "Unknown"
+}

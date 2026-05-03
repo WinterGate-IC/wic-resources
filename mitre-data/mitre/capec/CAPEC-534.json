@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-534",
+  "name": "Malicious Hardware Update",
+  "description": "An adversary introduces malicious hardware during an update or replacement procedure, allowing for additional compromise or site disruption at the victim location. After deployment, it is not uncommon for upgrades and replacements to occur involving hardware and various replaceable parts. These upgr",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

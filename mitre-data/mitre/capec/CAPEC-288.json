@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-288",
+  "name": "DEPRECATED: ICMP Echo Request Ping",
+  "description": "This attack pattern has been deprecated as it is a duplicate of the existing attack pattern \"CAPEC-285\". Please refer to this other CAPEC going forward.",
+  "severity": "Low",
+  "likelihood": "Unknown"
+}

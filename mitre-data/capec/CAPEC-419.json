@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-419",
+  "name": "DEPRECATED: Target Influence via Perception of Concession",
+  "description": "This attack pattern has been deprecated as it was deemed not to be a legitimate pattern.",
+  "severity": "Unknown",
+  "likelihood": "Unknown"
+}

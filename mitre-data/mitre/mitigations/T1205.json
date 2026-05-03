@@ -1,0 +1,6 @@
+{
+  "id": "T1205",
+  "name": "Port Knocking Mitigation",
+  "description": "Mitigation of some variants of this technique could be achieved through the use of stateful firewalls, depending upon how it is implemented.",
+  "techniques": []
+}

@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-124",
+  "name": "Shared Resource Manipulation",
+  "description": "An adversary exploits a resource shared between multiple applications, an application pool or hardware pin multiplexing to affect behavior. Resources may be shared between multiple applications or between multiple threads of a single application. Resource sharing is usually accomplished through mutu",
+  "severity": "Medium",
+  "likelihood": "Unknown"
+}

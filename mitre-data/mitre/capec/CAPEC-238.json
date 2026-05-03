@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-238",
+  "name": "DEPRECATED: Using URL/codebase / G.A.C. (code source) to convince sandbox of privilege",
+  "description": "This attack pattern has been deprecated as it did not appear to be a valid attack pattern.",
+  "severity": "Unknown",
+  "likelihood": "Unknown"
+}

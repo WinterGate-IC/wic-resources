@@ -1,0 +1,7 @@
+{
+  "id": "S0458",
+  "name": "Ramsay",
+  "type": "malware",
+  "description": "[Ramsay](https://attack.mitre.org/software/S0458) is an information stealing malware framework designed to collect and exfiltrate sensitive documents, including from air-gapped systems. Researchers have identified overlaps between [Ramsay](https://attack.mitre.org/software/S0458) and the [Darkhotel](https://attack.mitre.org/groups/G0012)-associated Retro malware.(Citation: Eset Ramsay May 2020)(Ci",
+  "techniques": []
+}

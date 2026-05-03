@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-169",
+  "name": "Footprinting",
+  "description": "An adversary engages in probing and exploration activities to identify constituents and properties of the target.",
+  "severity": "Very Low",
+  "likelihood": "Unknown"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "S0576",
+  "name": "MegaCortex",
+  "type": "malware",
+  "description": "[MegaCortex](https://attack.mitre.org/software/S0576) is ransomware that first appeared in May 2019. (Citation: IBM MegaCortex) [MegaCortex](https://attack.mitre.org/software/S0576) has mainly targeted industrial organizations. (Citation: FireEye Ransomware Disrupt Industrial Production)(Citation: FireEye Financial Actors Moving into OT)",
+  "techniques": []
+}

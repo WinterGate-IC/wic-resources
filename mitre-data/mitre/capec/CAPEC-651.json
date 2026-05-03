@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-651",
+  "name": "Eavesdropping",
+  "description": "An adversary intercepts a form of communication (e.g. text, audio, video) by way of software (e.g., microphone and audio recording application), hardware (e.g., recording equipment), or physical means (e.g., physical proximity). The goal of eavesdropping is typically to gain unauthorized access to s",
+  "severity": "Medium",
+  "likelihood": "Unknown"
+}

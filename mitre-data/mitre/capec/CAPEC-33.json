@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-33",
+  "name": "HTTP Request Smuggling",
+  "description": "\n            <xhtml:p>An adversary abuses the flexibility and discrepancies in the parsing and interpretation of HTTP Request messages using various HTTP headers, request-line and body parameters as well as message sizes (denoted by the end of message signaled by a given HTTP header) by different in",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

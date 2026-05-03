@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-175",
+  "name": "Code Inclusion",
+  "description": "An adversary exploits a weakness on the target to force arbitrary code to be retrieved locally or from a remote location and executed. This differs from code injection in that code injection involves the direct inclusion of code while code inclusion involves the addition or replacement of a referenc",
+  "severity": "Very High",
+  "likelihood": "Unknown"
+}

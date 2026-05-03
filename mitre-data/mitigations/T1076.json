@@ -1,0 +1,6 @@
+{
+  "id": "T1076",
+  "name": "Remote Desktop Protocol Mitigation",
+  "description": "Disable the RDP service if it is unnecessary, remove unnecessary accounts and groups from Remote Desktop Users groups, and enable firewall rules to block RDP traffic between network security zones. Audit the Remote Desktop Users group membership regularly. Remove the local Administrators group from the list of groups allowed to log in through RDP. Limit remote user permissions if remote access is ",
+  "techniques": []
+}

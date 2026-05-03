@@ -1,0 +1,6 @@
+{
+  "id": "T1498",
+  "name": "Network Denial of Service Mitigation",
+  "description": "When flood volumes exceed the capacity of the network connection being targeted, it is typically necessary to intercept the incoming traffic upstream to filter out the attack traffic from the legitimate traffic. Such defenses can be provided by the hosting Internet Service Provider (ISP) or by a 3rd party such as a Content Delivery Network (CDN) or providers specializing in DoS mitigations.(Citati",
+  "techniques": []
+}

@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-700",
+  "name": "Network Boundary Bridging",
+  "description": "An adversary which has gained elevated access to network boundary devices may use these devices to create a channel to bridge trusted and untrusted networks. Boundary devices do not necessarily have to be on the network\u2019s edge, but rather must serve to segment portions of the target network the adve",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

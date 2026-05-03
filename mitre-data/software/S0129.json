@@ -1,0 +1,7 @@
+{
+  "id": "S0129",
+  "name": "AutoIt backdoor",
+  "type": "malware",
+  "description": "[AutoIt backdoor](https://attack.mitre.org/software/S0129) is malware that has been used by the actors responsible for the MONSOON campaign. The actors frequently used it in weaponized .pps files exploiting CVE-2014-6352. (Citation: Forcepoint Monsoon) This malware makes use of the legitimate scripting language for Windows GUI automation with the same name.",
+  "techniques": []
+}

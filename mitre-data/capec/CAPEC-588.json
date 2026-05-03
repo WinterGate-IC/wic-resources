@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-588",
+  "name": "DOM-Based XSS",
+  "description": "This type of attack is a form of Cross-Site Scripting (XSS) where a malicious script is inserted into the client-side HTML being parsed by a web browser. Content served by a vulnerable web application includes script code used to manipulate the Document Object Model (DOM). This script code either do",
+  "severity": "Very High",
+  "likelihood": "Unknown"
+}

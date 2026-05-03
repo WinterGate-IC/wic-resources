@@ -1,0 +1,7 @@
+{
+  "id": "S0128",
+  "name": "BADNEWS",
+  "type": "malware",
+  "description": "[BADNEWS](https://attack.mitre.org/software/S0128) is malware that has been used by the actors responsible for the [Patchwork](https://attack.mitre.org/groups/G0040) campaign. Its name was given due to its use of RSS feeds, forums, and blogs for command and control. (Citation: Forcepoint Monsoon) (Citation: TrendMicro Patchwork Dec 2017)",
+  "techniques": []
+}

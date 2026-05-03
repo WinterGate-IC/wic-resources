@@ -1,0 +1,7 @@
+{
+  "id": "S0249",
+  "name": "Gold Dragon",
+  "type": "malware",
+  "description": "[Gold Dragon](https://attack.mitre.org/software/S0249) is a Korean-language, data gathering implant that was first observed in the wild in South Korea in July 2017. [Gold Dragon](https://attack.mitre.org/software/S0249) was used along with [Brave Prince](https://attack.mitre.org/software/S0252) and [RunningRAT](https://attack.mitre.org/software/S0253) in operations targeting organizations associat",
+  "techniques": []
+}

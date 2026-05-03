@@ -1,0 +1,7 @@
+{
+  "id": "S0553",
+  "name": "MoleNet",
+  "type": "malware",
+  "description": "[MoleNet](https://attack.mitre.org/software/S0553) is a downloader tool with backdoor capabilities that has been observed in use since at least 2019.(Citation: Cybereason Molerats Dec 2020)",
+  "techniques": []
+}

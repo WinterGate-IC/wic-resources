@@ -1,0 +1,7 @@
+{
+  "id": "S0448",
+  "name": "Rising Sun",
+  "type": "malware",
+  "description": "[Rising Sun](https://attack.mitre.org/software/S0448) is a modular backdoor that was used extensively in [Operation Sharpshooter](https://attack.mitre.org/campaigns/C0013) between 2017 and 2019. [Rising Sun](https://attack.mitre.org/software/S0448) infected at least 87 organizations around the world, including nuclear, defense, energy, and financial service companies. Security researchers assessed",
+  "techniques": []
+}

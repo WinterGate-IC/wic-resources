@@ -1,0 +1,7 @@
+{
+  "id": "S0454",
+  "name": "Cadelspy",
+  "type": "malware",
+  "description": "[Cadelspy](https://attack.mitre.org/software/S0454) is a backdoor that has been used by [APT39](https://attack.mitre.org/groups/G0087).(Citation: Symantec Chafer Dec 2015)",
+  "techniques": []
+}

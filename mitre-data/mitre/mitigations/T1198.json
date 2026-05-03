@@ -1,0 +1,6 @@
+{
+  "id": "T1198",
+  "name": "SIP and Trust Provider Hijacking Mitigation",
+  "description": "Ensure proper permissions are set for Registry hives to prevent users from modifying keys related to SIP and trust provider components. Also ensure that these values contain their full path to prevent [DLL Search Order Hijacking](https://attack.mitre.org/techniques/T1038). (Citation: SpectorOps Subverting Trust Sept 2017)\n\nConsider removing unnecessary and/or stale SIPs. (Citation: SpectorOps Subv",
+  "techniques": []
+}

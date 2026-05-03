@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-235",
+  "name": "DEPRECATED: Implementing a callback to system routine (old AWT Queue)",
+  "description": "This attack pattern has been deprecated. Please refer to CAPEC:30 - Hijacking a Privileged Thread of Execution.",
+  "severity": "Unknown",
+  "likelihood": "Unknown"
+}

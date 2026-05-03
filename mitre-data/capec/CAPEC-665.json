@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-665",
+  "name": "Exploitation of Thunderbolt Protection Flaws",
+  "description": "\n            <xhtml:p>An adversary leverages a firmware weakness within the Thunderbolt protocol, on a computing device to manipulate Thunderbolt controller firmware in order to exploit vulnerabilities in the implementation of authorization and verification schemes within Thunderbolt protection mech",
+  "severity": "Very High",
+  "likelihood": "Unknown"
+}

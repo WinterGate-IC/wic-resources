@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-165",
+  "name": "File Manipulation",
+  "description": "An attacker modifies file contents or attributes (such as extensions or names) of files in a manner to cause incorrect processing by an application. Attackers use this class of attacks to cause applications to enter unstable states, overwrite or expose sensitive information, and even execute arbitra",
+  "severity": "Medium",
+  "likelihood": "Unknown"
+}

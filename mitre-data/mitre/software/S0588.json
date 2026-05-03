@@ -1,0 +1,7 @@
+{
+  "id": "S0588",
+  "name": "GoldMax",
+  "type": "malware",
+  "description": "[GoldMax](https://attack.mitre.org/software/S0588) is a second-stage C2 backdoor written in Go with Windows and Linux variants that are nearly identical in functionality. [GoldMax](https://attack.mitre.org/software/S0588) was discovered in early 2021 during the investigation into the [SolarWinds Compromise](https://attack.mitre.org/campaigns/C0024), and has likely been used by [APT29](https://atta",
+  "techniques": []
+}

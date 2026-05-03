@@ -1,0 +1,7 @@
+{
+  "id": "S0161",
+  "name": "XAgentOSX",
+  "type": "malware",
+  "description": "[XAgentOSX](https://attack.mitre.org/software/S0161) is a trojan that has been used by [APT28](https://attack.mitre.org/groups/G0007)  on OS X and appears to be a port of their standard [CHOPSTICK](https://attack.mitre.org/software/S0023) or XAgent trojan. (Citation: XAgentOSX 2017)",
+  "techniques": []
+}

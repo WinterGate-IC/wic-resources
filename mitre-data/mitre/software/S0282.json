@@ -1,0 +1,7 @@
+{
+  "id": "S0282",
+  "name": "MacSpy",
+  "type": "malware",
+  "description": "[MacSpy](https://attack.mitre.org/software/S0282) is a malware-as-a-service offered on the darkweb  (Citation: objsee mac malware 2017).",
+  "techniques": []
+}

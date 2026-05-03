@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-146",
+  "name": "XML Schema Poisoning",
+  "description": "An adversary corrupts or modifies the content of XML schema information passed between a client and server for the purpose of undermining the security of the target. XML Schemas provide the structure and content definitions for XML documents. Schema poisoning is the ability to manipulate a schema ei",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

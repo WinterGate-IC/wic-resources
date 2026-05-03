@@ -1,0 +1,7 @@
+{
+  "id": "S0147",
+  "name": "Pteranodon",
+  "type": "malware",
+  "description": "[Pteranodon](https://attack.mitre.org/software/S0147) is a custom backdoor used by [Gamaredon Group](https://attack.mitre.org/groups/G0047). (Citation: Palo Alto Gamaredon Feb 2017)",
+  "techniques": []
+}

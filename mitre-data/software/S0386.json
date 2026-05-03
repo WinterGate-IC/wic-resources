@@ -1,0 +1,7 @@
+{
+  "id": "S0386",
+  "name": "Ursnif",
+  "type": "malware",
+  "description": "[Ursnif](https://attack.mitre.org/software/S0386) is a banking trojan and variant of the Gozi malware observed being spread through various automated exploit kits, [Spearphishing Attachment](https://attack.mitre.org/techniques/T1566/001)s, and malicious links.(Citation: NJCCIC Ursnif Sept 2016)(Citation: ProofPoint Ursnif Aug 2016) [Ursnif](https://attack.mitre.org/software/S0386) is associated pr",
+  "techniques": []
+}

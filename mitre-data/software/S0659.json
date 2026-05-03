@@ -1,0 +1,7 @@
+{
+  "id": "S0659",
+  "name": "Diavol",
+  "type": "malware",
+  "description": "[Diavol](https://attack.mitre.org/software/S0659) is a ransomware variant first observed in June 2021 that is capable of prioritizing file types to encrypt based on a pre-configured list of extensions defined by the attacker.  The [Diavol](https://attack.mitre.org/software/S0659) Ransomware-as-a Service (RaaS) program is managed by [Wizard Spider](https://attack.mitre.org/groups/G0102) and it has ",
+  "techniques": []
+}

@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WinterGate Intelligence - Threat Intel Hub</title>
+    <link rel="stylesheet" href="https://wintergate.org/universal.css?v=3">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Share+Tech+Mono&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { background: var(--wg-bg-deep); color: var(--wg-text-primary); font-family: 'Inter', sans-serif; overflow-x: hidden; min-height: 100vh; }
+        .bg-liquid { position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -2; opacity: 0.4; pointer-events: none; background: radial-gradient(circle at 30% 50%, var(--wg-primary) 0%, transparent 40%), radial-gradient(circle at 70% 80%, var(--wg-ecosystem-1) 0%, transparent 45%), radial-gradient(circle at 10% 20%, var(--wg-ecosystem-2) 0%, transparent 35%), radial-gradient(circle at 90% 30%, var(--wg-ecosystem-3) 0%, transparent 40%); filter: blur(70px); animation: liquidShift 20s ease-in-out infinite alternate; }
+        @keyframes liquidShift { 0% { transform: scale(1) rotate(0deg); opacity: 0.3; } 50% { transform: scale(1.3) rotate(3deg); opacity: 0.5; } 100% { transform: scale(1) rotate(-3deg); opacity: 0.4; } }
+        .bg-grid { position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -1; pointer-events: none; background-image: linear-gradient(rgba(var(--wg-primary-rgb), 0.08) 1px, transparent 1px), linear-gradient(90deg, rgba(var(--wg-primary-rgb), 0.08) 1px, transparent 1px); background-size: 60px 60px; animation: gridPulse 8s ease-in-out infinite; }
+        @keyframes gridPulse { 0%, 100% { opacity: 0.4; } 50% { opacity: 0.8; } }
+        #topbar-container { position: sticky; top: 0; z-index: 1000; }
+        .container { max-width: 1400px; margin: 0 auto; padding: 2rem; position: relative; z-index: 10; }
+        .hero-section { text-align: center; margin-bottom: 2rem; }
+        .hero-section h1 { font-size: clamp(2rem, 6vw, 3.5rem); background: linear-gradient(135deg, var(--wg-primary), var(--wg-ecosystem-1)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; margin-bottom: 1rem; }
+        .hero-section p { color: var(--wg-text-secondary); font-size: 1.1rem; }
+        .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; margin-bottom: 2rem; }
+        .stat-card { background: rgba(var(--wg-bg-deep-rgb), 0.85); backdrop-filter: blur(12px); border: 2px solid var(--wg-primary); border-radius: 24px; padding: 1.5rem; text-align: center; cursor: pointer; transition: all 0.3s ease; }
+        .stat-card:hover { transform: translateY(-5px); box-shadow: 0 0 30px var(--wg-primary-glow); }
+        .stat-number { font-size: 2.5rem; font-weight: bold; color: var(--wg-primary); font-family: 'Orbitron', monospace; }
+        .stat-label { color: var(--wg-text-secondary); margin-top: 0.5rem; font-size: 0.85rem; }
+        .toolbar { background: rgba(var(--wg-bg-deep-rgb), 0.85); backdrop-filter: blur(12px); border: 1px solid var(--wg-border); border-radius: 16px; padding: 1rem; margin-bottom: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap; justify-content: space-between; align-items: center; }
+        .search-box { flex: 1; display: flex; align-items: center; gap: 0.5rem; background: rgba(0,0,0,0.3); border: 1px solid var(--wg-border); border-radius: 8px; padding: 0.5rem 1rem; }
+        .search-box input { flex: 1; background: none; border: none; color: var(--wg-text-primary); outline: none; font-family: 'Share Tech Mono', monospace; }
+        .filter-btn { background: rgba(0,0,0,0.3); border: 1px solid var(--wg-border); color: var(--wg-text-secondary); padding: 0.5rem 1rem; border-radius: 8px; cursor: pointer; transition: all 0.2s; font-family: 'Share Tech Mono', monospace; }
+        .filter-btn:hover, .filter-btn.active { background: var(--wg-primary); color: #000; border-color: var(--wg-primary); }
+        .file-tree { background: rgba(var(--wg-bg-deep-rgb), 0.85); backdrop-filter: blur(12px); border: 1px solid var(--wg-border); border-radius: 16px; overflow: hidden; margin-bottom: 1.5rem; max-height: 500px; overflow-y: auto; }
+        .file-item { display: flex; justify-content: space-between; align-items: center; padding: 0.75rem 1rem; border-bottom: 1px solid var(--wg-border); cursor: pointer; transition: all 0.2s; }
+        .file-item:hover { background: rgba(var(--wg-primary-rgb), 0.1); }
+        .file-info { display: flex; align-items: center; gap: 0.75rem; flex: 1; }
+        .file-icon { font-size: 1.25rem; }
+        .file-name { font-weight: 500; font-family: 'Share Tech Mono', monospace; }
+        .file-name a { color: var(--wg-text-primary); text-decoration: none; }
+        .file-name a:hover { color: var(--wg-primary); }
+        .file-meta { font-size: 0.75rem; color: var(--wg-text-muted); }
+        .file-actions { display: flex; gap: 0.5rem; opacity: 0; transition: opacity 0.2s; }
+        .file-item:hover .file-actions { opacity: 1; }
+        .action-btn { background: rgba(0,0,0,0.5); border: 1px solid var(--wg-border); color: var(--wg-text-secondary); padding: 0.25rem 0.5rem; border-radius: 4px; cursor: pointer; font-size: 0.75rem; transition: all 0.2s; }
+        .action-btn:hover { background: var(--wg-primary); color: #000; border-color: var(--wg-primary); }
+        .preview-panel { background: rgba(var(--wg-bg-deep-rgb), 0.85); backdrop-filter: blur(12px); border: 1px solid var(--wg-border); border-radius: 16px; overflow: hidden; margin-top: 1.5rem; }
+        .preview-header { background: rgba(0,0,0,0.3); padding: 0.75rem 1rem; border-bottom: 1px solid var(--wg-border); display: flex; justify-content: space-between; align-items: center; }
+        .preview-title { font-weight: 600; font-family: 'Share Tech Mono', monospace; }
+        .preview-content { padding: 1.5rem; max-height: 500px; overflow: auto; }
+        .json-viewer { font-family: 'Monaco', 'Menlo', monospace; font-size: 0.875rem; }
+        .json-key { color: #79c0ff; }
+        .json-string { color: #a5d6ff; }
+        .json-number { color: #79c0ff; }
+        .json-boolean { color: #ff7b72; }
+        .markdown-body h1, .markdown-body h2, .markdown-body h3 { border-bottom: 1px solid var(--wg-border); padding-bottom: 0.3em; }
+        .markdown-body code { background: rgba(0,0,0,0.3); padding: 0.2em 0.4em; border-radius: 6px; font-family: monospace; }
+        .markdown-body pre { background: rgba(0,0,0,0.3); padding: 1rem; border-radius: 8px; overflow: auto; }
+        .modal { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.9); z-index: 2000; justify-content: center; align-items: center; }
+        .modal-content { background: var(--wg-bg-surface); border: 2px solid var(--wg-primary); border-radius: 24px; max-width: 90%; max-height: 90%; width: 1000px; overflow: auto; }
+        .modal-header { padding: 1rem; border-bottom: 1px solid var(--wg-border); display: flex; justify-content: space-between; align-items: center; }
+        .modal-body { padding: 1.5rem; }
+        .loading { text-align: center; padding: 2rem; color: var(--wg-text-muted); }
+        .toast { position: fixed; bottom: 20px; right: 20px; background: var(--wg-primary); color: #000; padding: 0.75rem 1.5rem; border-radius: 8px; animation: slideIn 0.3s ease; z-index: 2000; font-family: 'Share Tech Mono', monospace; }
+        @keyframes slideIn { from { transform: translateX(100%); opacity: 0; } to { transform: translateX(0); opacity: 1; } }
+        @media (max-width: 768px) { .container { padding: 1rem; } .stats-grid { grid-template-columns: repeat(2, 1fr); } .file-actions { opacity: 1; } .toolbar { flex-direction: column; } .search-box { width: 100%; } }
+    </style>
+</head>
+<body class="theme-neo-noir">
+    <div id="topbar-container"></div>
+    <div class="bg-liquid"></div>
+    <div class="bg-grid"></div>
+    
+    <div class="container">
+        <div class="hero-section">
+            <h1>🔒 WINTERGATE INTELLIGENCE</h1>
+            <p>Threat Intelligence Hub · Real-time Attack Data · Archive Explorer</p>
+        </div>
+        
+        <div class="stats-grid" id="statsGrid">
+            <div class="stat-card" onclick="previewFile('latest.md')"><div class="stat-number" id="totalAttacks">-</div><div class="stat-label">Total Attacks</div></div>
+            <div class="stat-card" onclick="previewFile('attackers.json')"><div class="stat-number" id="totalAttackers">-</div><div class="stat-label">Attackers</div></div>
+            <div class="stat-card" onclick="previewFile('latest.md')"><div class="stat-number" id="criticalThreats">-</div><div class="stat-label">Critical (80+)</div></div>
+            <div class="stat-card" onclick="previewFile('permanent_blacklist.txt')"><div class="stat-number" id="blacklistSize">-</div><div class="stat-label">Blacklisted IPs</div></div>
+        </div>
+        
+        <div class="toolbar">
+            <div class="search-box"><span>🔍</span><input type="text" id="searchInput" placeholder="Search files..."></div>
+            <div class="filter-buttons">
+                <button class="filter-btn" data-filter="all" onclick="setFilter('all')">All</button>
+                <button class="filter-btn" data-filter="json" onclick="setFilter('json')">🔧 JSON</button>
+                <button class="filter-btn" data-filter="md" onclick="setFilter('md')">📝 MD</button>
+                <button class="filter-btn" data-filter="txt" onclick="setFilter('txt')">📄 TXT</button>
+                <button class="filter-btn" onclick="loadFiles()">🔄 Refresh</button>
+            </div>
+        </div>
+        
+        <div id="fileTree" class="file-tree"><div class="loading">Loading files...</div></div>
+        
+        <div id="previewPanel" class="preview-panel" style="display: none;">
+            <div class="preview-header"><span class="preview-title" id="previewTitle">Preview</span><button class="action-btn" onclick="closePreview()">✕ Close</button></div>
+            <div class="preview-content" id="previewContent">Loading...</div>
+        </div>
+    </div>
+    
+    <div id="modal" class="modal">
+        <div class="modal-content"><div class="modal-header"><span id="modalTitle">File Viewer</span><button class="action-btn" onclick="closeModal()">✕ Close</button></div><div class="modal-body" id="modalBody">Loading...</div></div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script>
+        let currentFiles = [], currentFilter = 'all', currentSearch = '';
+        
+        function loadTopbar() {
+            fetch('/topbar.html?' + Date.now()).then(r => r.text()).then(data => {
+                document.getElementById('topbar-container').innerHTML = data;
+                document.querySelectorAll('.tray-button[data-href]').forEach(btn => {
+                    btn.addEventListener('click', e => { e.preventDefault(); window.location.href = btn.getAttribute('data-href'); });
+                });
+            }).catch(e => console.error('Topbar error:', e));
+        }
+        
+        async function loadFiles() {
+            document.getElementById('fileTree').innerHTML = '<div class="loading">Loading files...</div>';
+            try {
+                const response = await fetch('/intel/archives/72h/');
+                const text = await response.text();
+                const parser = new DOMParser();
+                const doc = parser.parseFromString(text, 'text/html');
+                const links = doc.querySelectorAll('a');
+                const files = [];
+                for (const link of links) {
+                    const href = link.getAttribute('href');
+                    if (href && !href.includes('../') && href !== '/' && (href.endsWith('.json') || href.endsWith('.md') || href.endsWith('.txt'))) {
+                        files.push({ name: href, path: `archives/72h/${href}`, type: href.split('.').pop() });
+                    }
+                }
+                ['latest.md', 'attackers.json', 'permanent_blacklist.txt'].forEach(f => {
+                    let type = f.split('.').pop();
+                    files.push({ name: f, path: f, type: type });
+                });
+                currentFiles = files.sort((a,b) => b.name.localeCompare(a.name));
+                renderFiles();
+                loadStats();
+            } catch(e) { document.getElementById('fileTree').innerHTML = '<div class="loading">Error loading files</div>'; }
+        }
+        
+        function renderFiles() {
+            let filtered = currentFiles.filter(f => currentFilter === 'all' || f.type === currentFilter);
+            if (currentSearch) filtered = filtered.filter(f => f.name.toLowerCase().includes(currentSearch.toLowerCase()));
+            if (!filtered.length) { document.getElementById('fileTree').innerHTML = '<div class="loading">No files found</div>'; return; }
+            document.getElementById('fileTree').innerHTML = filtered.map(f => `
+                <div class="file-item">
+                    <div class="file-info" onclick="previewFile('${f.path}')">
+                        <span class="file-icon">${f.type === 'json' ? '🔧' : f.type === 'md' ? '📝' : '📄'}</span>
+                        <div><div class="file-name"><a href="/intel/${f.path}" target="_blank">${f.name}</a></div><div class="file-meta">${f.type.toUpperCase()} · Click to preview</div></div>
+                    </div>
+                    <div class="file-actions"><button class="action-btn" onclick="event.stopPropagation(); viewFile('${f.path}')">👁️ View</button><button class="action-btn" onclick="event.stopPropagation(); downloadFile('${f.path}')">⬇️ Download</button><button class="action-btn" onclick="event.stopPropagation(); copyPath('${f.path}')">📋 Copy</button></div>
+                </div>
+            `).join('');
+        }
+        
+        async function previewFile(path) {
+            const panel = document.getElementById('previewPanel'), content = document.getElementById('previewContent'), title = document.getElementById('previewTitle');
+            panel.style.display = 'block';
+            title.textContent = `Preview: ${path}`;
+            content.innerHTML = '<div class="loading">Loading...</div>';
+            try {
+                const response = await fetch(`/intel/${path}`);
+                const text = await response.text();
+                if (path.endsWith('.json')) { const json = JSON.parse(text); content.innerHTML = `<pre class="json-viewer">${syntaxHighlight(json)}</pre>`; }
+                else if (path.endsWith('.md')) { content.innerHTML = `<div class="markdown-body">${marked.parse(text)}</div>`; }
+                else { content.innerHTML = `<pre>${escapeHtml(text.substring(0, 5000))}${text.length > 5000 ? '\n\n... (truncated)' : ''}</pre>`; }
+            } catch(e) { content.innerHTML = '<div class="loading">Error loading file</div>'; }
+        }
+        
+        function syntaxHighlight(obj) {
+            const json = JSON.stringify(obj, null, 2);
+            return json.replace(/("(\\u[a-zA-Z0-9]{4}|\\[^u]|[^\\"])*"(\s*:)?|\b(true|false|null)\b|-?\d+(?:\.\d*)?(?:[eE][+\-]?\d+)?)/g, match => {
+                let cls = 'json-number';
+                if (/^"/.test(match)) cls = /:$/.test(match) ? 'json-key' : 'json-string';
+                else if (/true|false/.test(match)) cls = 'json-boolean';
+                return `<span class="${cls}">${match}</span>`;
+            });
+        }
+        
+        async function viewFile(path) {
+            const modal = document.getElementById('modal'), modalTitle = document.getElementById('modalTitle'), modalBody = document.getElementById('modalBody');
+            modal.style.display = 'flex';
+            modalTitle.textContent = `Viewing: ${path}`;
+            modalBody.innerHTML = '<div class="loading">Loading...</div>';
+            try {
+                const response = await fetch(`/intel/${path}`);
+                const text = await response.text();
+                if (path.endsWith('.json')) { const json = JSON.parse(text); modalBody.innerHTML = `<pre class="json-viewer" style="max-height:70vh;overflow:auto">${syntaxHighlight(json)}</pre>`; }
+                else if (path.endsWith('.md')) { modalBody.innerHTML = `<div class="markdown-body" style="max-height:70vh;overflow:auto">${marked.parse(text)}</div>`; }
+                else { modalBody.innerHTML = `<pre style="max-height:70vh;overflow:auto">${escapeHtml(text)}</pre>`; }
+            } catch(e) { modalBody.innerHTML = '<div class="loading">Error loading file</div>'; }
+        }
+        
+        function downloadFile(path) { window.open(`/intel/${path}`, '_blank'); showToast(`Downloading: ${path}`); }
+        function copyPath(path) { navigator.clipboard.writeText(`https://wintergate.org/intel/${path}`); showToast(`Copied!`); }
+        function closePreview() { document.getElementById('previewPanel').style.display = 'none'; }
+        function closeModal() { document.getElementById('modal').style.display = 'none'; }
+        function setFilter(filter) { currentFilter = filter; document.querySelectorAll('.filter-btn').forEach(btn => { btn.classList.remove('active'); if (btn.getAttribute('data-filter') === filter) btn.classList.add('active'); }); renderFiles(); }
+        function escapeHtml(text) { return text.replace(/[&<>]/g, m => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' }[m])); }
+        function showToast(message) { const toast = document.createElement('div'); toast.className = 'toast'; toast.textContent = message; document.body.appendChild(toast); setTimeout(() => toast.remove(), 3000); }
+        
+        async function loadStats() {
+            try {
+                const response = await fetch('/intel/latest.md');
+                const text = await response.text();
+                
+                const attacksMatch = text.match(/\|\s*Total Attacks Blocked\s*\|\s*([\d,]+)/);
+                const attackersMatch = text.match(/\|\s*Total Unique Attackers\s*\|\s*([\d,]+)/);
+                const criticalMatch = text.match(/\|\s*High Risk IPs \(80\+\)\s*\|\s*([\d,]+)/);
+                
+                if (attacksMatch) document.getElementById('totalAttacks').textContent = attacksMatch[1];
+                if (attackersMatch) document.getElementById('totalAttackers').textContent = attackersMatch[1];
+                if (criticalMatch) document.getElementById('criticalThreats').textContent = criticalMatch[1];
+                
+                const blacklistResp = await fetch('/intel/permanent_blacklist.txt');
+                const blacklistText = await blacklistResp.text();
+                const blacklistCount = blacklistText.split('\n').filter(l => l.trim().length > 0 && l.match(/^\d+\.\d+\.\d+\.\d+$/)).length;
+                document.getElementById('blacklistSize').textContent = blacklistCount.toLocaleString();
+            } catch(e) { console.error('Stats error:', e); }
+        }
+        
+        document.getElementById('searchInput').addEventListener('input', (e) => { currentSearch = e.target.value; renderFiles(); });
+        loadTopbar();
+        loadFiles();
+        setInterval(loadStats, 30000);
+    </script>
+</body>
+</html>

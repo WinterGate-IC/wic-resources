@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-619",
+  "name": "Signal Strength Tracking",
+  "description": "In this attack scenario, the attacker passively monitors the signal strength of the target\u2019s cellular RF signal or WiFi RF signal and uses the strength of the signal (with directional antennas and/or from multiple listening points at once) to identify the source location of the signal. Obtaining the",
+  "severity": "Low",
+  "likelihood": "Unknown"
+}

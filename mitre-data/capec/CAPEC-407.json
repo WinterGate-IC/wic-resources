@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-407",
+  "name": "Pretexting",
+  "description": "An adversary engages in pretexting behavior to solicit information from target persons, or manipulate the target into performing some action that serves the adversary's interests. During a pretexting attack, the adversary creates an invented scenario, assuming an identity or role to persuade a targe",
+  "severity": "Low",
+  "likelihood": "Unknown"
+}

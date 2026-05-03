@@ -1,0 +1,6 @@
+{
+  "id": "M1020",
+  "name": "SSL/TLS Inspection",
+  "description": "SSL/TLS inspection involves decrypting encrypted network traffic to examine its content for signs of malicious activity. This capability is crucial for detecting threats that use encryption to evade detection, such as phishing, malware, or data exfiltration. After inspection, the traffic is re-encrypted and forwarded to its destination. This mitigation can be implemented through the following meas",
+  "techniques": []
+}

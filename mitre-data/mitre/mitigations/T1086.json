@@ -1,0 +1,6 @@
+{
+  "id": "T1086",
+  "name": "PowerShell Mitigation",
+  "description": "It may be possible to remove PowerShell from systems when not needed, but a review should be performed to assess the impact to an environment, since it could be in use for many legitimate purposes and administrative functions. When PowerShell is necessary, restrict PowerShell execution policy to administrators and to only execute signed scripts. Be aware that there are methods of bypassing the Pow",
+  "techniques": []
+}

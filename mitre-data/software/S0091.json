@@ -1,0 +1,7 @@
+{
+  "id": "S0091",
+  "name": "Epic",
+  "type": "malware",
+  "description": "[Epic](https://attack.mitre.org/software/S0091) is a backdoor that has been used by [Turla](https://attack.mitre.org/groups/G0010). (Citation: Kaspersky Turla)",
+  "techniques": []
+}

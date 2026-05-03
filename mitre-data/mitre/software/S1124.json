@@ -1,0 +1,7 @@
+{
+  "id": "S1124",
+  "name": "SocGholish",
+  "type": "malware",
+  "description": "[SocGholish](https://attack.mitre.org/software/S1124) is a JavaScript-based loader malware that has been used since at least 2017. It has been observed in use against multiple sectors globally for initial access, primarily through drive-by-downloads masquerading as software updates. SocGholish is operated by [Mustard Tempest](https://attack.mitre.org/groups/G1020) and its access has been sold to g",
+  "techniques": []
+}

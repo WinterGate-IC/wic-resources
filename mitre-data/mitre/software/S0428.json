@@ -1,0 +1,7 @@
+{
+  "id": "S0428",
+  "name": "PoetRAT",
+  "type": "malware",
+  "description": "[PoetRAT](https://attack.mitre.org/software/S0428) is a remote access trojan (RAT) that was first identified in April 2020. [PoetRAT](https://attack.mitre.org/software/S0428) has been used in multiple campaigns against the private and public sectors in Azerbaijan, including ICS and SCADA systems in the energy sector. The STIBNITE activity group has been observed using the malware. [PoetRAT](https:",
+  "techniques": []
+}

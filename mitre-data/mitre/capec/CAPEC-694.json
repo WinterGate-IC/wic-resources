@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-694",
+  "name": "System Location Discovery",
+  "description": "\n            <xhtml:p>An adversary collects information about the target system in an attempt to identify the system's geographical location.</xhtml:p>\n            <xhtml:p>Information gathered could include keyboard layout, system language, and timezone. This information may benefit an adversary in",
+  "severity": "Very Low",
+  "likelihood": "Unknown"
+}

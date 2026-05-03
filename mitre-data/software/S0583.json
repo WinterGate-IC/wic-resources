@@ -1,0 +1,7 @@
+{
+  "id": "S0583",
+  "name": "Pysa",
+  "type": "malware",
+  "description": "[Pysa](https://attack.mitre.org/software/S0583) is a ransomware that was first used in October 2018 and has been seen to target particularly high-value finance, government and healthcare organizations.(Citation: CERT-FR PYSA April 2020)",
+  "techniques": []
+}

@@ -1,0 +1,7 @@
+{
+  "id": "S0118",
+  "name": "Nidiran",
+  "type": "malware",
+  "description": "[Nidiran](https://attack.mitre.org/software/S0118) is a custom backdoor developed and used by [Suckfly](https://attack.mitre.org/groups/G0039). It has been delivered via strategic web compromise. (Citation: Symantec Suckfly March 2016)",
+  "techniques": []
+}

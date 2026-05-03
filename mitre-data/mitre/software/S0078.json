@@ -1,0 +1,7 @@
+{
+  "id": "S0078",
+  "name": "Psylo",
+  "type": "malware",
+  "description": "[Psylo](https://attack.mitre.org/software/S0078) is a shellcode-based Trojan that has been used by [Scarlet Mimic](https://attack.mitre.org/groups/G0029). It has similar characteristics as [FakeM](https://attack.mitre.org/software/S0076). (Citation: Scarlet Mimic Jan 2016)",
+  "techniques": []
+}

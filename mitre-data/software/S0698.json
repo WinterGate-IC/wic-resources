@@ -1,0 +1,7 @@
+{
+  "id": "S0698",
+  "name": "HermeticWizard",
+  "type": "malware",
+  "description": "[HermeticWizard](https://attack.mitre.org/software/S0698) is a worm that has been used to spread [HermeticWiper](https://attack.mitre.org/software/S0697) in attacks against organizations in Ukraine since at least 2022.(Citation: ESET Hermetic Wizard March 2022)",
+  "techniques": []
+}

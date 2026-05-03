@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-240",
+  "name": "Resource Injection",
+  "description": "An adversary exploits weaknesses in input validation by manipulating resource identifiers enabling the unintended modification or specification of a resource.",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

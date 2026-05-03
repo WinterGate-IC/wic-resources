@@ -1,0 +1,7 @@
+{
+  "id": "S0409",
+  "name": "Machete",
+  "type": "malware",
+  "description": "[Machete](https://attack.mitre.org/software/S0409) is a cyber espionage toolset used by [Machete](https://attack.mitre.org/groups/G0095). It is a Python-based backdoor targeting Windows machines that was first observed in 2010.(Citation: ESET Machete July 2019)(Citation: Securelist Machete Aug 2014)(Citation: 360 Machete Sep 2020)",
+  "techniques": []
+}

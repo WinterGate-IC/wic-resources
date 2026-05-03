@@ -1,0 +1,7 @@
+{
+  "id": "S0062",
+  "name": "DustySky",
+  "type": "malware",
+  "description": "[DustySky](https://attack.mitre.org/software/S0062) is multi-stage malware written in .NET that has been used by [Molerats](https://attack.mitre.org/groups/G0021) since May 2015. (Citation: DustySky) (Citation: DustySky2)(Citation: Kaspersky MoleRATs April 2019)",
+  "techniques": []
+}

@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-626",
+  "name": "Smudge Attack",
+  "description": "Attacks that reveal the password/passcode pattern on a touchscreen device by detecting oil smudges left behind by the user\u2019s fingers.",
+  "severity": "Unknown",
+  "likelihood": "Unknown"
+}

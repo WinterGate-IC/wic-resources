@@ -1,0 +1,6 @@
+{
+  "id": "T1152",
+  "name": "Launchctl Mitigation",
+  "description": "Prevent users from installing their own launch agents or launch daemons and instead require them to be pushed out by group policy.",
+  "techniques": []
+}

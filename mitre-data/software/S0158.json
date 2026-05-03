@@ -1,0 +1,7 @@
+{
+  "id": "S0158",
+  "name": "PHOREAL",
+  "type": "malware",
+  "description": "[PHOREAL](https://attack.mitre.org/software/S0158) is a signature backdoor used by [APT32](https://attack.mitre.org/groups/G0050). (Citation: FireEye APT32 May 2017)",
+  "techniques": []
+}

@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-1",
+  "name": "Accessing Functionality Not Properly Constrained by ACLs",
+  "description": "In applications, particularly web applications, access to functionality is mitigated by an authorization framework. This framework maps Access Control Lists (ACLs) to elements of the application's functionality; particularly URL's for web apps. In the case that the administrator failed to specify an",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

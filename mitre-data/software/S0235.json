@@ -1,0 +1,7 @@
+{
+  "id": "S0235",
+  "name": "CrossRAT",
+  "type": "malware",
+  "description": "[CrossRAT](https://attack.mitre.org/software/S0235) is a cross platform RAT.",
+  "techniques": []
+}

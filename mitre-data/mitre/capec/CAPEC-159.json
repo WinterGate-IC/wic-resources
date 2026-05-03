@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-159",
+  "name": "Redirect Access to Libraries",
+  "description": "An adversary exploits a weakness in the way an application searches for external libraries to manipulate the execution flow to point to an adversary supplied library or code base. This pattern of attack allows the adversary to compromise the application or server via the execution of unauthorized co",
+  "severity": "Very High",
+  "likelihood": "Unknown"
+}

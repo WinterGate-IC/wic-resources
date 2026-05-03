@@ -1,0 +1,6 @@
+{
+  "id": "M1031",
+  "name": "Network Intrusion Prevention",
+  "description": "Use intrusion detection signatures to block traffic at network boundaries.",
+  "techniques": []
+}

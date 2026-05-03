@@ -1,0 +1,7 @@
+{
+  "id": "S1147",
+  "name": "Nightdoor",
+  "type": "malware",
+  "description": "[Nightdoor](https://attack.mitre.org/software/S1147) is a backdoor exclusively associated with [Daggerfly](https://attack.mitre.org/groups/G1034) operations. [Nightdoor](https://attack.mitre.org/software/S1147) uses common libraries with [MgBot](https://attack.mitre.org/software/S1146) and [MacMa](https://attack.mitre.org/software/S1016), linking these malware families together.(Citation: ESET Eva",
+  "techniques": []
+}

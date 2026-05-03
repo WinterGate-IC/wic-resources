@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-323",
+  "name": "TCP (ISN) Counter Rate Probe",
+  "description": "This OS detection probe measures the average rate of initial sequence number increments during a period of time. Sequence numbers are incremented using a time-based algorithm and are susceptible to a timing analysis that can determine the number of increments per unit time. The result of this analys",
+  "severity": "Low",
+  "likelihood": "Unknown"
+}

@@ -1,0 +1,6 @@
+{
+  "id": "T1212",
+  "name": "Exploitation for Credential Access Mitigation",
+  "description": "Update software regularly by employing patch management for internal enterprise endpoints and servers. Develop a robust cyber threat intelligence capability to determine what types and levels of threat may use software exploits and 0-days against a particular organization. Make it difficult for adversaries to advance their operation through exploitation of undiscovered or unpatched vulnerabilities",
+  "techniques": []
+}

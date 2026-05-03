@@ -1,0 +1,7 @@
+{
+  "id": "S1161",
+  "name": "BPFDoor",
+  "type": "malware",
+  "description": "[BPFDoor](https://attack.mitre.org/software/S1161) is a Linux based passive long-term backdoor used by China-based threat actors. First seen in 2021, [BPFDoor](https://attack.mitre.org/software/S1161) is named after its usage of Berkley Packet Filter (BPF) to execute single task instructions. [BPFDoor](https://attack.mitre.org/software/S1161) supports multiple protocols for communicating with a C2",
+  "techniques": []
+}

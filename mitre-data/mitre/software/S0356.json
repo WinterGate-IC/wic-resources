@@ -1,0 +1,7 @@
+{
+  "id": "S0356",
+  "name": "KONNI",
+  "type": "malware",
+  "description": "[KONNI](https://attack.mitre.org/software/S0356) is a remote access tool that security researchers assess has been used by North Korean cyber actors since at least 2014. [KONNI](https://attack.mitre.org/software/S0356) has significant code overlap with the [NOKKI](https://attack.mitre.org/software/S0353) malware family, and has been linked to several suspected North Korean campaigns targeting poli",
+  "techniques": []
+}

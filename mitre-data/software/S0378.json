@@ -1,0 +1,7 @@
+{
+  "id": "S0378",
+  "name": "PoshC2",
+  "type": "tool",
+  "description": "[PoshC2](https://attack.mitre.org/software/S0378) is an open source remote administration and post-exploitation framework that is publicly available on GitHub. The server-side components of the tool are primarily written in Python, while the implants are written in [PowerShell](https://attack.mitre.org/techniques/T1059/001). Although [PoshC2](https://attack.mitre.org/software/S0378) is primarily f",
+  "techniques": []
+}

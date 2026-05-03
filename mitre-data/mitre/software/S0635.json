@@ -1,0 +1,7 @@
+{
+  "id": "S0635",
+  "name": "BoomBox",
+  "type": "malware",
+  "description": "[BoomBox](https://attack.mitre.org/software/S0635) is a downloader responsible for executing next stage components that has been used by [APT29](https://attack.mitre.org/groups/G0016) since at least 2021.(Citation: MSTIC Nobelium Toolset May 2021)",
+  "techniques": []
+}

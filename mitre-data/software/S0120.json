@@ -1,0 +1,7 @@
+{
+  "id": "S0120",
+  "name": "Fgdump",
+  "type": "tool",
+  "description": "[Fgdump](https://attack.mitre.org/software/S0120) is a Windows password hash dumper. (Citation: Mandiant APT1)",
+  "techniques": []
+}

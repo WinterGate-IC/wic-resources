@@ -1,0 +1,7 @@
+{
+  "id": "S1170",
+  "name": "ODAgent",
+  "type": "malware",
+  "description": "[ODAgent](https://attack.mitre.org/software/S1170) is a C#/.NET downloader that has been used by [OilRig](https://attack.mitre.org/groups/G0049) since at least 2022 including against target organizations in Israel to download and execute payloads and to exfiltrate staged files.(Citation: ESET OilRig Downloaders DEC 2023)",
+  "techniques": []
+}

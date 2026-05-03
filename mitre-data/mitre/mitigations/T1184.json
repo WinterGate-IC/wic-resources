@@ -1,0 +1,6 @@
+{
+  "id": "T1184",
+  "name": "SSH Hijacking Mitigation",
+  "description": "Ensure SSH key pairs have strong passwords and refrain from using key-store technologies such as ssh-agent unless they are properly protected. Ensure that all private keys are stored securely in locations where only the legitimate owner has access to with strong passwords and are rotated frequently. Ensure proper file permissions are set and harden system to prevent root privilege escalation oppor",
+  "techniques": []
+}

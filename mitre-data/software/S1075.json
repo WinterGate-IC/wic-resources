@@ -1,0 +1,7 @@
+{
+  "id": "S1075",
+  "name": "KOPILUWAK",
+  "type": "malware",
+  "description": "[KOPILUWAK](https://attack.mitre.org/software/S1075) is a JavaScript-based reconnaissance tool that has been used for victim profiling and C2 since at least 2017.(Citation: Mandiant Suspected Turla Campaign February 2023)",
+  "techniques": []
+}

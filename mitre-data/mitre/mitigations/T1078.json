@@ -1,0 +1,6 @@
+{
+  "id": "T1078",
+  "name": "Valid Accounts Mitigation",
+  "description": "Take measures to detect or prevent techniques such as [OS Credential Dumping](https://attack.mitre.org/techniques/T1003) or installation of keyloggers to acquire credentials through [Input Capture](https://attack.mitre.org/techniques/T1056). Limit credential overlap across systems to prevent access if account credentials are obtained. Ensure that local administrator accounts have complex, unique p",
+  "techniques": []
+}

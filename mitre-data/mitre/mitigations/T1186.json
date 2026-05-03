@@ -1,0 +1,6 @@
+{
+  "id": "T1186",
+  "name": "Process Doppelg\u00e4nging Mitigation",
+  "description": "This type of attack technique cannot be easily mitigated with preventive controls or patched since it is based on the abuse of operating system design features. For example, mitigating specific API calls will likely have unintended side effects, such as preventing legitimate process-loading mechanisms from operating properly. Efforts should be focused on preventing adversary tools from running ear",
+  "techniques": []
+}

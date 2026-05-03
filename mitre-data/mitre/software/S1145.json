@@ -1,0 +1,7 @@
+{
+  "id": "S1145",
+  "name": "Pikabot",
+  "type": "malware",
+  "description": "[Pikabot](https://attack.mitre.org/software/S1145) is a backdoor used for initial access and follow-on tool deployment active since early 2023. [Pikabot](https://attack.mitre.org/software/S1145) is notable for extensive use of multiple encoding, encryption, and defense evasion mechanisms to evade defenses and avoid analysis. [Pikabot](https://attack.mitre.org/software/S1145) has some overlaps with",
+  "techniques": []
+}

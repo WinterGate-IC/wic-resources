@@ -1,0 +1,6 @@
+{
+  "id": "T1035",
+  "name": "Service Execution Mitigation",
+  "description": "Ensure that permissions disallow services that run at a higher permissions level from being created or interacted with by a user with a lower permission level. Also ensure that high permission level service binaries cannot be replaced or modified by users with a lower permission level.\n\nIdentify unnecessary system utilities or potentially malicious software that may be used to interact with Window",
+  "techniques": []
+}

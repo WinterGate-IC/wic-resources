@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-249",
+  "name": "DEPRECATED: Linux Terminal Injection",
+  "description": "This attack pattern has been deprecated as it is covered by \"CAPEC-40 : Manipulating Writeable Terminal Devices\". Please refer to this CAPEC going forward.",
+  "severity": "Unknown",
+  "likelihood": "Unknown"
+}

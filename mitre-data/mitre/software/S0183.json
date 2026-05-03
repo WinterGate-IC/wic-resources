@@ -1,0 +1,7 @@
+{
+  "id": "S0183",
+  "name": "Tor",
+  "type": "tool",
+  "description": "[Tor](https://attack.mitre.org/software/S0183) is a software suite and network that provides increased anonymity on the Internet. It creates a multi-hop proxy network and utilizes multilayer encryption to protect both the message and routing information. [Tor](https://attack.mitre.org/software/S0183) utilizes \"Onion Routing,\" in which messages are encrypted with multiple layers of encryption; at e",
+  "techniques": []
+}

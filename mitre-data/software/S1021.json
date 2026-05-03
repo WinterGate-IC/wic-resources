@@ -1,0 +1,7 @@
+{
+  "id": "S1021",
+  "name": "DnsSystem",
+  "type": "malware",
+  "description": "[DnsSystem](https://attack.mitre.org/software/S1021) is a .NET based DNS backdoor, which is a customized version of the open source tool DIG.net, that has been used by [HEXANE](https://attack.mitre.org/groups/G1001) since at least June 2022.(Citation: Zscaler Lyceum DnsSystem June 2022)",
+  "techniques": []
+}

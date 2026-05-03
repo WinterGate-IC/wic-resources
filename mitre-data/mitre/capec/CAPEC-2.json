@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-2",
+  "name": "Inducing Account Lockout",
+  "description": "An attacker leverages the security functionality of the system aimed at thwarting potential attacks to launch a denial of service attack against a legitimate system user. Many systems, for instance, implement a password throttling mechanism that locks an account after a certain number of incorrect l",
+  "severity": "Medium",
+  "likelihood": "Unknown"
+}

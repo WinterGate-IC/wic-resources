@@ -1,0 +1,7 @@
+{
+  "id": "S1193",
+  "name": "TAMECAT",
+  "type": "malware",
+  "description": "[TAMECAT](https://attack.mitre.org/software/S1193) is a malware that is used by [APT42](https://attack.mitre.org/groups/G1044) to execute PowerShell or C# content.(Citation: Mandiant APT42-untangling) ",
+  "techniques": []
+}

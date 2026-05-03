@@ -1,0 +1,4 @@
+IP,Total Attacks,Risk Score,Method,Last Seen,ISP,Role,Similarity to DPOS Pattern,Certainty
+189.206.155.253,80,45,Command Injection,2026-04-16 00:42:32,Alestra (AS11172),DPOS Collaborator,MATCH,HIGH
+201.149.53.243,31,45,Command Injection,2026-04-19 17:09:01,Unknown,Unknown,NO MATCH,LOW
+189.217.130.86,26,45,SSH Brute Force,2026-04-19 17:09:01,Unknown,Unknown,NO MATCH,LOW

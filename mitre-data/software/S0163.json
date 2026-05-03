@@ -1,0 +1,7 @@
+{
+  "id": "S0163",
+  "name": "Janicab",
+  "type": "malware",
+  "description": "[Janicab](https://attack.mitre.org/software/S0163) is an OS X trojan that relied on a valid developer ID and oblivious users to install it. (Citation: Janicab)",
+  "techniques": []
+}

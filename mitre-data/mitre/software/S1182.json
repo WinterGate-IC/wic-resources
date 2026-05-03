@@ -1,0 +1,7 @@
+{
+  "id": "S1182",
+  "name": "MagicRAT",
+  "type": "malware",
+  "description": "[MagicRAT](https://attack.mitre.org/software/S1182) is a remote access tool developed in C++ and exclusively used by the [Lazarus Group](https://attack.mitre.org/groups/G0032) threat actor in operations. [MagicRAT](https://attack.mitre.org/software/S1182) allows for arbitrary command execution on victim machines and provides basic remote access functionality.(Citation: Cisco MagicRAT 2022)",
+  "techniques": []
+}

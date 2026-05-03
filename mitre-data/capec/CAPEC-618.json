@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-618",
+  "name": "Cellular Broadcast Message Request",
+  "description": "In this attack scenario, the attacker uses knowledge of the target\u2019s mobile phone number (i.e., the number associated with the SIM used in the retransmission device) to cause the cellular network to send broadcast messages to alert the mobile device. Since the network knows which cell tower the targ",
+  "severity": "Low",
+  "likelihood": "Unknown"
+}

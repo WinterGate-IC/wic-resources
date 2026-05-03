@@ -1,0 +1,6 @@
+{
+  "id": "M1016",
+  "name": "Vulnerability Scanning",
+  "description": "Vulnerability scanning involves the automated or manual assessment of systems, applications, and networks to identify misconfigurations, unpatched software, or other security weaknesses. The process helps prioritize remediation efforts by classifying vulnerabilities based on risk and impact, reducing the likelihood of exploitation by adversaries. This mitigation can be implemented through the foll",
+  "techniques": []
+}

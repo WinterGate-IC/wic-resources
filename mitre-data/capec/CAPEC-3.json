@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-3",
+  "name": "Using Leading 'Ghost' Character Sequences to Bypass Input Filters",
+  "description": "Some APIs will strip certain leading characters from a string of parameters. An adversary can intentionally introduce leading \"ghost\" characters (extra characters that don't affect the validity of the request at the API layer) that enable the input to pass the filters and therefore process the adver",
+  "severity": "Medium",
+  "likelihood": "Unknown"
+}

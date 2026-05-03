@@ -1,0 +1,7 @@
+{
+  "id": "S0203",
+  "name": "Hydraq",
+  "type": "malware",
+  "description": "[Hydraq](https://attack.mitre.org/software/S0203) is a data-theft trojan first used by [Elderwood](https://attack.mitre.org/groups/G0066) in the 2009 Google intrusion known as Operation Aurora, though variations of this trojan have been used in more recent campaigns by other Chinese actors, possibly including [APT17](https://attack.mitre.org/groups/G0025).(Citation: MicroFocus 9002 Aug 2016)(Citat",
+  "techniques": []
+}

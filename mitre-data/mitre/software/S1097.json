@@ -1,0 +1,7 @@
+{
+  "id": "S1097",
+  "name": "HUI Loader",
+  "type": "malware",
+  "description": "[HUI Loader](https://attack.mitre.org/software/S1097) is a custom DLL loader that has been used since at least 2015 by China-based threat groups including [Cinnamon Tempest](https://attack.mitre.org/groups/G1021) and [menuPass](https://attack.mitre.org/groups/G0045) to deploy malware on compromised hosts. [HUI Loader](https://attack.mitre.org/software/S1097) has been observed in campaigns loading ",
+  "techniques": []
+}

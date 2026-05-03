@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-562",
+  "name": "Modify Shared File",
+  "description": "An adversary manipulates the files in a shared location by adding malicious programs, scripts, or exploit code to valid content. Once a user opens the shared content, the tainted content is executed.",
+  "severity": "Unknown",
+  "likelihood": "Unknown"
+}

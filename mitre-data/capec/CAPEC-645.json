@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-645",
+  "name": "Use of Captured Tickets (Pass The Ticket)",
+  "description": "An adversary uses stolen Kerberos tickets to access systems/resources that leverage the Kerberos authentication protocol. The Kerberos authentication protocol centers around a ticketing system which is used to request/grant access to services and to then access the requested services. An adversary c",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "S1164",
+  "name": "UPSTYLE",
+  "type": "malware",
+  "description": "[UPSTYLE](https://attack.mitre.org/software/S1164) is a Python-based backdoor associated with exploitation of Palo Alto firewalls using CVE-2024-3400 in early 2024. [UPSTYLE](https://attack.mitre.org/software/S1164) has only been observed in relation to this exploitation activity, which involved attempted install on compromised devices by the threat actor UTA0218.(Citation: Volexity UPSTYLE 2024)(",
+  "techniques": []
+}

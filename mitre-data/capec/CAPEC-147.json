@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-147",
+  "name": "XML Ping of the Death",
+  "description": "An attacker initiates a resource depletion attack where a large number of small XML messages are delivered at a sufficiently rapid rate to cause a denial of service or crash of the target. Transactions such as repetitive SOAP transactions can deplete resources faster than a simple flooding attack be",
+  "severity": "Medium",
+  "likelihood": "Unknown"
+}

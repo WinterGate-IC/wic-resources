@@ -1,0 +1,7 @@
+{
+  "id": "S0031",
+  "name": "BACKSPACE",
+  "type": "malware",
+  "description": "[BACKSPACE](https://attack.mitre.org/software/S0031) is a backdoor used by [APT30](https://attack.mitre.org/groups/G0013) that dates back to at least 2005. (Citation: FireEye APT30)",
+  "techniques": []
+}

@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-691",
+  "name": "Spoof Open-Source Software Metadata",
+  "description": "\n            <xhtml:p>An adversary spoofs open-source software metadata in an attempt to masquerade malicious software as popular, maintained, and trusted.</xhtml:p>\n         ",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

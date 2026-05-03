@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-328",
+  "name": "TCP 'RST' Flag Checksum Probe",
+  "description": "This OS fingerprinting probe performs a checksum on any ASCII data contained within the data portion or a RST packet. Some operating systems will report a human-readable text message in the payload of a 'RST' (reset) packet when specific types of connection errors occur. RFC 1122 allows text payload",
+  "severity": "Low",
+  "likelihood": "Unknown"
+}

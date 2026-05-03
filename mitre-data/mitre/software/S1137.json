@@ -1,0 +1,7 @@
+{
+  "id": "S1137",
+  "name": "Moneybird",
+  "type": "malware",
+  "description": "[Moneybird](https://attack.mitre.org/software/S1137) is a ransomware variant written in C++ associated with [Agrius](https://attack.mitre.org/groups/G1030) operations. The name \"Moneybird\" is contained in the malware's ransom note and as strings in the executable.(Citation: CheckPoint Agrius 2023)",
+  "techniques": []
+}

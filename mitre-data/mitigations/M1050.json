@@ -1,0 +1,6 @@
+{
+  "id": "M1050",
+  "name": "Exploit Protection",
+  "description": "Deploy capabilities that detect, block, and mitigate conditions indicative of software exploits. These capabilities aim to prevent exploitation by addressing vulnerabilities, monitoring anomalous behaviors, and applying exploit-mitigation techniques to harden systems and software.\n\nOperating System Exploit Protections:\n\n- Use Case: Enable built-in exploit protection features provided by modern ope",
+  "techniques": []
+}

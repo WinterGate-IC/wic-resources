@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-673",
+  "name": "Developer Signing Maliciously Altered Software",
+  "description": "\n            <xhtml:p>Software produced by a reputable developer is clandestinely infected with malicious code and then digitally signed by the unsuspecting developer, where the software has been altered via a compromised software development or build process prior to being signed. The receiver or u",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

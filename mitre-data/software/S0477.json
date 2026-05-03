@@ -1,0 +1,7 @@
+{
+  "id": "S0477",
+  "name": "Goopy",
+  "type": "malware",
+  "description": "[Goopy](https://attack.mitre.org/software/S0477) is a Windows backdoor and Trojan used by [APT32](https://attack.mitre.org/groups/G0050) and shares several similarities to another backdoor used by the group ([Denis](https://attack.mitre.org/software/S0354)). [Goopy](https://attack.mitre.org/software/S0477) is named for its impersonation of the legitimate Google Updater executable.(Citation: Cybere",
+  "techniques": []
+}

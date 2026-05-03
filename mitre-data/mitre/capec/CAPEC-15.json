@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-15",
+  "name": "Command Delimiters",
+  "description": "An attack of this type exploits a programs' vulnerabilities that allows an attacker's commands to be concatenated onto a legitimate command with the intent of targeting other resources such as the file system or database. The system that uses a filter or denylist input validation, as opposed to allo",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

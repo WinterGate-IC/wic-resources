@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-499",
+  "name": "Android Intent Intercept",
+  "description": "An adversary, through a previously installed malicious application, intercepts messages from a trusted Android-based application in an attempt to achieve a variety of different objectives including denial of service, information disclosure, and data injection. An implicit intent sent from a trusted ",
+  "severity": "Unknown",
+  "likelihood": "Unknown"
+}

@@ -1,0 +1,6 @@
+{
+  "id": "T1490",
+  "name": "Inhibit System Recovery Mitigation",
+  "description": "Consider technical controls to prevent the disabling of services or deletion of files involved in system recovery. \n\nConsider implementing IT disaster recovery plans that contain procedures for taking regular data backups that can be used to restore organizational data.(Citation: Ready.gov IT DRP) Ensure backups are stored off system and is protected from common methods adversaries may use to gain",
+  "techniques": []
+}

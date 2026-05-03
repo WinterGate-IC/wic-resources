@@ -1,0 +1,7 @@
+{
+  "id": "S1228",
+  "name": "PUBLOAD",
+  "type": "malware",
+  "description": "[PUBLOAD](https://attack.mitre.org/software/S1228) is a stager malware that has been observed installing itself in existing directories such as `C:\\Users\\Public` or creating new directories to stage the malware and its components.(Citation: 2022 November_TrendMicro_Earth Preta_Toneshell_Pubload)  [PUBLOAD](https://attack.mitre.org/software/S1228) malware collects details of the victim host, establ",
+  "techniques": []
+}

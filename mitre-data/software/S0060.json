@@ -1,0 +1,7 @@
+{
+  "id": "S0060",
+  "name": "Sys10",
+  "type": "malware",
+  "description": "[Sys10](https://attack.mitre.org/software/S0060) is a backdoor that was used throughout 2013 by [Naikon](https://attack.mitre.org/groups/G0019). (Citation: Baumgartner Naikon 2015)",
+  "techniques": []
+}

@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-667",
+  "name": "Bluetooth Impersonation AttackS (BIAS)",
+  "description": "An adversary disguises the MAC address of their Bluetooth enabled device to one for which there exists an active and trusted connection and authenticates successfully. The adversary can then perform malicious actions on the target Bluetooth device depending on the target\u2019s capabilities.",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "S0252",
+  "name": "Brave Prince",
+  "type": "malware",
+  "description": "[Brave Prince](https://attack.mitre.org/software/S0252) is a Korean-language implant that was first observed in the wild in December 2017. It contains similar code and behavior to [Gold Dragon](https://attack.mitre.org/software/S0249), and was seen along with [Gold Dragon](https://attack.mitre.org/software/S0249) and [RunningRAT](https://attack.mitre.org/software/S0253) in operations surrounding t",
+  "techniques": []
+}

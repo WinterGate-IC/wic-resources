@@ -1,0 +1,7 @@
+{
+  "id": "S0565",
+  "name": "Raindrop",
+  "type": "malware",
+  "description": "[Raindrop](https://attack.mitre.org/software/S0565) is a loader used by [APT29](https://attack.mitre.org/groups/G0016) that was discovered on some victim machines during investigations related to the [SolarWinds Compromise](https://attack.mitre.org/campaigns/C0024). It was discovered in January 2021 and was likely used since at least May 2020.(Citation: Symantec RAINDROP January 2021)(Citation: Mi",
+  "techniques": []
+}

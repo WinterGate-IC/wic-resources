@@ -1,0 +1,7 @@
+{
+  "id": "S0498",
+  "name": "Cryptoistic",
+  "type": "malware",
+  "description": "[Cryptoistic](https://attack.mitre.org/software/S0498) is a backdoor, written in Swift, that has been used by [Lazarus Group](https://attack.mitre.org/groups/G0032).(Citation: SentinelOne Lazarus macOS July 2020)",
+  "techniques": []
+}

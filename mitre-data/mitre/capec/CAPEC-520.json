@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-520",
+  "name": "Counterfeit Hardware Component Inserted During Product Assembly",
+  "description": "An adversary with either direct access to the product assembly process or to the supply of subcomponents used in the product assembly process introduces counterfeit hardware components into product assembly. The assembly containing the counterfeit components results in a system specifically designed",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

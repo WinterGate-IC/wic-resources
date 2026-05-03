@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-141",
+  "name": "Cache Poisoning",
+  "description": "An attacker exploits the functionality of cache technologies to cause specific data to be cached that aids the attackers' objectives. This describes any attack whereby an attacker places incorrect or harmful material in cache. The targeted cache can be an application's cache (e.g. a web browser cach",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

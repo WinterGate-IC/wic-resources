@@ -1,0 +1,6 @@
+{
+  "id": "T1145",
+  "name": "Private Keys Mitigation",
+  "description": "Use strong passphrases for private keys to make cracking difficult. When possible, store keys on separate cryptographic hardware instead of on the local system. Ensure only authorized keys are allowed access to critical resources and audit access lists regularly. Ensure permissions are properly set on folders containing sensitive private keys to prevent unintended access. Use separate infrastructu",
+  "techniques": []
+}

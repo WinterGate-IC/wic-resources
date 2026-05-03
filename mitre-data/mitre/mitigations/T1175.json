@@ -1,0 +1,6 @@
+{
+  "id": "T1175",
+  "name": "Distributed Component Object Model Mitigation",
+  "description": "Modify Registry settings (directly or using Dcomcnfg.exe) in <code>HKEY_LOCAL_MACHINE\\SOFTWARE\\Classes\\AppID\\{AppID_GUID}</code> associated with the process-wide security of individual COM applications. (Citation: Microsoft Process Wide Com Keys)\n\nModify Registry settings (directly or using Dcomcnfg.exe) in <code>HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Ole</code> associated with system-wide security",
+  "techniques": []
+}

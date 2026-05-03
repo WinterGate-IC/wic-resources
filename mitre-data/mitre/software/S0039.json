@@ -1,0 +1,7 @@
+{
+  "id": "S0039",
+  "name": "Net",
+  "type": "tool",
+  "description": "The [Net](https://attack.mitre.org/software/S0039) utility is a component of the Windows operating system. It is used in command-line operations for control of users, groups, services, and network connections. (Citation: Microsoft Net Utility)\n\n[Net](https://attack.mitre.org/software/S0039) has a great deal of functionality, (Citation: Savill 1999) much of which is useful for an adversary, such as",
+  "techniques": []
+}

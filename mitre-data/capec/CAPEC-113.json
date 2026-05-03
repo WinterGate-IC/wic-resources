@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-113",
+  "name": "Interface Manipulation",
+  "description": "An adversary manipulates the use or processing of an interface (e.g. Application Programming Interface (API) or System-on-Chip (SoC)) resulting in an adverse impact upon the security of the system implementing the interface. This can allow the adversary to bypass access control and/or execute functi",
+  "severity": "Medium",
+  "likelihood": "Unknown"
+}

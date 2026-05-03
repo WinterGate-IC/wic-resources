@@ -1,0 +1,7 @@
+{
+  "id": "S0109",
+  "name": "WEBC2",
+  "type": "malware",
+  "description": "[WEBC2](https://attack.mitre.org/software/S0109) is a family of backdoor malware used by [APT1](https://attack.mitre.org/groups/G0006) as early as July 2006. [WEBC2](https://attack.mitre.org/software/S0109) backdoors are designed to retrieve a webpage, with commands hidden in HTML comments or special tags, from a predetermined C2 server. (Citation: Mandiant APT1 Appendix)(Citation: Mandiant APT1)",
+  "techniques": []
+}

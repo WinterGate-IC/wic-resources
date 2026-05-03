@@ -1,0 +1,7 @@
+{
+  "id": "S1180",
+  "name": "BlackByte Ransomware",
+  "type": "malware",
+  "description": "[BlackByte Ransomware](https://attack.mitre.org/software/S1180) is uniquely associated with [BlackByte](https://attack.mitre.org/groups/G1043) operations. [BlackByte Ransomware](https://attack.mitre.org/software/S1180) used a common key for infections, allowing for the creation of a universal decryptor.(Citation: Trustwave BlackByte 2021)(Citation: FBI BlackByte 2022) [BlackByte Ransomware](https:",
+  "techniques": []
+}

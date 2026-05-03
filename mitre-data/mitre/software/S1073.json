@@ -1,0 +1,7 @@
+{
+  "id": "S1073",
+  "name": "Royal",
+  "type": "malware",
+  "description": "[Royal](https://attack.mitre.org/software/S1073) is ransomware that first appeared in early 2022;  a version that also targets ESXi servers was later observed in February 2023. [Royal](https://attack.mitre.org/software/S1073) employs partial encryption and multiple threads to evade detection and speed encryption. [Royal](https://attack.mitre.org/software/S1073) has been used in attacks against mul",
+  "techniques": []
+}

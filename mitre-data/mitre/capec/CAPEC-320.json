@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-320",
+  "name": "TCP Timestamp Probe",
+  "description": "This OS fingerprinting probe examines the remote server's implementation of TCP timestamps. Not all operating systems implement timestamps within the TCP header, but when timestamps are used then this provides the attacker with a means to guess the operating system of the target. The attacker begins",
+  "severity": "Low",
+  "likelihood": "Unknown"
+}

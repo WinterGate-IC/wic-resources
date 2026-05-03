@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-497",
+  "name": "File Discovery",
+  "description": "An adversary engages in probing and exploration activities to determine if common key files exists. Such files often contain configuration and security parameters of the targeted application, system or network. Using this knowledge may often pave the way for more damaging attacks.",
+  "severity": "Very Low",
+  "likelihood": "Unknown"
+}

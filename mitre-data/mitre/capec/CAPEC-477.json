@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-477",
+  "name": "Signature Spoofing by Mixing Signed and Unsigned Content",
+  "description": "An attacker exploits the underlying complexity of a data structure that allows for both signed and unsigned content, to cause unsigned data to be processed as though it were signed data.",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

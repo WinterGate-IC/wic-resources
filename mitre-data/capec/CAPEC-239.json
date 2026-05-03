@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-239",
+  "name": "DEPRECATED: Subversion of Authorization Checks: Cache Filtering, Programmatic Security, etc.",
+  "description": "This attack pattern has been deprecated as it did not contain any content and did not serve any useful purpose. Please refer to \"CAPEC-207: removing Important Client Functionality\" going forward.",
+  "severity": "Unknown",
+  "likelihood": "Unknown"
+}

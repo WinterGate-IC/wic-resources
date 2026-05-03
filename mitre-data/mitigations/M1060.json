@@ -1,0 +1,6 @@
+{
+  "id": "M1060",
+  "name": "Out-of-Band Communications Channel",
+  "description": "Establish secure out-of-band communication channels to ensure the continuity of critical communications during security incidents, data integrity attacks, or in-network communication failures. Out-of-band communication refers to using an alternative, separate communication path that is not dependent on the potentially compromised primary network infrastructure. This method can include secure messa",
+  "techniques": []
+}

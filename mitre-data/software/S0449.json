@@ -1,0 +1,7 @@
+{
+  "id": "S0449",
+  "name": "Maze",
+  "type": "malware",
+  "description": "[Maze](https://attack.mitre.org/software/S0449) ransomware, previously known as \"ChaCha\", was discovered in May 2019. In addition to encrypting files on victim machines for impact, [Maze](https://attack.mitre.org/software/S0449) operators conduct information stealing campaigns prior to encryption and post the information online to extort affected companies.(Citation: FireEye Maze May 2020)(Citatio",
+  "techniques": []
+}

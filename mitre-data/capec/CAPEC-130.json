@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-130",
+  "name": "Excessive Allocation",
+  "description": "An adversary causes the target to allocate excessive resources to servicing the attackers' request, thereby reducing the resources available for legitimate services and degrading or denying services. Usually, this attack focuses on memory allocation, but any finite resource on the target could be th",
+  "severity": "Medium",
+  "likelihood": "Unknown"
+}

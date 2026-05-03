@@ -1,0 +1,7 @@
+{
+  "id": "S0417",
+  "name": "GRIFFON",
+  "type": "malware",
+  "description": "[GRIFFON](https://attack.mitre.org/software/S0417) is a JavaScript backdoor used by [FIN7](https://attack.mitre.org/groups/G0046). (Citation: SecureList Griffon May 2019)",
+  "techniques": []
+}

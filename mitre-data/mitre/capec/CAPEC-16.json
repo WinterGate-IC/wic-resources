@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-16",
+  "name": "Dictionary-based Password Attack",
+  "description": "\n            <xhtml:p>An attacker tries each of the words in a dictionary as passwords to gain access to the system via some user's account. If the password chosen by the user was a word within the dictionary, this attack will be successful (in the absence of other mitigations). This is a specific i",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

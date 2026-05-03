@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-95",
+  "name": "WSDL Scanning",
+  "description": "This attack targets the WSDL interface made available by a web service. The attacker may scan the WSDL interface to reveal sensitive information about invocation patterns, underlying technology implementations and associated vulnerabilities. This type of probing is carried out to perform more seriou",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

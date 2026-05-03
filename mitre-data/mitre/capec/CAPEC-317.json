@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-317",
+  "name": "IP ID Sequencing Probe",
+  "description": "This OS fingerprinting probe analyzes the IP 'ID' field sequence number generation algorithm of a remote host. Operating systems generate IP 'ID' numbers differently, allowing an attacker to identify the operating system of the host by examining how is assigns ID numbers when generating response pac",
+  "severity": "Low",
+  "likelihood": "Unknown"
+}

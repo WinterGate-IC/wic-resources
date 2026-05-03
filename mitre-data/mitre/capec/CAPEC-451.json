@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-451",
+  "name": "DEPRECATED: Malware Propagation via Infected Peripheral Device",
+  "description": "This attack pattern has been deprecated as it is a duplicate of CAPEC-448 : Malware Infection into Product Software. Please refer to this other pattern going forward.",
+  "severity": "Unknown",
+  "likelihood": "Unknown"
+}

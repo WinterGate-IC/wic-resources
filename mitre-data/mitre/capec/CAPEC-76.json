@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-76",
+  "name": "Manipulating Web Input to File System Calls",
+  "description": "An attacker manipulates inputs to the target software which the target software passes to file system calls in the OS. The goal is to gain access to, and perhaps modify, areas of the file system that the target software did not intend to be accessible.",
+  "severity": "Very High",
+  "likelihood": "Unknown"
+}

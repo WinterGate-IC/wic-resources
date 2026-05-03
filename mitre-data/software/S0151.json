@@ -1,0 +1,7 @@
+{
+  "id": "S0151",
+  "name": "HALFBAKED",
+  "type": "malware",
+  "description": "[HALFBAKED](https://attack.mitre.org/software/S0151) is a malware family consisting of multiple components intended to establish persistence in victim networks. (Citation: FireEye FIN7 April 2017)",
+  "techniques": []
+}

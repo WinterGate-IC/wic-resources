@@ -1,0 +1,6 @@
+{
+  "id": "M1040",
+  "name": "Behavior Prevention on Endpoint",
+  "description": "Behavior Prevention on Endpoint refers to the use of technologies and strategies to detect and block potentially malicious activities by analyzing the behavior of processes, files, API calls, and other endpoint events. Rather than relying solely on known signatures, this approach leverages heuristics, machine learning, and real-time monitoring to identify anomalous patterns indicative of an attack",
+  "techniques": []
+}

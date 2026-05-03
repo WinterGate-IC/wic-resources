@@ -1,0 +1,7 @@
+{
+  "id": "S1065",
+  "name": "Woody RAT",
+  "type": "malware",
+  "description": " [Woody RAT](https://attack.mitre.org/software/S1065) is a remote access trojan (RAT) that has been used since at least August 2021 against Russian organizations.(Citation: MalwareBytes WoodyRAT Aug 2022)",
+  "techniques": []
+}

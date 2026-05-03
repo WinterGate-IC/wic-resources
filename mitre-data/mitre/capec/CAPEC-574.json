@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-574",
+  "name": "Services Footprinting",
+  "description": "An adversary exploits functionality meant to identify information about the services on the target system to an authorized user. By knowing what services are registered on the target system, the adversary can learn about the target environment as a means towards further malicious behavior. Depending",
+  "severity": "Low",
+  "likelihood": "Unknown"
+}

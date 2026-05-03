@@ -1,0 +1,7 @@
+{
+  "id": "S1044",
+  "name": "FunnyDream",
+  "type": "malware",
+  "description": "[FunnyDream](https://attack.mitre.org/software/S1044) is a backdoor with multiple components that was used during the [FunnyDream](https://attack.mitre.org/campaigns/C0007) campaign since at least 2019, primarily for execution and exfiltration.(Citation: Bitdefender FunnyDream Campaign November 2020)",
+  "techniques": []
+}

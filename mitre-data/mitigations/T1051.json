@@ -1,0 +1,6 @@
+{
+  "id": "T1051",
+  "name": "Shared Webroot Mitigation",
+  "description": "Networks that allow for open development and testing of Web content and allow users to set up their own Web servers on the enterprise network may be particularly vulnerable if the systems and Web servers are not properly secured to limit privileged account use, unauthenticated network share access, and network/system isolation.\n\nEnsure proper permissions on directories that are accessible through ",
+  "techniques": []
+}

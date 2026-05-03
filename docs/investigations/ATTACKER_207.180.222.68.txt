@@ -1,0 +1,11 @@
+WINTERGATE INTELLIGENCE COLLECTIVE
+Attacker Forensics: 207.180.222.68
+
+Total Attacks: 186
+SSH Brute Force: 70
+Command Injection: 116
+First Seen: 2026-04-27 12:05:32
+Last Seen: 2026-04-27 13:11:09
+
+Hosting Provider: Contabo GmbH
+Abuse Contact: abuse@contabo.de

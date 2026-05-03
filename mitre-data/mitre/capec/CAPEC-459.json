@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-459",
+  "name": "Creating a Rogue Certification Authority Certificate",
+  "description": "An adversary exploits a weakness resulting from using a hashing algorithm with weak collision resistance to generate certificate signing requests (CSR) that contain collision blocks in their \"to be signed\" parts. The adversary submits one CSR to be signed by a trusted certificate authority then uses",
+  "severity": "Very High",
+  "likelihood": "Unknown"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "S0475",
+  "name": "BackConfig",
+  "type": "malware",
+  "description": "[BackConfig](https://attack.mitre.org/software/S0475) is a custom Trojan with a flexible plugin architecture that has been used by [Patchwork](https://attack.mitre.org/groups/G0040).(Citation: Unit 42 BackConfig May 2020)",
+  "techniques": []
+}

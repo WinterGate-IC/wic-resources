@@ -1,0 +1,6 @@
+{
+  "id": "M1049",
+  "name": "Antivirus/Antimalware",
+  "description": "Antivirus/Antimalware solutions utilize signatures, heuristics, and behavioral analysis to detect, block, and remediate malicious software, including viruses, trojans, ransomware, and spyware. These solutions continuously monitor endpoints and systems for known malicious patterns and suspicious behaviors that indicate compromise. Antivirus/Antimalware software should be deployed across all devices",
+  "techniques": []
+}

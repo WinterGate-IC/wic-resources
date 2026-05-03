@@ -1,0 +1,7 @@
+{
+  "id": "S0605",
+  "name": "EKANS",
+  "type": "malware",
+  "description": "[EKANS](https://attack.mitre.org/software/S0605) is ransomware variant written in Golang that first appeared in mid-December 2019 and has been used against multiple sectors, including energy, healthcare, and automotive manufacturing, which in some cases resulted in significant operational disruptions. [EKANS](https://attack.mitre.org/software/S0605) has used a hard-coded kill-list of processes, in",
+  "techniques": []
+}

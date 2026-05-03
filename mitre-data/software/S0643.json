@@ -1,0 +1,7 @@
+{
+  "id": "S0643",
+  "name": "Peppy",
+  "type": "malware",
+  "description": "[Peppy](https://attack.mitre.org/software/S0643) is a Python-based remote access Trojan, active since at least 2012, with similarities to [Crimson](https://attack.mitre.org/software/S0115).(Citation: Proofpoint Operation Transparent Tribe March 2016)",
+  "techniques": []
+}

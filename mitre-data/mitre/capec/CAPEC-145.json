@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-145",
+  "name": "Checksum Spoofing",
+  "description": "An adversary spoofs a checksum message for the purpose of making a payload appear to have a valid corresponding checksum. Checksums are used to verify message integrity. They consist of some value based on the value of the message they are protecting. Hash codes are a common checksum mechanism. Both",
+  "severity": "Medium",
+  "likelihood": "Unknown"
+}

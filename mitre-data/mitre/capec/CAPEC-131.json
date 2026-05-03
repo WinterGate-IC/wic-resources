@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-131",
+  "name": "Resource Leak Exposure",
+  "description": "An adversary utilizes a resource leak on the target to deplete the quantity of the resource available to service legitimate requests.",
+  "severity": "Medium",
+  "likelihood": "Unknown"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "S0457",
+  "name": "Netwalker",
+  "type": "malware",
+  "description": "[Netwalker](https://attack.mitre.org/software/S0457) is fileless ransomware written in PowerShell and executed directly in memory.(Citation: TrendMicro Netwalker May 2020)",
+  "techniques": []
+}

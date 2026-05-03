@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-577",
+  "name": "Owner Footprinting",
+  "description": "An adversary exploits functionality meant to identify information about the primary users on the target system to an authorized user. They may do this, for example, by reviewing logins or file modification times. By knowing what owners use the target system, the adversary can inform further and more",
+  "severity": "Low",
+  "likelihood": "Unknown"
+}

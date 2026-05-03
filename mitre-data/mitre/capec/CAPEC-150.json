@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-150",
+  "name": "Collect Data from Common Resource Locations",
+  "description": "An adversary exploits well-known locations for resources for the purposes of undermining the security of the target. In many, if not most systems, files and resources are organized in a default tree structure. This can be useful for adversaries because they often know where to look for resources or ",
+  "severity": "Medium",
+  "likelihood": "Unknown"
+}

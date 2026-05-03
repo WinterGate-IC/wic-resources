@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-104",
+  "name": "Cross Zone Scripting",
+  "description": "An attacker is able to cause a victim to load content into their web-browser that bypasses security zone controls and gain access to increased privileges to execute scripting code or other web objects such as unsigned ActiveX controls or applets. This is a privilege elevation attack targeted at zone",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-529",
+  "name": "Malware-Directed Internal Reconnaissance",
+  "description": "Adversary uses malware or a similarly controlled application installed inside an organizational perimeter to gather information about the composition, configuration, and security mechanisms of a targeted application, system or network.",
+  "severity": "Medium",
+  "likelihood": "Unknown"
+}

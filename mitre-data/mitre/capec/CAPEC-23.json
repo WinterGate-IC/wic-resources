@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-23",
+  "name": "File Content Injection",
+  "description": "An adversary poisons files with a malicious payload (targeting the file systems accessible by the target software), which may be passed through by standard channels such as via email, and standard web content like PDF and multimedia files. The adversary exploits known vulnerabilities or handling rou",
+  "severity": "Very High",
+  "likelihood": "Unknown"
+}

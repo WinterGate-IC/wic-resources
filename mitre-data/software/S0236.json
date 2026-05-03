@@ -1,0 +1,7 @@
+{
+  "id": "S0236",
+  "name": "Kwampirs",
+  "type": "malware",
+  "description": "[Kwampirs](https://attack.mitre.org/software/S0236) is a backdoor Trojan used by [Orangeworm](https://attack.mitre.org/groups/G0071). [Kwampirs](https://attack.mitre.org/software/S0236) has been found on machines which had software installed for the use and control of high-tech imaging devices such as X-Ray and MRI machines.(Citation: Symantec Orangeworm April 2018) [Kwampirs](https://attack.mitre",
+  "techniques": []
+}

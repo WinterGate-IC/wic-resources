@@ -1,0 +1,7 @@
+{
+  "id": "S1219",
+  "name": "REPTILE",
+  "type": "malware",
+  "description": "[REPTILE](https://attack.mitre.org/software/S1219) is an open-source Linux rootkit with multiple components that provides backdoor access and functionality.(Citation: Google Cloud Mandiant UNC3886 2024)",
+  "techniques": []
+}

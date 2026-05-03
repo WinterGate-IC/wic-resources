@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-469",
+  "name": "HTTP DoS",
+  "description": "An attacker performs flooding at the HTTP level to bring down only a particular web application rather than anything listening on a TCP/IP connection. This denial of service attack requires substantially fewer packets to be sent which makes DoS harder to detect. This is an equivalent of SYN flood in",
+  "severity": "Low",
+  "likelihood": "Unknown"
+}

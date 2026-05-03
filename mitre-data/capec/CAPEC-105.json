@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-105",
+  "name": "HTTP Request Splitting",
+  "description": "\n            <xhtml:p>An adversary abuses the flexibility and discrepancies in the parsing and interpretation of HTTP Request messages by different intermediary HTTP agents (e.g., load balancer, reverse proxy, web caching proxies, application firewalls, etc.) to split a single HTTP request into mult",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

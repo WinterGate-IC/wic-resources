@@ -1,0 +1,7 @@
+{
+  "id": "S0271",
+  "name": "KEYMARBLE",
+  "type": "malware",
+  "description": "[KEYMARBLE](https://attack.mitre.org/software/S0271) is a Trojan that has reportedly been used by the North Korean government. (Citation: US-CERT KEYMARBLE Aug 2018)",
+  "techniques": []
+}

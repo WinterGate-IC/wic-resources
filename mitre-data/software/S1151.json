@@ -1,0 +1,7 @@
+{
+  "id": "S1151",
+  "name": "ZeroCleare",
+  "type": "malware",
+  "description": "[ZeroCleare](https://attack.mitre.org/software/S1151) is a wiper malware that has been used in conjunction with the [RawDisk](https://attack.mitre.org/software/S0364) driver since at least 2019 by suspected Iran-nexus threat actors including activity targeting the energy and industrial sectors in the Middle East and political targets in Albania.(Citation: Microsoft Albanian Government Attacks Sept",
+  "techniques": []
+}

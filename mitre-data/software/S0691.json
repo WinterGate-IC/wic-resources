@@ -1,0 +1,7 @@
+{
+  "id": "S0691",
+  "name": "Neoichor",
+  "type": "malware",
+  "description": "[Neoichor](https://attack.mitre.org/software/S0691) is C2 malware used by [Ke3chang](https://attack.mitre.org/groups/G0004) since at least 2019; similar malware families used by the group include Leeson and Numbldea.(Citation: Microsoft NICKEL December 2021)",
+  "techniques": []
+}

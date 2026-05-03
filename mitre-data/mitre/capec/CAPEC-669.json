@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-669",
+  "name": "Alteration of a Software Update",
+  "description": "\n            <xhtml:p>An adversary with access to an organization\u2019s software update infrastructure inserts malware into the content of an outgoing update to fielded systems where a wide range of malicious effects are possible. With the same level of access, the adversary can alter a software update ",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

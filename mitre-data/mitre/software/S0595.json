@@ -1,0 +1,7 @@
+{
+  "id": "S0595",
+  "name": "ThiefQuest",
+  "type": "malware",
+  "description": "[ThiefQuest](https://attack.mitre.org/software/S0595) is a virus, data stealer, and wiper that presents itself as ransomware targeting macOS systems. [ThiefQuest](https://attack.mitre.org/software/S0595) was first seen in 2020 distributed via trojanized pirated versions of popular macOS software on Russian forums sharing torrent links.(Citation: Reed thiefquest fake ransom) Even though [ThiefQuest",
+  "techniques": []
+}

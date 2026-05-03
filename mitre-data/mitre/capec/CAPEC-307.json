@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-307",
+  "name": "TCP RPC Scan",
+  "description": "An adversary scans for RPC services listing on a Unix/Linux host.",
+  "severity": "Low",
+  "likelihood": "Unknown"
+}

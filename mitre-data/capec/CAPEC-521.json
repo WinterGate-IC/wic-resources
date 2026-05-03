@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-521",
+  "name": "Hardware Design Specifications Are Altered",
+  "description": "An attacker with access to a manufacturer's hardware manufacturing process documentation alters the design specifications, which introduces flaws advantageous to the attacker once the system is deployed.",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

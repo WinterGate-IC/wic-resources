@@ -1,0 +1,7 @@
+{
+  "id": "S1070",
+  "name": "Black Basta",
+  "type": "malware",
+  "description": "[Black Basta](https://attack.mitre.org/software/S1070) is ransomware written in C++ that has been offered within the ransomware-as-a-service (RaaS) model since at least April 2022; there are variants that target Windows and VMWare ESXi servers. [Black Basta](https://attack.mitre.org/software/S1070) operations have included the double extortion technique where in addition to demanding ransom for de",
+  "techniques": []
+}

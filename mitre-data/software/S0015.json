@@ -1,0 +1,7 @@
+{
+  "id": "S0015",
+  "name": "Ixeshe",
+  "type": "malware",
+  "description": "[Ixeshe](https://attack.mitre.org/software/S0015) is a malware family that has been used since at least 2009 against targets in East Asia. (Citation: Moran 2013)",
+  "techniques": []
+}

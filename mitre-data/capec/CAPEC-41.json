@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-41",
+  "name": "Using Meta-characters in E-mail Headers to Inject Malicious Payloads",
+  "description": "This type of attack involves an attacker leveraging meta-characters in email headers to inject improper behavior into email programs. Email software has become increasingly sophisticated and feature-rich. In addition, email applications are ubiquitous and connected directly to the Web making them id",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

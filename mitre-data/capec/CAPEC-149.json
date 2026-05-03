@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-149",
+  "name": "Explore for Predictable Temporary File Names",
+  "description": "An attacker explores a target to identify the names and locations of predictable temporary files for the purpose of launching further attacks against the target. This involves analyzing naming conventions and storage locations of the temporary files created by a target application. If an attacker ca",
+  "severity": "Medium",
+  "likelihood": "Unknown"
+}

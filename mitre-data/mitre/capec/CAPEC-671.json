@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-671",
+  "name": "Requirements for ASIC Functionality Maliciously Altered",
+  "description": "An adversary with access to functional requirements for an application specific integrated circuit (ASIC), a chip designed/customized for a singular particular use, maliciously alters requirements derived from originating capability needs. In the chip manufacturing process, requirements drive the ch",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

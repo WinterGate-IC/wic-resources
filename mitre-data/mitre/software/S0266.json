@@ -1,0 +1,7 @@
+{
+  "id": "S0266",
+  "name": "TrickBot",
+  "type": "malware",
+  "description": "[TrickBot](https://attack.mitre.org/software/S0266) is a Trojan spyware program written in C++ that first emerged in September 2016 as a possible successor to [Dyre](https://attack.mitre.org/software/S0024). [TrickBot](https://attack.mitre.org/software/S0266) was developed and initially used by [Wizard Spider](https://attack.mitre.org/groups/G0102) for targeting banking sites in North America, Aus",
+  "techniques": []
+}

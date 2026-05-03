@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-657",
+  "name": "Malicious Automated Software Update via Spoofing",
+  "description": "An attackers uses identify or content spoofing to trick a client into performing an automated software update from a malicious source. A malicious automated software update that leverages spoofing can include content or identity spoofing as well as protocol spoofing. Content or identity spoofing att",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

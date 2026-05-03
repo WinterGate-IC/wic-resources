@@ -1,0 +1,6 @@
+{
+  "id": "M1026",
+  "name": "Privileged Account Management",
+  "description": "Privileged Account Management focuses on implementing policies, controls, and tools to securely manage privileged accounts (e.g., SYSTEM, root, or administrative accounts). This includes restricting access, limiting the scope of permissions, monitoring privileged account usage, and ensuring accountability through logging and auditing.This mitigation can be implemented through the following measure",
+  "techniques": []
+}

@@ -1,0 +1,6 @@
+{
+  "id": "T1178",
+  "name": "SID-History Injection Mitigation",
+  "description": "Clean up SID-History attributes after legitimate account migration is complete.\n\nConsider applying SID Filtering to interforest trusts, such as forest trusts and external trusts, to exclude SID-History from requests to access domain resources. SID Filtering ensures that any authentication requests over a trust only contain SIDs of security principals from the trusted domain (i.e. preventing the tr",
+  "techniques": []
+}

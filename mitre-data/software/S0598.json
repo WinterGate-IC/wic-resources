@@ -1,0 +1,7 @@
+{
+  "id": "S0598",
+  "name": "P.A.S. Webshell",
+  "type": "malware",
+  "description": "[P.A.S. Webshell](https://attack.mitre.org/software/S0598) is a publicly available multifunctional PHP webshell in use since at least 2016 that provides remote access and execution on target web servers.(Citation: ANSSI Sandworm January 2021)",
+  "techniques": []
+}

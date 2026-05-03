@@ -1,0 +1,7 @@
+{
+  "id": "S1029",
+  "name": "AuTo Stealer",
+  "type": "malware",
+  "description": "[AuTo Stealer](https://attack.mitre.org/software/S1029) is malware written in C++ has been used by [SideCopy](https://attack.mitre.org/groups/G1008) since at least December 2021 to target government agencies and personnel in India and Afghanistan.(Citation: MalwareBytes SideCopy Dec 2021)",
+  "techniques": []
+}

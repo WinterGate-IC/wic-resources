@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-421",
+  "name": "Influence Perception of Authority",
+  "description": "An adversary uses a social engineering technique to convey a sense of authority that motivates the target to reveal specific information or take specific action. There are various techniques for producing a sense of authority during ordinary modes of communication. One common method is impersonation",
+  "severity": "Low",
+  "likelihood": "Unknown"
+}

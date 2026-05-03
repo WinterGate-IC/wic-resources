@@ -1,0 +1,7 @@
+{
+  "id": "S0025",
+  "name": "CALENDAR",
+  "type": "malware",
+  "description": "[CALENDAR](https://attack.mitre.org/software/S0025) is malware used by [APT1](https://attack.mitre.org/groups/G0006) that mimics legitimate Gmail Calendar traffic. (Citation: Mandiant APT1)",
+  "techniques": []
+}

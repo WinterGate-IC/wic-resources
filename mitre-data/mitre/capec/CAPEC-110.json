@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-110",
+  "name": "SQL Injection through SOAP Parameter Tampering",
+  "description": "An attacker modifies the parameters of the SOAP message that is sent from the service consumer to the service provider to initiate a SQL injection attack. On the service provider side, the SOAP message is parsed and parameters are not properly validated before being used to access a database in a wa",
+  "severity": "Very High",
+  "likelihood": "Unknown"
+}

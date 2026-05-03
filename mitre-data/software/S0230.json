@@ -1,0 +1,7 @@
+{
+  "id": "S0230",
+  "name": "ZeroT",
+  "type": "malware",
+  "description": "[ZeroT](https://attack.mitre.org/software/S0230) is a Trojan used by [TA459](https://attack.mitre.org/groups/G0062), often in conjunction with [PlugX](https://attack.mitre.org/software/S0013). (Citation: Proofpoint TA459 April 2017) (Citation: Proofpoint ZeroT Feb 2017)",
+  "techniques": []
+}

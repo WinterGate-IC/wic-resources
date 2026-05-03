@@ -1,0 +1,9 @@
+China: 875 attackers, 50064 attacks
+Russia: 532 attackers, 39642 attacks
+United States: 561 attackers, 32008 attacks
+Germany: 29 attackers, 468 attacks
+Japan: 8 attackers, 400 attacks
+South Korea: 1 attackers, 126 attacks
+Brazil: 2 attackers, 59 attacks
+Mexico: 2 attackers, 42 attacks
+Private IP: 3 attackers, 32 attacks

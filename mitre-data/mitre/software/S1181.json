@@ -1,0 +1,7 @@
+{
+  "id": "S1181",
+  "name": "BlackByte 2.0 Ransomware",
+  "type": "malware",
+  "description": "[BlackByte 2.0 Ransomware](https://attack.mitre.org/software/S1181) is a replacement for [BlackByte Ransomware](https://attack.mitre.org/software/S1180). Unlike [BlackByte Ransomware](https://attack.mitre.org/software/S1180), [BlackByte 2.0 Ransomware](https://attack.mitre.org/software/S1181) does not have a common key for victim decryption. [BlackByte 2.0 Ransomware](https://attack.mitre.org/soft",
+  "techniques": []
+}

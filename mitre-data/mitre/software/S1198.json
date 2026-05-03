@@ -1,0 +1,7 @@
+{
+  "id": "S1198",
+  "name": "Gomir",
+  "type": "malware",
+  "description": "Gomir is a Linux backdoor variant of the Go-based malware [GoBear](https://attack.mitre.org/software/S1197), uniquely assoicated with [Kimsuky](https://attack.mitre.org/groups/G0094) operations.(Citation: Symantec Troll Stealer 2024)",
+  "techniques": []
+}

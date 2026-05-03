@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-584",
+  "name": "BGP Route Disabling",
+  "description": "An adversary suppresses the Border Gateway Protocol (BGP) advertisement for a route so as to render the underlying network inaccessible. The BGP protocol helps traffic move throughout the Internet by selecting the most efficient route between Autonomous Systems (AS), or routing domains. BGP is the b",
+  "severity": "Unknown",
+  "likelihood": "Unknown"
+}

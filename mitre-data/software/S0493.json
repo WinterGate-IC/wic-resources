@@ -1,0 +1,7 @@
+{
+  "id": "S0493",
+  "name": "GoldenSpy",
+  "type": "malware",
+  "description": "[GoldenSpy](https://attack.mitre.org/software/S0493) is a backdoor malware which has been packaged with legitimate tax preparation software. [GoldenSpy](https://attack.mitre.org/software/S0493) was discovered targeting organizations in China, being delivered with the \"Intelligent Tax\" software suite which is produced by the Golden Tax Department of Aisino Credit Information Co. and required to pay",
+  "techniques": []
+}

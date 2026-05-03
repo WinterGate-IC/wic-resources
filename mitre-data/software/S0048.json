@@ -1,0 +1,7 @@
+{
+  "id": "S0048",
+  "name": "PinchDuke",
+  "type": "malware",
+  "description": "[PinchDuke](https://attack.mitre.org/software/S0048) is malware that was used by [APT29](https://attack.mitre.org/groups/G0016) from 2008 to 2010. (Citation: F-Secure The Dukes)",
+  "techniques": []
+}

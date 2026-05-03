@@ -1,0 +1,7 @@
+{
+  "id": "S1245",
+  "name": "InvisibleFerret",
+  "type": "malware",
+  "description": "[InvisibleFerret](https://attack.mitre.org/software/S1245) is a modular python malware that is leveraged for data exfiltration and remote access capabilities.(Citation: ESET Contagious Interview BeaverTail InvisibleFerret February 2025)(Citation: Zscaler ContagiousInterview BeaverTail InvisibleFerret November 2024)(Citation: PaloAlto ContagiousInterview BeaverTail InvisibleFerret November 2023)   ",
+  "techniques": []
+}

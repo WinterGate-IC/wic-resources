@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-213",
+  "name": "DEPRECATED: Directory Traversal",
+  "description": "This attack pattern has been deprecated as it is a duplicate of the existing attack pattern \"CAPEC-126 : Path Traversal\". Please refer to this other CAPEC going forward.",
+  "severity": "Unknown",
+  "likelihood": "Unknown"
+}

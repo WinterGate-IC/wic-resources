@@ -1,0 +1,7 @@
+{
+  "id": "S0089",
+  "name": "BlackEnergy",
+  "type": "malware",
+  "description": "[BlackEnergy](https://attack.mitre.org/software/S0089) is a malware toolkit that has been used by both criminal and APT actors. It dates back to at least 2007 and was originally designed to create botnets for use in conducting Distributed Denial of Service (DDoS) attacks, but its use has evolved to support various plug-ins. It is well known for being used during the confrontation between Georgia a",
+  "techniques": []
+}

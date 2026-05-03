@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-305",
+  "name": "TCP ACK Scan",
+  "description": "An adversary uses TCP ACK segments to gather information about firewall or ACL configuration. The purpose of this type of scan is to discover information about filter configurations rather than port state. This type of scanning is rarely useful alone, but when combined with SYN scanning, gives a mor",
+  "severity": "Low",
+  "likelihood": "Unknown"
+}

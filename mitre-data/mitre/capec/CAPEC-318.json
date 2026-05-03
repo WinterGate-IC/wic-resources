@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-318",
+  "name": "IP 'ID' Echoed Byte-Order Probe",
+  "description": "This OS fingerprinting probe tests to determine if the remote host echoes back the IP 'ID' value from the probe packet. An attacker sends a UDP datagram with an arbitrary IP 'ID' value to a closed port on the remote host to observe the manner in which this bit is echoed back in the ICMP error messag",
+  "severity": "Low",
+  "likelihood": "Unknown"
+}

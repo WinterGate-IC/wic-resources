@@ -1,0 +1,7 @@
+{
+  "id": "S1090",
+  "name": "NightClub",
+  "type": "malware",
+  "description": "[NightClub](https://attack.mitre.org/software/S1090) is a modular implant written in C++ that has been used by [MoustachedBouncer](https://attack.mitre.org/groups/G1019) since at least 2014.(Citation: MoustachedBouncer ESET August 2023)",
+  "techniques": []
+}

@@ -1,0 +1,7 @@
+{
+  "id": "S1196",
+  "name": "Troll Stealer",
+  "type": "malware",
+  "description": "[Troll Stealer](https://attack.mitre.org/software/S1196) is an information stealer written in Go associated with [Kimsuky](https://attack.mitre.org/groups/G0094) operations. [Troll Stealer](https://attack.mitre.org/software/S1196) has typically been delivered through a dropper disguised as a legitimate security program installation file. [Troll Stealer](https://attack.mitre.org/software/S1196) fea",
+  "techniques": []
+}

@@ -1,0 +1,7 @@
+{
+  "id": "S0012",
+  "name": "PoisonIvy",
+  "type": "malware",
+  "description": "[PoisonIvy](https://attack.mitre.org/software/S0012) is a popular remote access tool (RAT) that has been used by many groups.(Citation: FireEye Poison Ivy)(Citation: Symantec Elderwood Sept 2012)(Citation: Symantec Darkmoon Aug 2005)",
+  "techniques": []
+}

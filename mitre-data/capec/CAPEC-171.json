@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-171",
+  "name": "DEPRECATED: Variable Manipulation",
+  "description": "This attack pattern has been deprecated as it is a duplicate of the existing attack pattern \"CAPEC-77 : Manipulating User-Controlled Variables\". Please refer to this other CAPEC going forward.",
+  "severity": "Unknown",
+  "likelihood": "Unknown"
+}

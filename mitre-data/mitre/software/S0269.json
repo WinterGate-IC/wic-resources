@@ -1,0 +1,7 @@
+{
+  "id": "S0269",
+  "name": "QUADAGENT",
+  "type": "malware",
+  "description": "[QUADAGENT](https://attack.mitre.org/software/S0269) is a PowerShell backdoor used by [OilRig](https://attack.mitre.org/groups/G0049). (Citation: Unit 42 QUADAGENT July 2018)",
+  "techniques": []
+}

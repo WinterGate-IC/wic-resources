@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-116",
+  "name": "Excavation",
+  "description": "An adversary actively probes the target in a manner that is designed to solicit information that could be leveraged for malicious purposes.",
+  "severity": "Medium",
+  "likelihood": "Unknown"
+}

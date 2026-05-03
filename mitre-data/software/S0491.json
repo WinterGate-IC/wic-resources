@@ -1,0 +1,7 @@
+{
+  "id": "S0491",
+  "name": "StrongPity",
+  "type": "malware",
+  "description": "[StrongPity](https://attack.mitre.org/software/S0491) is an information stealing malware used by [PROMETHIUM](https://attack.mitre.org/groups/G0056).(Citation: Bitdefender StrongPity June 2020)(Citation: Talos Promethium June 2020)",
+  "techniques": []
+}

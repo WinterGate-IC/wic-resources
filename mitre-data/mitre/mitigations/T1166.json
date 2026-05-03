@@ -1,0 +1,6 @@
+{
+  "id": "T1166",
+  "name": "Setuid and Setgid Mitigation",
+  "description": "Applications with known vulnerabilities or known shell escapes should not have the setuid or setgid bits set to reduce potential damage if an application is compromised. Additionally, the number of programs with setuid or setgid bits set should be minimized across a system.",
+  "techniques": []
+}

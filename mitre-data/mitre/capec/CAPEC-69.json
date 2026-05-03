@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-69",
+  "name": "Target Programs with Elevated Privileges",
+  "description": "This attack targets programs running with elevated privileges. The adversary tries to leverage a vulnerability in the running program and get arbitrary code to execute with elevated privileges.",
+  "severity": "Very High",
+  "likelihood": "Unknown"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "S0680",
+  "name": "LitePower",
+  "type": "malware",
+  "description": "[LitePower](https://attack.mitre.org/software/S0680) is a downloader and second stage malware that has been used by [WIRTE](https://attack.mitre.org/groups/G0090) since at least 2021.(Citation: Kaspersky WIRTE November 2021)",
+  "techniques": []
+}

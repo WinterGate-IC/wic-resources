@@ -1,0 +1,6 @@
+{
+  "id": "M1024",
+  "name": "Restrict Registry Permissions",
+  "description": "Restricting registry permissions involves configuring access control settings for sensitive registry keys and hives to ensure that only authorized users or processes can make modifications. By limiting access, organizations can prevent unauthorized changes that adversaries might use for persistence, privilege escalation, or defense evasion. This mitigation can be implemented through the following ",
+  "techniques": []
+}

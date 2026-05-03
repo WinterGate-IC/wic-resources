@@ -1,0 +1,7 @@
+{
+  "id": "S1199",
+  "name": "LockBit 2.0",
+  "type": "malware",
+  "description": "[LockBit 2.0](https://attack.mitre.org/software/S1199) is an affiliate-based Ransomware-as-a-Service (RaaS) that has been in use since at least June 2021 as the successor to LockBit Ransomware. [LockBit 2.0](https://attack.mitre.org/software/S1199) has versions capable of infecting Windows and VMware ESXi virtual machines, and has been observed targeting multiple industry verticals globally.(Citat",
+  "techniques": []
+}

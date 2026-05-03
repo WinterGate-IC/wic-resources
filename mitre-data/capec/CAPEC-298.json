@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-298",
+  "name": "UDP Ping",
+  "description": "An adversary sends a UDP datagram to the remote host to determine if the host is alive. If a UDP datagram is sent to an open UDP port there is very often no response, so a typical strategy for using a UDP ping is to send the datagram to a random high port on the target. The goal is to solicit an 'IC",
+  "severity": "Low",
+  "likelihood": "Unknown"
+}

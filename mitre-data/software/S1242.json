@@ -1,0 +1,7 @@
+{
+  "id": "S1242",
+  "name": "Qilin",
+  "type": "malware",
+  "description": "[Qilin](https://attack.mitre.org/software/S1242) ransomware is a Ransomware-as-a-Service (RaaS) that has been active since at least 2022 with versions written in Golang and Rust that are capable of targeting Windows or VMWare ESXi devices. [Qilin](https://attack.mitre.org/software/S1242) shares functionality overlaps with [Black Basta](https://attack.mitre.org/software/S1070), [REvil](https://atta",
+  "techniques": []
+}

@@ -1,0 +1,7 @@
+{
+  "id": "S0572",
+  "name": "Caterpillar WebShell",
+  "type": "malware",
+  "description": "[Caterpillar WebShell](https://attack.mitre.org/software/S0572) is a self-developed Web Shell tool created by the group [Volatile Cedar](https://attack.mitre.org/groups/G0123).(Citation: ClearSky Lebanese Cedar Jan 2021) ",
+  "techniques": []
+}

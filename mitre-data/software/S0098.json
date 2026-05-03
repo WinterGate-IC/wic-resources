@@ -1,0 +1,7 @@
+{
+  "id": "S0098",
+  "name": "T9000",
+  "type": "malware",
+  "description": "[T9000](https://attack.mitre.org/software/S0098) is a backdoor that is a newer variant of the T5000 malware family, also known as Plat1. Its primary function is to gather information about the victim. It has been used in multiple targeted attacks against U.S.-based organizations. (Citation: FireEye admin@338 March 2014) (Citation: Palo Alto T9000 Feb 2016)",
+  "techniques": []
+}

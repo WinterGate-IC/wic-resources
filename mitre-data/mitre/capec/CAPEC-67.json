@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-67",
+  "name": "String Format Overflow in syslog()",
+  "description": "This attack targets applications and software that uses the syslog() function insecurely. If an application does not explicitely use a format string parameter in a call to syslog(), user input can be placed in the format string parameter leading to a format string injection attack. Adversaries can t",
+  "severity": "Very High",
+  "likelihood": "Unknown"
+}

@@ -1,0 +1,6 @@
+{
+  "id": "T1134",
+  "name": "Access Token Manipulation Mitigation",
+  "description": "Access tokens are an integral part of the security system within Windows and cannot be turned off. However, an attacker must already have administrator level access on the local system to make full use of this technique; be sure to restrict users and accounts to the least privileges they require to do their job.\n\nAny user can also spoof access tokens if they have legitimate credentials. Follow mit",
+  "techniques": []
+}

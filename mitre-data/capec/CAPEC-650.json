@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-650",
+  "name": "Upload a Web Shell to a Web Server",
+  "description": "By exploiting insufficient permissions, it is possible to upload a web shell to a web server in such a way that it can be executed remotely. This shell can have various capabilities, thereby acting as a \"gateway\" to the underlying web server. The shell might execute at the higher permission level of",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

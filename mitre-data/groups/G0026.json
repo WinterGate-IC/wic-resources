@@ -1,0 +1,7 @@
+{
+  "id": "G0026",
+  "name": "APT18",
+  "description": "[APT18](https://attack.mitre.org/groups/G0026) is a threat group that has operated since at least 2009 and has targeted a range of industries, including technology, manufacturing, human rights groups, government, and medical. (Citation: Dell Lateral Movement)",
+  "techniques": [],
+  "software": []
+}

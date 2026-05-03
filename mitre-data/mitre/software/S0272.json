@@ -1,0 +1,7 @@
+{
+  "id": "S0272",
+  "name": "NDiskMonitor",
+  "type": "malware",
+  "description": "[NDiskMonitor](https://attack.mitre.org/software/S0272) is a custom backdoor written in .NET that appears to be unique to [Patchwork](https://attack.mitre.org/groups/G0040). (Citation: TrendMicro Patchwork Dec 2017)",
+  "techniques": []
+}

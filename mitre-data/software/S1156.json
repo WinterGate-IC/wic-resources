@@ -1,0 +1,7 @@
+{
+  "id": "S1156",
+  "name": "Manjusaka",
+  "type": "malware",
+  "description": "[Manjusaka](https://attack.mitre.org/software/S1156) is a Chinese-language intrusion framework, similar to [Sliver](https://attack.mitre.org/software/S0633) and [Cobalt Strike](https://attack.mitre.org/software/S0154), with an ELF binary written in GoLang as the controller for Windows and Linux implants written in Rust. First identified in 2022, [Manjusaka](https://attack.mitre.org/software/S1156)",
+  "techniques": []
+}

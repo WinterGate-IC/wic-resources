@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-430",
+  "name": "DEPRECATED:  Target Influence via Micro-Expressions",
+  "description": "This attack pattern has been deprecated.",
+  "severity": "Unknown",
+  "likelihood": "Unknown"
+}

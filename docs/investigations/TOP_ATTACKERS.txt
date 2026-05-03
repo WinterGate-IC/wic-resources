@@ -1,0 +1,30 @@
+103.139.193.223 | 4140 attacks | China | SSH Brute Force
+78.128.112.74 | 2807 attacks | Russia | SSH Rapid Attack
+45.79.158.7 | 2425 attacks | United States | SSH Brute Force
+45.129.185.7 | 2348 attacks | United States | SSH Brute Force
+20.193.171.57 | 2253 attacks | United States | SSH Brute Force
+92.118.39.236 | 2233 attacks | Russia | SSH Brute Force
+145.220.72.141 | 2047 attacks | Unknown | SSH Brute Force
+115.190.165.143 | 1925 attacks | China | SSH Brute Force
+92.118.39.196 | 1815 attacks | Russia | SSH Brute Force
+172.214.209.153 | 1804 attacks | Unknown | SSH Brute Force
+118.193.33.228 | 1749 attacks | China | SQL Injection
+207.154.223.29 | 1670 attacks | Unknown | SSH Brute Force
+92.118.39.197 | 1573 attacks | Russia | SSH Brute Force
+27.79.44.23 | 1525 attacks | China | SSH Brute Force
+118.186.208.20 | 1507 attacks | China | SSH Brute Force
+92.118.39.23 | 1487 attacks | Russia | SSH Brute Force
+69.74.29.21 | 1486 attacks | United States | SSH Brute Force
+34.58.124.191 | 1476 attacks | United States | SSH Brute Force
+46.165.56.242 | 1474 attacks | Russia | SSH Brute Force
+213.177.179.91 | 1473 attacks | Unknown | SSH Brute Force
+216.155.93.75 | 1473 attacks | Unknown | SSH Brute Force
+124.156.129.246 | 1466 attacks | China | SSH Brute Force
+20.116.34.103 | 1461 attacks | United States | SSH Brute Force
+82.152.132.24 | 1461 attacks | Russia | SSH Brute Force
+61.78.121.78 | 1458 attacks | China | SSH Brute Force
+165.154.205.91 | 1363 attacks | Unknown | SSH Brute Force
+20.243.208.191 | 1361 attacks | United States | SSH Brute Force
+41.86.34.139 | 1353 attacks | Unknown | Web Attack
+101.47.156.170 | 1319 attacks | China | SSH Brute Force
+119.28.9.170 | 1205 attacks | China | SQL Injection

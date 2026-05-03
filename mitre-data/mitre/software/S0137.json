@@ -1,0 +1,7 @@
+{
+  "id": "S0137",
+  "name": "CORESHELL",
+  "type": "malware",
+  "description": "[CORESHELL](https://attack.mitre.org/software/S0137) is a downloader used by [APT28](https://attack.mitre.org/groups/G0007). The older versions of this malware are known as SOURFACE and newer versions as CORESHELL.(Citation: FireEye APT28) (Citation: FireEye APT28 January 2017)",
+  "techniques": []
+}

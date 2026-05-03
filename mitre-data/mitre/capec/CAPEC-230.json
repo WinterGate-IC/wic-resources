@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-230",
+  "name": "Serialized Data with Nested Payloads",
+  "description": "Applications often need to transform data in and out of a data format (e.g., XML and YAML) by using a parser. It may be possible for an adversary to inject data that may have an adverse effect on the parser when it is being processed. Many data format languages allow the definition of macro-like str",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

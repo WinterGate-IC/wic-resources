@@ -1,0 +1,7 @@
+{
+  "id": "S0069",
+  "name": "BLACKCOFFEE",
+  "type": "malware",
+  "description": "[BLACKCOFFEE](https://attack.mitre.org/software/S0069) is malware that has been used by several Chinese groups since at least 2013. (Citation: FireEye APT17) (Citation: FireEye Periscope March 2018)",
+  "techniques": []
+}

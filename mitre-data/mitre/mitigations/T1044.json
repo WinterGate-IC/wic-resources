@@ -1,0 +1,6 @@
+{
+  "id": "T1044",
+  "name": "File System Permissions Weakness Mitigation",
+  "description": "Use auditing tools capable of detecting file system permissions abuse opportunities on systems within an enterprise and correct them. Limit privileges of user accounts and groups so that only authorized administrators can interact with service changes and service binary target path locations. Toolkits like the PowerSploit framework contain PowerUp modules that can be used to explore systems for se",
+  "techniques": []
+}

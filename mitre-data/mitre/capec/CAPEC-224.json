@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-224",
+  "name": "Fingerprinting",
+  "description": "An adversary compares output from a target system to known indicators that uniquely identify specific details about the target. Most commonly, fingerprinting is done to determine operating system and application versions. Fingerprinting can be done passively as well as actively. Fingerprinting by it",
+  "severity": "Very Low",
+  "likelihood": "Unknown"
+}

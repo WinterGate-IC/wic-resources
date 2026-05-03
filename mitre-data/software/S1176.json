@@ -1,0 +1,7 @@
+{
+  "id": "S1176",
+  "name": "attrib",
+  "type": "tool",
+  "description": "[attrib](https://attack.mitre.org/software/S1176) is a Windows utility used to display, set or remove attributes assigned to files or directories.(Citation: Microsoft attrib 2023) ",
+  "techniques": []
+}

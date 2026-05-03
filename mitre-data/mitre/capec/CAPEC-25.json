@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-25",
+  "name": "Forced Deadlock",
+  "description": "The adversary triggers and exploits a deadlock condition in the target software to cause a denial of service. A deadlock can occur when two or more competing actions are waiting for each other to finish, and thus neither ever does. Deadlock conditions can be difficult to detect.",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

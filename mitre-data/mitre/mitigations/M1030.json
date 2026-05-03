@@ -1,0 +1,6 @@
+{
+  "id": "M1030",
+  "name": "Network Segmentation",
+  "description": "Network segmentation involves dividing a network into smaller, isolated segments to control and limit the flow of traffic between devices, systems, and applications. By segmenting networks, organizations can reduce the attack surface, restrict lateral movement by adversaries, and protect critical assets from compromise.\n\nEffective network segmentation leverages a combination of physical boundaries",
+  "techniques": []
+}

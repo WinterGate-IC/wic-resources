@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-70",
+  "name": "Try Common or Default Usernames and Passwords",
+  "description": "An adversary may try certain common or default usernames and passwords to gain access into the system and perform unauthorized actions. An adversary may try an intelligent brute force using empty passwords, known vendor default credentials, as well as a dictionary of common usernames and passwords. ",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "S1141",
+  "name": "LunarWeb",
+  "type": "malware",
+  "description": "[LunarWeb](https://attack.mitre.org/software/S1141) is a backdoor that has been used by [Turla](https://attack.mitre.org/groups/G0010) since at least 2020 including in a compromise of a European ministry of foreign affairs (MFA) together with [LunarLoader](https://attack.mitre.org/software/S1143) and [LunarMail](https://attack.mitre.org/software/S1142). [LunarWeb](https://attack.mitre.org/software",
+  "techniques": []
+}

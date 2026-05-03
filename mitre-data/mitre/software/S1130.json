@@ -1,0 +1,7 @@
+{
+  "id": "S1130",
+  "name": "Raspberry Robin",
+  "type": "malware",
+  "description": "[Raspberry Robin](https://attack.mitre.org/software/S1130) is initial access malware first identified in September 2021, and active through early 2024. The malware is notable for spreading via infected USB devices containing a malicious LNK object that, on execution, retrieves remote hosted payloads for installation. [Raspberry Robin](https://attack.mitre.org/software/S1130) has been widely used a",
+  "techniques": []
+}

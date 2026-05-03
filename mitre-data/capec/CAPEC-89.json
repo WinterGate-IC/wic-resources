@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-89",
+  "name": "Pharming",
+  "description": "A pharming attack occurs when the victim is fooled into entering sensitive data into supposedly trusted locations, such as an online bank site or a trading platform. An attacker can impersonate these supposedly trusted sites and have the victim be directed to their site rather than the originally in",
+  "severity": "Very High",
+  "likelihood": "Unknown"
+}

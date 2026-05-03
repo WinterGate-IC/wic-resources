@@ -1,0 +1,7 @@
+{
+  "id": "S1192",
+  "name": "NICECURL",
+  "type": "malware",
+  "description": "[NICECURL](https://attack.mitre.org/software/S1192) is a VBScript-based backdoor used by [APT42](https://attack.mitre.org/groups/G1044) to download additional modules.(Citation: Mandiant APT42-untangling)",
+  "techniques": []
+}

@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-222",
+  "name": "iFrame Overlay",
+  "description": "In an iFrame overlay attack the victim is tricked into unknowingly initiating some action in one system while interacting with the UI from seemingly completely different system.",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

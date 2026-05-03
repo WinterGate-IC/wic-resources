@@ -1,0 +1,7 @@
+{
+  "id": "G0078",
+  "name": "Gorgon Group",
+  "description": "[Gorgon Group](https://attack.mitre.org/groups/G0078) is a threat group consisting of members who are suspected to be Pakistan-based or have other connections to Pakistan. The group has performed a mix of criminal and targeted attacks, including campaigns against government organizations in the United Kingdom, Spain, Russia, and the United States. (Citation: Unit 42 Gorgon Group Aug 2018)",
+  "techniques": [],
+  "software": []
+}

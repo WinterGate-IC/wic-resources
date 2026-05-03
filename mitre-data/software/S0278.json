@@ -1,0 +1,7 @@
+{
+  "id": "S0278",
+  "name": "iKitten",
+  "type": "malware",
+  "description": "[iKitten](https://attack.mitre.org/software/S0278) is a macOS exfiltration agent  (Citation: objsee mac malware 2017).",
+  "techniques": []
+}

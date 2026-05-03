@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-184",
+  "name": "Software Integrity Attack",
+  "description": "An attacker initiates a series of events designed to cause a user, program, server, or device to perform actions which undermine the integrity of software code, device data structures, or device firmware, achieving the modification of the target's integrity to achieve an insecure state.",
+  "severity": "Low",
+  "likelihood": "Unknown"
+}

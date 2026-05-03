@@ -1,0 +1,6 @@
+{
+  "id": "T1023",
+  "name": "Shortcut Modification Mitigation",
+  "description": "Limit permissions for who can create symbolic links in Windows to appropriate groups such as Administrators and necessary groups for virtualization. This can be done through GPO: Computer Configuration > [Policies] > Windows Settings > Security Settings > Local Policies > User Rights Assignment: Create symbolic links. (Citation: UCF STIG Symbolic Links)\n\nIdentify and block unknown, potentially mal",
+  "techniques": []
+}

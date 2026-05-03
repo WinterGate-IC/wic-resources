@@ -1,0 +1,7 @@
+{
+  "id": "S0335",
+  "name": "Carbon",
+  "type": "malware",
+  "description": "[Carbon](https://attack.mitre.org/software/S0335) is a sophisticated, second-stage backdoor and framework that can be used to steal sensitive information from victims. [Carbon](https://attack.mitre.org/software/S0335) has been selectively used by [Turla](https://attack.mitre.org/groups/G0010) to target government and foreign affairs-related organizations in Central Asia.(Citation: ESET Carbon Mar ",
+  "techniques": []
+}

@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-401",
+  "name": "Physically Hacking Hardware",
+  "description": "An adversary exploits a weakness in access control to gain access to currently installed hardware and precedes to implement changes or secretly replace a hardware component which undermines the system's integrity for the purpose of carrying out an attack.",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "S0589",
+  "name": "Sibot",
+  "type": "malware",
+  "description": "[Sibot](https://attack.mitre.org/software/S0589) is dual-purpose malware written in VBScript designed to achieve persistence on a compromised system as well as download and execute additional payloads. Microsoft discovered three [Sibot](https://attack.mitre.org/software/S0589) variants in early 2021 during its investigation of [APT29](https://attack.mitre.org/groups/G0016) and the [SolarWinds Comp",
+  "techniques": []
+}

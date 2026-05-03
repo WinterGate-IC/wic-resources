@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-664",
+  "name": "Server Side Request Forgery",
+  "description": "\n            <xhtml:p>An adversary exploits improper input validation by submitting maliciously crafted input to a target application running on a server, with the goal of forcing the server to make a request either to itself, to web services running in the server\u2019s internal network, or to external ",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

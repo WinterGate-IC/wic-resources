@@ -1,0 +1,6 @@
+{
+  "id": "T1162",
+  "name": "Login Item Mitigation",
+  "description": "Restrict users from being able to create their own login items. Additionally, holding the shift key during login prevents apps from opening automatically (Citation: Re-Open windows on Mac).",
+  "techniques": []
+}

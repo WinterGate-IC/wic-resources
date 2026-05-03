@@ -1,0 +1,7 @@
+{
+  "id": "S0131",
+  "name": "TINYTYPHON",
+  "type": "malware",
+  "description": "[TINYTYPHON](https://attack.mitre.org/software/S0131) is a backdoor  that has been used by the actors responsible for the MONSOON campaign. The majority of its code was reportedly taken from the MyDoom worm. (Citation: Forcepoint Monsoon)",
+  "techniques": []
+}

@@ -1,0 +1,7 @@
+{
+  "id": "S0445",
+  "name": "ShimRatReporter",
+  "type": "tool",
+  "description": "[ShimRatReporter](https://attack.mitre.org/software/S0445) is a tool used by suspected Chinese adversary [Mofang](https://attack.mitre.org/groups/G0103) to automatically conduct initial discovery. The details from this discovery are used to customize follow-on payloads (such as [ShimRat](https://attack.mitre.org/software/S0444)) as well as set up faux infrastructure which mimics the adversary's ta",
+  "techniques": []
+}

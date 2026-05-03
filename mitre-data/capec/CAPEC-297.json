@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-297",
+  "name": "TCP ACK Ping",
+  "description": "An adversary sends a TCP segment with the ACK flag set to a remote host for the purpose of determining if the host is alive. This is one of several TCP 'ping' types. The RFC 793 expected behavior for a service is to respond with a RST 'reset' packet to any unsolicited ACK segment that is not part of",
+  "severity": "Low",
+  "likelihood": "Unknown"
+}

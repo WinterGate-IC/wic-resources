@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-117",
+  "name": "Interception",
+  "description": "An adversary monitors data streams to or from the target for information gathering purposes. This attack may be undertaken to solely gather sensitive information or to support a further attack against the target. This attack pattern can involve sniffing network traffic as well as other types of data",
+  "severity": "Medium",
+  "likelihood": "Unknown"
+}

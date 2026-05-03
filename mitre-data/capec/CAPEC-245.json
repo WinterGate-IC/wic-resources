@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-245",
+  "name": "XSS Using Doubled Characters",
+  "description": "The adversary bypasses input validation by using doubled characters in order to perform a cross-site scripting attack. Some filters fail to recognize dangerous sequences if they are preceded by repeated characters. For example, by doubling the < before a script command, (<<script or %3C%3script usin",
+  "severity": "Medium",
+  "likelihood": "Unknown"
+}

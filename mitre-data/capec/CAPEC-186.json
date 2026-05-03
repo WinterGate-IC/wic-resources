@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-186",
+  "name": "Malicious Software Update",
+  "description": "An adversary uses deceptive methods to cause a user or an automated process to download and install dangerous code believed to be a valid update that originates from an adversary controlled source.",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

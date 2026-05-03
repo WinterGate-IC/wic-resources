@@ -1,0 +1,7 @@
+{
+  "id": "S0244",
+  "name": "Comnie",
+  "type": "malware",
+  "description": "[Comnie](https://attack.mitre.org/software/S0244) is a remote backdoor which has been used in attacks in East Asia. (Citation: Palo Alto Comnie)",
+  "techniques": []
+}

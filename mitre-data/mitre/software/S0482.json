@@ -1,0 +1,7 @@
+{
+  "id": "S0482",
+  "name": "Bundlore",
+  "type": "malware",
+  "description": "[Bundlore](https://attack.mitre.org/software/S0482) is adware written for macOS that has been in use since at least 2015. Though categorized as adware, [Bundlore](https://attack.mitre.org/software/S0482) has many features associated with more traditional backdoors.(Citation: MacKeeper Bundlore Apr 2019)",
+  "techniques": []
+}

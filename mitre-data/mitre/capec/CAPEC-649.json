@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-649",
+  "name": "Adding a Space to a File Extension",
+  "description": "An adversary adds a space character to the end of a file extension and takes advantage of an application that does not properly neutralize trailing special elements in file names. This extra space, which can be difficult for a user to notice, affects which default application is used to operate on t",
+  "severity": "Medium",
+  "likelihood": "Unknown"
+}

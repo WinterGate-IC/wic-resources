@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-74",
+  "name": "Manipulating State",
+  "description": "\n            <xhtml:p>The adversary modifies state information maintained by the target software or causes a state transition in hardware. If successful, the target will use this tainted state and execute in an unintended manner.</xhtml:p>\n            <xhtml:p>State management is an important functi",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

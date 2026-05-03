@@ -1,0 +1,7 @@
+{
+  "id": "S0003",
+  "name": "RIPTIDE",
+  "type": "malware",
+  "description": "[RIPTIDE](https://attack.mitre.org/software/S0003) is a proxy-aware backdoor used by [APT12](https://attack.mitre.org/groups/G0005). (Citation: Moran 2014)",
+  "techniques": []
+}

@@ -1,0 +1,7 @@
+{
+  "id": "S1089",
+  "name": "SharpDisco",
+  "type": "malware",
+  "description": "[SharpDisco](https://attack.mitre.org/software/S1089) is a dropper developed in C# that has been used by [MoustachedBouncer](https://attack.mitre.org/groups/G1019) since at least 2020 to load malicious plugins.(Citation: MoustachedBouncer ESET August 2023)",
+  "techniques": []
+}

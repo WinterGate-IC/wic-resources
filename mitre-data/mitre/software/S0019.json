@@ -1,0 +1,7 @@
+{
+  "id": "S0019",
+  "name": "Regin",
+  "type": "malware",
+  "description": "[Regin](https://attack.mitre.org/software/S0019) is a malware platform that has targeted victims in a range of industries, including telecom, government, and financial institutions. Some [Regin](https://attack.mitre.org/software/S0019) timestamps date back to 2003. (Citation: Kaspersky Regin)",
+  "techniques": []
+}

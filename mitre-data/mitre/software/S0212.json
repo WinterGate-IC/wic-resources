@@ -1,0 +1,7 @@
+{
+  "id": "S0212",
+  "name": "CORALDECK",
+  "type": "malware",
+  "description": "[CORALDECK](https://attack.mitre.org/software/S0212) is an exfiltration tool used by [APT37](https://attack.mitre.org/groups/G0067). (Citation: FireEye APT37 Feb 2018)",
+  "techniques": []
+}

@@ -1,0 +1,7 @@
+{
+  "id": "S0112",
+  "name": "ROCKBOOT",
+  "type": "malware",
+  "description": "[ROCKBOOT](https://attack.mitre.org/software/S0112) is a [Bootkit](https://attack.mitre.org/techniques/T1542/003) that has been used by an unidentified, suspected China-based group. (Citation: FireEye Bootkits)",
+  "techniques": []
+}

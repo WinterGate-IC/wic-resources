@@ -1,0 +1,6 @@
+{
+  "id": "M1028",
+  "name": "Operating System Configuration",
+  "description": "Operating System Configuration involves adjusting system settings and hardening the default configurations of an operating system (OS) to mitigate adversary exploitation and prevent abuse of system functionality. Proper OS configurations address security vulnerabilities, limit attack surfaces, and ensure robust defense against a wide range of techniques. This mitigation can be implemented through ",
+  "techniques": []
+}

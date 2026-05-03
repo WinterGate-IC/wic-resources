@@ -1,0 +1,17 @@
+LEGAL REFERENCES:
+
+UNITED STATES:
+- Computer Fraud and Abuse Act - 18 U.S.C. Section 1030(a)(4),(7)
+
+EUROPEAN UNION:
+- Directive 2013/40/EU Articles 3,4,5
+
+GERMANY:
+- Criminal Code Section 202a, 202b, 303a, 303b
+
+CONTABO TOS:
+- Section 5.2, 5.3, 7.1
+
+REPORTING OBLIGATIONS:
+- GDPR Article 33 - Data breach notification
+- NIS Directive - Security incident reporting

@@ -1,0 +1,7 @@
+{
+  "id": "S1111",
+  "name": "DarkGate",
+  "type": "malware",
+  "description": "[DarkGate](https://attack.mitre.org/software/S1111) first emerged in 2018 and has evolved into an initial access and data gathering tool associated with various criminal cyber operations. Written in Delphi and named \"DarkGate\" by its author, [DarkGate](https://attack.mitre.org/software/S1111) is associated with credential theft, cryptomining, cryptotheft, and pre-ransomware actions.(Citation: Ensi",
+  "techniques": []
+}

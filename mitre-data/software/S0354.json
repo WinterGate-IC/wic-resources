@@ -1,0 +1,7 @@
+{
+  "id": "S0354",
+  "name": "Denis",
+  "type": "malware",
+  "description": "[Denis](https://attack.mitre.org/software/S0354) is a Windows backdoor and Trojan used by [APT32](https://attack.mitre.org/groups/G0050). [Denis](https://attack.mitre.org/software/S0354) shares several similarities to the [SOUNDBITE](https://attack.mitre.org/software/S0157) backdoor and has been used in conjunction with the [Goopy](https://attack.mitre.org/software/S0477) backdoor.(Citation: Cyber",
+  "techniques": []
+}

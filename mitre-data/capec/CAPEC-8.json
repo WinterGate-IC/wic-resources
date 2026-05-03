@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-8",
+  "name": "Buffer Overflow in an API Call",
+  "description": "This attack targets libraries or shared code modules which are vulnerable to buffer overflow attacks. An adversary who has knowledge of known vulnerable libraries or shared code can easily target software that makes use of these libraries. All clients that make use of the code library thus become vu",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-406",
+  "name": "Dumpster Diving",
+  "description": "An adversary cases an establishment and searches through trash bins, dumpsters, or areas where company information may have been accidentally discarded for information items which may be useful to the dumpster diver. The devastating nature of the items and/or information found can be anything from m",
+  "severity": "Low",
+  "likelihood": "Unknown"
+}

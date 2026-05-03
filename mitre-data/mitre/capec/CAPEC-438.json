@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-438",
+  "name": "Modification During Manufacture",
+  "description": "An attacker modifies a technology, product, or component during a stage in its manufacture for the purpose of carrying out an attack against some entity involved in the supply chain lifecycle. There are an almost limitless number of ways an attacker can modify a technology when they are involved in ",
+  "severity": "Unknown",
+  "likelihood": "Unknown"
+}

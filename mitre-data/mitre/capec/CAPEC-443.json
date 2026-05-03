@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-443",
+  "name": "Malicious Logic Inserted Into Product by Authorized Developer",
+  "description": "An adversary uses their privileged position within an authorized development organization to inject malicious logic into a codebase or product.",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

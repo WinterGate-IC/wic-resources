@@ -1,0 +1,7 @@
+{
+  "id": "S0527",
+  "name": "CSPY Downloader",
+  "type": "tool",
+  "description": "[CSPY Downloader](https://attack.mitre.org/software/S0527) is a tool designed to evade analysis and download additional payloads used by [Kimsuky](https://attack.mitre.org/groups/G0094).(Citation: Cybereason Kimsuky November 2020)",
+  "techniques": []
+}

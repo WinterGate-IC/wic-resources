@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-557",
+  "name": "DEPRECATED: Schedule Software To Run",
+  "description": "This CAPEC has been deprecated because it is not directly related to a weakness, social engineering, supply chains, or a physical-based attack.",
+  "severity": "Unknown",
+  "likelihood": "Unknown"
+}

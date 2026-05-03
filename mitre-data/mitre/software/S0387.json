@@ -1,0 +1,7 @@
+{
+  "id": "S0387",
+  "name": "KeyBoy",
+  "type": "malware",
+  "description": "[KeyBoy](https://attack.mitre.org/software/S0387) is malware that has been used in targeted campaigns against members of the Tibetan Parliament in 2016.(Citation: CitizenLab KeyBoy Nov 2016)(Citation: PWC KeyBoys Feb 2017)",
+  "techniques": []
+}

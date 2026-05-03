@@ -1,0 +1,7 @@
+{
+  "id": "S1133",
+  "name": "Apostle",
+  "type": "malware",
+  "description": "[Apostle](https://attack.mitre.org/software/S1133) is malware that has functioned as both a wiper and, in more recent versions, as ransomware.  [Apostle](https://attack.mitre.org/software/S1133) is written in .NET and shares various programming and functional overlaps with [IPsec Helper](https://attack.mitre.org/software/S1132).(Citation: SentinelOne Agrius 2021)",
+  "techniques": []
+}

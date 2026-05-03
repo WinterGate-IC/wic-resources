@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-36",
+  "name": "Using Unpublished Interfaces or Functionality",
+  "description": "An adversary searches for and invokes interfaces or functionality that the target system designers did not intend to be publicly available. If interfaces fail to authenticate requests, the attacker may be able to invoke functionality they are not authorized for.",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

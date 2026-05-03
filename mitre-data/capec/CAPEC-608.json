@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-608",
+  "name": "Cryptanalysis of Cellular Encryption",
+  "description": "The use of cryptanalytic techniques to derive cryptographic keys or otherwise effectively defeat cellular encryption to reveal traffic content. Some cellular encryption algorithms such as A5/1 and A5/2 (specified for GSM use) are known to be vulnerable to such attacks and commercial tools are availa",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

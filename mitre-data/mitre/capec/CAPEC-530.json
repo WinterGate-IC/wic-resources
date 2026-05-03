@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-530",
+  "name": "Provide Counterfeit Component",
+  "description": "An attacker provides a counterfeit component during the procurement process of a lower-tier component supplier to a sub-system developer or integrator, which is then built into the system being upgraded or repaired by the victim, allowing the attacker to cause disruption or additional compromise.",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

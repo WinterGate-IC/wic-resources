@@ -1,0 +1,6 @@
+{
+  "id": "M1021",
+  "name": "Restrict Web-Based Content",
+  "description": "Restricting web-based content involves enforcing policies and technologies that limit access to potentially malicious websites, unsafe downloads, and unauthorized browser behaviors. This can include URL filtering, download restrictions, script blocking, and extension control to protect against exploitation, phishing, and malware delivery. This mitigation can be implemented through the following me",
+  "techniques": []
+}

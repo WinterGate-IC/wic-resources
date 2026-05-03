@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-168",
+  "name": "Windows ::DATA Alternate Data Stream",
+  "description": "An attacker exploits the functionality of Microsoft NTFS Alternate Data Streams (ADS) to undermine system security. ADS allows multiple \"files\" to be stored in one directory entry referenced as filename:streamname. One or more alternate data streams may be stored in any file or directory. Normal Mic",
+  "severity": "Medium",
+  "likelihood": "Unknown"
+}

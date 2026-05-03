@@ -1,0 +1,7 @@
+{
+  "id": "S0464",
+  "name": "SYSCON",
+  "type": "malware",
+  "description": "[SYSCON](https://attack.mitre.org/software/S0464) is a backdoor that has been in use since at least 2017 and has been associated with campaigns involving North Korean themes. [SYSCON](https://attack.mitre.org/software/S0464) has been delivered by the [CARROTBALL](https://attack.mitre.org/software/S0465) and [CARROTBAT](https://attack.mitre.org/software/S0462) droppers.(Citation: Unit 42 CARROTBAT ",
+  "techniques": []
+}

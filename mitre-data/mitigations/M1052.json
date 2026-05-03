@@ -1,0 +1,6 @@
+{
+  "id": "M1052",
+  "name": "User Account Control",
+  "description": "User Account Control (UAC) is a security feature in Microsoft Windows that prevents unauthorized changes to the operating system. UAC prompts users to confirm or provide administrator credentials when an action requires elevated privileges. Proper configuration of UAC reduces the risk of privilege escalation attacks. This mitigation can be implemented through the following measures:\n\nEnable UAC Gl",
+  "techniques": []
+}

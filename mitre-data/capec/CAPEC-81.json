@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-81",
+  "name": "Web Server Logs Tampering",
+  "description": "Web Logs Tampering attacks involve an attacker injecting, deleting or otherwise tampering with the contents of web logs typically for the purposes of masking other malicious behavior. Additionally, writing malicious data to log files may target jobs, filters, reports, and other agents that process t",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

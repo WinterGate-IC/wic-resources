@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-214",
+  "name": "DEPRECATED: Fuzzing for garnering J2EE/.NET-based stack traces, for application mapping",
+  "description": "This attack pattern has been deprecated as it was merged into \"CAPEC-215 : Fuzzing for application mapping\". Please refer to this other CAPEC going forward.",
+  "severity": "Unknown",
+  "likelihood": "Unknown"
+}

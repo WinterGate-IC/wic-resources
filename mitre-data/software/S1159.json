@@ -1,0 +1,7 @@
+{
+  "id": "S1159",
+  "name": "DUSTTRAP",
+  "type": "malware",
+  "description": "[DUSTTRAP](https://attack.mitre.org/software/S1159) is a multi-stage plugin framework associated with [APT41](https://attack.mitre.org/groups/G0096) operations with multiple components.(Citation: Google Cloud APT41 2024)",
+  "techniques": []
+}

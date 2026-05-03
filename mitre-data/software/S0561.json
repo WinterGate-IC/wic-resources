@@ -1,0 +1,7 @@
+{
+  "id": "S0561",
+  "name": "GuLoader",
+  "type": "malware",
+  "description": "[GuLoader](https://attack.mitre.org/software/S0561) is a file downloader that has been used since at least December 2019 to distribute a variety of remote administration tool (RAT) malware, including [NETWIRE](https://attack.mitre.org/software/S0198), [Agent Tesla](https://attack.mitre.org/software/S0331), [NanoCore](https://attack.mitre.org/software/S0336), FormBook, and Parallax RAT.(Citation: U",
+  "techniques": []
+}

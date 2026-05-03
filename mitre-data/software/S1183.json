@@ -1,0 +1,7 @@
+{
+  "id": "S1183",
+  "name": "StrelaStealer",
+  "type": "malware",
+  "description": "[StrelaStealer](https://attack.mitre.org/software/S1183) is an information stealer malware variant first identified in November 2022 and active through late 2024. [StrelaStealer](https://attack.mitre.org/software/S1183) focuses on the automated identification, collection, and exfiltration of email credentials from email clients such as Outlook and Thunderbird.(Citation: DCSO StrelaStealer 2022)(Ci",
+  "techniques": []
+}

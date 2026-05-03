@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-143",
+  "name": "Detect Unpublicized Web Pages",
+  "description": "An adversary searches a targeted web site for web pages that have not been publicized. In doing this, the adversary may be able to gain access to information that the targeted site did not intend to make public.",
+  "severity": "Low",
+  "likelihood": "Unknown"
+}

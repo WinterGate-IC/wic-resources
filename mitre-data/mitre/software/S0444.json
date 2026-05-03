@@ -1,0 +1,7 @@
+{
+  "id": "S0444",
+  "name": "ShimRat",
+  "type": "malware",
+  "description": "[ShimRat](https://attack.mitre.org/software/S0444) has been used by the suspected China-based adversary [Mofang](https://attack.mitre.org/groups/G0103) in campaigns targeting multiple countries and sectors including government, military, critical infrastructure, automobile, and weapons development. The name \"[ShimRat](https://attack.mitre.org/software/S0444)\" comes from the malware's extensive use",
+  "techniques": []
+}

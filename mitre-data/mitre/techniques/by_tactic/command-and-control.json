@@ -1,0 +1,773 @@
+{
+  "tactic": "Command And Control",
+  "count": 55,
+  "techniques": [
+    {
+      "id": "T1205.002",
+      "name": "Socket Filters",
+      "description": "Adversaries may attach filters to a network socket to monitor then activate backdoors used for persistence or command and control. With elevated permissions, adversaries can use features such as the `libpcap` library to open sockets and install filters to allow or disallow certain types of data to come through the socket. The filter may apply to all traffic passing through the specified network interface (or every interface if not specified). When the network interface receives a packet matching",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1132.001",
+      "name": "Standard Encoding",
+      "description": "Adversaries may encode data with a standard data encoding system to make the content of command and control traffic more difficult to detect. Command and control (C2) information can be encoded using a standard data encoding system that adheres to existing protocol specifications. Common data encoding schemes include ASCII, Unicode, hexadecimal, Base64, and MIME.(Citation: Wikipedia Binary-to-text Encoding)(Citation: Wikipedia Character Encoding) Some data encoding systems may also result in dat",
+      "platforms": [
+        "ESXi",
+        "Linux",
+        "Windows",
+        "macOS"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1568.002",
+      "name": "Domain Generation Algorithms",
+      "description": "Adversaries may make use of Domain Generation Algorithms (DGAs) to dynamically identify a destination domain for command and control traffic rather than relying on a list of static IP addresses or domains. This has the advantage of making it much harder for defenders to block, track, or take over the command and control channel, as there potentially could be thousands of domains that malware can check for instructions.(Citation: Cybereason Dissecting DGAs)(Citation: Cisco Umbrella DGA)(Citation:",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "ESXi"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1071.004",
+      "name": "DNS",
+      "description": "Adversaries may communicate using the Domain Name System (DNS) application layer protocol to avoid detection/network filtering by blending in with existing traffic. Commands to the remote system, and often the results of those commands, will be embedded within the protocol traffic between the client and server. \n\nThe DNS protocol serves an administrative function in computer networking and thus may be very common in environments. DNS traffic may also be allowed even before network authentication",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "Network Devices",
+        "ESXi"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1172",
+      "name": "Domain Fronting",
+      "description": "Domain fronting takes advantage of routing schemes in Content Delivery Networks (CDNs) and other services which host multiple domains to obfuscate the intended destination of HTTPS traffic or traffic tunneled through HTTPS. (Citation: Fifield Blocking Resistent Communication through domain fronting 2015) The technique involves using different domain names in the SNI field of the TLS header and the Host field of the HTTP header. If both domains are served from the same CDN, then the CDN may route",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1071.005",
+      "name": "Publish/Subscribe Protocols",
+      "description": "Adversaries may communicate using publish/subscribe (pub/sub) application layer protocols to avoid detection/network filtering by blending in with existing traffic. Commands to the remote system, and often the results of those commands, will be embedded within the protocol traffic between the client and server. \n\nProtocols such as <code>MQTT</code>, <code>XMPP</code>, <code>AMQP</code>, and <code>STOMP</code> use a publish/subscribe design, with message distribution managed by a centralized brok",
+      "platforms": [
+        "macOS",
+        "Linux",
+        "Windows",
+        "Network Devices"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1573.001",
+      "name": "Symmetric Cryptography",
+      "description": "Adversaries may employ a known symmetric encryption algorithm to conceal command and control traffic rather than relying on any inherent protections provided by a communication protocol. Symmetric encryption algorithms use the same key for plaintext encryption and ciphertext decryption. Common symmetric encryption algorithms include AES, DES, 3DES, Blowfish, and RC4.",
+      "platforms": [
+        "ESXi",
+        "Linux",
+        "macOS",
+        "Network Devices",
+        "Windows"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1568.001",
+      "name": "Fast Flux DNS",
+      "description": "Adversaries may use Fast Flux DNS to hide a command and control channel behind an array of rapidly changing IP addresses linked to a single domain resolution. This technique uses a fully qualified domain name, with multiple IP addresses assigned to it which are swapped with high frequency, using a combination of round robin IP addressing and short Time-To-Live (TTL) for a DNS resource record.(Citation: MehtaFastFluxPt1)(Citation: MehtaFastFluxPt2)(Citation: Fast Flux - Welivesecurity)\n\nThe simpl",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "ESXi"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1071",
+      "name": "Application Layer Protocol",
+      "description": "Adversaries may communicate using OSI application layer protocols to avoid detection/network filtering by blending in with existing traffic. Commands to the remote system, and often the results of those commands, will be embedded within the protocol traffic between the client and server. \n\nAdversaries may utilize many different protocols, including those used for web browsing, transferring files, electronic mail, DNS, or publishing/subscribing. For connections that occur internally within an enc",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "Network Devices",
+        "ESXi"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1024",
+      "name": "Custom Cryptographic Protocol",
+      "description": "Adversaries may use a custom cryptographic protocol or algorithm to hide command and control traffic. A simple scheme, such as XOR-ing the plaintext with a fixed key, will produce a very weak ciphertext.\n\nCustom encryption schemes may vary in sophistication. Analysis and reverse engineering of malware samples may be enough to discover the algorithm and encryption key used.\n\nSome adversaries may also attempt to implement their own version of a well-known cryptographic algorithm instead of using a",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1219",
+      "name": "Remote Access Tools",
+      "description": "An adversary may use legitimate remote access tools to establish an interactive command and control channel within a network. Remote access tools create a session between two trusted hosts through a graphical interface, a command line interaction, a protocol tunnel via development or management software, or hardware-level access such as KVM (Keyboard, Video, Mouse) over IP solutions. Desktop support software (usually graphical interface) and remote management software (typically command line int",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1079",
+      "name": "Multilayer Encryption",
+      "description": "An adversary performs C2 communications using multiple layers of encryption, typically (but not exclusively) tunneling a custom encryption scheme within a protocol encryption scheme such as HTTPS or SMTPS.",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1659",
+      "name": "Content Injection",
+      "description": "Adversaries may gain access and continuously communicate with victims by injecting malicious content into systems through online network traffic. Rather than luring victims to malicious payloads hosted on a compromised website (i.e., [Drive-by Target](https://attack.mitre.org/techniques/T1608/004) followed by [Drive-by Compromise](https://attack.mitre.org/techniques/T1189)), adversaries may initially access victims through compromised data-transfer channels where they can manipulate traffic and/",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1205",
+      "name": "Traffic Signaling",
+      "description": "Adversaries may use traffic signaling to hide open ports or other malicious functionality used for persistence or command and control. Traffic signaling involves the use of a magic value or sequence that must be sent to a system to trigger a special response, such as opening a closed port or executing a malicious task. This may take the form of sending a series of packets with certain characteristics before a port will be opened that the adversary can use for command and control. Usually this se",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Network Devices",
+        "Windows"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1032",
+      "name": "Standard Cryptographic Protocol",
+      "description": "Adversaries may explicitly employ a known encryption algorithm to conceal command and control traffic rather than relying on any inherent protections provided by a communication protocol. Despite the use of a secure algorithm, these implementations may be vulnerable to reverse engineering if necessary secret keys are encoded and/or generated within malware samples/configuration files.",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1572",
+      "name": "Protocol Tunneling",
+      "description": "Adversaries may tunnel network communications to and from a victim system within a separate protocol to avoid detection/network filtering and/or enable access to otherwise unreachable systems. Tunneling involves explicitly encapsulating a protocol within another. This behavior may conceal malicious traffic by blending in with existing traffic and/or provide an outer layer of encryption (similar to a VPN). Tunneling could also enable routing of network packets that would otherwise not reach their",
+      "platforms": [
+        "ESXi",
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1483",
+      "name": "Domain Generation Algorithms",
+      "description": "Adversaries may make use of Domain Generation Algorithms (DGAs) to dynamically identify a destination for command and control traffic rather than relying on a list of static IP addresses or domains. This has the advantage of making it much harder for defenders block, track, or take over the command and control channel, as there potentially could be thousands of domains that malware can check for instructions.(Citation: Cybereason Dissecting DGAs)(Citation: Cisco Umbrella DGA)(Citation: Unit 42 D",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1071.003",
+      "name": "Mail Protocols",
+      "description": "Adversaries may communicate using application layer protocols associated with electronic mail delivery to avoid detection/network filtering by blending in with existing traffic. Commands to the remote system, and often the results of those commands, will be embedded within the protocol traffic between the client and server. \n\nProtocols such as SMTP/S, POP3/S, and IMAP that carry electronic mail may be very common in environments.  Packets produced from these protocols may have many fields and he",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Network Devices",
+        "Windows"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1092",
+      "name": "Communication Through Removable Media",
+      "description": "Adversaries can perform command and control between compromised hosts on potentially disconnected networks using removable media to transfer commands from system to system.(Citation: ESET Sednit USBStealer 2014) Both systems would need to be compromised, with the likelihood that an Internet-connected system was compromised first and the second through lateral movement by [Replication Through Removable Media](https://attack.mitre.org/techniques/T1091). Commands and files would be relayed from the",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1090.002",
+      "name": "External Proxy",
+      "description": "Adversaries may use an external proxy to act as an intermediary for network communications to a command and control server to avoid direct connections to their infrastructure. Many tools exist that enable traffic redirection through proxies or port redirection, including [HTRAN](https://attack.mitre.org/software/S0040), ZXProxy, and ZXPortMap. (Citation: Trend Micro APT Attack Tools) Adversaries use these types of proxies to manage command and control communications, to provide resiliency in the",
+      "platforms": [
+        "ESXi",
+        "Linux",
+        "Network Devices",
+        "Windows",
+        "macOS"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1090",
+      "name": "Proxy",
+      "description": "Adversaries may use a connection proxy to direct network traffic between systems or act as an intermediary for network communications to a command and control server to avoid direct connections to their infrastructure. Many tools exist that enable traffic redirection through proxies or port redirection, including [HTRAN](https://attack.mitre.org/software/S0040), ZXProxy, and ZXPortMap. (Citation: Trend Micro APT Attack Tools) Adversaries use these types of proxies to manage command and control c",
+      "platforms": [
+        "ESXi",
+        "Linux",
+        "macOS",
+        "Network Devices",
+        "Windows"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1219.001",
+      "name": "IDE Tunneling",
+      "description": "Adversaries may abuse Integrated Development Environment (IDE) software with remote development features to establish an interactive command and control channel on target systems within a network. IDE tunneling combines SSH, port forwarding, file sharing, and debugging into a single secure connection, letting developers work on remote systems as if they were local. Unlike SSH and port forwarding, IDE tunneling encapsulates an entire session and may use proprietary tunneling protocols alongside S",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1568",
+      "name": "Dynamic Resolution",
+      "description": "Adversaries may dynamically establish connections to command and control infrastructure to evade common detections and remediations. This may be achieved by using malware that shares a common algorithm with the infrastructure the adversary uses to receive the malware's communications. These calculations can be used to dynamically adjust parameters such as the domain name, IP address, or port number the malware uses for command and control.\n\nAdversaries may use dynamic resolution for the purpose ",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "ESXi"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1188",
+      "name": "Multi-hop Proxy",
+      "description": "To disguise the source of malicious traffic, adversaries may chain together multiple proxies. Typically, a defender will be able to identify the last proxy traffic traversed before it enters their network; the defender may or may not be able to identify any previous proxies before the last-hop proxy. This technique makes identifying the original source of the malicious traffic even more difficult by requiring the defender to trace malicious traffic through several proxies to identify its source.",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1102",
+      "name": "Web Service",
+      "description": "Adversaries may use an existing, legitimate external Web service as a means for relaying data to/from a compromised system. Popular websites, cloud services, and social media acting as a mechanism for C2 may give a significant amount of cover due to the likelihood that hosts within a network are already communicating with them prior to a compromise. Using common services, such as those offered by Google, Microsoft, or Twitter, makes it easier for adversaries to hide in expected noise.(Citation: ",
+      "platforms": [
+        "ESXi",
+        "Linux",
+        "Windows",
+        "macOS"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1568.003",
+      "name": "DNS Calculation",
+      "description": "Adversaries may perform calculations on addresses returned in DNS results to determine which port and IP address to use for command and control, rather than relying on a predetermined port number or the actual returned IP address. A IP and/or port number calculation can be used to bypass egress filtering on a C2 channel.(Citation: Meyers Numbered Panda)\n\nOne implementation of [DNS Calculation](https://attack.mitre.org/techniques/T1568/003) is to take the first three octets of an IP address in a ",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "ESXi"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1104",
+      "name": "Multi-Stage Channels",
+      "description": "Adversaries may create multiple stages for command and control that are employed under different conditions or for certain functions. Use of multiple stages may obfuscate the command and control channel to make detection more difficult.\n\nRemote access tools will call back to the first-stage command and control server for instructions. The first stage may have automated capabilities to collect basic host information, update tools, and upload additional files. A second remote access tool (RAT) cou",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "ESXi"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1205.001",
+      "name": "Port Knocking",
+      "description": "Adversaries may use port knocking to hide open ports used for persistence or command and control. To enable a port, an adversary sends a series of attempted connections to a predefined sequence of closed ports. After the sequence is completed, opening a port is often accomplished by the host based firewall, but could also be implemented by custom software.\n\nThis technique has been observed both for the dynamic opening of a listening port as well as the initiating of a connection to a listening s",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "Network Devices"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1026",
+      "name": "Multiband Communication",
+      "description": "**This technique has been deprecated and should no longer be used.**\n\nSome adversaries may split communications between different protocols. There could be one protocol for inbound command and control and another for outbound data, allowing it to bypass certain firewall restrictions. The split could also be random to simply avoid data threshold alerts on any one communication.",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1071.002",
+      "name": "File Transfer Protocols",
+      "description": "Adversaries may communicate using application layer protocols associated with transferring files to avoid detection/network filtering by blending in with existing traffic. Commands to the remote system, and often the results of those commands, will be embedded within the protocol traffic between the client and server. \n\nProtocols such as SMB(Citation: US-CERT TA18-074A), FTP(Citation: ESET Machete July 2019), FTPS, and TFTP that transfer files may be very common in environments.  Packets produce",
+      "platforms": [
+        "ESXi",
+        "Linux",
+        "macOS",
+        "Network Devices",
+        "Windows"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1102.003",
+      "name": "One-Way Communication",
+      "description": "Adversaries may use an existing, legitimate external Web service as a means for sending commands to a compromised system without receiving return output over the Web service channel. Compromised systems may leverage popular websites and social media to host command and control (C2) instructions. Those infected systems may opt to send the output from those commands back over a different C2 channel, including to another distinct Web service. Alternatively, compromised systems may return no output ",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "ESXi"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1090.003",
+      "name": "Multi-hop Proxy",
+      "description": "Adversaries may chain together multiple proxies to disguise the source of malicious traffic. Typically, a defender will be able to identify the last proxy traffic traversed before it enters their network; the defender may or may not be able to identify any previous proxies before the last-hop proxy. This technique makes identifying the original source of the malicious traffic even more difficult by requiring the defender to trace malicious traffic through several proxies to identify its source.\n",
+      "platforms": [
+        "ESXi",
+        "Linux",
+        "macOS",
+        "Network Devices",
+        "Windows"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1219.003",
+      "name": "Remote Access Hardware",
+      "description": "An adversary may use legitimate remote access hardware to establish an interactive command and control channel to target systems within networks. These services, including IP-based keyboard, video, or mouse (KVM) devices such as TinyPilot and PiKVM, are commonly used as legitimate tools and may be allowed by peripheral device policies within a target environment.  \n\nRemote access hardware may be physically installed and used post-compromise as an alternate communications channel for redundant ac",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1001",
+      "name": "Data Obfuscation",
+      "description": "Adversaries may obfuscate command and control traffic to make it more difficult to detect.(Citation: Bitdefender FunnyDream Campaign November 2020) Command and control (C2) communications are hidden (but not necessarily encrypted) in an attempt to make the content more difficult to discover or decipher and to make the communication less conspicuous and hide commands from being seen. This encompasses many methods, such as adding junk data to protocol traffic, using steganography, or impersonating",
+      "platforms": [
+        "ESXi",
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1571",
+      "name": "Non-Standard Port",
+      "description": "Adversaries may communicate using a protocol and port pairing that are typically not associated. For example, HTTPS over port 8088(Citation: Symantec Elfin Mar 2019) or port 587(Citation: Fortinet Agent Tesla April 2018) as opposed to the traditional port 443. Adversaries may make changes to the standard port used by a protocol to bypass filtering or muddle analysis/parsing of network data.\n\nAdversaries may also make changes to victim systems to abuse non-standard ports. For example, Registry ke",
+      "platforms": [
+        "ESXi",
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1573",
+      "name": "Encrypted Channel",
+      "description": "Adversaries may employ an encryption algorithm to conceal command and control traffic rather than relying on any inherent protections provided by a communication protocol. Despite the use of a secure algorithm, these implementations may be vulnerable to reverse engineering if secret keys are encoded and/or generated within malware samples/configuration files.",
+      "platforms": [
+        "ESXi",
+        "Linux",
+        "macOS",
+        "Network Devices",
+        "Windows"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1102.002",
+      "name": "Bidirectional Communication",
+      "description": "Adversaries may use an existing, legitimate external Web service as a means for sending commands to and receiving output from a compromised system over the Web service channel. Compromised systems may leverage popular websites and social media to host command and control (C2) instructions. Those infected systems can then send the output from those commands back over that Web service channel. The return traffic may occur in a variety of ways, depending on the Web service being utilized. For examp",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "ESXi"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1573.002",
+      "name": "Asymmetric Cryptography",
+      "description": "Adversaries may employ a known asymmetric encryption algorithm to conceal command and control traffic rather than relying on any inherent protections provided by a communication protocol. Asymmetric cryptography, also known as public key cryptography, uses a keypair per party: one public that can be freely distributed, and one private. Due to how the keys are generated, the sender encrypts data with the receiver\u2019s public key and the receiver decrypts the data with their private key. This ensures",
+      "platforms": [
+        "ESXi",
+        "Linux",
+        "macOS",
+        "Network Devices",
+        "Windows"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1095",
+      "name": "Non-Application Layer Protocol",
+      "description": "Adversaries may use an OSI non-application layer protocol for communication between host and C2 server or among infected hosts within a network. The list of possible protocols is extensive.(Citation: Wikipedia OSI) Specific examples include use of network layer protocols, such as the Internet Control Message Protocol (ICMP), transport layer protocols, such as the User Datagram Protocol (UDP), session layer protocols, such as Socket Secure (SOCKS), as well as redirected/tunneled protocols, such a",
+      "platforms": [
+        "ESXi",
+        "Linux",
+        "macOS",
+        "Network Devices",
+        "Windows"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1001.003",
+      "name": "Protocol or Service Impersonation",
+      "description": "Adversaries may impersonate legitimate protocols or web service traffic to disguise command and control activity and thwart analysis efforts. By impersonating legitimate protocols or web services, adversaries can make their command and control traffic blend in with legitimate network traffic.  \n\nAdversaries may impersonate a fake SSL/TLS handshake to make it look like subsequent traffic is SSL/TLS encrypted, potentially interfering with some security tooling, or to make the traffic look like it ",
+      "platforms": [
+        "ESXi",
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1065",
+      "name": "Uncommonly Used Port",
+      "description": "Adversaries may conduct C2 communications over a non-standard port to bypass proxies and firewalls that have been improperly configured.",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1090.004",
+      "name": "Domain Fronting",
+      "description": "Adversaries may take advantage of routing schemes in Content Delivery Networks (CDNs) and other services which host multiple domains to obfuscate the intended destination of HTTPS traffic or traffic tunneled through HTTPS. (Citation: Fifield Blocking Resistent Communication through domain fronting 2015) Domain fronting involves using different domain names in the SNI field of the TLS header and the Host field of the HTTP header. If both domains are served from the same CDN, then the CDN may rout",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "ESXi"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1132",
+      "name": "Data Encoding",
+      "description": "Adversaries may encode data to make the content of command and control traffic more difficult to detect. Command and control (C2) information can be encoded using a standard data encoding system. Use of data encoding may adhere to existing protocol specifications and includes use of ASCII, Unicode, Base64, MIME, or other binary-to-text and character encoding systems.(Citation: Wikipedia Binary-to-text Encoding) (Citation: Wikipedia Character Encoding) Some data encoding systems may also result i",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "ESXi"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1219.002",
+      "name": "Remote Desktop Software",
+      "description": "An adversary may use legitimate desktop support software to establish an interactive command and control channel to target systems within networks. Desktop support software provides a graphical interface for remotely controlling another computer, transmitting the display output, keyboard input, and mouse control between devices using various protocols. Desktop support software, such as `VNC`, `Team Viewer`, `AnyDesk`, `ScreenConnect`, `LogMein`, `AmmyyAdmin`, and other remote monitoring and mana",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1132.002",
+      "name": "Non-Standard Encoding",
+      "description": "Adversaries may encode data with a non-standard data encoding system to make the content of command and control traffic more difficult to detect. Command and control (C2) information can be encoded using a non-standard data encoding system that diverges from existing protocol specifications. Non-standard data encoding schemes may be based on or related to standard data encoding schemes, such as a modified Base64 encoding for the message body of an HTTP request.(Citation: Wikipedia Binary-to-text",
+      "platforms": [
+        "ESXi",
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1071.001",
+      "name": "Web Protocols",
+      "description": "Adversaries may communicate using application layer protocols associated with web traffic to avoid detection/network filtering by blending in with existing traffic. Commands to the remote system, and often the results of those commands, will be embedded within the protocol traffic between the client and server. \n\nProtocols such as HTTP/S(Citation: CrowdStrike Putter Panda) and WebSocket(Citation: Brazking-Websockets) that carry web traffic may be very common in environments. HTTP/S packets have ",
+      "platforms": [
+        "ESXi",
+        "Linux",
+        "macOS",
+        "Network Devices",
+        "Windows"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1105",
+      "name": "Ingress Tool Transfer",
+      "description": "Adversaries may transfer tools or other files from an external system into a compromised environment. Tools or files may be copied from an external adversary-controlled system to the victim network through the command and control channel or through alternate protocols such as [ftp](https://attack.mitre.org/software/S0095). Once present, adversaries may also transfer/spread tools between victim devices within a compromised environment (i.e. [Lateral Tool Transfer](https://attack.mitre.org/techniq",
+      "platforms": [
+        "ESXi",
+        "Linux",
+        "macOS",
+        "Network Devices",
+        "Windows"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1665",
+      "name": "Hide Infrastructure",
+      "description": "Adversaries may manipulate network traffic in order to hide and evade detection of their C2 infrastructure. This can be accomplished by identifying and filtering traffic from defensive tools,(Citation: TA571) masking malicious domains to obfuscate the true destination from both automated scanning tools and security researchers,(Citation: Schema-abuse)(Citation: Facad1ng)(Citation: Browser-updates) and otherwise hiding malicious artifacts to delay discovery and prolong the effectiveness of advers",
+      "platforms": [
+        "ESXi",
+        "Linux",
+        "Network Devices",
+        "Windows",
+        "macOS"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1001.002",
+      "name": "Steganography",
+      "description": "Adversaries may use steganographic techniques to hide command and control traffic to make detection efforts more difficult. Steganographic techniques can be used to hide data in digital messages that are transferred between systems. This hidden information can be used for command and control of compromised systems. In some cases, the passing of files embedded using steganography, such as image or document files, can be used for command and control. ",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "ESXi"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1008",
+      "name": "Fallback Channels",
+      "description": "Adversaries may use fallback or alternate communication channels if the primary channel is compromised or inaccessible in order to maintain reliable command and control and to avoid data transfer thresholds.",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS",
+        "ESXi"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1090.001",
+      "name": "Internal Proxy",
+      "description": "Adversaries may use an internal proxy to direct command and control traffic between two or more systems in a compromised environment. Many tools exist that enable traffic redirection through proxies or port redirection, including [HTRAN](https://attack.mitre.org/software/S0040), ZXProxy, and ZXPortMap. (Citation: Trend Micro APT Attack Tools) Adversaries use internal proxies to manage command and control communications inside a compromised environment, to reduce the number of simultaneous outbou",
+      "platforms": [
+        "Linux",
+        "Network Devices",
+        "Windows",
+        "macOS",
+        "ESXi"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1094",
+      "name": "Custom Command and Control Protocol",
+      "description": "Adversaries may communicate using a custom command and control protocol instead of encapsulating commands/data in an existing [Application Layer Protocol](https://attack.mitre.org/techniques/T1071). Implementations include mimicking well-known protocols or developing custom protocols (including raw sockets) on top of fundamental protocols provided by TCP/IP/another standard network stack.",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1102.001",
+      "name": "Dead Drop Resolver",
+      "description": "Adversaries may use an existing, legitimate external Web service to host information that points to additional command and control (C2) infrastructure. Adversaries may post content, known as a dead drop resolver, on Web services with embedded (and often obfuscated/encoded) domains or IP addresses. Once infected, victims will reach out to and be redirected by these resolvers.\n\nPopular websites and social media acting as a mechanism for C2 may give a significant amount of cover due to the likeliho",
+      "platforms": [
+        "ESXi",
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1001.001",
+      "name": "Junk Data",
+      "description": "Adversaries may add junk data to protocols used for command and control to make detection more difficult.(Citation: FireEye SUNBURST Backdoor December 2020) By adding random or meaningless data to the protocols used for command and control, adversaries can prevent trivial methods for decoding, deciphering, or otherwise analyzing the traffic. Examples may include appending/prepending data with junk characters or writing junk characters between significant characters. ",
+      "platforms": [
+        "ESXi",
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1043",
+      "name": "Commonly Used Port",
+      "description": "**This technique has been deprecated. Please use [Non-Standard Port](https://attack.mitre.org/techniques/T1571) where appropriate.**\n\nAdversaries may communicate over a commonly used port to bypass firewalls or network detection systems and to blend with normal network activity to avoid more detailed inspection. They may use commonly open ports such as\n\n* TCP:80 (HTTP)\n* TCP:443 (HTTPS)\n* TCP:25 (SMTP)\n* TCP/UDP:53 (DNS)\n\nThey may use the protocol associated with the port or a completely differe",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "id": "S1105",
+  "name": "COATHANGER",
+  "type": "malware",
+  "description": "[COATHANGER](https://attack.mitre.org/software/S1105) is a remote access tool (RAT) targeting FortiGate networking appliances. First used in 2023 in targeted intrusions against military and government entities in the Netherlands along with other victims, [COATHANGER](https://attack.mitre.org/software/S1105) was disclosed in early 2024, with a high confidence assessment linking this malware to a st",
+  "techniques": []
+}

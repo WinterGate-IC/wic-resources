@@ -1,0 +1,7 @@
+{
+  "id": "S1119",
+  "name": "LIGHTWIRE",
+  "type": "malware",
+  "description": "[LIGHTWIRE](https://attack.mitre.org/software/S1119) is a web shell written in Perl that was used during [Cutting Edge](https://attack.mitre.org/campaigns/C0029) to maintain access and enable command execution by imbedding into the legitimate compcheckresult.cgi component of Ivanti Secure Connect VPNs.(Citation: Mandiant Cutting Edge Part 2 January 2024)(Citation: Mandiant Cutting Edge January 202",
+  "techniques": []
+}

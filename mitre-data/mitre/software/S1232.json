@@ -1,0 +1,7 @@
+{
+  "id": "S1232",
+  "name": "SplatDropper",
+  "type": "malware",
+  "description": "[SplatDropper](https://attack.mitre.org/software/S1232) is a loader that utilizes native windows API to deliver its payload to the victim environment.  [SplatDropper](https://attack.mitre.org/software/S1232) has been delivered through RAR archives and used legitimate executable for DLL side-loading.  [SplatDropper](https://attack.mitre.org/software/S1232) is known to be leveraged by [Mustang Panda",
+  "techniques": []
+}

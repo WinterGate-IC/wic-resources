@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-201",
+  "name": "Serialized Data External Linking",
+  "description": "An adversary creates a serialized data file (e.g. XML, YAML, etc...) that contains an external data reference. Because serialized data parsers may not validate documents with external references, there may be no checks on the nature of the reference in the external data. This can allow an adversary ",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

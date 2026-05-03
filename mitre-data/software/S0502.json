@@ -1,0 +1,7 @@
+{
+  "id": "S0502",
+  "name": "Drovorub",
+  "type": "malware",
+  "description": "[Drovorub](https://attack.mitre.org/software/S0502) is a Linux malware toolset comprised of an agent, client, server, and kernel modules, that has been used by [APT28](https://attack.mitre.org/groups/G0007).(Citation: NSA/FBI Drovorub August 2020)",
+  "techniques": []
+}

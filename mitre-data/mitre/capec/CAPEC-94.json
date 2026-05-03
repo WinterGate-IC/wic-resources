@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-94",
+  "name": "Adversary in the Middle (AiTM)",
+  "description": "\n            <xhtml:p>An adversary targets the communication between two components (typically client and server), in order to alter or obtain data from transactions. A general approach entails the adversary placing themself within the communication channel between the two components.</xhtml:p>\n    ",
+  "severity": "Very High",
+  "likelihood": "Unknown"
+}

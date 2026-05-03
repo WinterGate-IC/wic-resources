@@ -1,0 +1,7 @@
+{
+  "id": "S1239",
+  "name": "TONESHELL",
+  "type": "malware",
+  "description": "[TONESHELL](https://attack.mitre.org/software/S1239) is a custom backdoor that has been used since at least Q1 2021.(Citation: Palo Alto Unit42 STATELY TAURUS TONESHELL September 2023)   [TONESHELL](https://attack.mitre.org/software/S1239) malware has previously been leveraged by Chinese affiliated actors identified as [Mustang Panda](https://attack.mitre.org/groups/G0129).(Citation: ATTACKIQ MUST",
+  "techniques": []
+}

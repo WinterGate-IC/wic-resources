@@ -1,0 +1,7 @@
+{
+  "id": "S0014",
+  "name": "BS2005",
+  "type": "malware",
+  "description": "[BS2005](https://attack.mitre.org/software/S0014) is malware that was used by [Ke3chang](https://attack.mitre.org/groups/G0004) in spearphishing campaigns since at least 2011. (Citation: Mandiant Operation Ke3chang November 2014)",
+  "techniques": []
+}

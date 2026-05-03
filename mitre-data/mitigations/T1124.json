@@ -1,0 +1,6 @@
+{
+  "id": "T1124",
+  "name": "System Time Discovery Mitigation",
+  "description": "Benign software uses legitimate processes to gather system time. Efforts should be focused on preventing unwanted or unknown code from executing on a system. Some common tools, such as net.exe, may be blocked by policy to prevent common ways of acquiring remote system time.\n\nIdentify unnecessary system utilities or potentially malicious software that may be used to acquire system time information,",
+  "techniques": []
+}

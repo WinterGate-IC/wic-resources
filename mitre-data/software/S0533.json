@@ -1,0 +1,7 @@
+{
+  "id": "S0533",
+  "name": "SLOTHFULMEDIA",
+  "type": "malware",
+  "description": "[SLOTHFULMEDIA](https://attack.mitre.org/software/S0533) is a remote access Trojan written in C++ that has been used by an unidentified \"sophisticated cyber actor\" since at least January 2017.(Citation: CISA MAR SLOTHFULMEDIA October 2020)(Citation: Costin Raiu IAmTheKing October 2020) It has been used to target government organizations, defense contractors, universities, and energy companies in R",
+  "techniques": []
+}

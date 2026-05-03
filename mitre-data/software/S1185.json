@@ -1,0 +1,7 @@
+{
+  "id": "S1185",
+  "name": "LightSpy",
+  "type": "malware",
+  "description": "First observed in 2018, LightSpy is a modular malware family that initially targeted iOS devices in Southern Asia before expanding to Android and macOS platforms. It consists of a downloader, a main executable that manages network communications, and functionality-specific modules, typically implemented as `.dylib` files (iOS, macOS) or `.apk` files (Android). LightSpy can collect VoIP call record",
+  "techniques": []
+}

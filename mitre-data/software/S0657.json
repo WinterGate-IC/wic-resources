@@ -1,0 +1,7 @@
+{
+  "id": "S0657",
+  "name": "BLUELIGHT",
+  "type": "malware",
+  "description": "[BLUELIGHT](https://attack.mitre.org/software/S0657) is a remote access Trojan used by [APT37](https://attack.mitre.org/groups/G0067) that was first observed in early 2021.(Citation: Volexity InkySquid BLUELIGHT August 2021)",
+  "techniques": []
+}

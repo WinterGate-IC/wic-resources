@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-181",
+  "name": "Flash File Overlay",
+  "description": "An attacker creates a transparent overlay using flash in order to intercept user actions for the purpose of performing a clickjacking attack. In this technique, the Flash file provides a transparent overlay over HTML content. Because the Flash application is on top of the content, user actions, such",
+  "severity": "Medium",
+  "likelihood": "Unknown"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-28",
+  "name": "Fuzzing",
+  "description": "In this attack pattern, the adversary leverages fuzzing to try to identify weaknesses in the system. Fuzzing is a software security and functionality testing method that feeds randomly constructed input to the system and looks for an indication that a failure in response to that input has occurred. ",
+  "severity": "Medium",
+  "likelihood": "Unknown"
+}

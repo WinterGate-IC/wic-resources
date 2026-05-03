@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-435",
+  "name": "Target Influence via Instant Rapport",
+  "description": "",
+  "severity": "Low",
+  "likelihood": "Unknown"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "S1047",
+  "name": "Mori",
+  "type": "malware",
+  "description": "[Mori](https://attack.mitre.org/software/S1047) is a backdoor that has been used by [MuddyWater](https://attack.mitre.org/groups/G0069) since at least January 2022.(Citation: DHS CISA AA22-055A MuddyWater February 2022)(Citation: CYBERCOM Iranian Intel Cyber January 2022)",
+  "techniques": []
+}

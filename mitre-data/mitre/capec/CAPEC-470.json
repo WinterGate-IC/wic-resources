@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-470",
+  "name": "Expanding Control over the Operating System from the Database",
+  "description": "An attacker is able to leverage access gained to the database to read / write data to the file system, compromise the operating system, create a tunnel for accessing the host machine, and use this access to potentially attack other machines on the same network as the database machine. Traditionally ",
+  "severity": "Very High",
+  "likelihood": "Unknown"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "S0586",
+  "name": "TAINTEDSCRIBE",
+  "type": "malware",
+  "description": "[TAINTEDSCRIBE](https://attack.mitre.org/software/S0586) is a fully-featured beaconing implant integrated with command modules used by [Lazarus Group](https://attack.mitre.org/groups/G0032). It was first reported in May 2020.(Citation: CISA MAR-10288834-2.v1  TAINTEDSCRIBE MAY 2020)",
+  "techniques": []
+}

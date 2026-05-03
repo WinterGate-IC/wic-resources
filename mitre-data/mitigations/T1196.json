@@ -1,0 +1,6 @@
+{
+  "id": "T1196",
+  "name": "Control Panel Items Mitigation",
+  "description": "This type of attack technique cannot be easily mitigated with preventive controls since it is based on the abuse of operating system design features. For example, mitigating specific Windows API calls and/or execution of particular file extensions will likely have unintended side effects, such as preventing legitimate software (i.e., drivers and configuration tools) from operating properly. Effort",
+  "techniques": []
+}

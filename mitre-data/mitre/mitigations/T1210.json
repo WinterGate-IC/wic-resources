@@ -1,0 +1,6 @@
+{
+  "id": "T1210",
+  "name": "Exploitation of Remote Services Mitigation",
+  "description": "Segment networks and systems appropriately to reduce access to critical systems and services to controlled methods. Minimize available services to only those that are necessary. Regularly scan the internal network for available services to identify new and potentially vulnerable services. Minimize permissions and access for service accounts to limit impact of exploitation.\n\nUpdate software regular",
+  "techniques": []
+}

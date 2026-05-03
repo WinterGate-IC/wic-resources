@@ -1,0 +1,7 @@
+{
+  "id": "S0612",
+  "name": "WastedLocker",
+  "type": "malware",
+  "description": "[WastedLocker](https://attack.mitre.org/software/S0612) is a ransomware family attributed to [Indrik Spider](https://attack.mitre.org/groups/G0119) that has been used since at least May 2020. [WastedLocker](https://attack.mitre.org/software/S0612) has been used against a broad variety of sectors, including manufacturing, information technology, and media.(Citation: Symantec WastedLocker June 2020)",
+  "techniques": []
+}

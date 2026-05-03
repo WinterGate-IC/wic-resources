@@ -1,0 +1,7 @@
+{
+  "id": "S0160",
+  "name": "certutil",
+  "type": "tool",
+  "description": "[certutil](https://attack.mitre.org/software/S0160) is a command-line utility that can be used to obtain certificate authority information and configure Certificate Services. (Citation: TechNet Certutil)",
+  "techniques": []
+}

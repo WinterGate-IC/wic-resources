@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-447",
+  "name": "Design Alteration",
+  "description": "An adversary modifies the design of a technology, product, or component to acheive a negative impact once the system is deployed. In this type of attack, the goal of the adversary is to modify the design of the system, prior to development starting, in such a way that the negative impact can be leve",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

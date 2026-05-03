@@ -1,0 +1,6 @@
+{
+  "id": "T1156",
+  "name": ".bash_profile and .bashrc Mitigation",
+  "description": "Making these files immutable and only changeable by certain administrators will limit the ability for adversaries to easily create user level persistence.",
+  "techniques": []
+}

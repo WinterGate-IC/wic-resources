@@ -1,0 +1,7 @@
+{
+  "id": "S0376",
+  "name": "HOPLIGHT",
+  "type": "malware",
+  "description": "[HOPLIGHT](https://attack.mitre.org/software/S0376) is a backdoor Trojan that has reportedly been used by the North Korean government.(Citation: US-CERT HOPLIGHT Apr 2019)",
+  "techniques": []
+}

@@ -1,0 +1,6 @@
+{
+  "id": "T1066",
+  "name": "Indicator Removal from Tools Mitigation",
+  "description": "Mitigation is difficult in instances like this because the adversary may have access to the system through another channel and can learn what techniques or tools are blocked by resident defenses. Exercising best practices with configuration and security as well as ensuring that proper process is followed during investigation of potential compromise is essential to detecting a larger intrusion thro",
+  "techniques": []
+}

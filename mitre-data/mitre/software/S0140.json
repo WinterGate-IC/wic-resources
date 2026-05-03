@@ -1,0 +1,7 @@
+{
+  "id": "S0140",
+  "name": "Shamoon",
+  "type": "malware",
+  "description": "[Shamoon](https://attack.mitre.org/software/S0140) is wiper malware that was first used by an Iranian group known as the \"Cutting Sword of Justice\" in 2012. Other versions known as Shamoon 2 and Shamoon 3 were observed in 2016 and 2018. [Shamoon](https://attack.mitre.org/software/S0140) has also been seen leveraging [RawDisk](https://attack.mitre.org/software/S0364) and Filerase to carry out data ",
+  "techniques": []
+}

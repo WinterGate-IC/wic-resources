@@ -1,0 +1,6 @@
+{
+  "id": "T1195",
+  "name": "Supply Chain Compromise Mitigation",
+  "description": "Apply supply chain risk management (SCRM) practices and procedures (Citation: MITRE SE Guide 2014), such as supply chain analysis and appropriate risk management, throughout the life-cycle of a system.\n\nLeverage established software development lifecycle (SDLC) practices (Citation: NIST Supply Chain 2012): \n\n* Uniquely Identify Supply Chain Elements, Processes, and Actors\n* Limit Access and Exposu",
+  "techniques": []
+}

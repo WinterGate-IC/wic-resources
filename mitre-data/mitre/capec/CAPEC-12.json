@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-12",
+  "name": "Choosing Message Identifier",
+  "description": "This pattern of attack is defined by the selection of messages distributed via multicast or public information channels that are intended for another client by determining the parameter value assigned to that client. This attack allows the adversary to gain access to potentially privileged informati",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

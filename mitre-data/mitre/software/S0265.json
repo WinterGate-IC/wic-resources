@@ -1,0 +1,7 @@
+{
+  "id": "S0265",
+  "name": "Kazuar",
+  "type": "malware",
+  "description": "[Kazuar](https://attack.mitre.org/software/S0265) is a fully featured, multi-platform backdoor Trojan written using the Microsoft .NET framework. (Citation: Unit 42 Kazuar May 2017)",
+  "techniques": []
+}

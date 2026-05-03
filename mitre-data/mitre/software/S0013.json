@@ -1,0 +1,7 @@
+{
+  "id": "S0013",
+  "name": "PlugX",
+  "type": "malware",
+  "description": "[PlugX](https://attack.mitre.org/software/S0013) is a remote access tool (RAT) with modular plugins that has been used by multiple threat groups.(Citation: Lastline PlugX Analysis)(Citation: FireEye Clandestine Fox Part 2)(Citation: New DragonOK)(Citation: Dell TG-3390)",
+  "techniques": []
+}

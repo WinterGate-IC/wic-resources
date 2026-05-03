@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-629",
+  "name": "DEPRECATED: Unauthorized Use of Device Resources",
+  "description": "This attack pattern has been deprecated.",
+  "severity": "Unknown",
+  "likelihood": "Unknown"
+}

@@ -1,0 +1,6 @@
+{
+  "id": "T1062",
+  "name": "Hypervisor Mitigation",
+  "description": "Prevent adversary access to privileged accounts necessary to install a hypervisor.",
+  "techniques": []
+}

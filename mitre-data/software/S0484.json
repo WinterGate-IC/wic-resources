@@ -1,0 +1,7 @@
+{
+  "id": "S0484",
+  "name": "Carberp",
+  "type": "malware",
+  "description": "[Carberp](https://attack.mitre.org/software/S0484) is a credential and information stealing malware that has been active since at least 2009. [Carberp](https://attack.mitre.org/software/S0484)'s source code was leaked online in 2013, and subsequently used as the foundation for the [Carbanak](https://attack.mitre.org/software/S0030) backdoor.(Citation: Trend Micro Carberp February 2014)(Citation: K",
+  "techniques": []
+}

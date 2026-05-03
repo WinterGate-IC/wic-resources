@@ -1,0 +1,6 @@
+{
+  "id": "T1097",
+  "name": "Pass the Ticket Mitigation",
+  "description": "Monitor domains for unusual credential logons. Limit credential overlap across systems to prevent the damage of credential compromise. Ensure that local administrator accounts have complex, unique passwords. Do not allow a user to be a local administrator for multiple systems. Limit domain admin account permissions to domain controllers and limited servers. Delegate other admin functions to separa",
+  "techniques": []
+}

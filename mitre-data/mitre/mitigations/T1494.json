@@ -1,0 +1,6 @@
+{
+  "id": "T1494",
+  "name": "Runtime Data Manipulation Mitigation",
+  "description": "Identify critical business and system processes that may be targeted by adversaries and work to secure those systems against tampering. Prevent critical business and system processes from being replaced, overwritten, or reconfigured to load potentially malicious code. Identify potentially malicious software and audit and/or block it by using whitelisting(Citation: Beechey 2010) tools, like AppLock",
+  "techniques": []
+}

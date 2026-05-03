@@ -1,0 +1,6 @@
+{
+  "id": "T1163",
+  "name": "Rc.common Mitigation",
+  "description": "Limit privileges of user accounts so only authorized users can edit the rc.common file.",
+  "techniques": []
+}

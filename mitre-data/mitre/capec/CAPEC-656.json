@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-656",
+  "name": "Voice Phishing",
+  "description": "An adversary targets users with a phishing attack for the purpose of soliciting account passwords or sensitive information from the user. Voice Phishing is a variation of the Phishing social engineering technique where the attack is initiated via a voice call, rather than email. The user is enticed ",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

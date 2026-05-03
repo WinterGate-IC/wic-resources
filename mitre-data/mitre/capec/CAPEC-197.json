@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-197",
+  "name": "Exponential Data Expansion",
+  "description": "An adversary submits data to a target application which contains nested exponential data expansion to produce excessively large output. Many data format languages allow the definition of macro-like structures that can be used to simplify the creation of complex structures. However, this capability c",
+  "severity": "Medium",
+  "likelihood": "Unknown"
+}

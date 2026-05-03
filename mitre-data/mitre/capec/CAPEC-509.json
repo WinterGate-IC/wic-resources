@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-509",
+  "name": "Kerberoasting",
+  "description": "Through the exploitation of how service accounts leverage Kerberos authentication with Service Principal Names (SPNs), the adversary obtains and subsequently cracks the hashed credentials of a service account target to exploit its privileges. The Kerberos authentication protocol centers around a tic",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

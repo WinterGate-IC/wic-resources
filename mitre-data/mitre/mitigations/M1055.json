@@ -1,0 +1,6 @@
+{
+  "id": "M1055",
+  "name": "Do Not Mitigate",
+  "description": "The Do Not Mitigate category highlights scenarios where attempting to mitigate a specific technique may inadvertently increase the organization's security risk or operational instability. This could happen due to the complexity of the system, the integration of critical processes, or the potential for introducing new vulnerabilities. Instead of direct mitigation, these situations may call for alte",
+  "techniques": []
+}

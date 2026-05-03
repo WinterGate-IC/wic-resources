@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-490",
+  "name": "Amplification",
+  "description": "An adversary may execute an amplification where the size of a response is far greater than that of the request that generates it. The goal of this attack is to use a relatively few resources to create a large amount of traffic against a target server. To execute this attack, an adversary send a requ",
+  "severity": "Unknown",
+  "likelihood": "Unknown"
+}

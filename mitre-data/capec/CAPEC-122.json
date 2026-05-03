@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-122",
+  "name": "Privilege Abuse",
+  "description": "An adversary is able to exploit features of the target that should be reserved for privileged users or administrators but are exposed to use by lower or non-privileged accounts. Access to sensitive information and functionality must be controlled to ensure that only authorized users are able to acce",
+  "severity": "Medium",
+  "likelihood": "Unknown"
+}

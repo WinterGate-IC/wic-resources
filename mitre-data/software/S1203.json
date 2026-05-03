@@ -1,0 +1,7 @@
+{
+  "id": "S1203",
+  "name": "J-magic",
+  "type": "malware",
+  "description": "[J-magic](https://attack.mitre.org/software/S1203) is a custom variant of the [cd00r](https://attack.mitre.org/software/S1204) backdoor tailored to target Juniper routers that was first observed during the [J-magic Campaign](https://attack.mitre.org/campaigns/C0050) in mid-2023. [J-magic](https://attack.mitre.org/software/S1203) monitors TCP traffic for five predefined parameters or \"magic packets",
+  "techniques": []
+}

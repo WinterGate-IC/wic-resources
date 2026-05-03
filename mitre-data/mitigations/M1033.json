@@ -1,0 +1,6 @@
+{
+  "id": "M1033",
+  "name": "Limit Software Installation",
+  "description": "Prevent users or groups from installing unauthorized or unapproved software to reduce the risk of introducing malicious or vulnerable applications. This can be achieved through allowlists, software restriction policies, endpoint management tools, and least privilege access principles. This mitigation can be implemented through the following measures:\n\nApplication Whitelisting\n\n- Implement Microsof",
+  "techniques": []
+}

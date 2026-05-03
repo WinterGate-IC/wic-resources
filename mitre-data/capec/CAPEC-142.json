@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-142",
+  "name": "DNS Cache Poisoning",
+  "description": "A domain name server translates a domain name (such as www.example.com) into an IP address that Internet hosts use to contact Internet resources. An adversary modifies a public DNS cache to cause certain names to resolve to incorrect addresses that the adversary specifies. The result is that client ",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

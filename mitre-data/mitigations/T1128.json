@@ -1,0 +1,6 @@
+{
+  "id": "T1128",
+  "name": "Netsh Helper DLL Mitigation",
+  "description": "Identify and block potentially malicious software that may persist in this manner by using whitelisting (Citation: Beechey 2010) tools capable of monitoring DLL loads by Windows utilities like AppLocker. (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker)",
+  "techniques": []
+}

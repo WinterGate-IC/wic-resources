@@ -1,0 +1,7 @@
+{
+  "id": "S0453",
+  "name": "Pony",
+  "type": "malware",
+  "description": "[Pony](https://attack.mitre.org/software/S0453) is a credential stealing malware, though has also been used among adversaries for its downloader capabilities. The source code for Pony Loader 1.0 and 2.0 were leaked online, leading to their use by various threat actors.(Citation: Malwarebytes Pony April 2016)",
+  "techniques": []
+}

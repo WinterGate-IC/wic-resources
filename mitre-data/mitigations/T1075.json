@@ -1,0 +1,6 @@
+{
+  "id": "T1075",
+  "name": "Pass the Hash Mitigation",
+  "description": "Monitor systems and domain logs for unusual credential logon activity. Prevent access to [Valid Accounts](https://attack.mitre.org/techniques/T1078). Apply patch KB2871997 to Windows 7 and higher systems to limit the default access of accounts in the local administrator group. \n\nEnable pass the hash mitigations to apply UAC restrictions to local accounts on network logon. The associated Registry k",
+  "techniques": []
+}

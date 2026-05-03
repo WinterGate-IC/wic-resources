@@ -1,0 +1,7 @@
+{
+  "id": "S1101",
+  "name": "LoFiSe",
+  "type": "malware",
+  "description": "[LoFiSe](https://attack.mitre.org/software/S1101) has been used by [ToddyCat](https://attack.mitre.org/groups/G1022) since at least 2023 to identify and collect files of interest on targeted systems.(Citation: Kaspersky ToddyCat Check Logs October 2023)",
+  "techniques": []
+}

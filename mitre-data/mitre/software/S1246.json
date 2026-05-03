@@ -1,0 +1,7 @@
+{
+  "id": "S1246",
+  "name": "BeaverTail",
+  "type": "malware",
+  "description": "[BeaverTail](https://attack.mitre.org/software/S1246) is a malware that has both a JavaScript and C++ variant.  Active since 2022, [BeaverTail](https://attack.mitre.org/software/S1246) is capable of stealing logins from browsers and serves as a downloader for second stage payloads. [BeaverTail](https://attack.mitre.org/software/S1246) has previously been leveraged by North Korea-affiliated actors ",
+  "techniques": []
+}

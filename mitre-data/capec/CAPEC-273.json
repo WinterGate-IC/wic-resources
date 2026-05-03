@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-273",
+  "name": "HTTP Response Smuggling",
+  "description": "\n            <xhtml:p>An adversary manipulates and injects malicious content in the form of secret unauthorized HTTP responses, into a single HTTP response from a vulnerable or compromised back-end HTTP agent (e.g., server).</xhtml:p>\n            <xhtml:p>See CanPrecede relationships for possible co",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

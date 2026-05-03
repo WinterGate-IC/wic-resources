@@ -1,0 +1,6 @@
+{
+  "id": "T1208",
+  "name": "Kerberoasting Mitigation",
+  "description": "Ensure strong password length (ideally 25+ characters) and complexity for service accounts and that these passwords periodically expire. (Citation: AdSecurity Cracking Kerberos Dec 2015) Also consider using Group Managed Service Accounts or another third party product such as password vaulting. (Citation: AdSecurity Cracking Kerberos Dec 2015)\n\nLimit service accounts to minimal required privileges",
+  "techniques": []
+}

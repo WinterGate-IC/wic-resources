@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-450",
+  "name": "DEPRECATED: Malware Propagation via USB U3 Autorun",
+  "description": "This attack pattern has been deprecated as it is a duplicate of CAPEC-448 : Embed Virus into DLL. Please refer to this other pattern going forward.",
+  "severity": "Unknown",
+  "likelihood": "Unknown"
+}

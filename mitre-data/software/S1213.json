@@ -1,0 +1,7 @@
+{
+  "id": "S1213",
+  "name": "Lumma Stealer",
+  "type": "malware",
+  "description": "[Lumma Stealer](https://attack.mitre.org/software/S1213) is an information stealer malware family in use since at least 2022. [Lumma Stealer](https://attack.mitre.org/software/S1213) is a Malware as a Service (MaaS) where captured data has been sold in criminal markets to Initial Access Brokers.(Citation: Cybereason LumaStealer Undated)(Citation: Netskope LummaStealer 2025)(Citation: Qualys LummaS",
+  "techniques": []
+}

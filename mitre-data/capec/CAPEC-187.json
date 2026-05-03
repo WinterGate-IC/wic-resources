@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-187",
+  "name": "Malicious Automated Software Update via Redirection",
+  "description": "An attacker exploits two layers of weaknesses in server or client software for automated update mechanisms to undermine the integrity of the target code-base. The first weakness involves a failure to properly authenticate a server as a source of update or patch content. This type of weakness typical",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

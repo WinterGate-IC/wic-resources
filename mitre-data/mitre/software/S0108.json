@@ -1,0 +1,7 @@
+{
+  "id": "S0108",
+  "name": "netsh",
+  "type": "tool",
+  "description": "[netsh](https://attack.mitre.org/software/S0108) is a scripting utility used to interact with networking components on local or remote systems. (Citation: TechNet Netsh)",
+  "techniques": []
+}

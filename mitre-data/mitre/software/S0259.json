@@ -1,0 +1,7 @@
+{
+  "id": "S0259",
+  "name": "InnaputRAT",
+  "type": "malware",
+  "description": "[InnaputRAT](https://attack.mitre.org/software/S0259) is a remote access tool that can exfiltrate files from a victim\u2019s machine. [InnaputRAT](https://attack.mitre.org/software/S0259) has been seen out in the wild since 2016. (Citation: ASERT InnaputRAT April 2018)",
+  "techniques": []
+}

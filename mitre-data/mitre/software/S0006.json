@@ -1,0 +1,7 @@
+{
+  "id": "S0006",
+  "name": "pwdump",
+  "type": "tool",
+  "description": "[pwdump](https://attack.mitre.org/software/S0006) is a credential dumper. (Citation: Wikipedia pwdump)",
+  "techniques": []
+}

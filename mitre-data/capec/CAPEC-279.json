@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-279",
+  "name": "SOAP Manipulation",
+  "description": "Simple Object Access Protocol (SOAP) is used as a communication protocol between a client and server to invoke web services on the server. It is an XML-based protocol, and therefore suffers from many of the same shortcomings as other XML-based protocols. Adversaries can make use of these shortcoming",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

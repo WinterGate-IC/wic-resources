@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-472",
+  "name": "Browser Fingerprinting",
+  "description": "An attacker carefully crafts small snippets of Java Script to efficiently detect the type of browser the potential victim is using. Many web-based attacks need prior knowledge of the web browser including the version of browser to ensure successful exploitation of a vulnerability. Having this knowle",
+  "severity": "Low",
+  "likelihood": "Unknown"
+}

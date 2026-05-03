@@ -1,0 +1,7 @@
+{
+  "id": "S1187",
+  "name": "reGeorg",
+  "type": "malware",
+  "description": "[reGeorg](https://attack.mitre.org/software/S1187) is an open-source web shell written in Python that can be used as a proxy to bypass firewall rules and tunnel data in and out of targeted networks.(Citation: Fortinet reGeorg MAR 2019)(Citation: GitHub reGeorg 2016)",
+  "techniques": []
+}

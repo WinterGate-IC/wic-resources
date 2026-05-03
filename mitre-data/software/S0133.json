@@ -1,0 +1,7 @@
+{
+  "id": "S0133",
+  "name": "Miner-C",
+  "type": "malware",
+  "description": "[Miner-C](https://attack.mitre.org/software/S0133) is malware that mines victims for the Monero cryptocurrency. It has targeted FTP servers and Network Attached Storage (NAS) devices to spread. (Citation: Softpedia MinerC)",
+  "techniques": []
+}

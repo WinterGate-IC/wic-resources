@@ -1,0 +1,7 @@
+{
+  "id": "S0017",
+  "name": "BISCUIT",
+  "type": "malware",
+  "description": "[BISCUIT](https://attack.mitre.org/software/S0017) is a backdoor that has been used by [APT1](https://attack.mitre.org/groups/G0006) since as early as 2007. (Citation: Mandiant APT1)",
+  "techniques": []
+}

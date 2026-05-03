@@ -1,0 +1,6 @@
+{
+  "id": "T1082",
+  "name": "System Information Discovery Mitigation",
+  "description": "Identify unnecessary system utilities or potentially malicious software that may be used to acquire information about the operating system and underlying hardware, and audit and/or block them by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) or Software Restriction Policies (Citation: Corio 2008) where appropriate",
+  "techniques": []
+}

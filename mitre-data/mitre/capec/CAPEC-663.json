@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-663",
+  "name": "Exploitation of Transient Instruction Execution",
+  "description": "An adversary exploits a hardware design flaw in a CPU implementation of transient instruction execution to expose sensitive data and bypass/subvert access control over restricted resources. Typically, the adversary conducts a covert channel attack to target non-discarded microarchitectural changes c",
+  "severity": "Very High",
+  "likelihood": "Unknown"
+}

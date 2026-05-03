@@ -1,0 +1,7 @@
+{
+  "id": "S0186",
+  "name": "DownPaper",
+  "type": "malware",
+  "description": "[DownPaper](https://attack.mitre.org/software/S0186) is a backdoor Trojan; its main functionality is to download and run second stage malware. (Citation: ClearSky Charming Kitten Dec 2017)",
+  "techniques": []
+}

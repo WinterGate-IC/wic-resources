@@ -1,0 +1,6 @@
+{
+  "id": "T1219",
+  "name": "Remote Access Tools Mitigation",
+  "description": "Properly configure firewalls, application firewalls, and proxies to limit outgoing traffic to sites and services used by remote access tools.\n\nNetwork intrusion detection and prevention systems that use network signatures may be able to prevent traffic to these services as well.\n\nUse application whitelisting to mitigate use of and installation of unapproved software.",
+  "techniques": []
+}

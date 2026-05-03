@@ -1,0 +1,6 @@
+{
+  "id": "T1003",
+  "name": "Credential Dumping Mitigation",
+  "description": "### Windows\nMonitor/harden access to LSASS and SAM table with tools that allow process whitelisting. Limit credential overlap across systems to prevent lateral movement opportunities using [Valid Accounts](https://attack.mitre.org/techniques/T1078) if passwords and hashes are obtained. Ensure that local administrator accounts have complex, unique passwords across all systems on the network. Do not",
+  "techniques": []
+}

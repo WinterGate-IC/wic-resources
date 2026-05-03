@@ -1,0 +1,7 @@
+{
+  "id": "S0658",
+  "name": "XCSSET",
+  "type": "malware",
+  "description": "[XCSSET](https://attack.mitre.org/software/S0658) is a modular macOS malware family delivered through infected Xcode projects and executed when the project is compiled. Active since August 2020, it has been observed installing backdoors, spoofed browsers, collecting data, and encrypting user files. It is composed of SHC-compiled shell scripts and run-only AppleScripts, often hiding in apps that mi",
+  "techniques": []
+}

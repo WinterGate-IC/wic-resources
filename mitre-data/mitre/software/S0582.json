@@ -1,0 +1,7 @@
+{
+  "id": "S0582",
+  "name": "LookBack",
+  "type": "malware",
+  "description": "[LookBack](https://attack.mitre.org/software/S0582) is a remote access trojan written in C++ that was used against at least three US utility companies in July 2019. The TALONITE activity group has been observed using [LookBack](https://attack.mitre.org/software/S0582).(Citation: Proofpoint LookBack Malware Aug 2019)(Citation: Dragos TALONITE)(Citation: Dragos Threat Report 2020)",
+  "techniques": []
+}

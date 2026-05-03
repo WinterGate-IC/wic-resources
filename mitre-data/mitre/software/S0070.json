@@ -1,0 +1,7 @@
+{
+  "id": "S0070",
+  "name": "HTTPBrowser",
+  "type": "malware",
+  "description": "[HTTPBrowser](https://attack.mitre.org/software/S0070) is malware that has been used by several threat groups. (Citation: ThreatStream Evasion Analysis) (Citation: Dell TG-3390) It is believed to be of Chinese origin. (Citation: ThreatConnect Anthem)",
+  "techniques": []
+}

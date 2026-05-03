@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-162",
+  "name": "Manipulating Hidden Fields",
+  "description": "An adversary exploits a weakness in the server's trust of client-side processing by modifying data on the client-side, such as price information, and then submitting this data to the server, which processes the modified data. For example, eShoplifting is a data manipulation attack against an on-line",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "S0575",
+  "name": "Conti",
+  "type": "malware",
+  "description": "[Conti](https://attack.mitre.org/software/S0575) is a Ransomware-as-a-Service (RaaS) that was first observed in December 2019. [Conti](https://attack.mitre.org/software/S0575) has been deployed via [TrickBot](https://attack.mitre.org/software/S0266) and used against major corporations and government agencies, particularly those in North America. As with other ransomware families, actors using [Con",
+  "techniques": []
+}

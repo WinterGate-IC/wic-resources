@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-62",
+  "name": "Cross Site Request Forgery",
+  "description": "An attacker crafts malicious web links and distributes them (via web pages, email, etc.), typically in a targeted manner, hoping to induce users to click on the link and execute the malicious action against some third-party application. If successful, the action embedded in the malicious link will b",
+  "severity": "Very High",
+  "likelihood": "Unknown"
+}

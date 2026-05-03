@@ -1,0 +1,7 @@
+{
+  "id": "S1247",
+  "name": "Embargo",
+  "type": "malware",
+  "description": "[Embargo](https://attack.mitre.org/software/S1247) is a ransomware variant written in Rust that has been active since at least May 2024.(Citation: Cyble Embargo Ransomware May 2024)(Citation: ESET Embargo Ransomware October 2024)  [Embargo](https://attack.mitre.org/software/S1247) ransomware operations are associated with \u201cdouble extortion\u201d ransomware activity, where data is exfiltrated from victi",
+  "techniques": []
+}

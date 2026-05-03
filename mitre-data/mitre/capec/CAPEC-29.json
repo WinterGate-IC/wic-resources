@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-29",
+  "name": "Leveraging Time-of-Check and Time-of-Use (TOCTOU) Race Conditions",
+  "description": "This attack targets a race condition occurring between the time of check (state) for a resource and the time of use of a resource. A typical example is file access. The adversary can leverage a file access race condition by \"running the race\", meaning that they would modify the resource between the ",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

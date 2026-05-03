@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-409",
+  "name": "DEPRECATED: Information Gathering from Non-Traditional Sources",
+  "description": "This attack pattern has been deprecated as it was deemed not to be a legitimate attack pattern. Please refer to CAPEC-118 : Collect and Analyze Information.",
+  "severity": "Unknown",
+  "likelihood": "Unknown"
+}

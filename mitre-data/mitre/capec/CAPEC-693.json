@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-693",
+  "name": "StarJacking",
+  "description": "\n            <xhtml:p>An adversary spoofs software popularity metadata to deceive users into believing that a maliciously provided package is widely used and originates from a trusted source.</xhtml:p>\n         ",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

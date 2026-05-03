@@ -1,0 +1,7 @@
+{
+  "id": "S0024",
+  "name": "Dyre",
+  "type": "malware",
+  "description": "[Dyre](https://attack.mitre.org/software/S0024) is a banking Trojan that has been used for financial gain. \n (Citation: Symantec Dyre June 2015)(Citation: Malwarebytes Dyreza November 2015)",
+  "techniques": []
+}

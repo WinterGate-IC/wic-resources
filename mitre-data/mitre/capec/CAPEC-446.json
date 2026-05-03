@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-446",
+  "name": "Malicious Logic Insertion into Product via Inclusion of Third-Party Component",
+  "description": "\n            <xhtml:p>An adversary conducts supply chain attacks by the inclusion of insecure third-party components into a technology, product, or code-base, possibly packaging a malicious driver or component along with the product before shipping it to the consumer or acquirer.</xhtml:p>\n         ",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

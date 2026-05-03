@@ -1,0 +1,7 @@
+{
+  "id": "S1027",
+  "name": "Heyoka Backdoor",
+  "type": "malware",
+  "description": "[Heyoka Backdoor](https://attack.mitre.org/software/S1027) is a custom backdoor--based on the Heyoka open source exfiltration tool--that  has been used by [Aoqin Dragon](https://attack.mitre.org/groups/G1007) since at least 2013.(Citation: SentinelOne Aoqin Dragon June 2022)(Citation: Sourceforge Heyoka 2022) ",
+  "techniques": []
+}

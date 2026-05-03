@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-425",
+  "name": "Target Influence via Framing",
+  "description": "An adversary uses framing techniques to contextualize a conversation so that the target is more likely to be influenced by the adversary's point of view. Framing is information and experiences in life that alter the way we react to decisions we must make. This type of persuasive technique exploits t",
+  "severity": "Low",
+  "likelihood": "Unknown"
+}

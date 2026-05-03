@@ -1,0 +1,7 @@
+{
+  "id": "S1163",
+  "name": "SnappyTCP",
+  "type": "malware",
+  "description": "[SnappyTCP](https://attack.mitre.org/software/S1163) is a web shell used by [Sea Turtle](https://attack.mitre.org/groups/G1041) between 2021 and 2023 against multiple victims. [SnappyTCP](https://attack.mitre.org/software/S1163) appears to be based on a public GitHub project that has since been removed from the code-sharing site. [SnappyTCP](https://attack.mitre.org/software/S1163) includes a simp",
+  "techniques": []
+}

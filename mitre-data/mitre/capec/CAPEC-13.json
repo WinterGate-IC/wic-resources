@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-13",
+  "name": "Subverting Environment Variable Values",
+  "description": "The adversary directly or indirectly modifies environment variables used by or controlling the target software. The adversary's goal is to cause the target software to deviate from its expected operation in a manner that benefits the adversary.",
+  "severity": "Very High",
+  "likelihood": "Unknown"
+}

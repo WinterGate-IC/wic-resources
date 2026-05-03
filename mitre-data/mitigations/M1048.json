@@ -1,0 +1,6 @@
+{
+  "id": "M1048",
+  "name": "Application Isolation and Sandboxing",
+  "description": "Application Isolation and Sandboxing refers to the technique of restricting the execution of code to a controlled and isolated environment (e.g., a virtual environment, container, or sandbox). This method prevents potentially malicious code from affecting the rest of the system or network by limiting access to sensitive resources and critical operations. The goal is to contain threats and minimize",
+  "techniques": []
+}

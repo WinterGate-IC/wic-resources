@@ -1,0 +1,7 @@
+{
+  "id": "S1188",
+  "name": "Line Runner",
+  "type": "malware",
+  "description": "[Line Runner](https://attack.mitre.org/software/S1188) is a persistent backdoor and web shell allowing threat actors to upload and execute arbitrary Lua scripts. [Line Runner](https://attack.mitre.org/software/S1188) is associated with the [ArcaneDoor](https://attack.mitre.org/campaigns/C0046) campaign.(Citation: CCCS ArcaneDoor 2024)(Citation: Cisco ArcaneDoor 2024)",
+  "techniques": []
+}

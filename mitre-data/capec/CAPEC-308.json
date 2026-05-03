@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-308",
+  "name": "UDP Scan",
+  "description": "An adversary engages in UDP scanning to gather information about UDP port status on the target system. UDP scanning methods involve sending a UDP datagram to the target port and looking for evidence that the port is closed. Open UDP ports usually do not respond to UDP datagrams as there is no statef",
+  "severity": "Low",
+  "likelihood": "Unknown"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-638",
+  "name": "Altered Component Firmware",
+  "description": "An adversary exploits systems features and/or improperly protected firmware of hardware components, such as Hard Disk Drives (HDD), with the goal of executing malicious code from within the component's Master Boot Record (MBR). Conducting this type of attack entails the adversary infecting the targe",
+  "severity": "Very High",
+  "likelihood": "Unknown"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "S0339",
+  "name": "Micropsia",
+  "type": "malware",
+  "description": "[Micropsia](https://attack.mitre.org/software/S0339) is a remote access tool written in Delphi.(Citation: Talos Micropsia June 2017)(Citation: Radware Micropsia July 2018)",
+  "techniques": []
+}

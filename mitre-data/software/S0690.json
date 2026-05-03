@@ -1,0 +1,7 @@
+{
+  "id": "S0690",
+  "name": "Green Lambert",
+  "type": "malware",
+  "description": "[Green Lambert](https://attack.mitre.org/software/S0690) is a modular backdoor that security researchers assess has been used by an advanced threat group referred to as Longhorn and The Lamberts. First reported in 2017, the Windows variant of [Green Lambert](https://attack.mitre.org/software/S0690) may have been used as early as 2008; a macOS version was uploaded to a multiscanner service in Septe",
+  "techniques": []
+}

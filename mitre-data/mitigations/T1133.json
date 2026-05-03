@@ -1,0 +1,6 @@
+{
+  "id": "T1133",
+  "name": "External Remote Services Mitigation",
+  "description": "Limit access to remote services through centrally managed concentrators such as VPNs and other managed remote access systems. Deny direct remote access to internal systems through the use of network proxies, gateways, and firewalls. Disable or block remotely available services such as [Windows Remote Management](https://attack.mitre.org/techniques/T1028). Use strong two-factor or multi-factor auth",
+  "techniques": []
+}

@@ -1,0 +1,7 @@
+{
+  "id": "S1155",
+  "name": "Covenant",
+  "type": "tool",
+  "description": "[Covenant](https://attack.mitre.org/software/S1155) is a multi-platform command and control framework written in .NET. While designed for penetration testing and security research, the tool has also been used by threat actors such as [HAFNIUM](https://attack.mitre.org/groups/G0125) during operations. [Covenant](https://attack.mitre.org/software/S1155) functions through a central listener managing ",
+  "techniques": []
+}

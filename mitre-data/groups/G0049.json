@@ -1,0 +1,7 @@
+{
+  "id": "G0049",
+  "name": "OilRig",
+  "description": "[OilRig](https://attack.mitre.org/groups/G0049) is a suspected Iranian threat group that has targeted Middle Eastern and international victims since at least 2014. The group has targeted a variety of sectors, including financial, government, energy, chemical, and telecommunications. It appears the group carries out supply chain attacks, leveraging the trust relationship between organizations to attack their primary targets. The group works on behalf of the Iranian government based on infrastruct",
+  "techniques": [],
+  "software": []
+}

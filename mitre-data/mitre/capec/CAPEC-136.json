@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-136",
+  "name": "LDAP Injection",
+  "description": "An attacker manipulates or crafts an LDAP query for the purpose of undermining the security of the target. Some applications use user input to create LDAP queries that are processed by an LDAP server. For example, a user might provide their username during authentication and the username might be in",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

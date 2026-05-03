@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-194",
+  "name": "Fake the Source of Data",
+  "description": "An adversary takes advantage of improper authentication to provide data or services under a falsified identity. The purpose of using the falsified identity may be to prevent traceability of the provided data or to assume the rights granted to another individual. One of the simplest forms of this att",
+  "severity": "Medium",
+  "likelihood": "Unknown"
+}

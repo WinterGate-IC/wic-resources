@@ -1,0 +1,7 @@
+{
+  "id": "S1154",
+  "name": "VersaMem",
+  "type": "malware",
+  "description": "[VersaMem](https://attack.mitre.org/software/S1154) is a web shell designed for deployment to Versa Director servers following exploitation. Discovered in August 2024, [VersaMem](https://attack.mitre.org/software/S1154) was used during [Versa Director Zero Day Exploitation](https://attack.mitre.org/campaigns/C0039) by [Volt Typhoon](https://attack.mitre.org/groups/G1017) to target ISPs and MSPs.  ",
+  "techniques": []
+}

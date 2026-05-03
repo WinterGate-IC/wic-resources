@@ -1,0 +1,7 @@
+{
+  "id": "S0141",
+  "name": "Winnti for Windows",
+  "type": "malware",
+  "description": "[Winnti for Windows](https://attack.mitre.org/software/S0141) is a modular remote access Trojan (RAT) that has been used likely by multiple groups to carry out intrusions in various regions since at least 2010, including by one group referred to as the same name, [Winnti Group](https://attack.mitre.org/groups/G0044).(Citation: Kaspersky Winnti April 2013)(Citation: Microsoft Winnti Jan 2017)(Citat",
+  "techniques": []
+}

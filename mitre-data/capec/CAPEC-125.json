@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-125",
+  "name": "Flooding",
+  "description": "An adversary consumes the resources of a target by rapidly engaging in a large number of interactions with the target. This type of attack generally exposes a weakness in rate limiting or flow. When successful this attack prevents legitimate users from accessing the service and can cause the target ",
+  "severity": "Medium",
+  "likelihood": "Unknown"
+}

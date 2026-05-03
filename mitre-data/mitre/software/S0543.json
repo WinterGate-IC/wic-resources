@@ -1,0 +1,7 @@
+{
+  "id": "S0543",
+  "name": "Spark",
+  "type": "malware",
+  "description": "\n[Spark](https://attack.mitre.org/software/S0543) is a Windows backdoor and has been in use since as early as 2017.(Citation: Unit42 Molerat Mar 2020) ",
+  "techniques": []
+}

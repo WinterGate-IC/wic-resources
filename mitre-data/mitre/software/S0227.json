@@ -1,0 +1,7 @@
+{
+  "id": "S0227",
+  "name": "spwebmember",
+  "type": "tool",
+  "description": "[spwebmember](https://attack.mitre.org/software/S0227) is a Microsoft SharePoint enumeration and data dumping tool written in .NET. (Citation: NCC Group APT15 Alive and Strong)",
+  "techniques": []
+}

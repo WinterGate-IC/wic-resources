@@ -1,0 +1,7 @@
+{
+  "id": "G0041",
+  "name": "Strider",
+  "description": "[Strider](https://attack.mitre.org/groups/G0041) is a threat group that has been active since at least 2011 and has targeted victims in Russia, China, Sweden, Belgium, Iran, and Rwanda.(Citation: Symantec Strider Blog)(Citation: Kaspersky ProjectSauron Blog)",
+  "techniques": [],
+  "software": []
+}

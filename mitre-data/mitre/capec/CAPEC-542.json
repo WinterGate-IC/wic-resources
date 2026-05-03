@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-542",
+  "name": "Targeted Malware",
+  "description": "An adversary develops targeted malware that takes advantage of a known vulnerability in an organizational information technology environment. The malware crafted for these attacks is based specifically on information gathered about the technology environment. Successfully executing the malware enabl",
+  "severity": "Unknown",
+  "likelihood": "Unknown"
+}

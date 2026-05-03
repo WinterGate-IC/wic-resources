@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-696",
+  "name": "Load Value Injection",
+  "description": "An adversary exploits a hardware design flaw in a CPU implementation of transient instruction execution in which a faulting or assisted load instruction transiently forwards adversary-controlled data from microarchitectural buffers. By inducing a page fault or microcode assist during victim executio",
+  "severity": "Very High",
+  "likelihood": "Unknown"
+}

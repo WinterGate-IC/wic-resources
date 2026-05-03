@@ -1,0 +1,7 @@
+{
+  "id": "S0667",
+  "name": "Chrommme",
+  "type": "malware",
+  "description": "[Chrommme](https://attack.mitre.org/software/S0667) is a backdoor tool written using the Microsoft Foundation Class (MFC) framework that was first reported in June 2021; security researchers noted infrastructure overlaps with [Gelsemium](https://attack.mitre.org/software/S0666) malware.(Citation: ESET Gelsemium June 2021)",
+  "techniques": []
+}

@@ -1,0 +1,6 @@
+{
+  "id": "T1150",
+  "name": "Plist Modification Mitigation",
+  "description": "Prevent plist files from being modified by users by making them read-only.",
+  "techniques": []
+}

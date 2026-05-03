@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-563",
+  "name": "Add Malicious File to Shared Webroot",
+  "description": "An adversaries may add malicious content to a website through the open file share and then browse to that content with a web browser to cause the server to execute the content. The malicious content will typically run under the context and permissions of the web server process, often resulting in lo",
+  "severity": "Unknown",
+  "likelihood": "Unknown"
+}

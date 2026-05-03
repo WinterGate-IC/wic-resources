@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-88",
+  "name": "OS Command Injection",
+  "description": "In this type of an attack, an adversary injects operating system commands into existing application functions. An application that uses untrusted input to build command strings is vulnerable. An adversary can leverage OS command injection in an application to elevate privileges, execute arbitrary co",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

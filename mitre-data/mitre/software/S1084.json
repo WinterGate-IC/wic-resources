@@ -1,0 +1,7 @@
+{
+  "id": "S1084",
+  "name": "QUIETEXIT",
+  "type": "malware",
+  "description": "[QUIETEXIT](https://attack.mitre.org/software/S1084) is a novel backdoor, based on the open-source Dropbear SSH client-server software, that has been used by [APT29](https://attack.mitre.org/groups/G0016) since at least 2021. [APT29](https://attack.mitre.org/groups/G0016) has deployed [QUIETEXIT](https://attack.mitre.org/software/S1084) on opaque network appliances that typically don't support ant",
+  "techniques": []
+}

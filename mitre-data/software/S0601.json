@@ -1,0 +1,7 @@
+{
+  "id": "S0601",
+  "name": "Hildegard",
+  "type": "malware",
+  "description": "[Hildegard](https://attack.mitre.org/software/S0601) is malware that targets misconfigured kubelets for initial access and runs cryptocurrency miner operations. The malware was first observed in January 2021. The TeamTNT activity group is believed to be behind [Hildegard](https://attack.mitre.org/software/S0601). (Citation: Unit 42 Hildegard Malware)",
+  "techniques": []
+}

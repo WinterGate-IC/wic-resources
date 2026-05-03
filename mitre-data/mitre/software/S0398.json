@@ -1,0 +1,7 @@
+{
+  "id": "S0398",
+  "name": "HyperBro",
+  "type": "malware",
+  "description": "[HyperBro](https://attack.mitre.org/software/S0398) is a custom in-memory backdoor used by [Threat Group-3390](https://attack.mitre.org/groups/G0027).(Citation: Unit42 Emissary Panda May 2019)(Citation: Securelist LuckyMouse June 2018)(Citation: Hacker News LuckyMouse June 2018)",
+  "techniques": []
+}

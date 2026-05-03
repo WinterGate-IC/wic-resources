@@ -1,0 +1,7 @@
+{
+  "id": "S0512",
+  "name": "FatDuke",
+  "type": "malware",
+  "description": "[FatDuke](https://attack.mitre.org/software/S0512) is a backdoor used by [APT29](https://attack.mitre.org/groups/G0016) since at least 2016.(Citation: ESET Dukes October 2019)",
+  "techniques": []
+}

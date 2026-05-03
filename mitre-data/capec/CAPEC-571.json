@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-571",
+  "name": "Block Logging to Central Repository",
+  "description": "\n            <xhtml:p>An adversary prevents host-generated logs being delivered to a central location in an attempt to hide indicators of compromise.</xhtml:p>\n         ",
+  "severity": "Low",
+  "likelihood": "Unknown"
+}

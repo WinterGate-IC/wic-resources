@@ -1,0 +1,6 @@
+{
+  "id": "T1143",
+  "name": "Hidden Window Mitigation",
+  "description": "Whitelist programs that are allowed to have this plist tag. All other programs should be considered suspicious.",
+  "techniques": []
+}

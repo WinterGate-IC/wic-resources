@@ -1,0 +1,7 @@
+{
+  "id": "S0020",
+  "name": "China Chopper",
+  "type": "malware",
+  "description": "[China Chopper](https://attack.mitre.org/software/S0020) is a [Web Shell](https://attack.mitre.org/techniques/T1505/003) hosted on Web servers to provide access back into an enterprise network that does not rely on an infected system calling back to a remote command and control server.(Citation: Lee 2013) It has been used by several threat groups.(Citation: Dell TG-3390)(Citation: FireEye Periscop",
+  "techniques": []
+}

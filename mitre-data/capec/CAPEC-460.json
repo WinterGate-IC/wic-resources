@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-460",
+  "name": "HTTP Parameter Pollution (HPP)",
+  "description": "An adversary adds duplicate HTTP GET/POST parameters by injecting query string delimiters. Via HPP it may be possible to override existing hardcoded HTTP parameters, modify the application behaviors, access and, potentially exploit, uncontrollable variables, and bypass input validation checkpoints a",
+  "severity": "Medium",
+  "likelihood": "Unknown"
+}

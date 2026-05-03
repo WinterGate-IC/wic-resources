@@ -1,0 +1,7 @@
+{
+  "id": "S0085",
+  "name": "S-Type",
+  "type": "malware",
+  "description": "[S-Type](https://attack.mitre.org/software/S0085) is a backdoor that was used in [Operation Dust Storm](https://attack.mitre.org/campaigns/C0016) since at least 2013.(Citation: Cylance Dust Storm)",
+  "techniques": []
+}

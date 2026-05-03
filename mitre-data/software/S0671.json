@@ -1,0 +1,7 @@
+{
+  "id": "S0671",
+  "name": "Tomiris",
+  "type": "malware",
+  "description": "[Tomiris](https://attack.mitre.org/software/S0671) is a backdoor written in Go that continuously queries its C2 server for executables to download and execute on a victim system. It was first reported in September 2021 during an investigation of a successful DNS hijacking campaign against a Commonwealth of Independent States (CIS) member. Security researchers assess there are similarities between ",
+  "techniques": []
+}

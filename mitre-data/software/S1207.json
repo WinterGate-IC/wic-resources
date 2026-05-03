@@ -1,0 +1,7 @@
+{
+  "id": "S1207",
+  "name": "XLoader",
+  "type": "malware",
+  "description": "[XLoader](https://attack.mitre.org/software/S1207) is an infostealer malware in use since at least 2016. Previously known and sometimes still referred to as Formbook, [XLoader](https://attack.mitre.org/software/S1207) is a Malware as a Service (MaaS) known for stealing data from web browsers, email clients and File Transfer Protocol (FTP) applications.(Citation: Zscaler XLoader 2025)(Citation: ANY",
+  "techniques": []
+}

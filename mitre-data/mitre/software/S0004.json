@@ -1,0 +1,7 @@
+{
+  "id": "S0004",
+  "name": "TinyZBot",
+  "type": "malware",
+  "description": "[TinyZBot](https://attack.mitre.org/software/S0004) is a bot written in C# that was developed by [Cleaver](https://attack.mitre.org/groups/G0003). (Citation: Cylance Cleaver)",
+  "techniques": []
+}

@@ -1,0 +1,7 @@
+{
+  "id": "S0528",
+  "name": "Javali",
+  "type": "malware",
+  "description": "[Javali](https://attack.mitre.org/software/S0528) is a banking trojan that has targeted Portuguese and Spanish-speaking countries since 2017, primarily focusing on customers of financial institutions in Brazil and Mexico.(Citation: Securelist Brazilian Banking Malware July 2020)",
+  "techniques": []
+}

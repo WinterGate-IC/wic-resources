@@ -1,0 +1,7 @@
+{
+  "id": "S0348",
+  "name": "Cardinal RAT",
+  "type": "malware",
+  "description": "[Cardinal RAT](https://attack.mitre.org/software/S0348) is a potentially low volume remote access trojan (RAT) observed since December 2015. [Cardinal RAT](https://attack.mitre.org/software/S0348) is notable for its unique utilization of uncompiled C# source code and the Microsoft Windows built-in csc.exe compiler.(Citation: PaloAlto CardinalRat Apr 2017)",
+  "techniques": []
+}

@@ -1,0 +1,7 @@
+{
+  "id": "S1249",
+  "name": "HexEval Loader",
+  "type": "malware",
+  "description": "[HexEval Loader](https://attack.mitre.org/software/S1249) is a hex-encoded loader that collects host data, decodes follow-on scripts and acts as a downloader for the [BeaverTail](https://attack.mitre.org/software/S1246) malware.  [HexEval Loader](https://attack.mitre.org/software/S1249) was first reported in April 2025.  [HexEval Loader](https://attack.mitre.org/software/S1249) has previously been",
+  "techniques": []
+}

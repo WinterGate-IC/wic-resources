@@ -1,0 +1,7 @@
+{
+  "id": "S1088",
+  "name": "Disco",
+  "type": "malware",
+  "description": "[Disco](https://attack.mitre.org/software/S1088) is a custom implant that has been used by [MoustachedBouncer](https://attack.mitre.org/groups/G1019) since at least 2020 including in campaigns using targeted malicious content injection for initial access and command and control.(Citation: MoustachedBouncer ESET August 2023)",
+  "techniques": []
+}

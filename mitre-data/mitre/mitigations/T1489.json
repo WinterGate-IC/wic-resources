@@ -1,0 +1,6 @@
+{
+  "id": "T1489",
+  "name": "Service Stop Mitigation",
+  "description": "Ensure proper process, registry, and file permissions are in place to inhibit adversaries from disabling or interfering with critical services. Limit privileges of user accounts and groups so that only authorized administrators can interact with service changes and service configurations. Harden systems used to serve critical network, business, and communications functions. Operate intrusion detec",
+  "techniques": []
+}

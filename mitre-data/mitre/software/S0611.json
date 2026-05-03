@@ -1,0 +1,7 @@
+{
+  "id": "S0611",
+  "name": "Clop",
+  "type": "malware",
+  "description": "[Clop](https://attack.mitre.org/software/S0611) is a ransomware family that was first observed in February 2019 and has been used against retail, transportation and logistics, education, manufacturing, engineering, automotive, energy, financial, aerospace, telecommunications, professional and legal services, healthcare, and high tech industries. [Clop](https://attack.mitre.org/software/S0611) is a",
+  "techniques": []
+}

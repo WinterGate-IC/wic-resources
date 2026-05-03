@@ -1,0 +1,7 @@
+{
+  "id": "S0035",
+  "name": "SPACESHIP",
+  "type": "malware",
+  "description": "[SPACESHIP](https://attack.mitre.org/software/S0035) is malware developed by [APT30](https://attack.mitre.org/groups/G0013) that allows propagation and exfiltration of data over removable devices. [APT30](https://attack.mitre.org/groups/G0013) may use this capability to exfiltrate data across air-gaps. (Citation: FireEye APT30)",
+  "techniques": []
+}

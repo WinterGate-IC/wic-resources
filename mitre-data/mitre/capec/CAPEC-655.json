@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-655",
+  "name": "Avoid Security Tool Identification by Adding Data",
+  "description": "\n            <xhtml:p>An adversary adds data to a file to increase the file size beyond what security tools are capable of handling in an attempt to mask their actions.</xhtml:p>\n            <xhtml:p>In addition to this, adding data to a file also changes the file's hash, frustrating security tools ",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "S0587",
+  "name": "Penquin",
+  "type": "malware",
+  "description": "[Penquin](https://attack.mitre.org/software/S0587) is a remote access trojan (RAT) with multiple versions used by [Turla](https://attack.mitre.org/groups/G0010) to target Linux systems since at least 2014.(Citation: Kaspersky Turla Penquin December 2014)(Citation: Leonardo Turla Penquin May 2020)",
+  "techniques": []
+}

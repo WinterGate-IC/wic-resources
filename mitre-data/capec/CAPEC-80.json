@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-80",
+  "name": "Using UTF-8 Encoding to Bypass Validation Logic",
+  "description": "This attack is a specific variation on leveraging alternate encodings to bypass validation logic. This attack leverages the possibility to encode potentially harmful input in UTF-8 and submit it to applications not expecting or effective at validating this encoding standard making input filtering di",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

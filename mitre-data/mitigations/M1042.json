@@ -1,0 +1,6 @@
+{
+  "id": "M1042",
+  "name": "Disable or Remove Feature or Program",
+  "description": "Disable or remove unnecessary and potentially vulnerable software, features, or services to reduce the attack surface and prevent abuse by adversaries. This involves identifying software or features that are no longer needed or that could be exploited and ensuring they are either removed or properly disabled. This mitigation can be implemented through the following measures: \n\nRemove Legacy Softwa",
+  "techniques": []
+}

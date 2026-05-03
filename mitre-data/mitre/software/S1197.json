@@ -1,0 +1,7 @@
+{
+  "id": "S1197",
+  "name": "GoBear",
+  "type": "malware",
+  "description": "[GoBear](https://attack.mitre.org/software/S1197) is a Go-based backdoor that abuses legitimate, stolen certificates for defense evasion purposes. [GoBear](https://attack.mitre.org/software/S1197) is exclusively linked to [Kimsuky](https://attack.mitre.org/groups/G0094) operations.(Citation: S2W Troll Stealer 2024)(Citation: Symantec Troll Stealer 2024)",
+  "techniques": []
+}

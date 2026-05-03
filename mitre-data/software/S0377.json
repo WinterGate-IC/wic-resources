@@ -1,0 +1,7 @@
+{
+  "id": "S0377",
+  "name": "Ebury",
+  "type": "malware",
+  "description": "[Ebury](https://attack.mitre.org/software/S0377) is an OpenSSH backdoor and credential stealer targeting Linux servers and container hosts developed by [Windigo](https://attack.mitre.org/groups/G0124). [Ebury](https://attack.mitre.org/software/S0377) is primarily installed through modifying shared libraries (`.so` files) executed by the legitimate OpenSSH program. First seen in 2009, [Ebury](https",
+  "techniques": []
+}

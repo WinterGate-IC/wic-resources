@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-7",
+  "name": "Blind SQL Injection",
+  "description": "Blind SQL Injection results from an insufficient mitigation for SQL Injection. Although suppressing database error messages are considered best practice, the suppression alone is not sufficient to prevent SQL Injection. Blind SQL Injection is a form of SQL Injection that overcomes the lack of error ",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

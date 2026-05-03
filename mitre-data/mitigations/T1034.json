@@ -1,0 +1,6 @@
+{
+  "id": "T1034",
+  "name": "Path Interception Mitigation",
+  "description": "Eliminate path interception weaknesses in program configuration files, scripts, the PATH environment variable, services, and in shortcuts by surrounding PATH variables with quotation marks when functions allow for them (Citation: Microsoft CreateProcess). Be aware of the search order Windows uses for executing or loading binaries and use fully qualified paths wherever appropriate (Citation: MSDN D",
+  "techniques": []
+}

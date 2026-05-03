@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-672",
+  "name": "Malicious Code Implanted During Chip Programming",
+  "description": "\n            <xhtml:p>During the programming step of chip manufacture, an adversary with access and necessary technical skills maliciously alters a chip\u2019s intended program logic to produce an effect intended by the adversary when the fully manufactured chip is deployed and in operational use. Intend",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

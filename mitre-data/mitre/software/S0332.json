@@ -1,0 +1,7 @@
+{
+  "id": "S0332",
+  "name": "Remcos",
+  "type": "tool",
+  "description": "[Remcos](https://attack.mitre.org/software/S0332) is a closed-source tool that is marketed as a remote control and surveillance software by a company called Breaking Security. [Remcos](https://attack.mitre.org/software/S0332) has been observed being used in malware campaigns.(Citation: Riskiq Remcos Jan 2018)(Citation: Talos Remcos Aug 2018)",
+  "techniques": []
+}

@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-275",
+  "name": "DNS Rebinding",
+  "description": "An adversary serves content whose IP address is resolved by a DNS server that the adversary controls. After initial contact by a web browser (or similar client), the adversary changes the IP address to which its name resolves, to an address within the target organization that is not publicly accessi",
+  "severity": "Very High",
+  "likelihood": "Unknown"
+}

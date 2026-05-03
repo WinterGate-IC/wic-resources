@@ -1,0 +1,6 @@
+{
+  "id": "T1193",
+  "name": "Spearphishing Attachment Mitigation",
+  "description": "Network intrusion prevention systems and systems designed to scan and remove malicious email attachments can be used to block activity. Solutions can be signature and behavior based, but adversaries may construct attachments in a way to avoid these systems.\n\nBlock unknown or unused attachments by default that should not be transmitted over email as a best practice to prevent some vectors, such as ",
+  "techniques": []
+}

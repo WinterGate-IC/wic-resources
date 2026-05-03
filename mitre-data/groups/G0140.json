@@ -1,0 +1,7 @@
+{
+  "id": "G0140",
+  "name": "LazyScripter",
+  "description": "[LazyScripter](https://attack.mitre.org/groups/G0140) is threat group that has mainly targeted the airlines industry since at least 2018, primarily using open-source toolsets.(Citation: MalwareBytes LazyScripter Feb 2021)",
+  "techniques": [],
+  "software": []
+}

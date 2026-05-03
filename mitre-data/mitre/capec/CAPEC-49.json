@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-49",
+  "name": "Password Brute Forcing",
+  "description": "An adversary tries every possible value for a password until they succeed. A brute force attack, if feasible computationally, will always be successful because it will essentially go through all possible passwords given the alphabet used (lower case letters, upper case letters, numbers, symbols, etc",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "S1222",
+  "name": "RIFLESPINE",
+  "type": "malware",
+  "description": "[RIFLESPINE](https://attack.mitre.org/software/S1222) is a cross-platform backdoor that leverages Google Drive for file transfer and command execution.(Citation: Google Cloud Mandiant UNC3886 2024)",
+  "techniques": []
+}

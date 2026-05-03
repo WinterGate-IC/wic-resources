@@ -1,0 +1,7 @@
+{
+  "id": "S0157",
+  "name": "SOUNDBITE",
+  "type": "malware",
+  "description": "[SOUNDBITE](https://attack.mitre.org/software/S0157) is a signature backdoor used by [APT32](https://attack.mitre.org/groups/G0050). (Citation: FireEye APT32 May 2017)",
+  "techniques": []
+}

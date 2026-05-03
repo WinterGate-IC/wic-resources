@@ -1,0 +1,7 @@
+{
+  "id": "S0466",
+  "name": "WindTail",
+  "type": "malware",
+  "description": "[WindTail](https://attack.mitre.org/software/S0466) is a macOS surveillance implant used by [Windshift](https://attack.mitre.org/groups/G0112). [WindTail](https://attack.mitre.org/software/S0466) shares code similarities with Hack Back aka KitM OSX.(Citation: SANS Windshift August 2018)(Citation: objective-see windtail1 dec 2018)(Citation: objective-see windtail2 jan 2019)",
+  "techniques": []
+}

@@ -1,0 +1,7 @@
+{
+  "id": "S1048",
+  "name": "macOS.OSAMiner",
+  "type": "malware",
+  "description": "[macOS.OSAMiner](https://attack.mitre.org/software/S1048) is a Monero mining trojan that was first observed in 2018; security researchers assessed [macOS.OSAMiner](https://attack.mitre.org/software/S1048) may have been circulating since at least 2015. [macOS.OSAMiner](https://attack.mitre.org/software/S1048) is known for embedding one run-only AppleScript into another, which helped the malware eva",
+  "techniques": []
+}

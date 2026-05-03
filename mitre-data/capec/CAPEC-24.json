@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-24",
+  "name": "Filter Failure through Buffer Overflow",
+  "description": "In this attack, the idea is to cause an active filter to fail by causing an oversized transaction. An attacker may try to feed overly long input strings to the program in an attempt to overwhelm the filter (by causing a buffer overflow) and hoping that the filter does not fail securely (i.e. the use",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

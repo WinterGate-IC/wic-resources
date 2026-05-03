@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-593",
+  "name": "Session Hijacking",
+  "description": "This type of attack involves an adversary that exploits weaknesses in an application's use of sessions in performing authentication. The adversary is able to steal or manipulate an active session and use it to gain unathorized access to the application.",
+  "severity": "Very High",
+  "likelihood": "Unknown"
+}

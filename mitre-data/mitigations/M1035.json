@@ -1,0 +1,6 @@
+{
+  "id": "M1035",
+  "name": "Limit Access to Resource Over Network",
+  "description": "Restrict access to network resources, such as file shares, remote systems, and services, to only those users, accounts, or systems with a legitimate business requirement. This can include employing technologies like network concentrators, RDP gateways, and zero-trust network access (ZTNA) models, alongside hardening services and protocols. This mitigation can be implemented through the following m",
+  "techniques": []
+}

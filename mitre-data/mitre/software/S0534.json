@@ -1,0 +1,7 @@
+{
+  "id": "S0534",
+  "name": "Bazar",
+  "type": "malware",
+  "description": "[Bazar](https://attack.mitre.org/software/S0534) is a downloader and backdoor that has been used since at least April 2020, with infections primarily against professional services, healthcare, manufacturing, IT, logistics and travel companies across the US and Europe. [Bazar](https://attack.mitre.org/software/S0534) reportedly has ties to [TrickBot](https://attack.mitre.org/software/S0266) campaig",
+  "techniques": []
+}

@@ -1,0 +1,7 @@
+{
+  "id": "S0037",
+  "name": "HAMMERTOSS",
+  "type": "malware",
+  "description": "[HAMMERTOSS](https://attack.mitre.org/software/S0037) is a backdoor that was used by [APT29](https://attack.mitre.org/groups/G0016) in 2015. (Citation: FireEye APT29) (Citation: F-Secure The Dukes)",
+  "techniques": []
+}

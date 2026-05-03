@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-128",
+  "name": "Integer Attacks",
+  "description": "An attacker takes advantage of the structure of integer variables to cause these variables to assume values that are not expected by an application. For example, adding one to the largest positive integer in a signed integer variable results in a negative number. Negative numbers may be illegal in a",
+  "severity": "Medium",
+  "likelihood": "Unknown"
+}

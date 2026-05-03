@@ -1,0 +1,7 @@
+{
+  "id": "S0051",
+  "name": "MiniDuke",
+  "type": "malware",
+  "description": "[MiniDuke](https://attack.mitre.org/software/S0051) is malware that was used by [APT29](https://attack.mitre.org/groups/G0016) from 2010 to 2015. The [MiniDuke](https://attack.mitre.org/software/S0051) toolset consists of multiple downloader and backdoor components. The loader has been used with other [MiniDuke](https://attack.mitre.org/software/S0051) components as well as in conjunction with [Co",
+  "techniques": []
+}

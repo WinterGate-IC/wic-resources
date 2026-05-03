@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-126",
+  "name": "Path Traversal",
+  "description": "An adversary uses path manipulation methods to exploit insufficient input validation of a target to obtain access to data that should be not be retrievable by ordinary well-formed requests. A typical variety of this attack involves specifying a path to a desired file together with dot-dot-slash char",
+  "severity": "Very High",
+  "likelihood": "Unknown"
+}

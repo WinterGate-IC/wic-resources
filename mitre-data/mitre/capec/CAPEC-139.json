@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-139",
+  "name": "Relative Path Traversal",
+  "description": "An attacker exploits a weakness in input validation on the target by supplying a specially constructed path utilizing dot and slash characters for the purpose of obtaining access to arbitrary files or resources. An attacker modifies a known path on the target in order to reach material that is not a",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-303",
+  "name": "TCP Xmas Scan",
+  "description": "An adversary uses a TCP XMAS scan to determine if ports are closed on the target machine. This scan type is accomplished by sending TCP segments with all possible flags set in the packet header, generating packets that are illegal based on RFC 793. The RFC 793 expected behavior is that any TCP segme",
+  "severity": "Low",
+  "likelihood": "Unknown"
+}

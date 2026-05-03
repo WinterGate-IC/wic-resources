@@ -1,0 +1,7 @@
+{
+  "id": "S0638",
+  "name": "Babuk",
+  "type": "malware",
+  "description": "[Babuk](https://attack.mitre.org/software/S0638) is a Ransomware-as-a-service (RaaS) malware that has been used since at least 2021. The operators of [Babuk](https://attack.mitre.org/software/S0638) employ a \"Big Game Hunting\" approach to targeting major enterprises and operate a leak site to post stolen data as part of their extortion scheme.(Citation: Sogeti CERT ESEC Babuk March 2021)(Citation:",
+  "techniques": []
+}

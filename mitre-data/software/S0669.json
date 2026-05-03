@@ -1,0 +1,7 @@
+{
+  "id": "S0669",
+  "name": "KOCTOPUS",
+  "type": "malware",
+  "description": "[KOCTOPUS](https://attack.mitre.org/software/S0669)'s batch variant is loader used by [LazyScripter](https://attack.mitre.org/groups/G0140) since 2018 to launch [Octopus](https://attack.mitre.org/software/S0340) and [Koadic](https://attack.mitre.org/software/S0250) and, in some cases, [QuasarRAT](https://attack.mitre.org/software/S0262). [KOCTOPUS](https://attack.mitre.org/software/S0669) also has",
+  "techniques": []
+}

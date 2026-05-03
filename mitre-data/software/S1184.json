@@ -1,0 +1,7 @@
+{
+  "id": "S1184",
+  "name": "BOLDMOVE",
+  "type": "malware",
+  "description": "[BOLDMOVE](https://attack.mitre.org/software/S1184) is a type of backdoor malware written in C linked to People\u2019s Republic of China operations from 2022 through 2023. [BOLDMOVE](https://attack.mitre.org/software/S1184) includes both Windows and Linux variants, with some Linux variants specifically designed for FortiGate Firewall devices. [BOLDMOVE](https://attack.mitre.org/software/S1184) is linke",
+  "techniques": []
+}

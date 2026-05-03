@@ -1,0 +1,7 @@
+{
+  "id": "S0337",
+  "name": "BadPatch",
+  "type": "malware",
+  "description": "[BadPatch](https://attack.mitre.org/software/S0337) is a Windows Trojan that was used in a Gaza Hackers-linked campaign.(Citation: Unit 42 BadPatch Oct 2017)",
+  "techniques": []
+}

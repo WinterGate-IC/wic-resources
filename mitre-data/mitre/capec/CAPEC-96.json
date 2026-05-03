@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-96",
+  "name": "Block Access to Libraries",
+  "description": "An application typically makes calls to functions that are a part of libraries external to the application. These libraries may be part of the operating system or they may be third party libraries. It is possible that the application does not handle situations properly where access to these librarie",
+  "severity": "Medium",
+  "likelihood": "Unknown"
+}

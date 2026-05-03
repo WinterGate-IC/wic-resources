@@ -1,0 +1,7 @@
+{
+  "id": "S1129",
+  "name": "Akira",
+  "type": "malware",
+  "description": "[Akira](https://attack.mitre.org/software/S1129) ransomware, written in C++, is most prominently (but not exclusively) associated with the ransomware-as-a-service entity [Akira](https://attack.mitre.org/groups/G1024). [Akira](https://attack.mitre.org/software/S1129) ransomware has been used in attacks across North America, Europe, and Australia, with a focus on critical infrastructure sectors incl",
+  "techniques": []
+}

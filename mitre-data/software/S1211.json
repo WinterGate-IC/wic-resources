@@ -1,0 +1,7 @@
+{
+  "id": "S1211",
+  "name": "Hannotog",
+  "type": "malware",
+  "description": "[Hannotog](https://attack.mitre.org/software/S1211) is a type of backdoor malware uniquely assoicated with [Lotus Blossom](https://attack.mitre.org/groups/G0030) operations since at least 2022.(Citation: Symantec Bilbug 2022)",
+  "techniques": []
+}

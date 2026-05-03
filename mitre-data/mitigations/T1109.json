@@ -1,0 +1,6 @@
+{
+  "id": "T1109",
+  "name": "Component Firmware Mitigation",
+  "description": "Prevent adversary access to privileged accounts or access necessary to perform this technique.\n\nConsider removing and replacing system components suspected of being compromised.",
+  "techniques": []
+}

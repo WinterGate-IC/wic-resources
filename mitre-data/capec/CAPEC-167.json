@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-167",
+  "name": "White Box Reverse Engineering",
+  "description": "An attacker discovers the structure, function, and composition of a type of computer software through white box analysis techniques. White box techniques involve methods which can be applied to a piece of software when an executable or some other compiled object can be directly subjected to analysis",
+  "severity": "Medium",
+  "likelihood": "Unknown"
+}

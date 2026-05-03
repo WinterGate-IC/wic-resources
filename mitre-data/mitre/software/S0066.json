@@ -1,0 +1,7 @@
+{
+  "id": "S0066",
+  "name": "3PARA RAT",
+  "type": "malware",
+  "description": "[3PARA RAT](https://attack.mitre.org/software/S0066) is a remote access tool (RAT) programmed in C++ that has been used by [Putter Panda](https://attack.mitre.org/groups/G0024). (Citation: CrowdStrike Putter Panda)",
+  "techniques": []
+}

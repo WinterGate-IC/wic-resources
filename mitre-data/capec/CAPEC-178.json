@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-178",
+  "name": "Cross-Site Flashing",
+  "description": "An attacker is able to trick the victim into executing a Flash document that passes commands or calls to a Flash player browser plugin, allowing the attacker to exploit native Flash functionality in the client browser. This attack pattern occurs where an attacker can provide a crafted link to a Flas",
+  "severity": "Medium",
+  "likelihood": "Unknown"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "S0665",
+  "name": "ThreatNeedle",
+  "type": "malware",
+  "description": "[ThreatNeedle](https://attack.mitre.org/software/S0665) is a backdoor that has been used by [Lazarus Group](https://attack.mitre.org/groups/G0032) since at least 2019 to target cryptocurrency, defense, and mobile gaming organizations.  It is considered to be an advanced cluster of [Lazarus Group](https://attack.mitre.org/groups/G0032)'s Manuscrypt (a.k.a. NukeSped) malware family.(Citation: Kasper",
+  "techniques": []
+}

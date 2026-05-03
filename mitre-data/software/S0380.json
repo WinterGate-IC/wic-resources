@@ -1,0 +1,7 @@
+{
+  "id": "S0380",
+  "name": "StoneDrill",
+  "type": "malware",
+  "description": "[StoneDrill](https://attack.mitre.org/software/S0380) is wiper malware discovered in destructive campaigns against both Middle Eastern and European targets in association with [APT33](https://attack.mitre.org/groups/G0064).(Citation: FireEye APT33 Sept 2017)(Citation: Kaspersky StoneDrill 2017)",
+  "techniques": []
+}

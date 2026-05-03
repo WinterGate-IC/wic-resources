@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-625",
+  "name": "Mobile Device Fault Injection",
+  "description": "Fault injection attacks against mobile devices use disruptive signals or events (e.g. electromagnetic pulses, laser pulses, clock glitches, etc.) to cause faulty behavior. When performed in a controlled manner on devices performing cryptographic operations, this faulty behavior can be exploited to d",
+  "severity": "Unknown",
+  "likelihood": "Unknown"
+}

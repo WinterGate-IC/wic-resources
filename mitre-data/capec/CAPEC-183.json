@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-183",
+  "name": "IMAP/SMTP Command Injection",
+  "description": "An adversary exploits weaknesses in input validation on web-mail servers to execute commands on the IMAP/SMTP server. Web-mail servers often sit between the Internet and the IMAP or SMTP mail server. User requests are received by the web-mail servers which then query the back-end mail server for the",
+  "severity": "Medium",
+  "likelihood": "Unknown"
+}

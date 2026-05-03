@@ -1,0 +1,6 @@
+{
+  "id": "M1034",
+  "name": "Limit Hardware Installation",
+  "description": "Prevent unauthorized users or groups from installing or using hardware, such as external drives, peripheral devices, or unapproved internal hardware components, by enforcing hardware usage policies and technical controls. This includes disabling USB ports, restricting driver installation, and implementing endpoint security tools to monitor and block unapproved devices. This mitigation can be imple",
+  "techniques": []
+}

@@ -1,0 +1,7 @@
+{
+  "id": "S0641",
+  "name": "Kobalos",
+  "type": "malware",
+  "description": "[Kobalos](https://attack.mitre.org/software/S0641) is a multi-platform backdoor that can be used against Linux, FreeBSD, and Solaris. [Kobalos](https://attack.mitre.org/software/S0641) has been deployed against high profile targets, including high-performance computers, academic servers, an endpoint security vendor, and a large internet service provider; it has been found in Europe, North America,",
+  "techniques": []
+}

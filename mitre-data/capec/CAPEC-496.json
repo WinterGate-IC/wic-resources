@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-496",
+  "name": "ICMP Fragmentation",
+  "description": "An attacker may execute a ICMP Fragmentation attack against a target with the intention of consuming resources or causing a crash. The attacker crafts a large number of identical fragmented IP packets containing a portion of a fragmented ICMP message. The attacker these sends these messages to a tar",
+  "severity": "Unknown",
+  "likelihood": "Unknown"
+}

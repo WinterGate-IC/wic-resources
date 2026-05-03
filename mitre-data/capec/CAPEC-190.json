@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-190",
+  "name": "Reverse Engineer an Executable to Expose Assumed Hidden Functionality",
+  "description": "An attacker analyzes a binary file or executable for the purpose of discovering the structure, function, and possibly source-code of the file by using a variety of analysis techniques to effectively determine how the software functions and operates. This type of analysis is also referred to as Rever",
+  "severity": "Low",
+  "likelihood": "Unknown"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "S0276",
+  "name": "Keydnap",
+  "type": "malware",
+  "description": "This piece of malware steals the content of the user's keychain while maintaining a permanent backdoor  (Citation: OSX Keydnap malware).",
+  "techniques": []
+}

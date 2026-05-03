@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-417",
+  "name": "Influence Perception",
+  "description": "The adversary uses social engineering to exploit the target's perception of the relationship between the adversary and themselves. This goal is to persuade the target to unknowingly perform an action or divulge information that is advantageous to the adversary.",
+  "severity": "Low",
+  "likelihood": "Unknown"
+}

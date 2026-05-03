@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-11",
+  "name": "Cause Web Server Misclassification",
+  "description": "An attack of this type exploits a Web server's decision to take action based on filename or file extension. Because different file types are handled by different server processes, misclassification may force the Web server to take unexpected action, or expected actions in an unexpected sequence. Thi",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

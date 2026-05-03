@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-114",
+  "name": "Authentication Abuse",
+  "description": "An attacker obtains unauthorized access to an application, service or device either through knowledge of the inherent weaknesses of an authentication mechanism, or by exploiting a flaw in the authentication scheme's implementation. In such an attack an authentication mechanism is functioning but a c",
+  "severity": "Medium",
+  "likelihood": "Unknown"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-277",
+  "name": "Data Interchange Protocol Manipulation",
+  "description": "Data Interchange Protocols are used to transmit structured data between entities. These protocols are often specific to a particular domain (B2B: purchase orders, invoices, transport logistics and waybills, medical records). They are often, but not always, XML-based. Subverting the protocol can allo",
+  "severity": "Unknown",
+  "likelihood": "Unknown"
+}

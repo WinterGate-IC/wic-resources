@@ -1,0 +1,7 @@
+{
+  "id": "S0247",
+  "name": "NavRAT",
+  "type": "malware",
+  "description": "[NavRAT](https://attack.mitre.org/software/S0247) is a remote access tool designed to upload, download, and execute files. It has been observed in attacks targeting South Korea. (Citation: Talos NavRAT May 2018)",
+  "techniques": []
+}

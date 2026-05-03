@@ -1,0 +1,7 @@
+{
+  "id": "S0375",
+  "name": "Remexi",
+  "type": "malware",
+  "description": "[Remexi](https://attack.mitre.org/software/S0375) is a Windows-based Trojan that was developed in the C programming language.(Citation: Securelist Remexi Jan 2019)",
+  "techniques": []
+}

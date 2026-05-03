@@ -1,0 +1,7 @@
+{
+  "id": "S0456",
+  "name": "Aria-body",
+  "type": "malware",
+  "description": "[Aria-body](https://attack.mitre.org/software/S0456) is a custom backdoor that has been used by [Naikon](https://attack.mitre.org/groups/G0019) since approximately 2017.(Citation: CheckPoint Naikon May 2020)",
+  "techniques": []
+}

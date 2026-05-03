@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-63",
+  "name": "Cross-Site Scripting (XSS)",
+  "description": "An adversary embeds malicious scripts in content that will be served to web browsers. The goal of the attack is for the target software, the client-side browser, to execute the script with the users' privilege level. An attack of this type exploits a programs' vulnerabilities that are brought on by ",
+  "severity": "Very High",
+  "likelihood": "Unknown"
+}

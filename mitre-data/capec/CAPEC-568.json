@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-568",
+  "name": "Capture Credentials via Keylogger",
+  "description": "An adversary deploys a keylogger in an effort to obtain credentials directly from a system's user. After capturing all the keystrokes made by a user, the adversary can analyze the data and determine which string are likely to be passwords or other credential related information.",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

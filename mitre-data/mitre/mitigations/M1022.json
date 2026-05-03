@@ -1,0 +1,6 @@
+{
+  "id": "M1022",
+  "name": "Restrict File and Directory Permissions",
+  "description": "Restricting file and directory permissions involves setting access controls at the file system level to limit which users, groups, or processes can read, write, or execute files. By configuring permissions appropriately, organizations can reduce the attack surface for adversaries seeking to access sensitive data, plant malicious code, or tamper with system files.\n\nEnforce Least Privilege Permissio",
+  "techniques": []
+}

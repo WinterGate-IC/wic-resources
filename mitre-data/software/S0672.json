@@ -1,0 +1,7 @@
+{
+  "id": "S0672",
+  "name": "Zox",
+  "type": "malware",
+  "description": "[Zox](https://attack.mitre.org/software/S0672) is a remote access tool that has been used by [Axiom](https://attack.mitre.org/groups/G0001) since at least 2008.(Citation: Novetta-Axiom)",
+  "techniques": []
+}

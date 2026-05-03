@@ -1,0 +1,7 @@
+{
+  "id": "S0516",
+  "name": "SoreFang",
+  "type": "malware",
+  "description": "[SoreFang](https://attack.mitre.org/software/S0516) is first stage downloader used by [APT29](https://attack.mitre.org/groups/G0016) for exfiltration and to load other malware.(Citation: NCSC APT29 July 2020)(Citation: CISA SoreFang July 2016)",
+  "techniques": []
+}

@@ -1,0 +1,7 @@
+{
+  "id": "S0504",
+  "name": "Anchor",
+  "type": "malware",
+  "description": "[Anchor](https://attack.mitre.org/software/S0504) is one of a family of backdoor malware that has been used in conjunction with [TrickBot](https://attack.mitre.org/software/S0266) on selected high profile targets since at least 2018.(Citation: Cyberreason Anchor December 2019)(Citation: Medium Anchor DNS July 2020)",
+  "techniques": []
+}

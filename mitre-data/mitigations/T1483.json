@@ -1,0 +1,6 @@
+{
+  "id": "T1483",
+  "name": "Domain Generation Algorithms Mitigation",
+  "description": "This technique may be difficult to mitigate since the domains can be registered just before they are used, and disposed shortly after. Malware researchers can reverse-engineer malware variants that use DGAs and determine future domains that the malware will attempt to contact, but this is a time and resource intensive effort.(Citation: Cybereason Dissecting DGAs)(Citation: Cisco Umbrella DGA Brute",
+  "techniques": []
+}

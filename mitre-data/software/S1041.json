@@ -1,0 +1,7 @@
+{
+  "id": "S1041",
+  "name": "Chinoxy",
+  "type": "malware",
+  "description": "[Chinoxy](https://attack.mitre.org/software/S1041) is a backdoor that has been used since at least November 2018, during the [FunnyDream](https://attack.mitre.org/campaigns/C0007) campaign, to gain persistence and drop additional payloads. According to security researchers, [Chinoxy](https://attack.mitre.org/software/S1041) has been used by Chinese-speaking threat actors.(Citation: Bitdefender Fun",
+  "techniques": []
+}

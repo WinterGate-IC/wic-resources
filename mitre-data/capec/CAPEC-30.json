@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-30",
+  "name": "Hijacking a Privileged Thread of Execution",
+  "description": "An adversary hijacks a privileged thread of execution by injecting malicious code into a running process. By using a privleged thread to do their bidding, adversaries can evade process-based detection that would stop an attack that creates a new process. This can lead to an adversary gaining access ",
+  "severity": "Very High",
+  "likelihood": "Unknown"
+}

@@ -1,0 +1,6 @@
+{
+  "id": "T1037",
+  "name": "Logon Scripts Mitigation",
+  "description": "Restrict write access to logon scripts to specific administrators. Prevent access to administrator accounts by mitigating Credential Access techniques and limiting account access and permissions of [Valid Accounts](https://attack.mitre.org/techniques/T1078).\n\nIdentify and block potentially malicious software that may be executed through logon script modification by using whitelisting (Citation: Be",
+  "techniques": []
+}

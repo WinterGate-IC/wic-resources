@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-304",
+  "name": "TCP Null Scan",
+  "description": "An adversary uses a TCP NULL scan to determine if ports are closed on the target machine. This scan type is accomplished by sending TCP segments with no flags in the packet header, generating packets that are illegal based on RFC 793. The RFC 793 expected behavior is that any TCP segment with an out",
+  "severity": "Low",
+  "likelihood": "Unknown"
+}

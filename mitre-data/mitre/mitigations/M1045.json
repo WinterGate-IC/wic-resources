@@ -1,0 +1,6 @@
+{
+  "id": "M1045",
+  "name": "Code Signing",
+  "description": "Code Signing is a security process that ensures the authenticity and integrity of software by digitally signing executables, scripts, and other code artifacts. It prevents untrusted or malicious code from executing by verifying the digital signatures against trusted sources. Code signing protects against tampering, impersonation, and distribution of unauthorized or malicious software, forming a cr",
+  "techniques": []
+}

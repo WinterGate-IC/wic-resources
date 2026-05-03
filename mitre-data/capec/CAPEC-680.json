@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-680",
+  "name": "Exploitation of Improperly Controlled Registers",
+  "description": "\n            <xhtml:p>An adversary exploits missing or incorrectly configured access control within registers to read/write data that is not meant to be obtained or modified by a user.</xhtml:p>\n         ",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

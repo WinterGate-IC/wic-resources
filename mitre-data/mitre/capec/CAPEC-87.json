@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-87",
+  "name": "Forceful Browsing",
+  "description": "An attacker employs forceful browsing (direct URL entry) to access portions of a website that are otherwise unreachable. Usually, a front controller or similar design pattern is employed to protect access to portions of a web application. Forceful browsing enables an attacker to access information, ",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

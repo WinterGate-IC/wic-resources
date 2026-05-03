@@ -1,0 +1,7 @@
+{
+  "id": "S0216",
+  "name": "POORAIM",
+  "type": "malware",
+  "description": "[POORAIM](https://attack.mitre.org/software/S0216) is a backdoor used by [APT37](https://attack.mitre.org/groups/G0067) in campaigns since at least 2014. (Citation: FireEye APT37 Feb 2018)",
+  "techniques": []
+}

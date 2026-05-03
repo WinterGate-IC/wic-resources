@@ -1,0 +1,7 @@
+{
+  "id": "S0256",
+  "name": "Mosquito",
+  "type": "malware",
+  "description": "[Mosquito](https://attack.mitre.org/software/S0256) is a Win32 backdoor that has been used by [Turla](https://attack.mitre.org/groups/G0010). [Mosquito](https://attack.mitre.org/software/S0256) is made up of three parts: the installer, the launcher, and the backdoor. The main backdoor is called CommanderDLL and is launched by the loader program. (Citation: ESET Turla Mosquito Jan 2018)",
+  "techniques": []
+}

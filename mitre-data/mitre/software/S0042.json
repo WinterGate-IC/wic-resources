@@ -1,0 +1,7 @@
+{
+  "id": "S0042",
+  "name": "LOWBALL",
+  "type": "malware",
+  "description": "[LOWBALL](https://attack.mitre.org/software/S0042) is malware used by [admin@338](https://attack.mitre.org/groups/G0018). It was used in August 2015 in email messages targeting Hong Kong-based media organizations. (Citation: FireEye admin@338)",
+  "techniques": []
+}

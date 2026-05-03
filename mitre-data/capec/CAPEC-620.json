@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-620",
+  "name": "Drop Encryption Level",
+  "description": "An attacker forces the encryption level to be lowered, thus enabling a successful attack against the encrypted data.",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

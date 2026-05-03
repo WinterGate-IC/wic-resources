@@ -1,0 +1,7 @@
+{
+  "id": "S1066",
+  "name": "DarkTortilla",
+  "type": "malware",
+  "description": "[DarkTortilla](https://attack.mitre.org/software/S1066) is a highly configurable .NET-based crypter that has been possibly active since at least August 2015. [DarkTortilla](https://attack.mitre.org/software/S1066) has been used to deliver popular information stealers, RATs, and payloads such as [Agent Tesla](https://attack.mitre.org/software/S0331), AsyncRat, [NanoCore](https://attack.mitre.org/so",
+  "techniques": []
+}

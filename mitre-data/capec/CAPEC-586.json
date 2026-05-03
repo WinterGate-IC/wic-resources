@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-586",
+  "name": "Object Injection",
+  "description": "An adversary attempts to exploit an application by injecting additional, malicious content during its processing of serialized objects. Developers leverage serialization in order to convert data or state into a static, binary format for saving to disk or transferring over a network. These objects ar",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

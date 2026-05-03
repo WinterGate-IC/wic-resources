@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-138",
+  "name": "Reflection Injection",
+  "description": "An adversary supplies a value to the target application which is then used by reflection methods to identify a class, method, or field. For example, in the Java programming language the reflection libraries permit an application to inspect, load, and invoke classes and their components by name. If a",
+  "severity": "Very High",
+  "likelihood": "Unknown"
+}

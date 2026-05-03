@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-109",
+  "name": "Object Relational Mapping Injection",
+  "description": "An attacker leverages a weakness present in the database access layer code generated with an Object Relational Mapping (ORM) tool or a weakness in the way that a developer used a persistence framework to inject their own SQL commands to be executed against the underlying database. The attack here is",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

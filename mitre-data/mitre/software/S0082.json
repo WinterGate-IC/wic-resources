@@ -1,0 +1,7 @@
+{
+  "id": "S0082",
+  "name": "Emissary",
+  "type": "malware",
+  "description": "[Emissary](https://attack.mitre.org/software/S0082) is a Trojan that has been used by [Lotus Blossom](https://attack.mitre.org/groups/G0030). It shares code with [Elise](https://attack.mitre.org/software/S0081), with both Trojans being part of a malware group referred to as LStudio.(Citation: Lotus Blossom Dec 2015)",
+  "techniques": []
+}

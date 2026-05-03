@@ -1,0 +1,7 @@
+{
+  "id": "S0263",
+  "name": "TYPEFRAME",
+  "type": "malware",
+  "description": "[TYPEFRAME](https://attack.mitre.org/software/S0263) is a remote access tool that has been used by [Lazarus Group](https://attack.mitre.org/groups/G0032). (Citation: US-CERT TYPEFRAME June 2018)",
+  "techniques": []
+}

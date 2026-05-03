@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-111",
+  "name": "JSON Hijacking (aka JavaScript Hijacking)",
+  "description": "An attacker targets a system that uses JavaScript Object Notation (JSON) as a transport mechanism between the client and the server (common in Web 2.0 systems using AJAX) to steal possibly confidential information transmitted from the server back to the client inside the JSON object by taking advant",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

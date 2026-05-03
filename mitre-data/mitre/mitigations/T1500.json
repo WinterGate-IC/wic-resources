@@ -1,0 +1,6 @@
+{
+  "id": "T1500",
+  "name": "Compile After Delivery Mitigation",
+  "description": "This type of technique cannot be easily mitigated with preventive controls or patched since it is based on the abuse of operating system design features. For example, blocking all file compilation may have unintended side effects, such as preventing legitimate OS frameworks and code development mechanisms from operating properly. Consider removing compilers if not needed, otherwise efforts should ",
+  "techniques": []
+}

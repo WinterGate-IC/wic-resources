@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-280",
+  "name": "DEPRECATED: SOAP Parameter Tampering",
+  "description": "This attack pattern has been deprecated as its contents have been included in CAPEC-279 : SOAP Manipulation. Please refer to this other pattern going forward.",
+  "severity": "Unknown",
+  "likelihood": "Unknown"
+}

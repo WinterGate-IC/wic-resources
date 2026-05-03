@@ -1,0 +1,7 @@
+{
+  "id": "G1036",
+  "name": "Moonstone Sleet",
+  "description": "[Moonstone Sleet](https://attack.mitre.org/groups/G1036) is a North Korean-linked threat actor executing both financially motivated attacks and espionage operations. The group previously overlapped significantly with another North Korean-linked entity, [Lazarus Group](https://attack.mitre.org/groups/G0032), but has differentiated its tradecraft since 2023. [Moonstone Sleet](https://attack.mitre.org/groups/G1036) is notable for creating fake companies and personas to interact with victim entities",
+  "techniques": [],
+  "software": []
+}

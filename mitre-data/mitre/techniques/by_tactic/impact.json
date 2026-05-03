@@ -1,0 +1,538 @@
+{
+  "tactic": "Impact",
+  "count": 38,
+  "techniques": [
+    {
+      "id": "T1561.002",
+      "name": "Disk Structure Wipe",
+      "description": "Adversaries may corrupt or wipe the disk data structures on a hard drive necessary to boot a system; targeting specific critical systems or in large numbers in a network to interrupt availability to system and network resources. \n\nAdversaries may attempt to render the system unable to boot by overwriting critical data located in structures such as the master boot record (MBR) or partition table.(Citation: Symantec Shamoon 2012)(Citation: FireEye Shamoon Nov 2016)(Citation: Palo Alto Shamoon Nov ",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "Network Devices"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1498.001",
+      "name": "Direct Network Flood",
+      "description": "Adversaries may attempt to cause a denial of service (DoS) by directly sending a high-volume of network traffic to a target. This DoS attack may also reduce the availability and functionality of the targeted system(s) and network. [Direct Network Flood](https://attack.mitre.org/techniques/T1498/001)s are when one or more systems are used to send a high-volume of network packets towards the targeted service's network. Almost any network protocol may be used for flooding. Stateless protocols such ",
+      "platforms": [
+        "Windows",
+        "IaaS",
+        "Linux",
+        "macOS"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1492",
+      "name": "Stored Data Manipulation",
+      "description": "Adversaries may insert, delete, or manipulate data at rest in order to manipulate external outcomes or hide activity.(Citation: FireEye APT38 Oct 2018)(Citation: DOJ Lazarus Sony 2018) By manipulating stored data, adversaries may attempt to affect a business process, organizational understanding, and decision making. \n\nStored data could include a variety of file formats, such as Office files, databases, stored emails, and custom file formats. The type of modification and the impact it will have ",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1491.002",
+      "name": "External Defacement",
+      "description": "An adversary may deface systems external to an organization in an attempt to deliver messaging, intimidate, or otherwise mislead an organization or users. [External Defacement](https://attack.mitre.org/techniques/T1491/002) may ultimately cause users to distrust the systems and to question/discredit the system\u2019s integrity. Externally-facing websites are a common victim of defacement; often targeted by adversary and hacktivist groups in order to push a political message or spread propaganda.(Cita",
+      "platforms": [
+        "Windows",
+        "IaaS",
+        "Linux",
+        "macOS"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1499.001",
+      "name": "OS Exhaustion Flood",
+      "description": "Adversaries may launch a denial of service (DoS) attack targeting an endpoint's operating system (OS). A system's OS is responsible for managing the finite resources as well as preventing the entire system from being overwhelmed by excessive demands on its capacity. These attacks do not need to exhaust the actual resources on a system; the attacks may simply exhaust the limits and available resources that an OS self-imposes.\n\nDifferent ways to achieve this exist, including TCP state-exhaustion a",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1485.001",
+      "name": "Lifecycle-Triggered Deletion",
+      "description": "Adversaries may modify the lifecycle policies of a cloud storage bucket to destroy all objects stored within.  \n\nCloud storage buckets often allow users to set lifecycle policies to automate the migration, archival, or deletion of objects after a set period of time.(Citation: AWS Storage Lifecycles)(Citation: GCP Storage Lifecycles)(Citation: Azure Storage Lifecycles) If a threat actor has sufficient permissions to modify these policies, they may be able to delete all objects at once. \n\nFor exam",
+      "platforms": [
+        "IaaS"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1496.003",
+      "name": "SMS Pumping",
+      "description": "Adversaries may leverage messaging services for SMS pumping, which may impact system and/or hosted service availability.(Citation: Twilio SMS Pumping) SMS pumping is a type of telecommunications fraud whereby a threat actor first obtains a set of phone numbers from a telecommunications provider, then leverages a victim\u2019s messaging infrastructure to send large amounts of SMS messages to numbers in that set. By generating SMS traffic to their phone number set, a threat actor may earn payments from",
+      "platforms": [
+        "SaaS"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1499.003",
+      "name": "Application Exhaustion Flood",
+      "description": "Adversaries may target resource intensive features of applications to cause a denial of service (DoS), denying availability to those applications. For example, specific features in web applications may be highly resource intensive. Repeated requests to those features may be able to exhaust system resources and deny access to the application or the server itself.(Citation: Arbor AnnualDoSreport Jan 2018)",
+      "platforms": [
+        "Windows",
+        "IaaS",
+        "Linux",
+        "macOS"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1561",
+      "name": "Disk Wipe",
+      "description": "Adversaries may wipe or corrupt raw disk data on specific systems or in large numbers in a network to interrupt availability to system and network resources. With direct write access to a disk, adversaries may attempt to overwrite portions of disk data. Adversaries may opt to wipe arbitrary portions of disk data and/or wipe disk structures like the master boot record (MBR). A complete wipe of all disk sectors may be attempted.\n\nTo maximize impact on the target organization in operations where ne",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "Network Devices"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1565.001",
+      "name": "Stored Data Manipulation",
+      "description": "Adversaries may insert, delete, or manipulate data at rest in order to influence external outcomes or hide activity, thus threatening the integrity of the data.(Citation: FireEye APT38 Oct 2018)(Citation: DOJ Lazarus Sony 2018) By manipulating stored data, adversaries may attempt to affect a business process, organizational understanding, and decision making.\n\nStored data could include a variety of file formats, such as Office files, databases, stored emails, and custom file formats. The type of",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1489",
+      "name": "Service Stop",
+      "description": "Adversaries may stop or disable services on a system to render those services unavailable to legitimate users. Stopping critical services or processes can inhibit or stop response to an incident or aid in the adversary's overall objectives to cause damage to the environment.(Citation: Talos Olympic Destroyer 2018)(Citation: Novetta Blockbuster) \n\nAdversaries may accomplish this by disabling individual services of high importance to an organization, such as <code>MSExchangeIS</code>, which will m",
+      "platforms": [
+        "ESXi",
+        "IaaS",
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1499.004",
+      "name": "Application or System Exploitation",
+      "description": "Adversaries may exploit software vulnerabilities that can cause an application or system to crash and deny availability to users. (Citation: Sucuri BIND9 August 2015) Some systems may automatically restart critical applications and services when crashes occur, but they can likely be re-exploited to cause a persistent denial of service (DoS) condition.\n\nAdversaries may exploit known or zero-day vulnerabilities to crash applications and/or systems, which may also lead to dependent applications and",
+      "platforms": [
+        "Windows",
+        "IaaS",
+        "Linux",
+        "macOS"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1487",
+      "name": "Disk Structure Wipe",
+      "description": "Adversaries may corrupt or wipe the disk data structures on hard drive necessary to boot systems; targeting specific critical systems as well as a large number of systems in a network to interrupt availability to system and network resources. \n\nAdversaries may attempt to render the system unable to boot by overwriting critical data located in structures such as the master boot record (MBR) or partition table.(Citation: Symantec Shamoon 2012)(Citation: FireEye Shamoon Nov 2016)(Citation: Palo Alt",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1565.003",
+      "name": "Runtime Data Manipulation",
+      "description": "Adversaries may modify systems in order to manipulate the data as it is accessed and displayed to an end user, thus threatening the integrity of the data.(Citation: FireEye APT38 Oct 2018)(Citation: DOJ Lazarus Sony 2018) By manipulating runtime data, adversaries may attempt to affect a business process, organizational understanding, and decision making.\n\nAdversaries may alter application binaries used to display data in order to cause runtime manipulations. Adversaries may also conduct [Change ",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1498.002",
+      "name": "Reflection Amplification",
+      "description": "Adversaries may attempt to cause a denial of service (DoS) by reflecting a high-volume of network traffic to a target. This type of Network DoS takes advantage of a third-party server intermediary that hosts and will respond to a given spoofed source IP address. This third-party server is commonly termed a reflector. An adversary accomplishes a reflection attack by sending packets to reflectors with the spoofed address of the victim. Similar to Direct Network Floods, more than one system may be ",
+      "platforms": [
+        "Windows",
+        "IaaS",
+        "Linux",
+        "macOS"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1499.002",
+      "name": "Service Exhaustion Flood",
+      "description": "Adversaries may target the different network services provided by systems to conduct a denial of service (DoS). Adversaries often target the availability of DNS and web services, however others have been targeted as well.(Citation: Arbor AnnualDoSreport Jan 2018) Web server software can be attacked through a variety of means, some of which apply generally while others are specific to the software being used to provide the service.\n\nOne example of this type of attack is known as a simple HTTP flo",
+      "platforms": [
+        "Windows",
+        "IaaS",
+        "Linux",
+        "macOS"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1491",
+      "name": "Defacement",
+      "description": "Adversaries may modify visual content available internally or externally to an enterprise network, thus affecting the integrity of the original content. Reasons for [Defacement](https://attack.mitre.org/techniques/T1491) include delivering messaging, intimidation, or claiming (possibly false) credit for an intrusion. Disturbing or offensive images may be used as a part of [Defacement](https://attack.mitre.org/techniques/T1491) in order to cause user discomfort, or to pressure compliance with acc",
+      "platforms": [
+        "Windows",
+        "IaaS",
+        "Linux",
+        "macOS",
+        "ESXi"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1496.002",
+      "name": "Bandwidth Hijacking",
+      "description": "Adversaries may leverage the network bandwidth resources of co-opted systems to complete resource-intensive tasks, which may impact system and/or hosted service availability. \n\nAdversaries may also use malware that leverages a system's network bandwidth as part of a botnet in order to facilitate [Network Denial of Service](https://attack.mitre.org/techniques/T1498) campaigns and/or to seed malicious torrents.(Citation: GoBotKR) Alternatively, they may engage in proxyjacking by selling use of the",
+      "platforms": [
+        "Linux",
+        "Windows",
+        "macOS",
+        "IaaS",
+        "Containers"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1657",
+      "name": "Financial Theft",
+      "description": "Adversaries may steal monetary resources from targets through extortion, social engineering, technical theft, or other methods aimed at their own financial gain at the expense of the availability of these resources for victims. Financial theft is the ultimate objective of several popular campaign types including extortion by ransomware,(Citation: FBI-ransomware) business email compromise (BEC) and fraud,(Citation: FBI-BEC) \"pig butchering,\"(Citation: wired-pig butchering) bank hacking,(Citation:",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Office Suite",
+        "SaaS",
+        "Windows"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1491.001",
+      "name": "Internal Defacement",
+      "description": "An adversary may deface systems internal to an organization in an attempt to intimidate or mislead users, thus discrediting the integrity of the systems. This may take the form of modifications to internal websites or server login messages, or directly to user systems with the replacement of the desktop wallpaper.(Citation: Novetta Blockbuster)(Citation: Varonis) Disturbing or offensive images may be used as a part of [Internal Defacement](https://attack.mitre.org/techniques/T1491/001) in order ",
+      "platforms": [
+        "ESXi",
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1496.004",
+      "name": "Cloud Service Hijacking",
+      "description": "Adversaries may leverage compromised software-as-a-service (SaaS) applications to complete resource-intensive tasks, which may impact hosted service availability. \n\nFor example, adversaries may leverage email and messaging services, such as AWS Simple Email Service (SES), AWS Simple Notification Service (SNS), SendGrid, and Twilio, in order to send large quantities of spam / [Phishing](https://attack.mitre.org/techniques/T1566) emails and SMS messages.(Citation: Invictus IR DangerDev 2024)(Citat",
+      "platforms": [
+        "SaaS"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1496.001",
+      "name": "Compute Hijacking",
+      "description": "Adversaries may leverage the compute resources of co-opted systems to complete resource-intensive tasks, which may impact system and/or hosted service availability. \n\nOne common purpose for [Compute Hijacking](https://attack.mitre.org/techniques/T1496/001) is to validate transactions of cryptocurrency networks and earn virtual currency. Adversaries may consume enough system resources to negatively impact and/or cause affected machines to become unresponsive.(Citation: Kaspersky Lazarus Under The",
+      "platforms": [
+        "Windows",
+        "IaaS",
+        "Linux",
+        "macOS",
+        "Containers"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1565",
+      "name": "Data Manipulation",
+      "description": "Adversaries may insert, delete, or manipulate data in order to influence external outcomes or hide activity, thus threatening the integrity of the data.(Citation: Sygnia Elephant Beetle Jan 2022) By manipulating data, adversaries may attempt to affect a business process, organizational understanding, or decision making.\n\nThe type of modification and the impact it will have depends on the target application and process as well as the goals and objectives of the adversary. For complex systems, an ",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1531",
+      "name": "Account Access Removal",
+      "description": "Adversaries may interrupt availability of system and network resources by inhibiting access to accounts utilized by legitimate users. Accounts may be deleted, locked, or manipulated (ex: changed credentials, revoked permissions for SaaS platforms such as Sharepoint) to remove access to accounts.(Citation: Obsidian Security SaaS Ransomware June 2023) Adversaries may also subsequently log off and/or perform a [System Shutdown/Reboot](https://attack.mitre.org/techniques/T1529) to set malicious chan",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows",
+        "SaaS",
+        "IaaS",
+        "Office Suite",
+        "ESXi"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1486",
+      "name": "Data Encrypted for Impact",
+      "description": "Adversaries may encrypt data on target systems or on large numbers of systems in a network to interrupt availability to system and network resources. They can attempt to render stored data inaccessible by encrypting files or data on local and remote drives and withholding access to a decryption key. This may be done in order to extract monetary compensation from a victim in exchange for decryption or a decryption key (ransomware) or to render data permanently inaccessible in cases where the key ",
+      "platforms": [
+        "ESXi",
+        "IaaS",
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1488",
+      "name": "Disk Content Wipe",
+      "description": "Adversaries may erase the contents of storage devices on specific systems as well as large numbers of systems in a network to interrupt availability to system and network resources.\n\nAdversaries may partially or completely overwrite the contents of a storage device rendering the data irrecoverable through the storage interface.(Citation: Novetta Blockbuster)(Citation: Novetta Blockbuster Destructive Malware)(Citation: DOJ Lazarus Sony 2018) Instead of wiping specific disk structures or files, ad",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1667",
+      "name": "Email Bombing",
+      "description": "Adversaries may flood targeted email addresses with an overwhelming volume of messages. This may bury legitimate emails in a flood of spam and disrupt business operations.(Citation: sophos-bombing)(Citation: krebs-email-bombing)\n\nAn adversary may accomplish email bombing by leveraging an automated bot to register a targeted address for e-mail lists that do not validate new signups, such as online newsletters. The result can be a wave of thousands of e-mails that effectively overloads the victim\u2019",
+      "platforms": [
+        "Linux",
+        "Office Suite",
+        "Windows",
+        "macOS"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1499",
+      "name": "Endpoint Denial of Service",
+      "description": "Adversaries may perform Endpoint Denial of Service (DoS) attacks to degrade or block the availability of services to users. Endpoint DoS can be performed by exhausting the system resources those services are hosted on or exploiting the system to cause a persistent crash condition. Example services include websites, email services, DNS, and web-based applications. Adversaries have been observed conducting DoS attacks for political purposes(Citation: FireEye OpPoisonedHandover February 2016) and t",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS",
+        "Containers",
+        "IaaS"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1494",
+      "name": "Runtime Data Manipulation",
+      "description": "Adversaries may modify systems in order to manipulate the data as it is accessed and displayed to an end user.(Citation: FireEye APT38 Oct 2018)(Citation: DOJ Lazarus Sony 2018) By manipulating runtime data, adversaries may attempt to affect a business process, organizational understanding, and decision making. \n\nAdversaries may alter application binaries used to display data in order to cause runtime manipulations. Adversaries may also conduct [Change Default File Association](https://attack.mi",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1493",
+      "name": "Transmitted Data Manipulation",
+      "description": "Adversaries may alter data en route to storage or other systems in order to manipulate external outcomes or hide activity.(Citation: FireEye APT38 Oct 2018)(Citation: DOJ Lazarus Sony 2018) By manipulating transmitted data, adversaries may attempt to affect a business process, organizational understanding, and decision making. \n\nManipulation may be possible over a network connection or between system processes where there is an opportunity deploy a tool that will intercept and change information",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1496",
+      "name": "Resource Hijacking",
+      "description": "Adversaries may leverage the resources of co-opted systems to complete resource-intensive tasks, which may impact system and/or hosted service availability. \n\nResource hijacking may take a number of different forms. For example, adversaries may:\n\n* Leverage compute resources in order to mine cryptocurrency\n* Sell network bandwidth to proxy networks\n* Generate SMS traffic for profit\n* Abuse cloud-based messaging services to send large quantities of spam messages\n\nIn some cases, adversaries may le",
+      "platforms": [
+        "Windows",
+        "IaaS",
+        "Linux",
+        "macOS",
+        "Containers",
+        "SaaS"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1565.002",
+      "name": "Transmitted Data Manipulation",
+      "description": "Adversaries may alter data en route to storage or other systems in order to manipulate external outcomes or hide activity, thus threatening the integrity of the data.(Citation: FireEye APT38 Oct 2018)(Citation: DOJ Lazarus Sony 2018) By manipulating transmitted data, adversaries may attempt to affect a business process, organizational understanding, and decision making.\n\nManipulation may be possible over a network connection or between system processes where there is an opportunity deploy a tool",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1485",
+      "name": "Data Destruction",
+      "description": "Adversaries may destroy data and files on specific systems or in large numbers on a network to interrupt availability to systems, services, and network resources. Data destruction is likely to render stored data irrecoverable by forensic techniques through overwriting files or data on local and remote drives.(Citation: Symantec Shamoon 2012)(Citation: FireEye Shamoon Nov 2016)(Citation: Palo Alto Shamoon Nov 2016)(Citation: Kaspersky StoneDrill 2017)(Citation: Unit 42 Shamoon3 2018)(Citation: Ta",
+      "platforms": [
+        "Containers",
+        "ESXi",
+        "IaaS",
+        "Linux",
+        "macOS",
+        "Windows"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1498",
+      "name": "Network Denial of Service",
+      "description": "Adversaries may perform Network Denial of Service (DoS) attacks to degrade or block the availability of targeted resources to users. Network DoS can be performed by exhausting the network bandwidth services rely on. Example resources include specific websites, email services, DNS, and web-based applications. Adversaries have been observed conducting network DoS attacks for political purposes(Citation: FireEye OpPoisonedHandover February 2016) and to support other malicious activities, including ",
+      "platforms": [
+        "Windows",
+        "IaaS",
+        "Linux",
+        "macOS",
+        "Containers"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1495",
+      "name": "Firmware Corruption",
+      "description": "Adversaries may overwrite or corrupt the flash memory contents of system BIOS or other firmware in devices attached to a system in order to render them inoperable or unable to boot, thus denying the availability to use the devices and/or the system.(Citation: Symantec Chernobyl W95.CIH) Firmware is software that is loaded and executed from non-volatile memory on hardware devices in order to initialize and manage device functionality. These devices may include the motherboard, hard drive, or vide",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Network Devices",
+        "Windows"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1490",
+      "name": "Inhibit System Recovery",
+      "description": "Adversaries may delete or remove built-in data and turn off services designed to aid in the recovery of a corrupted system to prevent recovery.(Citation: Talos Olympic Destroyer 2018)(Citation: FireEye WannaCry 2017) This may deny access to available backups and recovery options.\n\nOperating systems may contain features that can help fix corrupted systems, such as a backup catalog, volume shadow copies, and automatic repair features. Adversaries may disable or delete system recovery features to a",
+      "platforms": [
+        "Containers",
+        "ESXi",
+        "IaaS",
+        "Linux",
+        "macOS",
+        "Network Devices",
+        "Windows"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1561.001",
+      "name": "Disk Content Wipe",
+      "description": "Adversaries may erase the contents of storage devices on specific systems or in large numbers in a network to interrupt availability to system and network resources.\n\nAdversaries may partially or completely overwrite the contents of a storage device rendering the data irrecoverable through the storage interface.(Citation: Novetta Blockbuster)(Citation: Novetta Blockbuster Destructive Malware)(Citation: DOJ Lazarus Sony 2018) Instead of wiping specific disk structures or files, adversaries with d",
+      "platforms": [
+        "Linux",
+        "Network Devices",
+        "Windows",
+        "macOS"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1529",
+      "name": "System Shutdown/Reboot",
+      "description": "Adversaries may shutdown/reboot systems to interrupt access to, or aid in the destruction of, those systems. Operating systems may contain commands to initiate a shutdown/reboot of a machine or network device. In some cases, these commands may also be used to initiate a shutdown/reboot of a remote computer or network device via [Network Device CLI](https://attack.mitre.org/techniques/T1059/008) (e.g. <code>reload</code>).(Citation: Microsoft Shutdown Oct 2017)(Citation: alert_TA18_106A) They may",
+      "platforms": [
+        "ESXi",
+        "Linux",
+        "macOS",
+        "Network Devices",
+        "Windows"
+      ],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    }
+  ]
+}

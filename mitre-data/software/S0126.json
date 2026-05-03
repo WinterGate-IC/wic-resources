@@ -1,0 +1,7 @@
+{
+  "id": "S0126",
+  "name": "ComRAT",
+  "type": "malware",
+  "description": "[ComRAT](https://attack.mitre.org/software/S0126) is a second stage implant suspected of being a descendant of [Agent.btz](https://attack.mitre.org/software/S0092) and used by [Turla](https://attack.mitre.org/groups/G0010). The first version of [ComRAT](https://attack.mitre.org/software/S0126) was identified in 2007, but the tool has undergone substantial development for many years since.(Citation",
+  "techniques": []
+}

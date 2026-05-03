@@ -1,0 +1,7 @@
+{
+  "id": "S0005",
+  "name": "Windows Credential Editor",
+  "type": "tool",
+  "description": "[Windows Credential Editor](https://attack.mitre.org/software/S0005) is a password dumping tool. (Citation: Amplia WCE)",
+  "techniques": []
+}

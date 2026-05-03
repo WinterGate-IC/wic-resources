@@ -1,0 +1,7 @@
+{
+  "id": "S0101",
+  "name": "ifconfig",
+  "type": "tool",
+  "description": "[ifconfig](https://attack.mitre.org/software/S0101) is a Unix-based utility used to gather information about and interact with the TCP/IP settings on a system. (Citation: Wikipedia Ifconfig)",
+  "techniques": []
+}

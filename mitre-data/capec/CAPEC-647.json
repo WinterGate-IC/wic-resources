@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-647",
+  "name": "Collect Data from Registries",
+  "description": "An adversary exploits a weakness in authorization to gather system-specific data and sensitive information within a registry (e.g., Windows Registry, Mac plist). These contain information about the system configuration, software, operating system, and security. The adversary can leverage information",
+  "severity": "Medium",
+  "likelihood": "Unknown"
+}

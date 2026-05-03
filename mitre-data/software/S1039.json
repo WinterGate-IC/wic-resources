@@ -1,0 +1,7 @@
+{
+  "id": "S1039",
+  "name": "Bumblebee",
+  "type": "malware",
+  "description": "[Bumblebee](https://attack.mitre.org/software/S1039) is a custom loader written in C++ that has been used by multiple threat actors, including possible initial access brokers, to download and execute additional payloads since at least March 2022. [Bumblebee](https://attack.mitre.org/software/S1039) has been linked to ransomware operations including [Conti](https://attack.mitre.org/software/S0575),",
+  "techniques": []
+}

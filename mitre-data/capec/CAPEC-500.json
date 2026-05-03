@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-500",
+  "name": "WebView Injection",
+  "description": "An adversary, through a previously installed malicious application, injects code into the context of a web page displayed by a WebView component. Through the injected code, an adversary is able to manipulate the DOM tree and cookies of the page, expose sensitive information, and can launch attacks a",
+  "severity": "Unknown",
+  "likelihood": "Unknown"
+}

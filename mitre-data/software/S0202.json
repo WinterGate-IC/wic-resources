@@ -1,0 +1,7 @@
+{
+  "id": "S0202",
+  "name": "adbupd",
+  "type": "malware",
+  "description": "[adbupd](https://attack.mitre.org/software/S0202) is a backdoor used by [PLATINUM](https://attack.mitre.org/groups/G0068) that is similar to [Dipsind](https://attack.mitre.org/software/S0200). (Citation: Microsoft PLATINUM April 2016)",
+  "techniques": []
+}

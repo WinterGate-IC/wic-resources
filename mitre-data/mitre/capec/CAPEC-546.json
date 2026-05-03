@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-546",
+  "name": "Incomplete Data Deletion in a Multi-Tenant Environment",
+  "description": "An adversary obtains unauthorized information due to insecure or incomplete data deletion in a multi-tenant environment. If a cloud provider fails to completely delete storage and data from former cloud tenants' systems/resources, once these resources are allocated to new, potentially malicious tena",
+  "severity": "Medium",
+  "likelihood": "Unknown"
+}

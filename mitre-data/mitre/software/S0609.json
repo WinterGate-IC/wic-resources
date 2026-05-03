@@ -1,0 +1,7 @@
+{
+  "id": "S0609",
+  "name": "TRITON",
+  "type": "malware",
+  "description": "This entry was deprecated as it was inadvertently added to Enterprise; a similar Software entry was created for ATT&CK for ICS.\n\n[TRITON](https://attack.mitre.org/software/S0609) is an attack framework built to interact with Triconex Safety Instrumented System (SIS) controllers. [TRITON](https://attack.mitre.org/software/S0609) was deployed against at least one target in the Middle East. (Citation",
+  "techniques": []
+}

@@ -1,0 +1,7 @@
+{
+  "id": "S1031",
+  "name": "PingPull",
+  "type": "malware",
+  "description": "[PingPull](https://attack.mitre.org/software/S1031) is a remote access Trojan (RAT) written in Visual C++ that has been used by [GALLIUM](https://attack.mitre.org/groups/G0093) since at least June 2022. [PingPull](https://attack.mitre.org/software/S1031) has been used to target telecommunications companies, financial institutions, and government entities in Afghanistan, Australia, Belgium, Cambodi",
+  "techniques": []
+}

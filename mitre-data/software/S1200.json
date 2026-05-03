@@ -1,0 +1,7 @@
+{
+  "id": "S1200",
+  "name": "StealBit",
+  "type": "malware",
+  "description": "[StealBit](https://attack.mitre.org/software/S1200) is a data exfiltration tool that is developed and maintained by the operators of the the LockBit Ransomware-as-a-Service (RaaS) and offered to affiliates to exfiltrate data from compromised systems for double extortion purposes.(Citation: Cybereason StealBit Exfiltration Tool)(Citation: FBI Lockbit 2.0 FEB 2022)",
+  "techniques": []
+}

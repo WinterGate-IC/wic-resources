@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-506",
+  "name": "Tapjacking",
+  "description": "An adversary, through a previously installed malicious application, displays an interface that misleads the user and convinces them to tap on an attacker desired location on the screen. This is often accomplished by overlaying one screen on top of another while giving the appearance of a single inte",
+  "severity": "Low",
+  "likelihood": "Unknown"
+}

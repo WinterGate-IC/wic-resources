@@ -1,0 +1,6 @@
+{
+  "id": "T1100",
+  "name": "Web Shell Mitigation",
+  "description": "Ensure that externally facing Web servers are patched regularly to prevent adversary access through [Exploitation for Privilege Escalation](https://attack.mitre.org/techniques/T1068) to gain remote code access or through file inclusion weaknesses that may allow adversaries to upload files or scripts that are automatically served as Web pages. \n\nAudit account and group permissions to ensure that ac",
+  "techniques": []
+}

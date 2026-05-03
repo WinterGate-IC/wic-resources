@@ -1,0 +1,6 @@
+{
+  "id": "T1220",
+  "name": "XSL Script Processing Mitigation",
+  "description": "[Windows Management Instrumentation](https://attack.mitre.org/techniques/T1047) and/or msxsl.exe may or may not be used within a given environment. Disabling WMI may cause system instability and should be evaluated to assess the impact to a network. If msxsl.exe is unnecessary, then block its execution to prevent abuse by adversaries.",
+  "techniques": []
+}

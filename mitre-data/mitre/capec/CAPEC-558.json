@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-558",
+  "name": "Replace Trusted Executable",
+  "description": "An adversary exploits weaknesses in privilege management or access control to replace a trusted executable with a malicious version and enable the execution of malware when that trusted executable is called.",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

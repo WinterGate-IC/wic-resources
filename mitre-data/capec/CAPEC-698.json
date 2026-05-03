@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-698",
+  "name": "Install Malicious Extension",
+  "description": "\n            <xhtml:p>An adversary directly installs or tricks a user into installing a malicious extension into existing trusted software, with the goal of achieving a variety of negative technical impacts.</xhtml:p>\n         ",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

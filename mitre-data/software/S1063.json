@@ -1,0 +1,7 @@
+{
+  "id": "S1063",
+  "name": "Brute Ratel C4",
+  "type": "tool",
+  "description": "[Brute Ratel C4](https://attack.mitre.org/software/S1063) is a commercial red-teaming and adversarial attack simulation tool that first appeared in December 2020. [Brute Ratel C4](https://attack.mitre.org/software/S1063) was specifically designed to avoid detection by endpoint detection and response (EDR) and antivirus (AV) capabilities, and deploys agents called badgers to enable arbitrary comman",
+  "techniques": []
+}

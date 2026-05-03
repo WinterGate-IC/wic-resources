@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-189",
+  "name": "Black Box Reverse Engineering",
+  "description": "An adversary discovers the structure, function, and composition of a type of computer software through black box analysis techniques. 'Black Box' methods involve interacting with the software indirectly, in the absence of direct access to the executable object. Such analysis typically involves inter",
+  "severity": "Low",
+  "likelihood": "Unknown"
+}

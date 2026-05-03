@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-567",
+  "name": "DEPRECATED: Obtain Data via Utilities",
+  "description": "This CAPEC has been deprecated because it is not directly related to a weakness, social engineering, supply chains, or a physical-based attack.",
+  "severity": "Unknown",
+  "likelihood": "Unknown"
+}

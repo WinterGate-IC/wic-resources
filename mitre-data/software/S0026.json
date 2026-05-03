@@ -1,0 +1,7 @@
+{
+  "id": "S0026",
+  "name": "GLOOXMAIL",
+  "type": "malware",
+  "description": "[GLOOXMAIL](https://attack.mitre.org/software/S0026) is malware used by [APT1](https://attack.mitre.org/groups/G0006) that mimics legitimate Jabber/XMPP traffic. (Citation: Mandiant APT1)",
+  "techniques": []
+}

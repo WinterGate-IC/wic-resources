@@ -1,0 +1,7 @@
+{
+  "id": "S0517",
+  "name": "Pillowmint",
+  "type": "malware",
+  "description": "[Pillowmint](https://attack.mitre.org/software/S0517) is a point-of-sale malware used by [FIN7](https://attack.mitre.org/groups/G0046) designed to capture credit card information.(Citation: Trustwave Pillowmint June 2020)",
+  "techniques": []
+}

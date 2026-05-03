@@ -1,0 +1,7 @@
+{
+  "id": "S0679",
+  "name": "Ferocious",
+  "type": "malware",
+  "description": "[Ferocious](https://attack.mitre.org/software/S0679) is a first stage implant composed of VBS and PowerShell scripts that has been used by [WIRTE](https://attack.mitre.org/groups/G0090) since at least 2021.(Citation: Kaspersky WIRTE November 2021)",
+  "techniques": []
+}

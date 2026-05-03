@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-674",
+  "name": "Design for FPGA Maliciously Altered",
+  "description": "\n            <xhtml:p>An adversary alters the functionality of a field-programmable gate array (FPGA) by causing an FPGA configuration memory chip reload in order to introduce a malicious function that could result in the FPGA performing or enabling malicious functions on a host system. Prior to the",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

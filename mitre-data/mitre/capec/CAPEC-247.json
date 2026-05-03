@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-247",
+  "name": "XSS Using Invalid Characters",
+  "description": "An adversary inserts invalid characters in identifiers to bypass application filtering of input. Filters may not scan beyond invalid characters but during later stages of processing content that follows these invalid characters may still be processed. This allows the adversary to sneak prohibited co",
+  "severity": "Medium",
+  "likelihood": "Unknown"
+}

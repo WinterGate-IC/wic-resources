@@ -1,0 +1,7 @@
+{
+  "id": "S0189",
+  "name": "ISMInjector",
+  "type": "malware",
+  "description": "[ISMInjector](https://attack.mitre.org/software/S0189) is a Trojan used to install another [OilRig](https://attack.mitre.org/groups/G0049) backdoor, ISMAgent. (Citation: OilRig New Delivery Oct 2017)",
+  "techniques": []
+}

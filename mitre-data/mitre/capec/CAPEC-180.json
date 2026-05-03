@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-180",
+  "name": "Exploiting Incorrectly Configured Access Control Security Levels",
+  "description": "An attacker exploits a weakness in the configuration of access controls and is able to bypass the intended protection that these measures guard against and thereby obtain unauthorized access to the system or network. Sensitive functionality should always be protected with access controls. However co",
+  "severity": "Medium",
+  "likelihood": "Unknown"
+}

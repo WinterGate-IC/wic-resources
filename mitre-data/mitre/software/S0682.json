@@ -1,0 +1,7 @@
+{
+  "id": "S0682",
+  "name": "TrailBlazer",
+  "type": "malware",
+  "description": "[TrailBlazer](https://attack.mitre.org/software/S0682) is a modular malware that has been used by [APT29](https://attack.mitre.org/groups/G0016) since at least 2019.(Citation: CrowdStrike StellarParticle January 2022)",
+  "techniques": []
+}

@@ -1,0 +1,7 @@
+{
+  "id": "S0603",
+  "name": "Stuxnet",
+  "type": "malware",
+  "description": "[Stuxnet](https://attack.mitre.org/software/S0603) was the first publicly reported piece of malware to specifically target industrial control systems devices. [Stuxnet](https://attack.mitre.org/software/S0603) is a large and complex piece of malware that utilized multiple different behaviors including multiple zero-day vulnerabilities, a sophisticated Windows rootkit, and network infection routine",
+  "techniques": []
+}

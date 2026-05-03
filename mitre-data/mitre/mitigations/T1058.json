@@ -1,0 +1,6 @@
+{
+  "id": "T1058",
+  "name": "Service Registry Permissions Weakness Mitigation",
+  "description": "Ensure proper permissions are set for Registry hives to prevent users from modifying keys for system components that may lead to privilege escalation.\n\nIdentify and block potentially malicious software that may be executed through service abuse by using whitelisting (Citation: Beechey 2010) tools like AppLocker (Citation: Windows Commands JPCERT) (Citation: NSA MS AppLocker) that are capable of au",
+  "techniques": []
+}

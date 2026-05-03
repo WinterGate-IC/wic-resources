@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-533",
+  "name": "Malicious Manual Software Update",
+  "description": "An attacker introduces malicious code to the victim's system by altering the payload of a software update, allowing for additional compromise or site disruption at the victim location. These manual, or user-assisted attacks, vary from requiring the user to download and run an executable, to as strea",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

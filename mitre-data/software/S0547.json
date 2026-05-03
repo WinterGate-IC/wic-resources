@@ -1,0 +1,7 @@
+{
+  "id": "S0547",
+  "name": "DropBook",
+  "type": "malware",
+  "description": "[DropBook](https://attack.mitre.org/software/S0547) is a Python-based backdoor compiled with PyInstaller.(Citation: Cybereason Molerats Dec 2020)",
+  "techniques": []
+}

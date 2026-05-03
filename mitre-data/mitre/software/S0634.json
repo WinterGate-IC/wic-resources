@@ -1,0 +1,7 @@
+{
+  "id": "S0634",
+  "name": "EnvyScout",
+  "type": "malware",
+  "description": "[EnvyScout](https://attack.mitre.org/software/S0634) is a dropper that has been used by [APT29](https://attack.mitre.org/groups/G0016) since at least 2021.(Citation: MSTIC Nobelium Toolset May 2021)",
+  "techniques": []
+}

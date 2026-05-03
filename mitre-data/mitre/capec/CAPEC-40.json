@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-40",
+  "name": "Manipulating Writeable Terminal Devices",
+  "description": "This attack exploits terminal devices that allow themselves to be written to by other users. The attacker sends command strings to the target terminal device hoping that the target user will hit enter and thereby execute the malicious command with their privileges. The attacker can send the results ",
+  "severity": "Very High",
+  "likelihood": "Unknown"
+}

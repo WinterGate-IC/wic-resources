@@ -1,0 +1,7 @@
+{
+  "id": "S1152",
+  "name": "IMAPLoader",
+  "type": "malware",
+  "description": "[IMAPLoader](https://attack.mitre.org/software/S1152) is a .NET-based loader malware exclusively associated with [CURIUM](https://attack.mitre.org/groups/G1012) operations since at least 2022. [IMAPLoader](https://attack.mitre.org/software/S1152) leverages email protocols for command and control and payload delivery.(Citation: PWC Yellow Liderc 2023)",
+  "techniques": []
+}

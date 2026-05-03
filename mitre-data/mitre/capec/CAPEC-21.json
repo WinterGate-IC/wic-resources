@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-21",
+  "name": "Exploitation of Trusted Identifiers",
+  "description": "\n            <xhtml:p>An adversary guesses, obtains, or \"rides\" a trusted identifier (e.g. session ID, resource ID, cookie, etc.) to perform authorized actions under the guise of an authenticated user or service.</xhtml:p>\n         ",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

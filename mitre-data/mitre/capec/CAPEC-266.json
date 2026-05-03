@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-266",
+  "name": "DEPRECATED: Manipulate Canonicalization",
+  "description": "This attack pattern has been deprecated.",
+  "severity": "Unknown",
+  "likelihood": "Unknown"
+}

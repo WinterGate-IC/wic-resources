@@ -1,0 +1,7 @@
+{
+  "id": "S1150",
+  "name": "ROADSWEEP",
+  "type": "malware",
+  "description": "[ROADSWEEP](https://attack.mitre.org/software/S1150) is a ransomware that was deployed against Albanian government networks during [HomeLand Justice](https://attack.mitre.org/campaigns/C0038) along with the [CHIMNEYSWEEP](https://attack.mitre.org/software/S1149) backdoor.(Citation: Mandiant ROADSWEEP August 2022)",
+  "techniques": []
+}

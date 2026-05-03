@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-445",
+  "name": "Malicious Logic Insertion into Product Software via Configuration Management Manipulation",
+  "description": "\n            <xhtml:p>An adversary exploits a configuration management system so that malicious logic is inserted into a software products build, update or deployed environment. If an adversary can control the elements included in a product's configuration management for build they can potentially r",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

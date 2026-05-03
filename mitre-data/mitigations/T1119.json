@@ -1,0 +1,6 @@
+{
+  "id": "T1119",
+  "name": "Automated Collection Mitigation",
+  "description": "Encryption and off-system storage of sensitive information may be one way to mitigate collection of files, but may not stop an adversary from acquiring the information if an intrusion persists over a long period of time and the adversary is able to discover and access the data through other means. A keylogger installed on a system may be able to intercept passwords through [Input Capture](https://",
+  "techniques": []
+}

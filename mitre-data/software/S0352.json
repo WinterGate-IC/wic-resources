@@ -1,0 +1,7 @@
+{
+  "id": "S0352",
+  "name": "OSX_OCEANLOTUS.D",
+  "type": "malware",
+  "description": "[OSX_OCEANLOTUS.D](https://attack.mitre.org/software/S0352) is a macOS backdoor used by [APT32](https://attack.mitre.org/groups/G0050). First discovered in 2015, [APT32](https://attack.mitre.org/groups/G0050) has continued to make improvements using a plugin architecture to extend capabilities, specifically using `.dylib` files. [OSX_OCEANLOTUS.D](https://attack.mitre.org/software/S0352) can also ",
+  "techniques": []
+}

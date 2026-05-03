@@ -1,0 +1,7 @@
+{
+  "id": "S0651",
+  "name": "BoxCaon",
+  "type": "malware",
+  "description": "[BoxCaon](https://attack.mitre.org/software/S0651) is a Windows backdoor that was used by [IndigoZebra](https://attack.mitre.org/groups/G0136) in a 2021 spearphishing campaign against Afghan government officials. [BoxCaon](https://attack.mitre.org/software/S0651)'s name stems from similarities shared with the malware family [xCaon](https://attack.mitre.org/software/S0653).(Citation: Checkpoint Ind",
+  "techniques": []
+}

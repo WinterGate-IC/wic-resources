@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-44",
+  "name": "Overflow Binary Resource File",
+  "description": "An attack of this type exploits a buffer overflow vulnerability in the handling of binary resources. Binary resources may include music files like MP3, image files like JPEG files, and any other binary file. These attacks may pass unnoticed to the client machine through normal usage of files, such a",
+  "severity": "Very High",
+  "likelihood": "Unknown"
+}

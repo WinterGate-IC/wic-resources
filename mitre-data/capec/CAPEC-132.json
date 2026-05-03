@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-132",
+  "name": "Symlink Attack",
+  "description": "An adversary positions a symbolic link in such a manner that the targeted user or application accesses the link's endpoint, assuming that it is accessing a file with the link's name.",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

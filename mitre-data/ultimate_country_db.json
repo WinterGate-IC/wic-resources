@@ -1,0 +1,726 @@
+{
+  "total_countries": 144,
+  "last_updated": "2026-04-19",
+  "countries": {
+    "CN": {
+      "name": "China",
+      "risk": 85,
+      "tier": "CRITICAL"
+    },
+    "RU": {
+      "name": "Russia",
+      "risk": 85,
+      "tier": "CRITICAL"
+    },
+    "KP": {
+      "name": "North Korea",
+      "risk": 90,
+      "tier": "CRITICAL"
+    },
+    "IR": {
+      "name": "Iran",
+      "risk": 85,
+      "tier": "CRITICAL"
+    },
+    "SY": {
+      "name": "Syria",
+      "risk": 80,
+      "tier": "CRITICAL"
+    },
+    "PK": {
+      "name": "Pakistan",
+      "risk": 70,
+      "tier": "HIGH"
+    },
+    "AF": {
+      "name": "Afghanistan",
+      "risk": 65,
+      "tier": "HIGH"
+    },
+    "IQ": {
+      "name": "Iraq",
+      "risk": 65,
+      "tier": "HIGH"
+    },
+    "LY": {
+      "name": "Libya",
+      "risk": 65,
+      "tier": "HIGH"
+    },
+    "YE": {
+      "name": "Yemen",
+      "risk": 65,
+      "tier": "HIGH"
+    },
+    "SO": {
+      "name": "Somalia",
+      "risk": 65,
+      "tier": "HIGH"
+    },
+    "SD": {
+      "name": "Sudan",
+      "risk": 60,
+      "tier": "HIGH"
+    },
+    "MM": {
+      "name": "Myanmar",
+      "risk": 60,
+      "tier": "HIGH"
+    },
+    "VE": {
+      "name": "Venezuela",
+      "risk": 60,
+      "tier": "HIGH"
+    },
+    "IN": {
+      "name": "India",
+      "risk": 55,
+      "tier": "MEDIUM"
+    },
+    "BR": {
+      "name": "Brazil",
+      "risk": 50,
+      "tier": "MEDIUM"
+    },
+    "MX": {
+      "name": "Mexico",
+      "risk": 50,
+      "tier": "MEDIUM"
+    },
+    "ZA": {
+      "name": "South Africa",
+      "risk": 50,
+      "tier": "MEDIUM"
+    },
+    "NG": {
+      "name": "Nigeria",
+      "risk": 50,
+      "tier": "MEDIUM"
+    },
+    "BD": {
+      "name": "Bangladesh",
+      "risk": 45,
+      "tier": "MEDIUM"
+    },
+    "ID": {
+      "name": "Indonesia",
+      "risk": 45,
+      "tier": "MEDIUM"
+    },
+    "PH": {
+      "name": "Philippines",
+      "risk": 45,
+      "tier": "MEDIUM"
+    },
+    "VN": {
+      "name": "Vietnam",
+      "risk": 45,
+      "tier": "MEDIUM"
+    },
+    "TH": {
+      "name": "Thailand",
+      "risk": 45,
+      "tier": "MEDIUM"
+    },
+    "MY": {
+      "name": "Malaysia",
+      "risk": 45,
+      "tier": "MEDIUM"
+    },
+    "EG": {
+      "name": "Egypt",
+      "risk": 50,
+      "tier": "MEDIUM"
+    },
+    "SA": {
+      "name": "Saudi Arabia",
+      "risk": 45,
+      "tier": "MEDIUM"
+    },
+    "AE": {
+      "name": "UAE",
+      "risk": 40,
+      "tier": "MEDIUM"
+    },
+    "TR": {
+      "name": "Turkey",
+      "risk": 55,
+      "tier": "MEDIUM"
+    },
+    "UA": {
+      "name": "Ukraine",
+      "risk": 55,
+      "tier": "MEDIUM"
+    },
+    "BY": {
+      "name": "Belarus",
+      "risk": 60,
+      "tier": "MEDIUM"
+    },
+    "KZ": {
+      "name": "Kazakhstan",
+      "risk": 50,
+      "tier": "MEDIUM"
+    },
+    "US": {
+      "name": "United States",
+      "risk": 30,
+      "tier": "LOW"
+    },
+    "GB": {
+      "name": "United Kingdom",
+      "risk": 25,
+      "tier": "LOW"
+    },
+    "DE": {
+      "name": "Germany",
+      "risk": 25,
+      "tier": "LOW"
+    },
+    "FR": {
+      "name": "France",
+      "risk": 24,
+      "tier": "LOW"
+    },
+    "JP": {
+      "name": "Japan",
+      "risk": 25,
+      "tier": "LOW"
+    },
+    "KR": {
+      "name": "South Korea",
+      "risk": 30,
+      "tier": "LOW"
+    },
+    "NL": {
+      "name": "Netherlands",
+      "risk": 25,
+      "tier": "LOW"
+    },
+    "CA": {
+      "name": "Canada",
+      "risk": 20,
+      "tier": "LOW"
+    },
+    "AU": {
+      "name": "Australia",
+      "risk": 20,
+      "tier": "LOW"
+    },
+    "NZ": {
+      "name": "New Zealand",
+      "risk": 15,
+      "tier": "LOW"
+    },
+    "SE": {
+      "name": "Sweden",
+      "risk": 20,
+      "tier": "LOW"
+    },
+    "NO": {
+      "name": "Norway",
+      "risk": 20,
+      "tier": "LOW"
+    },
+    "DK": {
+      "name": "Denmark",
+      "risk": 20,
+      "tier": "LOW"
+    },
+    "FI": {
+      "name": "Finland",
+      "risk": 20,
+      "tier": "LOW"
+    },
+    "IS": {
+      "name": "Iceland",
+      "risk": 15,
+      "tier": "LOW"
+    },
+    "CH": {
+      "name": "Switzerland",
+      "risk": 15,
+      "tier": "LOW"
+    },
+    "AT": {
+      "name": "Austria",
+      "risk": 20,
+      "tier": "LOW"
+    },
+    "BE": {
+      "name": "Belgium",
+      "risk": 20,
+      "tier": "LOW"
+    },
+    "IE": {
+      "name": "Ireland",
+      "risk": 15,
+      "tier": "LOW"
+    },
+    "PT": {
+      "name": "Portugal",
+      "risk": 20,
+      "tier": "LOW"
+    },
+    "ES": {
+      "name": "Spain",
+      "risk": 22,
+      "tier": "LOW"
+    },
+    "IT": {
+      "name": "Italy",
+      "risk": 25,
+      "tier": "LOW"
+    },
+    "GR": {
+      "name": "Greece",
+      "risk": 25,
+      "tier": "LOW"
+    },
+    "PL": {
+      "name": "Poland",
+      "risk": 30,
+      "tier": "LOW"
+    },
+    "CZ": {
+      "name": "Czech Republic",
+      "risk": 25,
+      "tier": "LOW"
+    },
+    "HU": {
+      "name": "Hungary",
+      "risk": 25,
+      "tier": "LOW"
+    },
+    "RO": {
+      "name": "Romania",
+      "risk": 25,
+      "tier": "LOW"
+    },
+    "BG": {
+      "name": "Bulgaria",
+      "risk": 30,
+      "tier": "LOW"
+    },
+    "HR": {
+      "name": "Croatia",
+      "risk": 25,
+      "tier": "LOW"
+    },
+    "RS": {
+      "name": "Serbia",
+      "risk": 35,
+      "tier": "LOW"
+    },
+    "AL": {
+      "name": "Albania",
+      "risk": 30,
+      "tier": "LOW"
+    },
+    "MK": {
+      "name": "North Macedonia",
+      "risk": 30,
+      "tier": "LOW"
+    },
+    "BA": {
+      "name": "Bosnia",
+      "risk": 30,
+      "tier": "LOW"
+    },
+    "SI": {
+      "name": "Slovenia",
+      "risk": 20,
+      "tier": "LOW"
+    },
+    "SK": {
+      "name": "Slovakia",
+      "risk": 25,
+      "tier": "LOW"
+    },
+    "EE": {
+      "name": "Estonia",
+      "risk": 35,
+      "tier": "LOW"
+    },
+    "LV": {
+      "name": "Latvia",
+      "risk": 35,
+      "tier": "LOW"
+    },
+    "LT": {
+      "name": "Lithuania",
+      "risk": 35,
+      "tier": "LOW"
+    },
+    "IL": {
+      "name": "Israel",
+      "risk": 45,
+      "tier": "MEDIUM"
+    },
+    "JO": {
+      "name": "Jordan",
+      "risk": 35,
+      "tier": "LOW"
+    },
+    "LB": {
+      "name": "Lebanon",
+      "risk": 40,
+      "tier": "MEDIUM"
+    },
+    "KW": {
+      "name": "Kuwait",
+      "risk": 35,
+      "tier": "LOW"
+    },
+    "QA": {
+      "name": "Qatar",
+      "risk": 35,
+      "tier": "LOW"
+    },
+    "BH": {
+      "name": "Bahrain",
+      "risk": 35,
+      "tier": "LOW"
+    },
+    "OM": {
+      "name": "Oman",
+      "risk": 30,
+      "tier": "LOW"
+    },
+    "MA": {
+      "name": "Morocco",
+      "risk": 35,
+      "tier": "LOW"
+    },
+    "TN": {
+      "name": "Tunisia",
+      "risk": 35,
+      "tier": "LOW"
+    },
+    "DZ": {
+      "name": "Algeria",
+      "risk": 40,
+      "tier": "MEDIUM"
+    },
+    "KE": {
+      "name": "Kenya",
+      "risk": 40,
+      "tier": "MEDIUM"
+    },
+    "TZ": {
+      "name": "Tanzania",
+      "risk": 35,
+      "tier": "LOW"
+    },
+    "UG": {
+      "name": "Uganda",
+      "risk": 35,
+      "tier": "LOW"
+    },
+    "GH": {
+      "name": "Ghana",
+      "risk": 30,
+      "tier": "LOW"
+    },
+    "CI": {
+      "name": "Ivory Coast",
+      "risk": 30,
+      "tier": "LOW"
+    },
+    "SN": {
+      "name": "Senegal",
+      "risk": 25,
+      "tier": "LOW"
+    },
+    "CM": {
+      "name": "Cameroon",
+      "risk": 30,
+      "tier": "LOW"
+    },
+    "ZW": {
+      "name": "Zimbabwe",
+      "risk": 35,
+      "tier": "LOW"
+    },
+    "ZM": {
+      "name": "Zambia",
+      "risk": 30,
+      "tier": "LOW"
+    },
+    "AO": {
+      "name": "Angola",
+      "risk": 35,
+      "tier": "LOW"
+    },
+    "AR": {
+      "name": "Argentina",
+      "risk": 30,
+      "tier": "LOW"
+    },
+    "CL": {
+      "name": "Chile",
+      "risk": 25,
+      "tier": "LOW"
+    },
+    "CO": {
+      "name": "Colombia",
+      "risk": 35,
+      "tier": "LOW"
+    },
+    "PE": {
+      "name": "Peru",
+      "risk": 30,
+      "tier": "LOW"
+    },
+    "UY": {
+      "name": "Uruguay",
+      "risk": 20,
+      "tier": "LOW"
+    },
+    "PY": {
+      "name": "Paraguay",
+      "risk": 25,
+      "tier": "LOW"
+    },
+    "BO": {
+      "name": "Bolivia",
+      "risk": 30,
+      "tier": "LOW"
+    },
+    "EC": {
+      "name": "Ecuador",
+      "risk": 30,
+      "tier": "LOW"
+    },
+    "CR": {
+      "name": "Costa Rica",
+      "risk": 20,
+      "tier": "LOW"
+    },
+    "PA": {
+      "name": "Panama",
+      "risk": 20,
+      "tier": "LOW"
+    },
+    "GT": {
+      "name": "Guatemala",
+      "risk": 30,
+      "tier": "LOW"
+    },
+    "HN": {
+      "name": "Honduras",
+      "risk": 30,
+      "tier": "LOW"
+    },
+    "SV": {
+      "name": "El Salvador",
+      "risk": 30,
+      "tier": "LOW"
+    },
+    "NI": {
+      "name": "Nicaragua",
+      "risk": 35,
+      "tier": "LOW"
+    },
+    "DO": {
+      "name": "Dominican Republic",
+      "risk": 25,
+      "tier": "LOW"
+    },
+    "CU": {
+      "name": "Cuba",
+      "risk": 45,
+      "tier": "MEDIUM"
+    },
+    "JM": {
+      "name": "Jamaica",
+      "risk": 25,
+      "tier": "LOW"
+    },
+    "TT": {
+      "name": "Trinidad",
+      "risk": 25,
+      "tier": "LOW"
+    },
+    "SG": {
+      "name": "Singapore",
+      "risk": 20,
+      "tier": "LOW"
+    },
+    "HK": {
+      "name": "Hong Kong",
+      "risk": 35,
+      "tier": "LOW"
+    },
+    "TW": {
+      "name": "Taiwan",
+      "risk": 40,
+      "tier": "MEDIUM"
+    },
+    "MO": {
+      "name": "Macau",
+      "risk": 30,
+      "tier": "LOW"
+    },
+    "LK": {
+      "name": "Sri Lanka",
+      "risk": 35,
+      "tier": "LOW"
+    },
+    "NP": {
+      "name": "Nepal",
+      "risk": 30,
+      "tier": "LOW"
+    },
+    "BT": {
+      "name": "Bhutan",
+      "risk": 25,
+      "tier": "LOW"
+    },
+    "MV": {
+      "name": "Maldives",
+      "risk": 20,
+      "tier": "LOW"
+    },
+    "BN": {
+      "name": "Brunei",
+      "risk": 20,
+      "tier": "LOW"
+    },
+    "KH": {
+      "name": "Cambodia",
+      "risk": 35,
+      "tier": "LOW"
+    },
+    "LA": {
+      "name": "Laos",
+      "risk": 30,
+      "tier": "LOW"
+    },
+    "MN": {
+      "name": "Mongolia",
+      "risk": 30,
+      "tier": "LOW"
+    },
+    "FJ": {
+      "name": "Fiji",
+      "risk": 20,
+      "tier": "LOW"
+    },
+    "PG": {
+      "name": "Papua New Guinea",
+      "risk": 25,
+      "tier": "LOW"
+    },
+    "GE": {
+      "name": "Georgia",
+      "risk": 45,
+      "tier": "MEDIUM"
+    },
+    "AM": {
+      "name": "Armenia",
+      "risk": 40,
+      "tier": "MEDIUM"
+    },
+    "AZ": {
+      "name": "Azerbaijan",
+      "risk": 40,
+      "tier": "MEDIUM"
+    },
+    "MD": {
+      "name": "Moldova",
+      "risk": 40,
+      "tier": "MEDIUM"
+    },
+    "KG": {
+      "name": "Kyrgyzstan",
+      "risk": 45,
+      "tier": "MEDIUM"
+    },
+    "TJ": {
+      "name": "Tajikistan",
+      "risk": 45,
+      "tier": "MEDIUM"
+    },
+    "TM": {
+      "name": "Turkmenistan",
+      "risk": 45,
+      "tier": "MEDIUM"
+    },
+    "UZ": {
+      "name": "Uzbekistan",
+      "risk": 45,
+      "tier": "MEDIUM"
+    },
+    "MT": {
+      "name": "Malta",
+      "risk": 20,
+      "tier": "LOW"
+    },
+    "LU": {
+      "name": "Luxembourg",
+      "risk": 15,
+      "tier": "LOW"
+    },
+    "MC": {
+      "name": "Monaco",
+      "risk": 15,
+      "tier": "LOW"
+    },
+    "LI": {
+      "name": "Liechtenstein",
+      "risk": 15,
+      "tier": "LOW"
+    },
+    "SM": {
+      "name": "San Marino",
+      "risk": 15,
+      "tier": "LOW"
+    },
+    "VA": {
+      "name": "Vatican City",
+      "risk": 10,
+      "tier": "LOW"
+    },
+    "AD": {
+      "name": "Andorra",
+      "risk": 15,
+      "tier": "LOW"
+    },
+    "CY": {
+      "name": "Cyprus",
+      "risk": 30,
+      "tier": "LOW"
+    },
+    "MU": {
+      "name": "Mauritius",
+      "risk": 20,
+      "tier": "LOW"
+    },
+    "SC": {
+      "name": "Seychelles",
+      "risk": 20,
+      "tier": "LOW"
+    },
+    "BS": {
+      "name": "Bahamas",
+      "risk": 20,
+      "tier": "LOW"
+    },
+    "BB": {
+      "name": "Barbados",
+      "risk": 20,
+      "tier": "LOW"
+    },
+    "GY": {
+      "name": "Guyana",
+      "risk": 25,
+      "tier": "LOW"
+    },
+    "SR": {
+      "name": "Suriname",
+      "risk": 25,
+      "tier": "LOW"
+    }
+  }
+}

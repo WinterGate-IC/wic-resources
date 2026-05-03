@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-646",
+  "name": "Peripheral Footprinting",
+  "description": "Adversaries may attempt to obtain information about attached peripheral devices and components connected to a computer system. Examples may include discovering the presence of iOS devices by searching for backups, analyzing the Windows registry to determine what USB devices have been connected, or i",
+  "severity": "Medium",
+  "likelihood": "Unknown"
+}

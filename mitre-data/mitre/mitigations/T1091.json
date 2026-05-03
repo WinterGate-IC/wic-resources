@@ -1,0 +1,6 @@
+{
+  "id": "T1091",
+  "name": "Replication Through Removable Media Mitigation",
+  "description": "Disable Autorun if it is unnecessary. (Citation: Microsoft Disable Autorun) Disallow or restrict removable media at an organizational policy level if it is not required for business operations. (Citation: TechNet Removable Media Control)\n\nIdentify potentially malicious software that may be used to infect removable media or may result from tainted removable media, and audit and/or block it by using",
+  "techniques": []
+}

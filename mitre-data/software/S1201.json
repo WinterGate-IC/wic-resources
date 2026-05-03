@@ -1,0 +1,7 @@
+{
+  "id": "S1201",
+  "name": "TRANSLATEXT",
+  "type": "malware",
+  "description": "[TRANSLATEXT](https://attack.mitre.org/software/S1201) is malware that is believed to be used by [Kimsuky](https://attack.mitre.org/groups/G0094).(Citation: Zscaler Kimsuky TRANSLATEXT) [TRANSLATEXT](https://attack.mitre.org/software/S1201) masqueraded as a Google Translate extension for Google Chrome, but is actually a collection of four malicious Javascript files that perform defense evasion, in",
+  "techniques": []
+}

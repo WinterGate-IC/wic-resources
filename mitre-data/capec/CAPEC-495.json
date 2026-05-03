@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-495",
+  "name": "UDP Fragmentation",
+  "description": "An attacker may execute a UDP Fragmentation attack against a target server in an attempt to consume resources such as bandwidth and CPU. IP fragmentation occurs when an IP datagram is larger than the MTU of the route the datagram has to traverse. Typically the attacker will use large UDP packets ove",
+  "severity": "Unknown",
+  "likelihood": "Unknown"
+}

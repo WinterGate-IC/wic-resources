@@ -1,0 +1,7 @@
+{
+  "id": "S0381",
+  "name": "FlawedAmmyy",
+  "type": "malware",
+  "description": "[FlawedAmmyy](https://attack.mitre.org/software/S0381) is a remote access tool (RAT) that was first seen in early 2016. The code for [FlawedAmmyy](https://attack.mitre.org/software/S0381) was based on leaked source code for a version of Ammyy Admin, a remote access software.(Citation: Proofpoint TA505 Mar 2018)",
+  "techniques": []
+}

@@ -1,0 +1,7 @@
+{
+  "id": "S1178",
+  "name": "ShrinkLocker",
+  "type": "malware",
+  "description": "[ShrinkLocker](https://attack.mitre.org/software/S1178) is a VBS-based malicious script that leverages the legitimate Bitlocker application to encrypt files on victim systems for ransom. [ShrinkLocker](https://attack.mitre.org/software/S1178) functions by using Bitlocker to encrypt files, then renames impacted drives to the adversary\u2019s contact email address to facilitate communication for the rans",
+  "techniques": []
+}

@@ -1,0 +1,6 @@
+{
+  "id": "T1221",
+  "name": "Template Injection Mitigation",
+  "description": "Consider disabling Microsoft Office macros/active content to prevent the execution of malicious payloads in documents (Citation: Microsoft Disable Macros), though this setting may not mitigate the [Forced Authentication](https://attack.mitre.org/techniques/T1187) use for this technique.\n\nBecause this technique involves user interaction on the endpoint, it's difficult to fully mitigate. However, th",
+  "techniques": []
+}

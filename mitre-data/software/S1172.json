@@ -1,0 +1,7 @@
+{
+  "id": "S1172",
+  "name": "OilBooster",
+  "type": "malware",
+  "description": "[OilBooster](https://attack.mitre.org/software/S1172) is a downloader written in Microsoft Visual C/C++ that has been used by [OilRig](https://attack.mitre.org/groups/G0049) since at least 2022 including against target organizations in Israel to download and execute files and for exfiltration.(Citation: ESET OilRig Downloaders DEC 2023)   ",
+  "techniques": []
+}

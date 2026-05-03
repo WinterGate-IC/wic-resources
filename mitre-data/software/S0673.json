@@ -1,0 +1,7 @@
+{
+  "id": "S0673",
+  "name": "DarkWatchman",
+  "type": "malware",
+  "description": "[DarkWatchman](https://attack.mitre.org/software/S0673) is a lightweight JavaScript-based remote access tool (RAT) that avoids file operations; it was first observed in November 2021.(Citation: Prevailion DarkWatchman 2021)",
+  "techniques": []
+}

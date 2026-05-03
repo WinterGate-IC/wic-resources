@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-302",
+  "name": "TCP FIN Scan",
+  "description": "An adversary uses a TCP FIN scan to determine if ports are closed on the target machine. This scan type is accomplished by sending TCP segments with the FIN bit set in the packet header. The RFC 793 expected behavior is that any TCP segment with an out-of-state Flag sent to an open port is discarded",
+  "severity": "Low",
+  "likelihood": "Unknown"
+}

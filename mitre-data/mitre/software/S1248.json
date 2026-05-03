@@ -1,0 +1,7 @@
+{
+  "id": "S1248",
+  "name": "XORIndex Loader",
+  "type": "malware",
+  "description": "[XORIndex Loader](https://attack.mitre.org/software/S1248) is a XOR-encoded loader that collects host data, decodes follow-on scripts and acts as a downloader for the [BeaverTail](https://attack.mitre.org/software/S1246) malware.  [XORIndex Loader](https://attack.mitre.org/software/S1248) was first reported in June 2025.  [XORIndex Loader](https://attack.mitre.org/software/S1248) has been leverage",
+  "techniques": []
+}

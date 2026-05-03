@@ -1,0 +1,6 @@
+{
+  "id": "T1136",
+  "name": "Create Account Mitigation",
+  "description": "Use and enforce multifactor authentication. Follow guidelines to prevent or limit adversary access to [Valid Accounts](https://attack.mitre.org/techniques/T1078) that may be used to create privileged accounts within an environment.\n\nAdversaries that create local accounts on systems may have limited access within a network if access levels are properly locked down. These accounts may only be needed",
+  "techniques": []
+}

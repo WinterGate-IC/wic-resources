@@ -1,0 +1,7 @@
+{
+  "id": "S1117",
+  "name": "GLASSTOKEN",
+  "type": "malware",
+  "description": "[GLASSTOKEN](https://attack.mitre.org/software/S1117) is a custom web shell used by threat actors during [Cutting Edge](https://attack.mitre.org/campaigns/C0029) to execute commands on compromised Ivanti Secure Connect VPNs.(Citation: Volexity Ivanti Zero-Day Exploitation January 2024)",
+  "techniques": []
+}

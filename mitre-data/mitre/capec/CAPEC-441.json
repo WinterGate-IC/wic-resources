@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-441",
+  "name": "Malicious Logic Insertion",
+  "description": "An adversary installs or adds malicious logic (also known as malware) into a seemingly benign component of a fielded system. This logic is often hidden from the user of the system and works behind the scenes to achieve negative impacts. With the proliferation of mass digital storage and inexpensive ",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

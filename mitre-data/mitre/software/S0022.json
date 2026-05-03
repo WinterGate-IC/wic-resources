@@ -1,0 +1,7 @@
+{
+  "id": "S0022",
+  "name": "Uroburos",
+  "type": "malware",
+  "description": "[Uroburos](https://attack.mitre.org/software/S0022) is a sophisticated cyber espionage tool written in C that has been used by units within Russia's Federal Security Service (FSB) associated with the [Turla](https://attack.mitre.org/groups/G0010) toolset to collect intelligence on sensitive targets worldwide. [Uroburos](https://attack.mitre.org/software/S0022) has several variants and has undergon",
+  "techniques": []
+}

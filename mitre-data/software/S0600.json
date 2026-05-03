@@ -1,0 +1,7 @@
+{
+  "id": "S0600",
+  "name": "Doki",
+  "type": "malware",
+  "description": "[Doki](https://attack.mitre.org/software/S0600) is a backdoor that uses a unique Dogecoin-based Domain Generation Algorithm and was first observed in July 2020. [Doki](https://attack.mitre.org/software/S0600) was used in conjunction with the [ngrok](https://attack.mitre.org/software/S0508) Mining Botnet in a campaign that targeted Docker servers in cloud platforms. (Citation: Intezer Doki July 20)",
+  "techniques": []
+}

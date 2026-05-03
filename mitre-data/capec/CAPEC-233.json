@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-233",
+  "name": "Privilege Escalation",
+  "description": "An adversary exploits a weakness enabling them to elevate their privilege and perform an action that they are not supposed to be authorized to perform.",
+  "severity": "Unknown",
+  "likelihood": "Unknown"
+}

@@ -1,0 +1,6 @@
+{
+  "id": "T1482",
+  "name": "Domain Trust Discovery Mitigation",
+  "description": "Map the trusts within existing domains/forests and keep trust relationships to a minimum. Employ network segmentation for sensitive domains.(Citation: Harmj0y Domain Trusts)",
+  "techniques": []
+}

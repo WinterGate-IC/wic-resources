@@ -1,0 +1,7 @@
+{
+  "id": "S0218",
+  "name": "SLOWDRIFT",
+  "type": "malware",
+  "description": "[SLOWDRIFT](https://attack.mitre.org/software/S0218) is a backdoor used by [APT37](https://attack.mitre.org/groups/G0067) against academic and strategic victims in South Korea. (Citation: FireEye APT37 Feb 2018)",
+  "techniques": []
+}

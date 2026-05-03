@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-170",
+  "name": "Web Application Fingerprinting",
+  "description": "An attacker sends a series of probes to a web application in order to elicit version-dependent and type-dependent behavior that assists in identifying the target. An attacker could learn information such as software versions, error pages, and response headers, variations in implementations of the HT",
+  "severity": "Low",
+  "likelihood": "Unknown"
+}

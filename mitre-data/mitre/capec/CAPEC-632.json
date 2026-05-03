@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-632",
+  "name": "Homograph Attack via Homoglyphs",
+  "description": "An adversary registers a domain name containing a homoglyph, leading the registered domain to appear the same as a trusted domain. A homograph attack leverages the fact that different characters among various character sets look the same to the user. Homograph attacks must generally be combined with",
+  "severity": "Medium",
+  "likelihood": "Unknown"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "S0654",
+  "name": "ProLock",
+  "type": "malware",
+  "description": "[ProLock](https://attack.mitre.org/software/S0654) is a ransomware strain that has been used in Big Game Hunting (BGH) operations since at least 2020, often obtaining initial access with [QakBot](https://attack.mitre.org/software/S0650). [ProLock](https://attack.mitre.org/software/S0654) is the successor to PwndLocker ransomware which was found to contain a bug allowing decryption without ransom p",
+  "techniques": []
+}

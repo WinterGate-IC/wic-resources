@@ -1,0 +1,6 @@
+{
+  "id": "M1051",
+  "name": "Update Software",
+  "description": "Software updates ensure systems are protected against known vulnerabilities by applying patches and upgrades provided by vendors. Regular updates reduce the attack surface and prevent adversaries from exploiting known security gaps. This includes patching operating systems, applications, drivers, and firmware. This mitigation can be implemented through the following measures:\n\nRegular Operating Sy",
+  "techniques": []
+}

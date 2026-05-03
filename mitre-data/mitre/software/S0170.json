@@ -1,0 +1,7 @@
+{
+  "id": "S0170",
+  "name": "Helminth",
+  "type": "malware",
+  "description": "[Helminth](https://attack.mitre.org/software/S0170) is a backdoor that has at least two variants - one written in VBScript and PowerShell that is delivered via a macros in Excel spreadsheets, and one that is a standalone Windows executable. (Citation: Palo Alto OilRig May 2016)",
+  "techniques": []
+}

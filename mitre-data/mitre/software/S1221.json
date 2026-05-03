@@ -1,0 +1,7 @@
+{
+  "id": "S1221",
+  "name": "MOPSLED",
+  "type": "malware",
+  "description": "[MOPSLED](https://attack.mitre.org/software/S1221) is a shellcode-based modular backdoor that has been used by China-nexus cyber espionage actors including [UNC3886](https://attack.mitre.org/groups/G1048) and [APT41](https://attack.mitre.org/groups/G0096).(Citation: Google Cloud Mandiant UNC3886 2024)",
+  "techniques": []
+}

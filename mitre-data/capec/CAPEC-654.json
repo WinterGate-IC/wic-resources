@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-654",
+  "name": "Credential Prompt Impersonation",
+  "description": "An adversary, through a previously installed malicious application, impersonates a credential prompt in an attempt to steal a user's credentials.",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

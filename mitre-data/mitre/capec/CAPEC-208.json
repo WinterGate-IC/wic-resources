@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-208",
+  "name": "Removing/short-circuiting 'Purse' logic: removing/mutating 'cash' decrements",
+  "description": "An attacker removes or modifies the logic on a client associated with monetary calculations resulting in incorrect information being sent to the server. A server may rely on a client to correctly compute monetary information. For example, a server might supply a price for an item and then rely on th",
+  "severity": "Medium",
+  "likelihood": "Unknown"
+}

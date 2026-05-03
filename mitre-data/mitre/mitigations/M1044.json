@@ -1,0 +1,6 @@
+{
+  "id": "M1044",
+  "name": "Restrict Library Loading",
+  "description": "Restricting library loading involves implementing security controls to ensure that only trusted and verified libraries (DLLs, shared objects, etc.) are loaded into processes. Adversaries often abuse Dynamic-Link Library (DLL) Injection, DLL Search Order Hijacking, or LD_PRELOAD mechanisms to execute malicious code by forcing the operating system to load untrusted libraries. This mitigation can be ",
+  "techniques": []
+}

@@ -1,0 +1,7 @@
+{
+  "id": "S0241",
+  "name": "RATANKBA",
+  "type": "malware",
+  "description": "[RATANKBA](https://attack.mitre.org/software/S0241) is a remote controller tool used by [Lazarus Group](https://attack.mitre.org/groups/G0032). [RATANKBA](https://attack.mitre.org/software/S0241) has been used in attacks targeting financial institutions in Poland, Mexico, Uruguay, the United Kingdom, and Chile. It was also seen used against organizations related to telecommunications, management c",
+  "techniques": []
+}

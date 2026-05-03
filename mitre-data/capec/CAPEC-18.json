@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-18",
+  "name": "XSS Targeting Non-Script Elements",
+  "description": "This attack is a form of Cross-Site Scripting (XSS) where malicious scripts are embedded in elements that are not expected to host scripts such as image tags (<img>), comments in XML documents (< !-CDATA->), etc. These tags may not be subject to the same input validation, output validation, and othe",
+  "severity": "Very High",
+  "likelihood": "Unknown"
+}

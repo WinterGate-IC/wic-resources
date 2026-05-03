@@ -1,0 +1,6 @@
+{
+  "id": "T1096",
+  "name": "NTFS File Attributes Mitigation",
+  "description": "It may be difficult or inadvisable to block access to EA and ADSs. (Citation: Microsoft ADS Mar 2014) (Citation: Symantec ADS May 2009) Efforts should be focused on preventing potentially malicious software from running. Identify and block potentially malicious software that may contain functionality to hide information in EA and ADSs by using whitelisting (Citation: Beechey 2010) tools like AppLo",
+  "techniques": []
+}

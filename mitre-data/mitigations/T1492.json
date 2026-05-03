@@ -1,0 +1,6 @@
+{
+  "id": "T1492",
+  "name": "Stored Data Manipulation Mitigation",
+  "description": "Identify critical business and system processes that may be targeted by adversaries and work to secure the data related to those processes against tampering. Ensure least privilege principles are applied to important information resources to reduce exposure to data manipulation risk. Consider encrypting important information to reduce an adversaries ability to perform tailor data modifications. Wh",
+  "techniques": []
+}

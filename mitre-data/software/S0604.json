@@ -1,0 +1,7 @@
+{
+  "id": "S0604",
+  "name": "Industroyer",
+  "type": "malware",
+  "description": "[Industroyer](https://attack.mitre.org/software/S0604) is a sophisticated malware framework designed to cause an impact to the working processes of Industrial Control Systems (ICS), specifically components used in electrical substations.(Citation: ESET Industroyer) [Industroyer](https://attack.mitre.org/software/S0604) was used in the attacks on the Ukrainian power grid in December 2016.(Citation:",
+  "techniques": []
+}

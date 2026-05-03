@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-479",
+  "name": "Malicious Root Certificate",
+  "description": "An adversary exploits a weakness in authorization and installs a new root certificate on a compromised system. Certificates are commonly used for establishing secure TLS/SSL communications within a web browser. When a user attempts to browse a website that presents a certificate that is not trusted ",
+  "severity": "Low",
+  "likelihood": "Unknown"
+}

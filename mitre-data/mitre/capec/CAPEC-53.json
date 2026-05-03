@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-53",
+  "name": "Postfix, Null Terminate, and Backslash",
+  "description": "If a string is passed through a filter of some kind, then a terminal NULL may not be valid. Using alternate representation of NULL allows an adversary to embed the NULL mid-string while postfixing the proper data so that the filter is avoided. One example is a filter that looks for a trailing slash ",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

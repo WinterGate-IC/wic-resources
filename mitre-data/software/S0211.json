@@ -1,0 +1,7 @@
+{
+  "id": "S0211",
+  "name": "Linfo",
+  "type": "malware",
+  "description": "[Linfo](https://attack.mitre.org/software/S0211) is a rootkit trojan used by [Elderwood](https://attack.mitre.org/groups/G0066) to open a backdoor on compromised hosts. (Citation: Symantec Elderwood Sept 2012) (Citation: Symantec Linfo May 2012)",
+  "techniques": []
+}

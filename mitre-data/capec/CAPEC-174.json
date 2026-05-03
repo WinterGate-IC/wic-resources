@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-174",
+  "name": "Flash Parameter Injection",
+  "description": "An adversary takes advantage of improper data validation to inject malicious global parameters into a Flash file embedded within an HTML document. Flash files can leverage user-submitted data to configure the Flash document and access the embedding HTML document.",
+  "severity": "Medium",
+  "likelihood": "Unknown"
+}

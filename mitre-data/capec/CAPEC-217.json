@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-217",
+  "name": "Exploiting Incorrectly Configured SSL/TLS",
+  "description": "An adversary takes advantage of incorrectly configured SSL/TLS communications that enables access to data intended to be encrypted. The adversary may also use this type of attack to inject commands or other traffic into the encrypted stream to cause compromise of either the client or server.",
+  "severity": "Unknown",
+  "likelihood": "Unknown"
+}

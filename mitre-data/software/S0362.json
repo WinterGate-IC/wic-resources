@@ -1,0 +1,7 @@
+{
+  "id": "S0362",
+  "name": "Linux Rabbit",
+  "type": "malware",
+  "description": "[Linux Rabbit](https://attack.mitre.org/software/S0362) is malware that targeted Linux servers and IoT devices in a campaign lasting from August to October 2018. It shares code with another strain of malware known as Rabbot. The goal of the campaign was to install cryptocurrency miners onto the targeted servers and devices.(Citation: Anomali Linux Rabbit 2018)\n",
+  "techniques": []
+}

@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-644",
+  "name": "Use of Captured Hashes (Pass The Hash)",
+  "description": "An adversary obtains (i.e. steals or purchases) legitimate Windows domain credential hash values to access systems within the domain that leverage the Lan Man (LM) and/or NT Lan Man (NTLM) authentication protocols.",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

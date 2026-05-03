@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-38",
+  "name": "Leveraging/Manipulating Configuration File Search Paths",
+  "description": "This pattern of attack sees an adversary load a malicious resource into a program's standard path so that when a known command is executed then the system instead executes the malicious component. The adversary can either modify the search path a program uses, like a PATH variable or classpath, or t",
+  "severity": "Very High",
+  "likelihood": "Unknown"
+}

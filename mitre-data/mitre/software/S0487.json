@@ -1,0 +1,7 @@
+{
+  "id": "S0487",
+  "name": "Kessel",
+  "type": "malware",
+  "description": "[Kessel](https://attack.mitre.org/software/S0487) is an advanced version of OpenSSH which acts as a custom backdoor, mainly acting to steal credentials and function as a bot. [Kessel](https://attack.mitre.org/software/S0487) has been active since its C2 domain began resolving in August 2018.(Citation: ESET ForSSHe December 2018)",
+  "techniques": []
+}

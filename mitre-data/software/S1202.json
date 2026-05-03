@@ -1,0 +1,7 @@
+{
+  "id": "S1202",
+  "name": "LockBit 3.0",
+  "type": "malware",
+  "description": "[LockBit 3.0](https://attack.mitre.org/software/S1202) is an evolution of the LockBit Ransomware-as-a-Service (RaaS) offering with similarities to BlackMatter and [BlackCat](https://attack.mitre.org/software/S1068) ransomware. [LockBit 3.0](https://attack.mitre.org/software/S1202) has been in use since at least June 2022 and features enhanced defense evasion and exfiltration tactics, robust encryp",
+  "techniques": []
+}

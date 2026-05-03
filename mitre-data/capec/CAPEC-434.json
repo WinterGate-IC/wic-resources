@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-434",
+  "name": "Target Influence via Interview and Interrogation",
+  "description": "",
+  "severity": "Low",
+  "likelihood": "Unknown"
+}

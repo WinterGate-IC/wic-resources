@@ -1,0 +1,6 @@
+{
+  "id": "T1008",
+  "name": "Fallback Channels Mitigation",
+  "description": "Network intrusion detection and prevention systems that use network signatures to identify traffic for specific adversary malware can be used to mitigate activity at the network level. Signatures are often for unique indicators within protocols and may be based on the specific protocol used by a particular adversary or tool, and will likely be different across various malware families and versions",
+  "techniques": []
+}

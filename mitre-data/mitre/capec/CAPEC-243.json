@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-243",
+  "name": "XSS Targeting HTML Attributes",
+  "description": "An adversary inserts commands to perform cross-site scripting (XSS) actions in HTML attributes. Many filters do not adequately sanitize attributes against the presence of potentially dangerous commands even if they adequately sanitize tags. For example, dangerous expressions could be inserted into a",
+  "severity": "Medium",
+  "likelihood": "Unknown"
+}

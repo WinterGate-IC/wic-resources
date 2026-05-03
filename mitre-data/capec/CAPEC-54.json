@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-54",
+  "name": "Query System for Information",
+  "description": "An adversary, aware of an application's location (and possibly authorized to use the application), probes an application's structure and evaluates its robustness by submitting requests and examining responses. Often, this is accomplished by sending variants of expected queries in the hope that these",
+  "severity": "Low",
+  "likelihood": "Unknown"
+}

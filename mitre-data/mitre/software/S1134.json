@@ -1,0 +1,7 @@
+{
+  "id": "S1134",
+  "name": "DEADWOOD",
+  "type": "malware",
+  "description": "[DEADWOOD](https://attack.mitre.org/software/S1134) is wiper malware written in C++ using Boost libraries. [DEADWOOD](https://attack.mitre.org/software/S1134) was first observed in an unattributed wiping event in Saudi Arabia in 2019, and has since been incorporated into [Agrius](https://attack.mitre.org/groups/G1030) operations.(Citation: SentinelOne Agrius 2021)",
+  "techniques": []
+}

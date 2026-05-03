@@ -1,0 +1,7 @@
+{
+  "id": "S0138",
+  "name": "OLDBAIT",
+  "type": "malware",
+  "description": "[OLDBAIT](https://attack.mitre.org/software/S0138) is a credential harvester used by [APT28](https://attack.mitre.org/groups/G0007). (Citation: FireEye APT28) (Citation: FireEye APT28 January 2017)",
+  "techniques": []
+}

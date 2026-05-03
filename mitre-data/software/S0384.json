@@ -1,0 +1,7 @@
+{
+  "id": "S0384",
+  "name": "Dridex",
+  "type": "malware",
+  "description": "[Dridex](https://attack.mitre.org/software/S0384) is a prolific banking Trojan that first appeared in 2014. By December 2019, the US Treasury estimated [Dridex](https://attack.mitre.org/software/S0384) had infected computers in hundreds of banks and financial institutions in over 40 countries, leading to more than $100 million in theft. [Dridex](https://attack.mitre.org/software/S0384) was created",
+  "techniques": []
+}

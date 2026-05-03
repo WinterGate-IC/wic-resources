@@ -1,0 +1,6 @@
+{
+  "id": "M1041",
+  "name": "Encrypt Sensitive Information",
+  "description": "Protect sensitive information at rest, in transit, and during processing by using strong encryption algorithms. Encryption ensures the confidentiality and integrity of data, preventing unauthorized access or tampering. This mitigation can be implemented through the following measures:\n\nEncrypt Data at Rest:\n\n- Use Case: Use full-disk encryption or file-level encryption to secure sensitive data sto",
+  "techniques": []
+}

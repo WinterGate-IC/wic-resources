@@ -1,0 +1,7 @@
+{
+  "id": "S0330",
+  "name": "Zeus Panda",
+  "type": "malware",
+  "description": "[Zeus Panda](https://attack.mitre.org/software/S0330) is a Trojan designed to steal banking information and other sensitive credentials for exfiltration. [Zeus Panda](https://attack.mitre.org/software/S0330)\u2019s original source code was leaked in 2011, allowing threat actors to use its source code as a basis for new malware variants. It is mainly used to target Windows operating systems ranging from",
+  "techniques": []
+}

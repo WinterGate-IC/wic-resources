@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-426",
+  "name": "Influence via Incentives",
+  "description": "The adversary incites a behavior from the target by manipulating something of influence. This is commonly associated with financial, social, or ideological incentivization. Examples include monetary fraud, peer pressure, and preying on the target's morals or ethics. The most effective incentive agai",
+  "severity": "Low",
+  "likelihood": "Unknown"
+}

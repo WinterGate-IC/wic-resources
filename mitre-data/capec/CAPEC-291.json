@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-291",
+  "name": "DNS Zone Transfers",
+  "description": "An attacker exploits a DNS misconfiguration that permits a ZONE transfer. Some external DNS servers will return a list of IP address and valid hostnames. Under certain conditions, it may even be possible to obtain Zone data about the organization's internal network. When successful the attacker lear",
+  "severity": "Low",
+  "likelihood": "Unknown"
+}

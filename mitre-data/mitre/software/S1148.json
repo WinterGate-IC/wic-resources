@@ -1,0 +1,7 @@
+{
+  "id": "S1148",
+  "name": "Raccoon Stealer",
+  "type": "malware",
+  "description": "[Raccoon Stealer](https://attack.mitre.org/software/S1148) is an information stealer malware family active since at least 2019 as a malware-as-a-service offering sold in underground forums. [Raccoon Stealer](https://attack.mitre.org/software/S1148) has experienced two periods of activity across two variants, from 2019 to March 2022, then resurfacing in a revised version in June 2022.(Citation: S2W",
+  "techniques": []
+}

@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-274",
+  "name": "HTTP Verb Tampering",
+  "description": "An attacker modifies the HTTP Verb (e.g. GET, PUT, TRACE, etc.) in order to bypass access restrictions. Some web environments allow administrators to restrict access based on the HTTP Verb used with requests. However, attackers can often provide a different HTTP Verb, or even provide a random string",
+  "severity": "Medium",
+  "likelihood": "Unknown"
+}

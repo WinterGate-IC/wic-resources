@@ -1,0 +1,7 @@
+{
+  "id": "S0472",
+  "name": "down_new",
+  "type": "malware",
+  "description": " [down_new](https://attack.mitre.org/software/S0472) is a downloader that has been used by [BRONZE BUTLER](https://attack.mitre.org/groups/G0060) since at least 2019.(Citation: Trend Micro Tick November 2019)",
+  "techniques": []
+}

@@ -1,0 +1,7 @@
+{
+  "id": "S0008",
+  "name": "gsecdump",
+  "type": "tool",
+  "description": "[gsecdump](https://attack.mitre.org/software/S0008) is a publicly-available credential dumper used to obtain password hashes and LSA secrets from Windows operating systems. (Citation: TrueSec Gsecdump)",
+  "techniques": []
+}

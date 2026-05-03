@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-202",
+  "name": "Create Malicious Client",
+  "description": "An adversary creates a client application to interface with a target service where the client violates assumptions the service makes about clients. Services that have designated client applications (as opposed to services that use general client applications, such as IMAP or POP mail servers which c",
+  "severity": "Medium",
+  "likelihood": "Unknown"
+}

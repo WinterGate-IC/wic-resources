@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-157",
+  "name": "Sniffing Attacks",
+  "description": "In this attack pattern, the adversary intercepts information transmitted between two third parties. The adversary must be able to observe, read, and/or hear the communication traffic, but not necessarily block the communication or change its content. Any transmission medium can theoretically be snif",
+  "severity": "Medium",
+  "likelihood": "Unknown"
+}

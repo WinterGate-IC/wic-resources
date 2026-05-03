@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-234",
+  "name": "Hijacking a privileged process",
+  "description": "An adversary gains control of a process that is assigned elevated privileges in order to execute arbitrary code with those privileges. Some processes are assigned elevated privileges on an operating system, usually through association with a particular user, group, or role. If an attacker can hijack",
+  "severity": "Medium",
+  "likelihood": "Unknown"
+}

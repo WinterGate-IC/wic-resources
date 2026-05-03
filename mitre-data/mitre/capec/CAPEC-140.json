@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-140",
+  "name": "Bypassing of Intermediate Forms in Multiple-Form Sets",
+  "description": "Some web applications require users to submit information through an ordered sequence of web forms. This is often done if there is a very large amount of information being collected or if information on earlier forms is used to pre-populate fields or determine which additional information the applic",
+  "severity": "Medium",
+  "likelihood": "Unknown"
+}

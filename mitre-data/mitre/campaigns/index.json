@@ -1,0 +1,317 @@
+{
+  "total": 52,
+  "campaigns": [
+    {
+      "id": "Unknown",
+      "name": "C0027",
+      "description": "[C0027](https://attack.mitre.org/campaigns/C0027) was a financially-motivated campaign linked to [Scattered Spider](https://attack.mitre.org/groups/G1015) that targeted telecommunications and business process outsourcing (BPO) companies from at least June through December of 2022. During [C0027](https://attack.mitre.org/campaigns/C0027) [Scattered Spider](https://attack.mitre.org/groups/G1015) use",
+      "techniques": []
+    },
+    {
+      "id": "Unknown",
+      "name": "Operation Wocao",
+      "description": "[Operation Wocao](https://attack.mitre.org/campaigns/C0014) was a cyber espionage campaign that targeted organizations around the world, including in Brazil, China, France, Germany, Italy, Mexico, Portugal, Spain, the United Kingdom, and the United States. The suspected China-based actors compromised government organizations and managed service providers, as well as aviation, construction, energy,",
+      "techniques": []
+    },
+    {
+      "id": "Unknown",
+      "name": "APT41 DUST",
+      "description": "[APT41 DUST](https://attack.mitre.org/campaigns/C0040) was conducted by [APT41](https://attack.mitre.org/groups/G0096) from 2023 to July 2024 against entities in Europe, Asia, and the Middle East. [APT41 DUST](https://attack.mitre.org/campaigns/C0040) targeted sectors such as shipping, logistics, and media for information gathering purposes. [APT41](https://attack.mitre.org/groups/G0096) used prev",
+      "techniques": []
+    },
+    {
+      "id": "Unknown",
+      "name": "FunnyDream",
+      "description": "[FunnyDream](https://attack.mitre.org/campaigns/C0007) was a suspected Chinese cyber espionage campaign that targeted government and foreign organizations in Malaysia, the Philippines, Taiwan, Vietnam, and other parts of Southeast Asia. Security researchers linked the [FunnyDream](https://attack.mitre.org/campaigns/C0007) campaign to possible Chinese-speaking threat actors through the use of the [",
+      "techniques": []
+    },
+    {
+      "id": "Unknown",
+      "name": "ArcaneDoor",
+      "description": "[ArcaneDoor](https://attack.mitre.org/campaigns/C0046) is a campaign targeting networking devices from Cisco and other vendors between July 2023 and April 2024, primarily focused on government and critical infrastructure networks. [ArcaneDoor](https://attack.mitre.org/campaigns/C0046) is associated with the deployment of the custom backdoors [Line Runner](https://attack.mitre.org/software/S1188) a",
+      "techniques": []
+    },
+    {
+      "id": "Unknown",
+      "name": "SolarWinds Compromise",
+      "description": "The [SolarWinds Compromise](https://attack.mitre.org/campaigns/C0024) was a sophisticated supply chain cyber operation conducted by [APT29](https://attack.mitre.org/groups/G0016) that was discovered in mid-December 2020. [APT29](https://attack.mitre.org/groups/G0016) used customized malware to inject malicious code into the SolarWinds Orion software build process that was later distributed through",
+      "techniques": []
+    },
+    {
+      "id": "Unknown",
+      "name": "C0010",
+      "description": "[C0010](https://attack.mitre.org/campaigns/C0010) was a cyber espionage campaign conducted by UNC3890 that targeted Israeli shipping, government, aviation, energy, and healthcare organizations. Security researcher assess UNC3890 conducts operations in support of Iranian interests, and noted several limited technical connections to Iran, including PDB strings and Farsi language artifacts. [C0010](h",
+      "techniques": []
+    },
+    {
+      "id": "Unknown",
+      "name": "Operation CuckooBees",
+      "description": "[Operation CuckooBees](https://attack.mitre.org/campaigns/C0012) was a cyber espionage campaign targeting technology and manufacturing companies in East Asia, Western Europe, and North America since at least 2019. Security researchers noted the goal of [Operation CuckooBees](https://attack.mitre.org/campaigns/C0012), which was still ongoing as of May 2022, was likely the theft of proprietary infor",
+      "techniques": []
+    },
+    {
+      "id": "Unknown",
+      "name": "Juicy Mix",
+      "description": "[Juicy Mix](https://attack.mitre.org/campaigns/C0044) was a campaign conducted by [OilRig](https://attack.mitre.org/groups/G0049) throughout 2022 that targeted Israeli organizations with the [Mango](https://attack.mitre.org/software/S1169) backdoor.(Citation: ESET OilRig Campaigns Sep 2023)",
+      "techniques": []
+    },
+    {
+      "id": "Unknown",
+      "name": "CostaRicto",
+      "description": "[CostaRicto](https://attack.mitre.org/campaigns/C0004) was a suspected hacker-for-hire cyber espionage campaign that targeted multiple industries worldwide, with a large number being financial institutions. [CostaRicto](https://attack.mitre.org/campaigns/C0004) actors targeted organizations in Europe, the Americas, Asia, Australia, and Africa, with a large concentration in South Asia (especially I",
+      "techniques": []
+    },
+    {
+      "id": "Unknown",
+      "name": "Operation Honeybee",
+      "description": "[Operation Honeybee](https://attack.mitre.org/campaigns/C0006) was a campaign that targeted humanitarian aid and inter-Korean affairs organizations from at least late 2017 through early 2018. [Operation Honeybee](https://attack.mitre.org/campaigns/C0006) initially targeted South Korea, but expanded to include Vietnam, Singapore, Japan, Indonesia, Argentina, and Canada. Security researchers assesse",
+      "techniques": []
+    },
+    {
+      "id": "Unknown",
+      "name": "2016 Ukraine Electric Power Attack",
+      "description": "[2016 Ukraine Electric Power Attack](https://attack.mitre.org/campaigns/C0025) was a [Sandworm Team](https://attack.mitre.org/groups/G0034) campaign during which they used [Industroyer](https://attack.mitre.org/software/S0604) malware to target and disrupt distribution substations within the Ukrainian power grid. This campaign was the second major public attack conducted against Ukraine by [Sandwo",
+      "techniques": []
+    },
+    {
+      "id": "Unknown",
+      "name": "RedDelta Modified PlugX Infection Chain Operations",
+      "description": "[RedDelta Modified PlugX Infection Chain Operations](https://attack.mitre.org/campaigns/C0047) was executed by [Mustang Panda](https://attack.mitre.org/groups/G0129) from mid-2023 through the end of 2024 against multiple entities in East and Southeast Asia. [RedDelta Modified PlugX Infection Chain Operations](https://attack.mitre.org/campaigns/C0047) involved phishing to deliver malicious files or",
+      "techniques": []
+    },
+    {
+      "id": "Unknown",
+      "name": "2015 Ukraine Electric Power Attack",
+      "description": "[2015 Ukraine Electric Power Attack](https://attack.mitre.org/campaigns/C0028) was a [Sandworm Team](https://attack.mitre.org/groups/G0034) campaign during which they used [BlackEnergy](https://attack.mitre.org/software/S0089) (specifically BlackEnergy3) and [KillDisk](https://attack.mitre.org/software/S0607) to target and disrupt transmission and distribution substations within the Ukrainian powe",
+      "techniques": []
+    },
+    {
+      "id": "Unknown",
+      "name": "C0018",
+      "description": "\n[C0018](https://attack.mitre.org/campaigns/C0018) was a month-long ransomware intrusion that successfully deployed [AvosLocker](https://attack.mitre.org/software/S1053) onto a compromised network. The unidentified actors gained initial access to the victim network through an exposed server and used a variety of open-source tools prior to executing [AvosLocker](https://attack.mitre.org/software/S1",
+      "techniques": []
+    },
+    {
+      "id": "Unknown",
+      "name": "Operation Dust Storm",
+      "description": "[Operation Dust Storm](https://attack.mitre.org/campaigns/C0016) was a long-standing persistent cyber espionage campaign that targeted multiple industries in Japan, South Korea, the United States, Europe, and several Southeast Asian countries. By 2015, the [Operation Dust Storm](https://attack.mitre.org/campaigns/C0016) threat actors shifted from government and defense-related intelligence targets",
+      "techniques": []
+    },
+    {
+      "id": "Unknown",
+      "name": "Operation Dream Job",
+      "description": "[Operation Dream Job](https://attack.mitre.org/campaigns/C0022) was a cyber espionage operation likely conducted by [Lazarus Group](https://attack.mitre.org/groups/G0032) that targeted the defense, aerospace, government, and other sectors in the United States, Israel, Australia, Russia, and India. In at least one case, the cyber actors tried to monetize their network access to conduct a business e",
+      "techniques": []
+    },
+    {
+      "id": "Unknown",
+      "name": "FLORAHOX Activity",
+      "description": "[FLORAHOX Activity](https://attack.mitre.org/campaigns/C0053) is conducted using a hybrid operational relay box (ORB) network, which combines two types of infrastructure: compromised devices and leased Virtual Private Servers (VPS). The compromised devices include end-of-life routers and IoT devices, while VPS space is commercially leased and managed by ORB network administrators. This hybrid ORB ",
+      "techniques": []
+    },
+    {
+      "id": "Unknown",
+      "name": "C0015",
+      "description": "[C0015](https://attack.mitre.org/campaigns/C0015) was a ransomware intrusion during which the unidentified attackers used [Bazar](https://attack.mitre.org/software/S0534), [Cobalt Strike](https://attack.mitre.org/software/S0154), and [Conti](https://attack.mitre.org/software/S0575), along with other tools, over a 5 day period. Security researchers assessed the actors likely used the widely-circula",
+      "techniques": []
+    },
+    {
+      "id": "Unknown",
+      "name": "RedPenguin",
+      "description": "The [RedPenguin](https://attack.mitre.org/campaigns/C0056) project was launched by Juniper in July 2024 to investigate reported malware infections of Juniper MX Series routers. [RedPenguin](https://attack.mitre.org/campaigns/C0056) activity was separately attributed to [UNC3886](https://attack.mitre.org/groups/G1048) and included the deployment of multiple custom versions of the publicly-available",
+      "techniques": []
+    },
+    {
+      "id": "Unknown",
+      "name": "Versa Director Zero Day Exploitation",
+      "description": "[Versa Director Zero Day Exploitation](https://attack.mitre.org/campaigns/C0039) was conducted by [Volt Typhoon](https://attack.mitre.org/groups/G1017) from early June through August 2024 as zero-day exploitation of Versa Director servers controlling software-defined wide area network (SD-WAN) applications. Since tracked as CVE-2024-39717, exploitation focused on credential capture from compromise",
+      "techniques": []
+    },
+    {
+      "id": "Unknown",
+      "name": "C0021",
+      "description": "[C0021](https://attack.mitre.org/campaigns/C0021) was a spearphishing campaign conducted in November 2018 that targeted public sector institutions, non-governmental organizations (NGOs), educational institutions, and private-sector corporations in the oil and gas, chemical, and hospitality industries. The majority of targets were located in the US, particularly in and around Washington D.C., with ",
+      "techniques": []
+    },
+    {
+      "id": "Unknown",
+      "name": "Frankenstein",
+      "description": "[Frankenstein](https://attack.mitre.org/campaigns/C0001) was described by security researchers as a highly-targeted campaign conducted by moderately sophisticated and highly resourceful threat actors in early 2019. The unidentified actors primarily relied on open source tools, including [Empire](https://attack.mitre.org/software/S0363). The campaign name refers to the actors' ability to piece toge",
+      "techniques": []
+    },
+    {
+      "id": "Unknown",
+      "name": "Outer Space",
+      "description": "[Outer Space](https://attack.mitre.org/campaigns/C0042) was a campaign conducted by [OilRig](https://attack.mitre.org/groups/G0049) throughout 2021 that used the [SampleCheck5000](https://attack.mitre.org/software/S1168) downloader and [Solar](https://attack.mitre.org/software/S1166) backdoor to target Israeli organizations.(Citation: ESET OilRig Campaigns Sep 2023)",
+      "techniques": []
+    },
+    {
+      "id": "Unknown",
+      "name": "APT28 Nearest Neighbor Campaign",
+      "description": "[APT28 Nearest Neighbor Campaign](https://attack.mitre.org/campaigns/C0051) was conducted by [APT28](https://attack.mitre.org/groups/G0007) from early February 2022 to November 2024 against organizations and individuals with expertise on Ukraine. APT28 primarily leveraged living-off-the-land techniques, while leveraging the zero-day exploitation of CVE-2022-38028. Notably, APT28 leveraged Wi-Fi ne",
+      "techniques": []
+    },
+    {
+      "id": "Unknown",
+      "name": "Night Dragon",
+      "description": "[Night Dragon](https://attack.mitre.org/campaigns/C0002) was a cyber espionage campaign that targeted oil, energy, and petrochemical companies, along with individuals and executives in Kazakhstan, Taiwan, Greece, and the United States. The unidentified threat actors searched for information related to oil and gas field production systems, financials, and collected data from SCADA systems. Based on",
+      "techniques": []
+    },
+    {
+      "id": "Unknown",
+      "name": "Operation Ghost",
+      "description": "[Operation Ghost](https://attack.mitre.org/campaigns/C0023) was an [APT29](https://attack.mitre.org/groups/G0016) campaign starting in 2013 that included operations against ministries of foreign affairs in Europe and the Washington, D.C. embassy of a European Union country. During [Operation Ghost](https://attack.mitre.org/campaigns/C0023), [APT29](https://attack.mitre.org/groups/G0016) used new f",
+      "techniques": []
+    },
+    {
+      "id": "Unknown",
+      "name": "Indian Critical Infrastructure Intrusions",
+      "description": "[Indian Critical Infrastructure Intrusions](https://attack.mitre.org/campaigns/C0043) is a sequence of intrusions from 2021 through early 2022 linked to People\u2019s Republic of China (PRC) threat actors, particularly [RedEcho](https://attack.mitre.org/groups/G1042) and Threat Activity Group 38 (TAG38). The intrusions appear focused on IT system breach in Indian electric utility entities and logistics",
+      "techniques": []
+    },
+    {
+      "id": "Unknown",
+      "name": "Leviathan Australian Intrusions",
+      "description": "[Leviathan Australian Intrusions](https://attack.mitre.org/campaigns/C0049) consisted of at least two long-term intrusions against victims in Australia by [Leviathan](https://attack.mitre.org/groups/G0065), relying on similar tradecraft such as external service exploitation followed by extensive credential capture and re-use to enable privilege escalation and lateral movement. [Leviathan Australia",
+      "techniques": []
+    },
+    {
+      "id": "Unknown",
+      "name": "Water Curupira Pikabot Distribution",
+      "description": "[Pikabot](https://attack.mitre.org/software/S1145) was distributed in [Water Curupira Pikabot Distribution](https://attack.mitre.org/campaigns/C0037) throughout 2023 by an entity linked to BlackBasta ransomware deployment via email attachments. This activity followed the take-down of [QakBot](https://attack.mitre.org/software/S0650), with several technical overlaps and similarities with [QakBot](h",
+      "techniques": []
+    },
+    {
+      "id": "Unknown",
+      "name": "ShadowRay",
+      "description": "[ShadowRay](https://attack.mitre.org/campaigns/C0045) was a campaign that began in late 2023 targeting the education, cryptocurrency, biopharma, and other sectors through a vulnerability (CVE-2023-48022) in the Ray AI framework named ShadowRay. According to security researchers [ShadowRay](https://attack.mitre.org/campaigns/C0045) was the first known instance of AI workloads being activley exploit",
+      "techniques": []
+    },
+    {
+      "id": "Unknown",
+      "name": "Operation MidnightEclipse",
+      "description": "[Operation MidnightEclipse](https://attack.mitre.org/campaigns/C0048) was a campaign conducted in March and April 2024 that involved initial exploit of zero-day vulnerability CVE-2024-3400, a critical command injection vulnerability in the GlobalProtect feature of Palo Alto Networks PAN-OS.(Citation: Volexity UPSTYLE 2024)(Citation: Palo Alto MidnightEclipse APR 2024)",
+      "techniques": []
+    },
+    {
+      "id": "Unknown",
+      "name": "C0032",
+      "description": "[C0032](https://attack.mitre.org/campaigns/C0032) was an extended campaign suspected to involve the [Triton](https://attack.mitre.org/software/S1009) adversaries with related capabilities and techniques focused on gaining a foothold within IT environments. This campaign occurred in 2019 and was distinctly different from the [Triton Safety Instrumented System Attack](https://attack.mitre.org/campai",
+      "techniques": []
+    },
+    {
+      "id": "Unknown",
+      "name": "Quad7 Activity",
+      "description": " Quad7 Activity, also known as CovertNetwork-1658 or the 7777 Botnet, is a network of compromised small office/home office (SOHO) routers. (Citation: Bitsight 7777 Botnet) (Citation: Microsoft Storm-0940) The botnet was initially composed primarily of TP-Link routers and was named Quad7 due to compromised devices exposing TCP port 7777 with the distinctive banner <code>xlogin</code>. Later activit",
+      "techniques": []
+    },
+    {
+      "id": "Unknown",
+      "name": "HomeLand Justice",
+      "description": "[HomeLand Justice](https://attack.mitre.org/campaigns/C0038) was a disruptive campaign involving the use of ransomware, wiper malware, and sensitive information leaks conducted by Iranian state cyber actors against Albanian government networks in July and September 2022. Initial access for [HomeLand Justice](https://attack.mitre.org/campaigns/C0038) was established in May 2021 as threat actors sub",
+      "techniques": []
+    },
+    {
+      "id": "Unknown",
+      "name": "Salesforce Data Exfiltration",
+      "description": "The [Salesforce Data Exfiltration](https://attack.mitre.org/campaigns/C0059) campaign began in October 2024 with financially-motivated threat actor UNC6040 using [Spearphishing Voice](https://attack.mitre.org/techniques/T1598/004) (vishing) to compromise corporate Salesforce instances for large-scale data theft and extortion. Following the initial data theft, victim organizations received extortio",
+      "techniques": []
+    },
+    {
+      "id": "Unknown",
+      "name": "SharePoint ToolShell Exploitation",
+      "description": "The [SharePoint ToolShell Exploitation](https://attack.mitre.org/campaigns/C0058) campaign was conducted in July 2025 and encompassed the first waves of exploitation against incompletely patched spoofing (CVE-2025-49706) and remote code execution (CVE-2025-49704) vulnerabilities affecting on-premises Microsoft SharePoint servers. Later patched and updated as CVE-2025-53770 and CVE-2025-53771, the ",
+      "techniques": []
+    },
+    {
+      "id": "Unknown",
+      "name": "C0017",
+      "description": "[C0017](https://attack.mitre.org/campaigns/C0017) was an [APT41](https://attack.mitre.org/groups/G0096) campaign conducted between May 2021 and February 2022 that successfully compromised at least six U.S. state government networks through the exploitation of vulnerable Internet facing web applications. During [C0017](https://attack.mitre.org/campaigns/C0017), [APT41](https://attack.mitre.org/grou",
+      "techniques": []
+    },
+    {
+      "id": "Unknown",
+      "name": "Operation Spalax",
+      "description": "[Operation Spalax](https://attack.mitre.org/campaigns/C0005) was a campaign that primarily targeted Colombian government organizations and private companies, particularly those associated with the energy and metallurgical industries. The [Operation Spalax](https://attack.mitre.org/campaigns/C0005) threat actors distributed commodity malware and tools using generic phishing topics related to COVID-",
+      "techniques": []
+    },
+    {
+      "id": "Unknown",
+      "name": "Operation Sharpshooter",
+      "description": "[Operation Sharpshooter](https://attack.mitre.org/campaigns/C0013) was a global cyber espionage campaign that targeted nuclear, defense, government, energy, and financial companies, with many located in Germany, Turkey, the United Kingdom, and the United States. Security researchers noted the campaign shared many similarities with previous [Lazarus Group](https://attack.mitre.org/groups/G0032) ope",
+      "techniques": []
+    },
+    {
+      "id": "Unknown",
+      "name": "Cutting Edge",
+      "description": "[Cutting Edge](https://attack.mitre.org/campaigns/C0029) was a campaign conducted by suspected China-nexus espionage actors, variously identified as UNC5221/UTA0178 and UNC5325, that began as early as December 2023 with the exploitation of zero-day vulnerabilities in Ivanti Connect Secure (previously Pulse Secure) VPN appliances. [Cutting Edge](https://attack.mitre.org/campaigns/C0029) targeted th",
+      "techniques": []
+    },
+    {
+      "id": "Unknown",
+      "name": "2022 Ukraine Electric Power Attack",
+      "description": "The [2022 Ukraine Electric Power Attack](https://attack.mitre.org/campaigns/C0034) was a [Sandworm Team](https://attack.mitre.org/groups/G0034) campaign that used a combination of GOGETTER, Neo-REGEORG, [CaddyWiper](https://attack.mitre.org/software/S0693), and living of the land (LotL) techniques to gain access to a Ukrainian electric utility to send unauthorized commands from their SCADA system.",
+      "techniques": []
+    },
+    {
+      "id": "Unknown",
+      "name": "3CX Supply Chain Attack",
+      "description": "The [3CX Supply Chain Attack](https://attack.mitre.org/campaigns/C0057) was the first publicly reported case of one supply chain compromise triggering another, leading to a cascading, two-stage intrusion. The initial supply chain attack began when a 3CX employee downloaded and executed a trojanized, end-of-life version of the X_Trader trading software from Trading Technologies. This provided UNC47",
+      "techniques": []
+    },
+    {
+      "id": "Unknown",
+      "name": "C0011",
+      "description": "[C0011](https://attack.mitre.org/campaigns/C0011) was a suspected cyber espionage campaign conducted by [Transparent Tribe](https://attack.mitre.org/groups/G0134) that targeted students at universities and colleges in India. Security researchers noted this campaign against students was a significant shift from [Transparent Tribe](https://attack.mitre.org/groups/G0134)'s historic targeting Indian g",
+      "techniques": []
+    },
+    {
+      "id": "Unknown",
+      "name": "J-magic Campaign",
+      "description": "The [J-magic Campaign](https://attack.mitre.org/campaigns/C0050) was active from mid-2023 to at least mid-2024 and featured the use of the [J-magic](https://attack.mitre.org/software/S1203) backdoor, a custom cd00r variant tailored for use against Juniper routers. The [J-magic Campaign](https://attack.mitre.org/campaigns/C0050) targeted Junos OS routers serving as VPN gateways primarily in the sem",
+      "techniques": []
+    },
+    {
+      "id": "Unknown",
+      "name": "Triton Safety Instrumented System Attack",
+      "description": "[Triton Safety Instrumented System Attack](https://attack.mitre.org/campaigns/C0030) was a campaign employed by [TEMP.Veles](https://attack.mitre.org/groups/G0088) which leveraged the [Triton](https://attack.mitre.org/software/S1009) malware framework against a petrochemical organization.(Citation: Triton-EENews-2017) The malware and techniques used within this campaign targeted specific Triconex ",
+      "techniques": []
+    },
+    {
+      "id": "Unknown",
+      "name": "FrostyGoop Incident",
+      "description": "[FrostyGoop Incident](https://attack.mitre.org/campaigns/C0041) took place in January 2024 against a municipal district heating company in Ukraine. Following initial access via likely exploitation of external facing services, [FrostyGoop](https://attack.mitre.org/software/S1165) was used to manipulate ENCO control systems via legitimate Modbus commands to impact the delivery of heating services to",
+      "techniques": []
+    },
+    {
+      "id": "Unknown",
+      "name": "KV Botnet Activity",
+      "description": "[KV Botnet Activity](https://attack.mitre.org/campaigns/C0035) consisted of exploitation of primarily \u201cend-of-life\u201d small office-home office (SOHO) equipment from manufacturers such as Cisco, NETGEAR, and DrayTek. [KV Botnet Activity](https://attack.mitre.org/campaigns/C0035) was used by [Volt Typhoon](https://attack.mitre.org/groups/G1017) to obfuscate connectivity to victims in multiple critical",
+      "techniques": []
+    },
+    {
+      "id": "Unknown",
+      "name": "C0026",
+      "description": "[C0026](https://attack.mitre.org/campaigns/C0026) was a campaign identified in September 2022 that included the selective distribution of [KOPILUWAK](https://attack.mitre.org/software/S1075) and [QUIETCANARY](https://attack.mitre.org/software/S1076) malware to previous [ANDROMEDA](https://attack.mitre.org/software/S1074) malware victims in Ukraine through re-registered [ANDROMEDA](https://attack.m",
+      "techniques": []
+    },
+    {
+      "id": "Unknown",
+      "name": "SPACEHOP Activity",
+      "description": "[SPACEHOP Activity](https://attack.mitre.org/campaigns/C0052) is conducted through commercially leased Virtual Private Servers (VPS), otherwise known as provisioned Operational Relay Box (ORB) networks. The network leveraged for SPACEHOP Activity enabled China-nexus cyber threat actors \u2013 such as [APT5](https://attack.mitre.org/groups/G1023) and [Ke3chang](https://attack.mitre.org/groups/G0004) \u2013 t",
+      "techniques": []
+    },
+    {
+      "id": "Unknown",
+      "name": "Pikabot Distribution February 2024",
+      "description": "[Pikabot](https://attack.mitre.org/software/S1145) was distributed in [Pikabot Distribution February 2024](https://attack.mitre.org/campaigns/C0036) using malicious emails with embedded links leading to malicious ZIP archives requiring user interaction for follow-on infection. The version of [Pikabot](https://attack.mitre.org/software/S1145) distributed featured significant changes over the 2023 v",
+      "techniques": []
+    },
+    {
+      "id": "Unknown",
+      "name": "C0033",
+      "description": "[C0033](https://attack.mitre.org/campaigns/C0033) was a [PROMETHIUM](https://attack.mitre.org/groups/G0056) campaign during which they used [StrongPity](https://attack.mitre.org/software/S0491) to target Android users. [C0033](https://attack.mitre.org/campaigns/C0033) was the first publicly documented mobile campaign for [PROMETHIUM](https://attack.mitre.org/groups/G0056), who previously used Wind",
+      "techniques": []
+    }
+  ]
+}

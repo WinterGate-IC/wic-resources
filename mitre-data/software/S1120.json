@@ -1,0 +1,7 @@
+{
+  "id": "S1120",
+  "name": "FRAMESTING",
+  "type": "malware",
+  "description": "[FRAMESTING](https://attack.mitre.org/software/S1120) is a Python web shell that was used during [Cutting Edge](https://attack.mitre.org/campaigns/C0029) to embed into an Ivanti Connect Secure Python package for command execution.(Citation: Mandiant Cutting Edge Part 2 January 2024)",
+  "techniques": []
+}

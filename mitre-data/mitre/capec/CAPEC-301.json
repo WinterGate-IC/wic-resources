@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-301",
+  "name": "TCP Connect Scan",
+  "description": "An adversary uses full TCP connection attempts to determine if a port is open on the target system. The scanning process involves completing a 'three-way handshake' with a remote port, and reports the port as closed if the full handshake cannot be established. An advantage of TCP connect scanning is",
+  "severity": "Low",
+  "likelihood": "Unknown"
+}

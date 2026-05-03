@@ -1,0 +1,7 @@
+{
+  "id": "S0206",
+  "name": "Wiarp",
+  "type": "malware",
+  "description": "[Wiarp](https://attack.mitre.org/software/S0206) is a trojan used by [Elderwood](https://attack.mitre.org/groups/G0066) to open a backdoor on compromised hosts. (Citation: Symantec Elderwood Sept 2012) (Citation: Symantec Wiarp May 2012)",
+  "techniques": []
+}

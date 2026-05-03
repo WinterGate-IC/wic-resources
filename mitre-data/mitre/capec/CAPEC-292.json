@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-292",
+  "name": "Host Discovery",
+  "description": "An adversary sends a probe to an IP address to determine if the host is alive. Host discovery is one of the earliest phases of network reconnaissance. The adversary usually starts with a range of IP addresses belonging to a target network and uses various methods to determine if a host is present at",
+  "severity": "Low",
+  "likelihood": "Unknown"
+}

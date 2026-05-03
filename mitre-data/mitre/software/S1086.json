@@ -1,0 +1,7 @@
+{
+  "id": "S1086",
+  "name": "Snip3",
+  "type": "malware",
+  "description": "[Snip3](https://attack.mitre.org/software/S1086) is a sophisticated crypter-as-a-service that has been used since at least 2021 to obfuscate and load numerous strains of malware including [AsyncRAT](https://attack.mitre.org/software/S1087), [Revenge RAT](https://attack.mitre.org/software/S0379), [Agent Tesla](https://attack.mitre.org/software/S0331), and [NETWIRE](https://attack.mitre.org/software",
+  "techniques": []
+}

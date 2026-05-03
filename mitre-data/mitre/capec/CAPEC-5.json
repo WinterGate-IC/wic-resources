@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-5",
+  "name": "Blue Boxing",
+  "description": "\n            <xhtml:p>This type of attack against older telephone switches and trunks has been around for decades. A tone is sent by an adversary to impersonate a supervisor signal which has the effect of rerouting or usurping command of the line. While the US infrastructure proper may not contain w",
+  "severity": "Very High",
+  "likelihood": "Unknown"
+}

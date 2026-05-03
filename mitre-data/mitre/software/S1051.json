@@ -1,0 +1,7 @@
+{
+  "id": "S1051",
+  "name": "KEYPLUG",
+  "type": "malware",
+  "description": "[KEYPLUG](https://attack.mitre.org/software/S1051) is a modular backdoor written in C++, with Windows and Linux variants, that has been used by [APT41](https://attack.mitre.org/groups/G0096) since at least June 2021.(Citation: Mandiant APT41)",
+  "techniques": []
+}

@@ -1,0 +1,6 @@
+{
+  "id": "M1029",
+  "name": "Remote Data Storage",
+  "description": "Remote Data Storage focuses on moving critical data, such as security logs and sensitive files, to secure, off-host locations to minimize unauthorized access, tampering, or destruction by adversaries. By leveraging remote storage solutions, organizations enhance the protection of forensic evidence, sensitive information, and monitoring data. This mitigation can be implemented through the following",
+  "techniques": []
+}

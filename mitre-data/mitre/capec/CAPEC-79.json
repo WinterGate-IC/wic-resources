@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-79",
+  "name": "Using Slashes in Alternate Encoding",
+  "description": "This attack targets the encoding of the Slash characters. An adversary would try to exploit common filtering problems related to the use of the slashes characters to gain access to resources on the target host. Directory-driven systems, such as file systems and databases, typically use the slash cha",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

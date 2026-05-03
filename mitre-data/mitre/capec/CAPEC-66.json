@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-66",
+  "name": "SQL Injection",
+  "description": "This attack exploits target software that constructs SQL statements based on user input. An attacker crafts input strings so that when the target software constructs SQL statements based on the input, the resulting SQL statement performs actions other than those the application intended. SQL Injecti",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

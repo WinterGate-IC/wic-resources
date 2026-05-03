@@ -1,0 +1,7 @@
+{
+  "id": "S0240",
+  "name": "ROKRAT",
+  "type": "malware",
+  "description": "[ROKRAT](https://attack.mitre.org/software/S0240) is a cloud-based remote access tool (RAT) used by [APT37](https://attack.mitre.org/groups/G0067) to target victims in South Korea. [APT37](https://attack.mitre.org/groups/G0067) has used ROKRAT during several campaigns from 2016 through 2021.(Citation: Talos ROKRAT)(Citation: Talos Group123)(Citation: Volexity InkySquid RokRAT August 2021)",
+  "techniques": []
+}

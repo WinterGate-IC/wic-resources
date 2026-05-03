@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-101",
+  "name": "Server Side Include (SSI) Injection",
+  "description": "An attacker can use Server Side Include (SSI) Injection to send code to a web application that then gets executed by the web server. Doing so enables the attacker to achieve similar results to Cross Site Scripting, viz., arbitrary code execution and information disclosure, albeit on a more limited s",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

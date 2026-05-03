@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-43",
+  "name": "Exploiting Multiple Input Interpretation Layers",
+  "description": "An attacker supplies the target software with input data that contains sequences of special characters designed to bypass input validation logic. This exploit relies on the target making multiples passes over the input data and processing a \"layer\" of special characters with each pass. In this manne",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

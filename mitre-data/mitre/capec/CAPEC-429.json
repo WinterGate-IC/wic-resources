@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-429",
+  "name": "Target Influence via Eye Cues",
+  "description": "The adversary gains information via non-verbal means from the target through eye movements.",
+  "severity": "Low",
+  "likelihood": "Unknown"
+}

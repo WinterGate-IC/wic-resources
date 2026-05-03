@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-163",
+  "name": "Spear Phishing",
+  "description": "An adversary targets a specific user or group with a Phishing (CAPEC-98) attack tailored to a category of users in order to have maximum relevance and deceptive capability. Spear Phishing is an enhanced version of the Phishing attack targeted to a specific user or group. The quality of the targeted ",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

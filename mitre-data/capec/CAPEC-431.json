@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-431",
+  "name": "DEPRECATED:  Target Influence via Neuro-Linguistic Programming (NLP)",
+  "description": "This attack pattern has been deprecated.",
+  "severity": "Unknown",
+  "likelihood": "Unknown"
+}

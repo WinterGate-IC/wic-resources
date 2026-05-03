@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-444",
+  "name": "Development Alteration",
+  "description": "An adversary modifies a technology, product, or component during its development to acheive a negative impact once the system is deployed. The goal of the adversary is to modify the system in such a way that the negative impact can be leveraged when the system is later deployed. Development alterati",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

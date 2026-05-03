@@ -1,0 +1,7 @@
+{
+  "id": "S0692",
+  "name": "SILENTTRINITY",
+  "type": "tool",
+  "description": "[SILENTTRINITY](https://attack.mitre.org/software/S0692) is an open source remote administration and post-exploitation framework primarily written in Python that includes stagers written in Powershell, C, and Boo. [SILENTTRINITY](https://attack.mitre.org/software/S0692) was used in a 2019 campaign against Croatian government agencies by unidentified cyber actors.(Citation: GitHub SILENTTRINITY Mar",
+  "techniques": []
+}

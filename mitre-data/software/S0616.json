@@ -1,0 +1,7 @@
+{
+  "id": "S0616",
+  "name": "DEATHRANSOM",
+  "type": "malware",
+  "description": "[DEATHRANSOM](https://attack.mitre.org/software/S0616) is ransomware written in C that has been used since at least 2020, and has potential overlap with [FIVEHANDS](https://attack.mitre.org/software/S0618) and [HELLOKITTY](https://attack.mitre.org/software/S0617).(Citation: FireEye FiveHands April 2021)",
+  "techniques": []
+}

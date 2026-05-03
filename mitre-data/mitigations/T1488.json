@@ -1,0 +1,6 @@
+{
+  "id": "T1488",
+  "name": "Data Destruction Mitigation",
+  "description": "Consider implementing IT disaster recovery plans that contain procedures for taking regular data backups that can be used to restore organizational data.(Citation: Ready.gov IT DRP) Ensure backups are stored off system and is protected from common methods adversaries may use to gain access and destroy the backups to prevent recovery.\n\nIdentify potentially malicious software and audit and/or block ",
+  "techniques": []
+}

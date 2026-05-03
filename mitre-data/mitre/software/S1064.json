@@ -1,0 +1,7 @@
+{
+  "id": "S1064",
+  "name": "SVCReady",
+  "type": "malware",
+  "description": "[SVCReady](https://attack.mitre.org/software/S1064) is a loader that has been used since at least April 2022 in malicious spam campaigns. Security researchers have noted overlaps between [TA551](https://attack.mitre.org/groups/G0127) activity and [SVCReady](https://attack.mitre.org/software/S1064) distribution, including similarities in file names, lure images, and identical grammatical errors.(Ci",
+  "techniques": []
+}

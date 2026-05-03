@@ -1,0 +1,6 @@
+{
+  "id": "T1061",
+  "name": "Graphical User Interface Mitigation",
+  "description": "Prevent adversaries from gaining access to credentials through Credential Access that can be used to log into remote desktop sessions on systems.\n\nIdentify unnecessary system utilities, third-party tools, or potentially malicious software that may be used to log into remote interactive sessions, and audit and/or block them by using whitelisting (Citation: Beechey 2010) tools, like AppLocker (Citat",
+  "techniques": []
+}

@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-624",
+  "name": "Hardware Fault Injection",
+  "description": "The adversary uses disruptive signals or events, or alters the physical environment a device operates in, to cause faulty behavior in electronic devices. This can include electromagnetic pulses, laser pulses, clock glitches, ambient temperature extremes, and more. When performed in a controlled mann",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

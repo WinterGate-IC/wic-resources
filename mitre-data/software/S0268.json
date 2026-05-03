@@ -1,0 +1,7 @@
+{
+  "id": "S0268",
+  "name": "Bisonal",
+  "type": "malware",
+  "description": "[Bisonal](https://attack.mitre.org/software/S0268) is a remote access tool (RAT) that has been used by [Tonto Team](https://attack.mitre.org/groups/G0131) against public and private sector organizations in Russia, South Korea, and Japan since at least December 2010.(Citation: Unit 42 Bisonal July 2018)(Citation: Talos Bisonal Mar 2020)",
+  "techniques": []
+}

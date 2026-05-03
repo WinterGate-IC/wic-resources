@@ -1,0 +1,7 @@
+{
+  "id": "S0127",
+  "name": "BBSRAT",
+  "type": "malware",
+  "description": "[BBSRAT](https://attack.mitre.org/software/S0127) is malware with remote access tool functionality that has been used in targeted compromises. (Citation: Palo Alto Networks BBSRAT)",
+  "techniques": []
+}

@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-397",
+  "name": "Cloning Magnetic Strip Cards",
+  "description": "An attacker duplicates the data on a Magnetic strip card (i.e. 'swipe card' or 'magstripe') to gain unauthorized access to a physical location or a person's private information. Magstripe cards encode data on a band of iron-based magnetic particles arrayed in a stripe along a rectangular card. Most ",
+  "severity": "Unknown",
+  "likelihood": "Unknown"
+}

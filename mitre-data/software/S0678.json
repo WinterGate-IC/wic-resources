@@ -1,0 +1,7 @@
+{
+  "id": "S0678",
+  "name": "Torisma",
+  "type": "malware",
+  "description": "[Torisma](https://attack.mitre.org/software/S0678) is a second stage implant designed for specialized monitoring that has been used by [Lazarus Group](https://attack.mitre.org/groups/G0032). [Torisma](https://attack.mitre.org/software/S0678) was discovered during an investigation into the 2020 Operation North Star campaign that targeted the defense sector.(Citation: McAfee Lazarus Nov 2020)",
+  "techniques": []
+}

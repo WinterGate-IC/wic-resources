@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-612",
+  "name": "WiFi MAC Address Tracking",
+  "description": "In this attack scenario, the attacker passively listens for WiFi messages and logs the associated Media Access Control (MAC) addresses. These addresses are intended to be unique to each wireless device (although they can be configured and changed by software). Once the attacker is able to associate ",
+  "severity": "Low",
+  "likelihood": "Unknown"
+}

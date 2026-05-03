@@ -1,0 +1,6 @@
+{
+  "id": "T1126",
+  "name": "Network Share Connection Removal Mitigation",
+  "description": "Follow best practices for mitigation of activity related to establishing [Windows Admin Shares](https://attack.mitre.org/techniques/T1077). \n\nIdentify unnecessary system utilities or potentially malicious software that may be used to leverage network shares, and audit and/or block them by using whitelisting (Citation: Beechey 2010) tools, like AppLocker, (Citation: Windows Commands JPCERT) (Citati",
+  "techniques": []
+}

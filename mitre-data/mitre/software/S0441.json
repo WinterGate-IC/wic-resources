@@ -1,0 +1,7 @@
+{
+  "id": "S0441",
+  "name": "PowerShower",
+  "type": "malware",
+  "description": "[PowerShower](https://attack.mitre.org/software/S0441) is a PowerShell backdoor used by [Inception](https://attack.mitre.org/groups/G0100) for initial reconnaissance and to download and execute second stage payloads.(Citation: Unit 42 Inception November 2018)(Citation: Kaspersky Cloud Atlas August 2019)",
+  "techniques": []
+}

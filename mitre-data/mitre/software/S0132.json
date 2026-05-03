@@ -1,0 +1,7 @@
+{
+  "id": "S0132",
+  "name": "H1N1",
+  "type": "malware",
+  "description": "[H1N1](https://attack.mitre.org/software/S0132) is a malware variant that has been distributed via a campaign using VBA macros to infect victims. Although it initially had only loader capabilities, it has evolved to include information-stealing functionality. (Citation: Cisco H1N1 Part 1)",
+  "techniques": []
+}

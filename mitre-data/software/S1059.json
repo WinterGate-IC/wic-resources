@@ -1,0 +1,7 @@
+{
+  "id": "S1059",
+  "name": "metaMain",
+  "type": "malware",
+  "description": "[metaMain](https://attack.mitre.org/software/S1059) is a backdoor used by [Metador](https://attack.mitre.org/groups/G1013) to maintain long-term access to compromised machines; it has also been used to decrypt [Mafalda](https://attack.mitre.org/software/S1060) into memory.(Citation: SentinelLabs Metador Sept 2022)(Citation: SentinelLabs Metador Technical Appendix Sept 2022)",
+  "techniques": []
+}

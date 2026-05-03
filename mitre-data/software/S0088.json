@@ -1,0 +1,7 @@
+{
+  "id": "S0088",
+  "name": "Kasidet",
+  "type": "malware",
+  "description": "[Kasidet](https://attack.mitre.org/software/S0088) is a backdoor that has been dropped by using malicious VBA macros. (Citation: Zscaler Kasidet)",
+  "techniques": []
+}

@@ -1,0 +1,7 @@
+{
+  "id": "S0687",
+  "name": "Cyclops Blink",
+  "type": "malware",
+  "description": "[Cyclops Blink](https://attack.mitre.org/software/S0687) is a modular malware that has been used in widespread campaigns by [Sandworm Team](https://attack.mitre.org/groups/G0034) since at least 2019 to target Small/Home Office (SOHO) network devices, including WatchGuard and Asus. [Cyclops Blink](https://attack.mitre.org/software/S0687) is assessed to be a replacement for [VPNFilter](https://attac",
+  "techniques": []
+}

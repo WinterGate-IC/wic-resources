@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-502",
+  "name": "Intent Spoof",
+  "description": "An adversary, through a previously installed malicious application, issues an intent directed toward a specific trusted application's component in an attempt to achieve a variety of different objectives including modification of data, information disclosure, and data injection. Components that have ",
+  "severity": "Unknown",
+  "likelihood": "Unknown"
+}

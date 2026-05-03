@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-92",
+  "name": "Forced Integer Overflow",
+  "description": "This attack forces an integer variable to go out of range. The integer variable is often used as an offset such as size of memory allocation or similarly. The attacker would typically control the value of such variable and try to get it out of range. For instance the integer in question is increment",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

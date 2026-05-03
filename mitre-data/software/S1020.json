@@ -1,0 +1,7 @@
+{
+  "id": "S1020",
+  "name": "Kevin",
+  "type": "malware",
+  "description": "[Kevin](https://attack.mitre.org/software/S1020) is a backdoor implant written in C++ that has been used by [HEXANE](https://attack.mitre.org/groups/G1001) since at least June 2020, including in operations against organizations in Tunisia.(Citation: Kaspersky Lyceum October 2021)",
+  "techniques": []
+}

@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-511",
+  "name": "Infiltration of Software Development Environment",
+  "description": "An attacker uses common delivery mechanisms such as email attachments or removable media to infiltrate the IDE (Integrated Development Environment) of a victim manufacturer with the intent of implanting malware allowing for attack control of the victim IDE environment. The attack then uses this acce",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

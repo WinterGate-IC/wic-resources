@@ -1,0 +1,7 @@
+{
+  "id": "G0083",
+  "name": "SilverTerrier",
+  "description": "[SilverTerrier](https://attack.mitre.org/groups/G0083) is a Nigerian threat group that has been seen active since 2014. [SilverTerrier](https://attack.mitre.org/groups/G0083) mainly targets organizations in high technology, higher education, and manufacturing.(Citation: Unit42 SilverTerrier 2018)(Citation: Unit42 SilverTerrier 2016)",
+  "techniques": [],
+  "software": []
+}

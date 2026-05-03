@@ -1,0 +1,7 @@
+{
+  "id": "S0199",
+  "name": "TURNEDUP",
+  "type": "malware",
+  "description": "[TURNEDUP](https://attack.mitre.org/software/S0199) is a non-public backdoor. It has been dropped by [APT33](https://attack.mitre.org/groups/G0064)'s [StoneDrill](https://attack.mitre.org/software/S0380) malware. (Citation: FireEye APT33 Sept 2017) (Citation: FireEye APT33 Webinar Sept 2017)",
+  "techniques": []
+}

@@ -1,0 +1,7 @@
+{
+  "id": "S1169",
+  "name": "Mango",
+  "type": "malware",
+  "description": "[Mango](https://attack.mitre.org/software/S1169) is a first-stage backdoor written in C#/.NET that was used by [OilRig](https://attack.mitre.org/groups/G0049) during the [Juicy Mix](https://attack.mitre.org/campaigns/C0044) campaign. [Mango](https://attack.mitre.org/software/S1169) is the successor to [Solar](https://attack.mitre.org/software/S1166) and includes additional exfiltration capabilitie",
+  "techniques": []
+}

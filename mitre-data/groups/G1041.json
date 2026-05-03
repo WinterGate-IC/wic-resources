@@ -1,0 +1,7 @@
+{
+  "id": "G1041",
+  "name": "Sea Turtle",
+  "description": "[Sea Turtle](https://attack.mitre.org/groups/G1041) is a T\u00fcrkiye-linked threat actor active since at least 2017 performing espionage and service provider compromise operations against victims in Asia, Europe, and North America. [Sea Turtle](https://attack.mitre.org/groups/G1041) is notable for targeting registrars managing ccTLDs and complex DNS-based intrusions where the threat actor compromised DNS providers to hijack DNS resolution for ultimate victims, enabling [Sea Turtle](https://attack.mi",
+  "techniques": [],
+  "software": []
+}

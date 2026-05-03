@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-677",
+  "name": "Server Motherboard Compromise",
+  "description": "\n            <xhtml:p>Malware is inserted in a server motherboard (e.g., in the flash memory) in order to alter server functionality from that intended. The development environment or hardware/software support activity environment is susceptible to an adversary inserting malicious software into hard",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

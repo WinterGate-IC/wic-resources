@@ -1,0 +1,17 @@
+TO: [email protected]
+SUBJECT: URGENT - Cyberattack from Contabo IP 207.180.222.68
+
+This is a formal abuse report regarding a sustained attack from your infrastructure.
+
+ATTACKER: 207.180.222.68 (vmi3235708.contaboserver.net)
+ATTACKS: 20,112+ attempts
+METHODS: SSH Brute Force (T1110), Command Injection (T1202)
+DURATION: April 19, 2026 - Present
+IMPACT: ZERO successful breaches
+
+REQUEST: Investigate and terminate this customer. Preserve logs.
+
+Attached: Complete forensic evidence package.
+
+Respectfully,
+WinterGate Intelligence Collective

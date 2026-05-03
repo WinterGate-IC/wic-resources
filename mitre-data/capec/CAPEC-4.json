@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-4",
+  "name": "Using Alternative IP Address Encodings",
+  "description": "This attack relies on the adversary using unexpected formats for representing IP addresses. Networked applications may expect network location information in a specific format, such as fully qualified domains names (FQDNs), URL, IP address, or IP Address ranges. If the location information is not va",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

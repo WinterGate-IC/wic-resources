@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-17",
+  "name": "Using Malicious Files",
+  "description": "An attack of this type exploits a system's configuration that allows an adversary to either directly access an executable file, for example through shell access; or in a possible worst case allows an adversary to upload a file and then execute it. Web servers, ftp servers, and message oriented middl",
+  "severity": "Very High",
+  "likelihood": "Unknown"
+}

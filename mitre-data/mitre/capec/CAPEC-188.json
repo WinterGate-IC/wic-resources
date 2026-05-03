@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-188",
+  "name": "Reverse Engineering",
+  "description": "An adversary discovers the structure, function, and composition of an object, resource, or system by using a variety of analysis techniques to effectively determine how the analyzed entity was constructed or operates. The goal of reverse engineering is often to duplicate the function, or a part of t",
+  "severity": "Low",
+  "likelihood": "Unknown"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-133",
+  "name": "Try All Common Switches",
+  "description": "An attacker attempts to invoke all common switches and options in the target application for the purpose of discovering weaknesses in the target. For example, in some applications, adding a --debug switch causes debugging information to be displayed, which can sometimes reveal sensitive processing o",
+  "severity": "Medium",
+  "likelihood": "Unknown"
+}

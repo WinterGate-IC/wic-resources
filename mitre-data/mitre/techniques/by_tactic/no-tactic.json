@@ -1,0 +1,2337 @@
+{
+  "tactic": "No Tactic",
+  "count": 259,
+  "techniques": [
+    {
+      "id": "T1603",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1540",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1638",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1626",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1663",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1454",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1470",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1630.001",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1630",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1474",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1430.002",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1655.001",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1636",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1521.002",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1418",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1424",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1636.002",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1418.001",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1631.001",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1629",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1453",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1428",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1437.001",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1635",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1628.002",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1633",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1579",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1661",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1413",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1623",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1629.003",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1544",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1637",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1477",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1423",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1618",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1646",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1636.005",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1404",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1616",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1639.001",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1624.001",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1436",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1439",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1517",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1410",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1411",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1639",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1422.001",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1398",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1627",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1417.002",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1432",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1645",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1406.002",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1450",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1575",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1476",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1469",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1658",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1604",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1520",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1435",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1465",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1541",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1458",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1429",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1625",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1623.001",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1437",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1407",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1664",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1468",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1633.001",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1409",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1513",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1641.001",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1452",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1416",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1474.001",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1523",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1635.001",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1632",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1433",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1581",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1401",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1634.001",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1403",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1419",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1576",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1670",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1447",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1448",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1415",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1481.002",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1509",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1474.003",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1481.001",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1430",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1626.001",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1446",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1430.001",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1662",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1427",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1676",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1467",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1451",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1417",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1643",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1630.003",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1444",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1636.001",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1630.002",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1629.002",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1417.001",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1582",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1408",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1438",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1631",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1521.001",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1402",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1422.002",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1474.002",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1414",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1400",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1641",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1636.004",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1481",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1625.001",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1634",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1617",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1478",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1420",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1406",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1516",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1464",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1577",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1624",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1422",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1463",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1512",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1481.003",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1475",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1471",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1629.001",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1421",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1660",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1521.003",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1461",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1605",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1636.003",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1533",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1640",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1426",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1510",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1532",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1627.001",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1507",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1412",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1628.003",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1642",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1644",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1521",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1405",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1628.001",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1399",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1466",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1655",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1472",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1406.001",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1449",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1628",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1632.001",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1637.001",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1456",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T1508",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0803",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0881",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0836",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0821",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0887",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0829",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0800",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0831",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0814",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0805",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0894",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0807",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0861",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0816",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0863",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0860",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0858",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0878",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0868",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0837",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0801",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0853",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0888",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0845",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0819",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0811",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0864",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0835",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0842",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0851",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0802",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0804",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0855",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0809",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0832",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0872",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0877",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0815",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0871",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0862",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0880",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0828",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0865",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0895",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0817",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0879",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0856",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0866",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0812",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0822",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0806",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0830",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0820",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0827",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0874",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0823",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0848",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0834",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0826",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0882",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0857",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0849",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0843",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0847",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0852",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0891",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0859",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0890",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0846",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0884",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0869",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0886",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0813",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0838",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0885",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0873",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0840",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0867",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0839",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0883",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0893",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0892",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    },
+    {
+      "id": "T0889",
+      "name": "Unknown",
+      "description": "",
+      "platforms": [],
+      "risk_score": 50,
+      "mitigations": [],
+      "data_sources": []
+    }
+  ]
+}

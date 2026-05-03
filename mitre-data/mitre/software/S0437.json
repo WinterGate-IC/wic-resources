@@ -1,0 +1,7 @@
+{
+  "id": "S0437",
+  "name": "Kivars",
+  "type": "malware",
+  "description": "[Kivars](https://attack.mitre.org/software/S0437) is a modular remote access tool (RAT), derived from the Bifrost RAT, that was used by [BlackTech](https://attack.mitre.org/groups/G0098) in a 2010 campaign.(Citation: TrendMicro BlackTech June 2017)",
+  "techniques": []
+}

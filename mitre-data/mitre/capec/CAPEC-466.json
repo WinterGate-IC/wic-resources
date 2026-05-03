@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-466",
+  "name": "Leveraging Active Adversary in the Middle Attacks to Bypass Same Origin Policy",
+  "description": "An attacker leverages an adversary in the middle attack (CAPEC-94) in order to bypass the same origin policy protection in the victim's browser. This active adversary in the middle attack could be launched, for instance, when the victim is connected to a public WIFI hot spot. An attacker is able to ",
+  "severity": "Medium",
+  "likelihood": "Unknown"
+}

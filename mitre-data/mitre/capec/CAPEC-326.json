@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-326",
+  "name": "TCP Initial Window Size Probe",
+  "description": "This OS fingerprinting probe checks the initial TCP Window size. TCP stacks limit the range of sequence numbers allowable within a session to maintain the \"connected\" state within TCP protocol logic. The initial window size specifies a range of acceptable sequence numbers that will qualify as a resp",
+  "severity": "Low",
+  "likelihood": "Unknown"
+}

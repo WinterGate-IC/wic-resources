@@ -1,0 +1,7 @@
+{
+  "id": "S0646",
+  "name": "SpicyOmelette",
+  "type": "malware",
+  "description": "[SpicyOmelette](https://attack.mitre.org/software/S0646) is a JavaScript based remote access tool that has been used by [Cobalt Group](https://attack.mitre.org/groups/G0080) since at least 2018.(Citation: Secureworks GOLD KINGSWOOD September 2018)",
+  "techniques": []
+}

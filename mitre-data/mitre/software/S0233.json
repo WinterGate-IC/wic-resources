@@ -1,0 +1,7 @@
+{
+  "id": "S0233",
+  "name": "MURKYTOP",
+  "type": "malware",
+  "description": "[MURKYTOP](https://attack.mitre.org/software/S0233) is a reconnaissance tool used by [Leviathan](https://attack.mitre.org/groups/G0065). (Citation: FireEye Periscope March 2018)",
+  "techniques": []
+}

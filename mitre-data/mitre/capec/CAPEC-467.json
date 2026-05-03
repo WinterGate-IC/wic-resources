@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-467",
+  "name": "Cross Site Identification",
+  "description": "An attacker harvests identifying information about a victim via an active session that the victim's browser has with a social networking site. A victim may have the social networking site open in one tab or perhaps is simply using the \"remember me\" feature to keep their session with the social netwo",
+  "severity": "Low",
+  "likelihood": "Unknown"
+}

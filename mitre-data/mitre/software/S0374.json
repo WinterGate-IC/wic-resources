@@ -1,0 +1,7 @@
+{
+  "id": "S0374",
+  "name": "SpeakUp",
+  "type": "malware",
+  "description": "[SpeakUp](https://attack.mitre.org/software/S0374) is a Trojan backdoor that targets both Linux and OSX devices. It was first observed in January 2019. (Citation: CheckPoint SpeakUp Feb 2019)",
+  "techniques": []
+}

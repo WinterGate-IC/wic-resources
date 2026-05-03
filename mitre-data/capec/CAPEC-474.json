@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-474",
+  "name": "Signature Spoofing by Key Theft",
+  "description": "An attacker obtains an authoritative or reputable signer's private signature key by theft and then uses this key to forge signatures from the original signer to mislead a victim into performing actions that benefit the attacker.",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

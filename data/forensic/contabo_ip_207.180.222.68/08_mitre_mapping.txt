@@ -1,0 +1,13 @@
+MITRE ATT&CK TECHNIQUES OBSERVED:
+
+T1110 - BRUTE FORCE (Credential Access)
+- SSH password guessing at 288 attempts/minute
+- 15,000+ attempts observed
+- Success rate: 0%
+
+T1202 - INDIRECT COMMAND EXECUTION (Defense Evasion)
+- Command injection via web requests
+- 5,000+ attempts observed
+- Success rate: 0%
+
+MITRE ATT&CK: https://attack.mitre.org/techniques/T1110/

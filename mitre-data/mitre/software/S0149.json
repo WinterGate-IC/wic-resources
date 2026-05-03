@@ -1,0 +1,7 @@
+{
+  "id": "S0149",
+  "name": "MoonWind",
+  "type": "malware",
+  "description": "[MoonWind](https://attack.mitre.org/software/S0149) is a remote access tool (RAT) that was used in 2016 to target organizations in Thailand. (Citation: Palo Alto MoonWind March 2017)",
+  "techniques": []
+}

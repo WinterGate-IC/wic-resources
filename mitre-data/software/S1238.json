@@ -1,0 +1,7 @@
+{
+  "id": "S1238",
+  "name": "STATICPLUGIN",
+  "type": "malware",
+  "description": "[STATICPLUGIN](https://attack.mitre.org/software/S1238) is a downloader known to be leveraged by [Mustang Panda](https://attack.mitre.org/groups/G0129) and was first observed utilized in 2025.  [STATICPLUGIN](https://attack.mitre.org/software/S1238) has utilized a valid certificate in order to bypass endpoint security protections.  [STATICPLUGIN](https://attack.mitre.org/software/S1238) masquerade",
+  "techniques": []
+}

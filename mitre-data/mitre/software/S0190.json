@@ -1,0 +1,7 @@
+{
+  "id": "S0190",
+  "name": "BITSAdmin",
+  "type": "tool",
+  "description": "[BITSAdmin](https://attack.mitre.org/software/S0190) is a command line tool used to create and manage [BITS Jobs](https://attack.mitre.org/techniques/T1197). (Citation: Microsoft BITSAdmin)",
+  "techniques": []
+}

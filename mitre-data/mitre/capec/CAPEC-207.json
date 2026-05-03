@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-207",
+  "name": "Removing Important Client Functionality",
+  "description": "An adversary removes or disables functionality on the client that the server assumes to be present and trustworthy.",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

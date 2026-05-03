@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-192",
+  "name": "Protocol Analysis",
+  "description": "An adversary engages in activities to decipher and/or decode protocol information for a network or application communication protocol used for transmitting information between interconnected nodes or systems on a packet-switched data network. While this type of analysis involves the analysis of a ne",
+  "severity": "Low",
+  "likelihood": "Unknown"
+}

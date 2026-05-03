@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-258",
+  "name": "DEPRECATED: Passively Sniffing and Capturing Application Code Bound for an Authorized Client During Dynamic Update",
+  "description": "This attack pattern has been deprecated as it is a duplicate of the existing attack pattern \"CAPEC-65 : Sniff Application Code\". Please refer to this other CAPEC going forward.",
+  "severity": "Unknown",
+  "likelihood": "Unknown"
+}

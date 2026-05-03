@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-267",
+  "name": "Leverage Alternate Encoding",
+  "description": "An adversary leverages the possibility to encode potentially harmful input or content used by applications such that the applications are ineffective at validating this encoding standard.",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

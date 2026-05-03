@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-276",
+  "name": "Inter-component Protocol Manipulation",
+  "description": "Inter-component protocols are used to communicate between different software and hardware modules within a single computer. Common examples are: interrupt signals and data pipes. Subverting the protocol can allow an adversary to impersonate others, discover sensitive information, control the outcome",
+  "severity": "Unknown",
+  "likelihood": "Unknown"
+}

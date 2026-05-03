@@ -1,0 +1,7 @@
+{
+  "id": "S0056",
+  "name": "Net Crawler",
+  "type": "malware",
+  "description": "[Net Crawler](https://attack.mitre.org/software/S0056) is an intranet worm capable of extracting credentials using credential dumpers and spreading to systems on a network over SMB by brute forcing accounts with recovered passwords and using [PsExec](https://attack.mitre.org/software/S0029) to execute a copy of [Net Crawler](https://attack.mitre.org/software/S0056). (Citation: Cylance Cleaver)",
+  "techniques": []
+}

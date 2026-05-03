@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-73",
+  "name": "User-Controlled Filename",
+  "description": "An attack of this type involves an adversary inserting malicious characters (such as a XSS redirection) into a filename, directly or indirectly that is then used by the target software to generate HTML text or other potentially executable content. Many websites rely on user-generated content and dyn",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "S1132",
+  "name": "IPsec Helper",
+  "type": "malware",
+  "description": "[IPsec Helper](https://attack.mitre.org/software/S1132) is a post-exploitation remote access tool linked to [Agrius](https://attack.mitre.org/groups/G1030) operations. This malware shares significant programming and functional overlaps with [Apostle](https://attack.mitre.org/software/S1133) ransomware, also linked to [Agrius](https://attack.mitre.org/groups/G1030). [IPsec Helper](https://attack.mi",
+  "techniques": []
+}

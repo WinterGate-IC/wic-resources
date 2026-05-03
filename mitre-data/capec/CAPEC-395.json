@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-395",
+  "name": "Bypassing Electronic Locks and Access Controls",
+  "description": "An attacker exploits security assumptions to bypass electronic locks or other forms of access controls. Most attacks against electronic access controls follow similar methods but utilize different tools. Some electronic locks utilize magnetic strip cards, others employ RFID tags embedded within a ca",
+  "severity": "Unknown",
+  "likelihood": "Unknown"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "S0084",
+  "name": "Mis-Type",
+  "type": "malware",
+  "description": "[Mis-Type](https://attack.mitre.org/software/S0084) is a backdoor hybrid that was used in [Operation Dust Storm](https://attack.mitre.org/campaigns/C0016) by 2012.(Citation: Cylance Dust Storm)",
+  "techniques": []
+}

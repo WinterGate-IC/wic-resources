@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-46",
+  "name": "Overflow Variables and Tags",
+  "description": "This type of attack leverages the use of tags or variables from a formatted configuration data to cause buffer overflow. The adversary crafts a malicious HTML page or configuration file that includes oversized strings, thus causing an overflow.",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

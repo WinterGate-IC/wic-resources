@@ -1,0 +1,7 @@
+{
+  "id": "S0047",
+  "name": "Hacking Team UEFI Rootkit",
+  "type": "malware",
+  "description": "[Hacking Team UEFI Rootkit](https://attack.mitre.org/software/S0047) is a rootkit developed by the company Hacking Team as a method of persistence for remote access software. (Citation: TrendMicro Hacking Team UEFI)",
+  "techniques": []
+}

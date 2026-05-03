@@ -1,0 +1,7 @@
+{
+  "id": "S1014",
+  "name": "DanBot",
+  "type": "malware",
+  "description": "[DanBot](https://attack.mitre.org/software/S1014) is a first-stage remote access Trojan written in C# that has been used by [HEXANE](https://attack.mitre.org/groups/G1001) since at least 2018.(Citation: SecureWorks August 2019)",
+  "techniques": []
+}

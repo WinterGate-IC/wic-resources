@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-98",
+  "name": "Phishing",
+  "description": "Phishing is a social engineering technique where an attacker masquerades as a legitimate entity with which the victim might do business in order to prompt the user to reveal some confidential information (very frequently authentication credentials) that can later be used by an attacker. Phishing is ",
+  "severity": "Very High",
+  "likelihood": "Unknown"
+}

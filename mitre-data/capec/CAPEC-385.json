@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-385",
+  "name": "Transaction or Event Tampering via Application API Manipulation",
+  "description": "An attacker hosts or joins an event or transaction within an application framework in order to change the content of messages or items that are being exchanged. Performing this attack allows the attacker to manipulate content in such a way as to produce messages or content that look authentic but ma",
+  "severity": "Medium",
+  "likelihood": "Unknown"
+}

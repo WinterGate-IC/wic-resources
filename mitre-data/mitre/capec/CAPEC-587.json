@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-587",
+  "name": "Cross Frame Scripting (XFS)",
+  "description": "This attack pattern combines malicious Javascript and a legitimate webpage loaded into a concealed iframe. The malicious Javascript is then able to interact with a legitimate webpage in a manner that is unknown to the user. This attack usually leverages some element of social engineering in that an ",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

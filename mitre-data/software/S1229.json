@@ -1,0 +1,7 @@
+{
+  "id": "S1229",
+  "name": "Havoc",
+  "type": "malware",
+  "description": "[Havoc](https://attack.mitre.org/software/S1229) is an open-source post-exploitation command and control (C2) framework first released on GitHub in October 2022 by C5pider (Paul Ungur), who continues to maintain and develop it with community contributors. [Havoc](https://attack.mitre.org/software/S1229) provides a wide range of offensive security capabilities and has been adopted by multiple threa",
+  "techniques": []
+}

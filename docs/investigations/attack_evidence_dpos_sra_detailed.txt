@@ -1,0 +1,126 @@
+================================================================================
+WINTERGATE IC - ATTACK EVIDENCE (DPOS/SRA)
+================================================================================
+DISCLAIMER: This document is for internal security telemetry only. It documents
+malicious abuse against our infrastructure for defensive purposes. This is NOT
+doxxing, harassment, or targeting of individuals. All IPs are publicly routable
+and were collected from automated attack logs. All attacks FAILED and all IPs
+are permanently blocked.
+
+================================================================================
+INCIDENT OVERVIEW
+================================================================================
+Date: April 16, 2026
+Target: WinterGate IC Safe Haven API endpoint
+Attack Type: Command Injection + SSH Brute Force
+Result: ALL ATTEMPTS FAILED - Infrastructure SECURE
+
+================================================================================
+SUSPECTED GROUPS (Threat Intelligence Only)
+================================================================================
+
+GROUP 1: DPOS (Degeneracy Police Order State)
+------------------------------------------------
+Nature: Anti-community harassment collective
+Known Tactics: Coordinated reporting, spam attacks, API abuse
+Targeting Pattern: Safe Haven communities, Discord servers
+Previous Incidents: Multiple reports of harassment campaigns
+Observed Behavior in This Attack: Command Injection attempts targeting API write endpoints, coordinated timing with SRA
+
+GROUP 2: SRA (Spam Report Army)
+------------------------------------------------
+Nature: Coordinated reporting network
+Known Tactics: Mass reporting, spam campaigns, API flooding
+Targeting Pattern: Community servers, safe spaces
+Previous Incidents: Known for using botnets for spam/report coordination
+Observed Behavior in This Attack: High-volume SSH brute force, rapid-fire attack patterns
+
+================================================================================
+PRIMARY ATTACKERS (All BLOCKED)
+================================================================================
+
+IP: 186.233.118.22
+Location: Rio de Janeiro, Brazil (RJ)
+ISP: Golden Link (AS266181)
+Coordinates: -22.9201, -43.0811
+Attack Count: 133+ attempts
+Primary Method: Command Injection
+Secondary Method: SSH Brute Force, SSH Rapid Attack
+Active During: 00:36-00:43 UTC
+Role: PRIMARY HAVEN API EXPLOITER
+
+IP: 191.0.96.73
+Location: Rio de Janeiro, Brazil (RJ)
+ISP: V tal (AS7738)
+Coordinates: -22.9072, -43.1883
+Attack Count: 309+ attempts
+Primary Method: Command Injection
+Secondary Method: SSH Brute Force
+Role: SUSPECTED DPOS LEADER / CLAN LEADER
+
+IP: 189.206.155.253
+Location: Nuevo León, Mexico (Monterrey area)
+ISP: Alestra, S. de R.L. de C.V. (AS11172)
+Coordinates: 25.7111, -100.135
+Attack Count: 80+ attempts
+Primary Method: Command Injection
+Secondary Method: SSH Brute Force
+Role: SECONDARY EXPLOITER / ACCOMPLICE
+
+================================================================================
+COORDINATED ATTACK TIMELINE (UTC)
+================================================================================
+
+00:42:00 - Attack wave begins
+00:42:00 to 00:42:30 - Initial SSH brute force probes
+00:42:30 to 00:42:45 - Command injection attempts begin
+00:42:45 to 00:43:00 - Peak attack intensity (100+ attackers active)
+00:43:00 to 00:43:10 - Final wave, all attempts blocked
+
+================================================================================
+ATTACK METHODS BY COUNTRY
+================================================================================
+
+United States: Primarily SSH Brute Force (1,706 attacks)
+China: Mixed SSH Rapid Attack + Command Injection (1,232 attacks)
+Russia: Primarily Command Injection (694 attacks)
+Germany: SSH Brute Force + Command Injection (385 attacks)
+Japan: SSH Brute Force (378 attacks)
+Brazil: Command Injection focus (56 attacks)
+Mexico: Command Injection (42 attacks)
+
+================================================================================
+ACCOMPLICE IPs (Partial List - Active during 00:42-00:43)
+================================================================================
+
+185.216.119.134 - Russia - 23 attempts
+125.91.140.135 - China - 17 attempts
+114.35.59.237 - China - 16 attempts
+69.149.23.135 - United States - 15 attempts
+153.126.180.250 - Japan - 15 attempts
+41.216.178.119 - Unknown - 15 attempts
+91.208.73.57 - Germany - 14 attempts
+43.160.255.12 - Unknown - 14 attempts
+34.71.30.159 - United States - 14 attempts
+60.188.243.179 - China - 12 attempts
+180.76.225.175 - Russia - 12 attempts
+118.145.235.60 - China - 12 attempts
+197.243.0.62 - Unknown - 11 attempts
+92.118.39.95 - Germany - 10 attempts
+212.33.235.243 - Russia - 10 attempts
+2.57.122.210 - Unknown - 10 attempts
+
+Total accomplice IPs: 100+ across 10+ countries
+
+================================================================================
+CURRENT STATUS
+================================================================================
+
+- All attacking IPs: PERMANENTLY BLACKLISTED
+- Attack attempts: 11,390+ total, ALL FAILED
+- Infrastructure: SECURE - no breach, no data loss
+- Evidence: PRESERVED for defensive purposes
+
+================================================================================
+WinterGate IC - Where the shadows end, and the people stand.
+================================================================================

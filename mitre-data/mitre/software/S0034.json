@@ -1,0 +1,7 @@
+{
+  "id": "S0034",
+  "name": "NETEAGLE",
+  "type": "malware",
+  "description": "[NETEAGLE](https://attack.mitre.org/software/S0034) is a backdoor developed by [APT30](https://attack.mitre.org/groups/G0013) with compile dates as early as 2008. It has two main variants known as \u201cScout\u201d and \u201cNorton.\u201d (Citation: FireEye APT30)",
+  "techniques": []
+}

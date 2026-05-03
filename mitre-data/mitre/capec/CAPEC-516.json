@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-516",
+  "name": "Hardware Component Substitution During Baselining",
+  "description": "An adversary with access to system components during allocated baseline development can substitute a maliciously altered hardware component for a baseline component during the product development and research phases. This can lead to adjustments and calibrations being made in the product so that whe",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

@@ -1,0 +1,6 @@
+{
+  "id": "T1041",
+  "name": "Exfiltration Over Command and Control Channel Mitigation",
+  "description": "Mitigations for command and control apply. Network intrusion detection and prevention systems that use network signatures to identify traffic for specific adversary malware can be used to mitigate activity at the network level. Signatures are often for unique indicators within protocols and may be based on the specific obfuscation technique used by a particular adversary or tool, and will likely b",
+  "techniques": []
+}

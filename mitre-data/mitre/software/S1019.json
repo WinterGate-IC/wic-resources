@@ -1,0 +1,7 @@
+{
+  "id": "S1019",
+  "name": "Shark",
+  "type": "malware",
+  "description": "[Shark](https://attack.mitre.org/software/S1019) is a backdoor malware written in C# and .NET that is an updated version of [Milan](https://attack.mitre.org/software/S1015); it has been used by [HEXANE](https://attack.mitre.org/groups/G1001) since at least July 2021.(Citation: ClearSky Siamesekitten August 2021)(Citation: Accenture Lyceum Targets November 2021)",
+  "techniques": []
+}

@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-306",
+  "name": "TCP Window Scan",
+  "description": "An adversary engages in TCP Window scanning to analyze port status and operating system type. TCP Window scanning uses the ACK scanning method but examine the TCP Window Size field of response RST packets to make certain inferences. While TCP Window Scans are fast and relatively stealthy, they work ",
+  "severity": "Low",
+  "likelihood": "Unknown"
+}

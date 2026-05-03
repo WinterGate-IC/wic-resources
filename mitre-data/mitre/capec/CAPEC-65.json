@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-65",
+  "name": "Sniff Application Code",
+  "description": "An adversary passively sniffs network communications and captures application code bound for an authorized client. Once obtained, they can use it as-is, or through reverse-engineering glean sensitive information or exploit the trust relationship between the client and server. Such code may belong to",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

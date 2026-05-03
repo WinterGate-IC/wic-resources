@@ -1,0 +1,7 @@
+{
+  "id": "S1100",
+  "name": "Ninja",
+  "type": "malware",
+  "description": "[Ninja](https://attack.mitre.org/software/S1100) is a malware developed in C++ that has been used by [ToddyCat](https://attack.mitre.org/groups/G1022) to penetrate networks and control remote systems since at least 2020.  [Ninja](https://attack.mitre.org/software/S1100) is possibly part of a post exploitation toolkit exclusively used by [ToddyCat](https://attack.mitre.org/groups/G1022) and allows ",
+  "techniques": []
+}

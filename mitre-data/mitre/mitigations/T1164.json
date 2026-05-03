@@ -1,0 +1,6 @@
+{
+  "id": "T1164",
+  "name": "Re-opened Applications Mitigation",
+  "description": "Holding the Shift key while logging in prevents apps from opening automatically (Citation: Re-Open windows on Mac). This feature can be disabled entirely with the following terminal command: <code>defaults write -g ApplePersistence -bool no</code>.",
+  "techniques": []
+}

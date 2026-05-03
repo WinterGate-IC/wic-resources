@@ -1,0 +1,7 @@
+{
+  "id": "S0283",
+  "name": "jRAT",
+  "type": "malware",
+  "description": "[jRAT](https://attack.mitre.org/software/S0283) is a cross-platform, Java-based backdoor originally available for purchase in 2012. Variants of [jRAT](https://attack.mitre.org/software/S0283) have been distributed via a software-as-a-service platform, similar to an online subscription model.(Citation: Kaspersky Adwind Feb 2016) (Citation: jRAT Symantec Aug 2018)",
+  "techniques": []
+}

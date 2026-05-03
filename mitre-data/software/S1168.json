@@ -1,0 +1,7 @@
+{
+  "id": "S1168",
+  "name": "SampleCheck5000",
+  "type": "malware",
+  "description": "[SampleCheck5000](https://attack.mitre.org/software/S1168) is a downloader with multiple variants that was used by [OilRig](https://attack.mitre.org/groups/G0049) including during the [Outer Space](https://attack.mitre.org/campaigns/C0042) campaign to download and execute additional payloads. (Citation: ESET OilRig Campaigns Sep 2023)(Citation: ESET OilRig Downloaders DEC 2023)",
+  "techniques": []
+}

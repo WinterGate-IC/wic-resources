@@ -1,0 +1,6 @@
+{
+  "id": "T1024",
+  "name": "Custom Cryptographic Protocol Mitigation",
+  "description": "Network intrusion detection and prevention systems that use network signatures to identify traffic for specific adversary malware can be used to mitigate activity at the network level. Since the custom protocol used may not adhere to typical protocol standards, there may be opportunities to signature the traffic on a network level for detection. Signatures are often for unique indicators within pr",
+  "techniques": []
+}

@@ -1,0 +1,6 @@
+{
+  "id": "T1154",
+  "name": "Trap Mitigation",
+  "description": "Due to potential legitimate uses of trap commands, it's may be difficult to mitigate use of this technique.",
+  "techniques": []
+}

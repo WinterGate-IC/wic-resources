@@ -1,0 +1,7 @@
+{
+  "id": "S1166",
+  "name": "Solar",
+  "type": "malware",
+  "description": "[Solar](https://attack.mitre.org/software/S1166) is a C#/.NET backdoor that was used by [OilRig](https://attack.mitre.org/groups/G0049) during the [Outer Space](https://attack.mitre.org/campaigns/C0042) campaign to download, execute, and exfiltrate files.(Citation: ESET OilRig Campaigns Sep 2023)",
+  "techniques": []
+}

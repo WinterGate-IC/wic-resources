@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-531",
+  "name": "Hardware Component Substitution",
+  "description": "An attacker substitutes out a tested and approved hardware component for a maliciously-altered hardware component. This type of attack is carried out directly on the system, enabling the attacker to then cause disruption or additional compromise.",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

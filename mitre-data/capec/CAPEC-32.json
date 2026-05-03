@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-32",
+  "name": "XSS Through HTTP Query Strings",
+  "description": "An adversary embeds malicious script code in the parameters of an HTTP query string and convinces a victim to submit the HTTP request that contains the query string to a vulnerable web application. The web application then procedes to use the values parameters without properly validation them first ",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

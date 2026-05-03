@@ -1,0 +1,7 @@
+{
+  "id": "S1078",
+  "name": "RotaJakiro",
+  "type": "malware",
+  "description": "[RotaJakiro](https://attack.mitre.org/software/S1078) is a 64-bit Linux backdoor used by [APT32](https://attack.mitre.org/groups/G0050). First seen in 2018, it uses a plugin architecture to extend capabilities. [RotaJakiro](https://attack.mitre.org/software/S1078) can determine it's permission level and execute according to access type (`root` or `user`).(Citation: RotaJakiro 2021 netlab360 analys",
+  "techniques": []
+}

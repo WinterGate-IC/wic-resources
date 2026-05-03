@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-97",
+  "name": "Cryptanalysis",
+  "description": "Cryptanalysis is a process of finding weaknesses in cryptographic algorithms and using these weaknesses to decipher the ciphertext without knowing the secret key (instance deduction). Sometimes the weakness is not in the cryptographic algorithm itself, but rather in how it is applied that makes cryp",
+  "severity": "Very High",
+  "likelihood": "Unknown"
+}

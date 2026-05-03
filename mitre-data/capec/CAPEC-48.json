@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-48",
+  "name": "Passing Local Filenames to Functions That Expect a URL",
+  "description": "This attack relies on client side code to access local files and resources instead of URLs. When the client browser is expecting a URL string, but instead receives a request for a local file, that execution is likely to occur in the browser process space with the browser's authority to local files. ",
+  "severity": "High",
+  "likelihood": "Unknown"
+}

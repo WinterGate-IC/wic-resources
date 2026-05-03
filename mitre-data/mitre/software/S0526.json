@@ -1,0 +1,7 @@
+{
+  "id": "S0526",
+  "name": "KGH_SPY",
+  "type": "malware",
+  "description": "[KGH_SPY](https://attack.mitre.org/software/S0526) is a modular suite of tools used by [Kimsuky](https://attack.mitre.org/groups/G0094) for reconnaissance, information stealing, and backdoor capabilities. [KGH_SPY](https://attack.mitre.org/software/S0526) derived its name from PDB paths and internal names found in samples containing \"KGH\".(Citation: Cybereason Kimsuky November 2020)",
+  "techniques": []
+}

@@ -1,0 +1,7 @@
+{
+  "id": "S0613",
+  "name": "PS1",
+  "type": "malware",
+  "description": "[PS1](https://attack.mitre.org/software/S0613) is a loader that was used to deploy 64-bit backdoors in the [CostaRicto](https://attack.mitre.org/groups/G0132) campaign.(Citation: BlackBerry CostaRicto November 2020)",
+  "techniques": []
+}

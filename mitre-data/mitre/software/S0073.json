@@ -1,0 +1,7 @@
+{
+  "id": "S0073",
+  "name": "ASPXSpy",
+  "type": "malware",
+  "description": "[ASPXSpy](https://attack.mitre.org/software/S0073) is a Web shell. It has been modified by [Threat Group-3390](https://attack.mitre.org/groups/G0027) actors to create the ASPXTool version. (Citation: Dell TG-3390)",
+  "techniques": []
+}

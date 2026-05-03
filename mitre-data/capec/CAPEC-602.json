@@ -1,0 +1,7 @@
+{
+  "id": "CAPEC-602",
+  "name": "DEPRECATED: Degradation",
+  "description": "This attack pattern has been deprecated.",
+  "severity": "Unknown",
+  "likelihood": "Unknown"
+}

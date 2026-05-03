@@ -1,0 +1,6 @@
+{
+  "id": "T1168",
+  "name": "Local Job Scheduling Mitigation",
+  "description": "Limit privileges of user accounts and remediate Privilege Escalation vectors so only authorized users can create scheduled jobs. Identify and block unnecessary system utilities or potentially malicious software that may be used to schedule jobs using whitelisting tools.",
+  "techniques": []
+}
